@@ -13,7 +13,7 @@ Nothing here is a program you run directly. It's a folder of instructions, rules
 - `rpg/dnd/CLAUDE.md`: the D&D setup: MCP servers, session start/stop, Party Mode technique, rulebook loading.
 - `rpg/dnd/DM_CORE.md`: DM rules for a solo campaign.
 - `rpg/dnd/templates/party-campaign/DM_LOOP.md`: DM rules for a multiplayer campaign: lead with what the player did, state positions in combat, pause for reactions, public vs private messages, pacing, difficulty. Each rule in it came from something that actually went wrong at a real table.
-- `rpg/dnd/scripts/hooks/`: Claude Code hooks (wired in `.claude/settings.json`) that block a Party Mode message before it's sent if it breaks the checklist, e.g. it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list.
+- `rpg/dnd/scripts/hooks/`: Claude Code hooks (wired in `.claude/settings.json`). One asks before campaign data goes to a public repo (below). The others block a Party Mode message before it's sent if it breaks the checklist, e.g. it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list.
 - `rpg/dnd/SRD_2024_*.md` + `rpg/dnd/rulebook_cache/srd_2024/`: rules references and a cached copy of the SRD 2024 data, so lookups work offline.
 - `rpg/dnd/templates/`: starter files for a new campaign (rulebook overlays that fix gaps in the SRD data, encounter log, feedback ledger, secret arc, setting).
 
@@ -21,7 +21,21 @@ Nothing here is a program you run directly. It's a folder of instructions, rules
 
 1. Install [Claude Code](https://claude.com/claude-code) and [uv](https://docs.astral.sh/uv/) (`brew install uv`); both MCP servers run through `uvx`.
 2. Clone this repo and open Claude Code in it. Approve the two project MCP servers when prompted (`claude mcp list` should show both connected).
-3. Ask Claude to start a campaign, e.g. *"Let's start a new solo D&D campaign."* It will follow "Campaign Creation Workflow" in `rpg/dnd/CLAUDE.md`: load the SRD 2024 rules, create the campaign, copy in the templates, and build your character with you.
+3. Ask Claude to start a campaign, e.g. *"Let's start a new solo D&D campaign."* It will follow "Campaign Creation Workflow" in `rpg/dnd/CLAUDE.md`: load the SRD 2024 rules, create the campaign, copy in the templates, build your character with you, and ask how you want campaigns saved (below).
+
+## Saving your campaigns (and keeping spoilers private)
+
+Everything Claude creates for a campaign (characters, the DM's secret arc and other spoilers, session notes) lands in `rpg/dnd/campaigns/`. This repo is public, so that folder is **gitignored by default**: pushing this repo can't publish your game, but it also means **your campaign isn't backed up** until you choose how.
+
+Before your first session, Claude asks how you want to save campaigns:
+
+1. **A separate private repo for campaign data** (recommended). It lives outside this folder and is linked in, so game data and framework stay apart.
+2. **This whole repo as a private repo of your own**, with or without the campaign data in it. Note that a GitHub *fork* of a public repo is always public, so Claude creates a new private repo instead of forking.
+3. **Public**, if you really want it. Claude spells out what anyone could read (including your players), and asks once more before anything goes up.
+
+Backup matters if your disk dies, or if you want to run the DM from more than one machine (a phone or web session only sees campaigns that were pushed). Multiplayer doesn't need git: players connect to your machine through their links. The player-link secrets in each campaign's `party/` folder are never committed, whichever option you pick.
+
+A Claude Code hook (`rpg/dnd/scripts/hooks/guard_campaign_privacy.py`) asks for your approval before Claude pushes campaign data to a public repo or makes such a repo public, unless you already chose public in step 3.
 
 ## Playing
 
@@ -44,7 +58,7 @@ rpg/
     SRD_2024_*.md         rules references
     scripts/hooks/        narration checks
     templates/            new-campaign starter files
-    campaigns/            your campaigns land here
+    campaigns/            your campaigns land here (gitignored by default; see above)
     rulebook_cache/       cached SRD 2024 data
 ```
 

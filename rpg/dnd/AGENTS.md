@@ -15,7 +15,7 @@ rpg/dnd/
 └── rulebook_cache/           ← cached SRD API responses (srd_2024 committed, the rest gitignored)
 ```
 
-`campaigns/` and `events/` are plain JSON and tracked in git as the campaign record. `library/` and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored regenerable/bulky content.
+`campaigns/` and `events/` are gitignored by default (this framework started as a public repo), so campaigns are **not backed up** until the player picks a setup in "Saving Campaigns" in `CLAUDE.md`: a separate private repo, this repo made private, or (their explicit choice) public. `campaigns/*/party/` holds player-link secrets and is ignored in every setup. `library/` and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored regenerable/bulky content.
 
 `rulebook_cache/srd_2024/` is committed — small, official-SRD-only, so a lookup fetched once (e.g. from a session with unrestricted network) is available afterward to sessions that can't reach the SRD API directly. See "Network Access" below.
 

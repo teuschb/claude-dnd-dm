@@ -19,8 +19,9 @@ craft, NPC prep, solo combat, leveling, session end). Also here:
    6. `load_rulebook(source="custom", path="custom/srd_2024_spells.json")`
 
    Later sources win, so the overlays override the SRD base. Loading a rulebook
-   rewrites `rulebooks/manifest.json`; that file is only a record — don't commit
-   the churn if it only lost/gained overlay entries.
+   rewrites `rulebooks/manifest.json`; that file is only a record — if this
+   campaign has its own private repo, don't commit the churn if it only
+   lost/gained overlay entries.
 3. `get_game_state`, then skim `PLAYER_FEEDBACK.md` open questions. No
    `start_party_mode`, no Tailscale funnel, no Monitor/`/loop` — just play in chat.
 4. At the end follow DM_CORE "Session end" (session note, quests, encounter log,

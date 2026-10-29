@@ -3,14 +3,19 @@ rulebook_cache/*
 !rulebook_cache/srd_2014/
 !rulebook_cache/srd_2024/
 
-# Per-campaign rulebook cache (campaigns/{name}/rulebooks/cache/) doesn't split
-# by source the way the top-level rulebook_cache/ does, so it's all ignored for
-# now. Revisit once a real `srd` load shows what that cache looks like there.
-campaigns/*/rulebooks/cache/
+# --- Campaign data: kept out of this repo by default -------------------------
+# This framework is a public repo. Campaign data (characters, the DM's secret
+# arc and other spoilers, session notes) stays out of git unless you choose
+# otherwise; see "Saving Campaigns" in CLAUDE.md. Delete these two lines to
+# back campaigns up in this repo, ideally after making your copy a private
+# repo. Either way, campaigns ignored here are NOT backed up.
+campaigns
+events
 
-# Party Mode session artifacts: the party/ folder holds per-session access
-# tokens and QR codes (committing them would publish working join credentials),
-# and voice_registry.yaml is regenerated per session. Both are session-scoped,
-# not campaign record.
+# --- Always ignored, even if you remove the block above ----------------------
+# party/ holds the secret player-link tokens, QR codes and live feed
+# (committing them would publish working join credentials); voice_registry.yaml
+# is regenerated per session; the per-campaign rulebook cache is regenerable.
 campaigns/*/party/
 campaigns/*/voice_registry.yaml
+campaigns/*/rulebooks/cache/
