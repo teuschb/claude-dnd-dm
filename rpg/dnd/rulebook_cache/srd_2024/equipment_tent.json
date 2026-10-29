@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "tent",
+  "name": "Tent",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "gp"
+  },
+  "description": [
+    "A Tent sleeps up to two Small or Medium creatures."
+  ],
+  "weight": 20,
+  "url": "/api/2024/equipment/tent",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

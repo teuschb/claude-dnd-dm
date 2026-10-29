@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "bedroll",
+  "name": "Bedroll",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "gp"
+  },
+  "weight": 25,
+  "description": [
+    "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see \u201cGameplay Toolbox\u201d)."
+  ],
+  "url": "/api/2024/equipment/bedroll",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

@@ -1,0 +1,136 @@
+{
+  "index": "remorhaz",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage plus 14 (4d6) Fire damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17), and it has the Restrained condition until the grapple ends.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d10+7"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "4d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 17,
+        "success_type": "none"
+      },
+      "attack_bonus": 11,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "desc": "Strength Saving Throw: DC 19, one Large or smaller creature Grappled by the remorhaz (it can have up to two creatures swallowed at a time). Failure: The target is swallowed by the remorhaz, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions, it has Total Cover against attacks and other effects outside the remorhaz, and it takes 10 (3d6) Acid damage plus 10 (3d6) Fire damage at the start of each of the remorhaz\u2019s turns. If the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 5 feet of the remorhaz and has the Prone condition. If the remorhaz dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse by using 15 feet of movement, exiting Prone.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "3d6"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 19,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 11,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 21,
+  "damage_immunities": [
+    "cold",
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "17d12",
+  "hit_points": 195,
+  "hit_points_roll": "17d12 + 85",
+  "image": "/api/images/monsters/remorhaz.png",
+  "intelligence": 4,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Remorhaz",
+  "proficiencies": [],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "60 ft.",
+    "tremorsense": "60 ft.",
+    "passive_perception": 10
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Heat Aura",
+      "desc": "At the end of each of the remorhaz\u2019s turns, each creature in a 5-foot Emanation originating from the remorhaz takes 16 (3d10) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "3d10"
+        }
+      ]
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "burrow": "30 ft."
+  },
+  "strength": 24,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/remorhaz",
+  "wisdom": 10,
+  "xp": 7200,
+  "reactions": [],
+  "forms": []
+}

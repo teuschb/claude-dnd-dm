@@ -1,0 +1,268 @@
+{
+  "index": "couatl",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d12+5"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Constrict",
+      "desc": "Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet. Failure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+5"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 15,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-thoughts",
+            "name": "Detect Thoughts",
+            "level": 2,
+            "url": "/api/2024/spells/detect-thoughts",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "shapechange",
+            "name": "Shapechange",
+            "level": 9,
+            "url": "/api/2024/spells/shapechange",
+            "notes": "Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "create-food-and-water",
+            "name": "Create Food and Water",
+            "level": 3,
+            "url": "/api/2024/spells/create-food-and-water",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "dream",
+            "name": "Dream",
+            "level": 5,
+            "url": "/api/2024/spells/dream",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "greater-restoration",
+            "name": "Greater Restoration",
+            "level": 5,
+            "url": "/api/2024/spells/greater-restoration",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "scrying",
+            "name": "Scrying",
+            "level": 5,
+            "url": "/api/2024/spells/scrying",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "sleep",
+            "name": "Sleep",
+            "level": 1,
+            "url": "/api/2024/spells/sleep",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 19,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Divine Aid",
+      "desc": "The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 2,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 15,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "bless",
+            "name": "Bless",
+            "level": 1,
+            "url": "/api/2024/spells/bless"
+          },
+          {
+            "index": "lesser-restoration",
+            "name": "Lesser Restoration",
+            "level": 2,
+            "url": "/api/2024/spells/lesser-restoration"
+          },
+          {
+            "index": "sanctuary",
+            "name": "Sanctuary",
+            "level": 1,
+            "url": "/api/2024/spells/sanctuary"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 18,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [
+    "psychic",
+    "radiant"
+  ],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 20,
+  "hit_dice": "8d8",
+  "hit_points": 60,
+  "hit_points_roll": "8d8 + 24",
+  "image": "/api/images/monsters/couatl.png",
+  "intelligence": 18,
+  "languages": "All; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Couatl",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Shielded Mind",
+      "desc": "The couatl\u2019s thoughts can\u2019t be read by any means, and other creatures can communicate with it telepathically only if it allows them.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "90 ft."
+  },
+  "strength": 16,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/couatl",
+  "wisdom": 20,
+  "xp": 1100,
+  "reactions": [],
+  "forms": []
+}

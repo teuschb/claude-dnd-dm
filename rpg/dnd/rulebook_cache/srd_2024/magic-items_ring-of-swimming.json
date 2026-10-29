@@ -1,0 +1,19 @@
+{
+  "index": "ring-of-swimming",
+  "url": "/api/2024/magic-items/ring-of-swimming",
+  "image": "/api/images/magic-items/ring-of-swimming.png",
+  "name": "Ring of Swimming",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Ring  \n You have a Swim Speed of 40 feet while wearing this ring.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

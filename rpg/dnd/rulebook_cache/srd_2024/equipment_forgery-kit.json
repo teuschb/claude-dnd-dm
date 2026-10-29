@@ -1,0 +1,59 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "forgery-kit",
+  "name": "Forgery Kit",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 15,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Mimic 10 or fewer words of someone else's handwriting",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Duplicate a wax seal",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/forgery-kit",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": []
+}

@@ -1,0 +1,233 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "smiths-tools",
+  "name": "Smith's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  },
+  "cost": {
+    "quantity": 20,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "battleaxe",
+      "name": "Battleaxe",
+      "url": "/api/2024/equipment/battleaxe"
+    },
+    {
+      "index": "dagger",
+      "name": "Dagger",
+      "url": "/api/2024/equipment/dagger"
+    },
+    {
+      "index": "flail",
+      "name": "Flail",
+      "url": "/api/2024/equipment/flail"
+    },
+    {
+      "index": "glaive",
+      "name": "Glaive",
+      "url": "/api/2024/equipment/glaive"
+    },
+    {
+      "index": "greataxe",
+      "name": "Greataxe",
+      "url": "/api/2024/equipment/greataxe"
+    },
+    {
+      "index": "greatsword",
+      "name": "Greatsword",
+      "url": "/api/2024/equipment/greatsword"
+    },
+    {
+      "index": "halberd",
+      "name": "Halberd",
+      "url": "/api/2024/equipment/halberd"
+    },
+    {
+      "index": "handaxe",
+      "name": "Handaxe",
+      "url": "/api/2024/equipment/handaxe"
+    },
+    {
+      "index": "javelin",
+      "name": "Javelin",
+      "url": "/api/2024/equipment/javelin"
+    },
+    {
+      "index": "lance",
+      "name": "Lance",
+      "url": "/api/2024/equipment/lance"
+    },
+    {
+      "index": "light-hammer",
+      "name": "Light Hammer",
+      "url": "/api/2024/equipment/light-hammer"
+    },
+    {
+      "index": "longsword",
+      "name": "Longsword",
+      "url": "/api/2024/equipment/longsword"
+    },
+    {
+      "index": "mace",
+      "name": "Mace",
+      "url": "/api/2024/equipment/mace"
+    },
+    {
+      "index": "maul",
+      "name": "Maul",
+      "url": "/api/2024/equipment/maul"
+    },
+    {
+      "index": "sickle",
+      "name": "Sickle",
+      "url": "/api/2024/equipment/sickle"
+    },
+    {
+      "index": "spear",
+      "name": "Spear",
+      "url": "/api/2024/equipment/spear"
+    },
+    {
+      "index": "trident",
+      "name": "Trident",
+      "url": "/api/2024/equipment/trident"
+    },
+    {
+      "index": "warhammer",
+      "name": "Warhammer",
+      "url": "/api/2024/equipment/warhammer"
+    },
+    {
+      "index": "war-pick",
+      "name": "War Pick",
+      "url": "/api/2024/equipment/war-pick"
+    },
+    {
+      "index": "breastplate",
+      "name": "Breastplate",
+      "url": "/api/2024/equipment/breastplate"
+    },
+    {
+      "index": "chain-shirt",
+      "name": "Chain Shirt",
+      "url": "/api/2024/equipment/chain-shirt"
+    },
+    {
+      "index": "half-plate-armor",
+      "name": "Half-Plate Armor",
+      "url": "/api/2024/equipment/half-plate-armor"
+    },
+    {
+      "index": "scale-mail",
+      "name": "Scale Mail",
+      "url": "/api/2024/equipment/scale-mail"
+    },
+    {
+      "index": "chain-mail",
+      "name": "Chain Mail",
+      "url": "/api/2024/equipment/chain-mail"
+    },
+    {
+      "index": "plate-armor",
+      "name": "Plate Armor",
+      "url": "/api/2024/equipment/plate-armor"
+    },
+    {
+      "index": "ring-mail",
+      "name": "Ring Mail",
+      "url": "/api/2024/equipment/ring-mail"
+    },
+    {
+      "index": "splint-armor",
+      "name": "Splint Armor",
+      "url": "/api/2024/equipment/splint-armor"
+    },
+    {
+      "index": "ball-bearings",
+      "name": "Ball bearings",
+      "url": "/api/2024/equipment/ball-bearings"
+    },
+    {
+      "index": "bucket",
+      "name": "Bucket",
+      "url": "/api/2024/equipment/bucket"
+    },
+    {
+      "index": "caltrops",
+      "name": "Caltrops",
+      "url": "/api/2024/equipment/caltrops"
+    },
+    {
+      "index": "chain",
+      "name": "Chain",
+      "url": "/api/2024/equipment/chain"
+    },
+    {
+      "index": "crowbar",
+      "name": "Crowbar",
+      "url": "/api/2024/equipment/crowbar"
+    },
+    {
+      "index": "bullets-firearm",
+      "name": "Bullets, Firearm",
+      "url": "/api/2024/equipment/bullets-firearm"
+    },
+    {
+      "index": "grappling-hook",
+      "name": "Grappling Hook",
+      "url": "/api/2024/equipment/grappling-hook"
+    },
+    {
+      "index": "pot-iron",
+      "name": "Pot, Iron",
+      "url": "/api/2024/equipment/pot-iron"
+    },
+    {
+      "index": "spikes-iron",
+      "name": "Spikes, Iron",
+      "url": "/api/2024/equipment/spikes-iron"
+    },
+    {
+      "index": "bullets-sling",
+      "name": "Bullets, Sling",
+      "url": "/api/2024/equipment/bullets-sling"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Pry open a door or container",
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 8,
+  "url": "/api/2024/equipment/smiths-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

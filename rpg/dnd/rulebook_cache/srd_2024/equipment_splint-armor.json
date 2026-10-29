@@ -1,0 +1,38 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "splint-armor",
+  "name": "Splint Armor",
+  "equipment_categories": [
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    },
+    {
+      "index": "heavy-armor",
+      "name": "Heavy Armor",
+      "url": "/api/2024/equipment-categories/heavy-armor"
+    }
+  ],
+  "armor_class": {
+    "base": 17,
+    "dex_bonus": false,
+    "max_bonus": 0
+  },
+  "cost": {
+    "quantity": 200,
+    "unit": "gp"
+  },
+  "don_time": "10 minutes",
+  "doff_time": "5 minutes",
+  "stealth_disadvantage": true,
+  "str_minimum": 15,
+  "weight": 60,
+  "url": "/api/2024/equipment/splint-armor",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

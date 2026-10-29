@@ -1,0 +1,125 @@
+{
+  "index": "swarm-of-bats",
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d4"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 4,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "stunned",
+      "name": "Stunned",
+      "url": "/api/2024/conditions/stunned"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "2d10",
+  "hit_points": 11,
+  "hit_points_roll": "2d10",
+  "image": "/api/images/monsters/swarm-of-bats.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Swarm of Bats",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature\u2019s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can\u2019t regain Hit Points or gain Temporary Hit Points.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "fly": "30 ft."
+  },
+  "strength": 5,
+  "type": "swarm of tiny beasts",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/swarm-of-bats",
+  "wisdom": 12,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,31 @@
+{
+  "index": "draconic-damage-resistance-fire",
+  "url": "/api/2024/traits/draconic-damage-resistance-fire",
+  "name": "Damage Resistance: Fire",
+  "description": "You have Resistance to fire damage, as determined by your Draconic Ancestry trait.",
+  "species": [
+    {
+      "index": "dragonborn",
+      "url": "/api/2024/species/dragonborn",
+      "name": "Dragonborn"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "draconic-ancestor-brass",
+      "url": "/api/2024/subspecies/draconic-ancestor-brass",
+      "name": "Draconic Ancestor: Brass"
+    },
+    {
+      "index": "draconic-ancestor-gold",
+      "url": "/api/2024/subspecies/draconic-ancestor-gold",
+      "name": "Draconic Ancestor: Gold"
+    },
+    {
+      "index": "draconic-ancestor-red",
+      "url": "/api/2024/subspecies/draconic-ancestor-red",
+      "name": "Draconic Ancestor: Red"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

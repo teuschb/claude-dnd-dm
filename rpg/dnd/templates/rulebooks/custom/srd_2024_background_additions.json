@@ -1,0 +1,288 @@
+{
+  "$schema": "dm20-protocol/rulebook-v1",
+  "name": "SRD 2024 Background Additions (full PHB set)",
+  "version": "1.0",
+  "content": {
+    "backgrounds": [
+      {
+        "index": "artisan",
+        "name": "Artisan",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, DEX, INT.",
+          "Origin Feat: Crafter (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Investigation",
+          "Skill: Persuasion",
+          "Tool: Artisan's Tools (choose one type)"
+        ],
+        "starting_equipment": [
+          "Woodcarver's Tools",
+          "Pouch",
+          "Pouch",
+          "Traveler's Clothes",
+          "32 GP"
+        ]
+      },
+      {
+        "index": "charlatan",
+        "name": "Charlatan",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): DEX, CON, CHA.",
+          "Origin Feat: Skilled (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Deception",
+          "Skill: Sleight of Hand",
+          "Tool: Forgery Kit"
+        ],
+        "starting_equipment": [
+          "Forgery Kit",
+          "Costume",
+          "Fine Clothes",
+          "15 GP"
+        ]
+      },
+      {
+        "index": "entertainer",
+        "name": "Entertainer",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, DEX, CHA.",
+          "Origin Feat: Musician (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Acrobatics",
+          "Skill: Performance",
+          "Tool: Musical Instrument (choose one type)"
+        ],
+        "starting_equipment": [
+          "Musical Instrument",
+          "Costume",
+          "Costume",
+          "Mirror",
+          "Perfume",
+          "Traveler's Clothes",
+          "11 GP"
+        ]
+      },
+      {
+        "index": "farmer",
+        "name": "Farmer",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, CON, WIS.",
+          "Origin Feat: Tough (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Animal Handling",
+          "Skill: Nature",
+          "Tool: Carpenter's Tools"
+        ],
+        "starting_equipment": [
+          "Sickle",
+          "Carpenter's Tools",
+          "Healer's Kit",
+          "Iron Pot",
+          "Shovel",
+          "Traveler's Clothes",
+          "30 GP"
+        ]
+      },
+      {
+        "index": "guard",
+        "name": "Guard",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, INT, WIS.",
+          "Origin Feat: Alert (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Athletics",
+          "Skill: Perception",
+          "Tool: Gaming Set (choose one type)"
+        ],
+        "starting_equipment": [
+          "Spear",
+          "Light Crossbow (20 Bolts)",
+          "Gaming Set",
+          "Hooded Lantern",
+          "Manacles",
+          "Quiver",
+          "Traveler's Clothes",
+          "12 GP"
+        ]
+      },
+      {
+        "index": "guide",
+        "name": "Guide",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): DEX, CON, WIS.",
+          "Origin Feat: Magic Initiate (Druid) (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Stealth",
+          "Skill: Survival",
+          "Tool: Cartographer's Tools"
+        ],
+        "starting_equipment": [
+          "Shortbow (20 Arrows)",
+          "Cartographer's Tools",
+          "Bedroll",
+          "Quiver",
+          "Tent",
+          "Traveler's Clothes",
+          "3 GP"
+        ]
+      },
+      {
+        "index": "hermit",
+        "name": "Hermit",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): CON, WIS, CHA.",
+          "Origin Feat: Healer (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Medicine",
+          "Skill: Religion",
+          "Tool: Herbalism Kit"
+        ],
+        "starting_equipment": [
+          "Quarterstaff",
+          "Herbalism Kit",
+          "Bedroll",
+          "Book (philosophy)",
+          "Lamp",
+          "Oil (3 flasks)",
+          "Traveler's Clothes",
+          "16 GP"
+        ]
+      },
+      {
+        "index": "merchant",
+        "name": "Merchant",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): CON, INT, CHA.",
+          "Origin Feat: Lucky (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Animal Handling",
+          "Skill: Persuasion",
+          "Tool: Navigator's Tools"
+        ],
+        "starting_equipment": [
+          "Navigator's Tools",
+          "Pouch",
+          "Pouch",
+          "Traveler's Clothes",
+          "22 GP"
+        ]
+      },
+      {
+        "index": "noble",
+        "name": "Noble",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, INT, CHA.",
+          "Origin Feat: Skilled (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: History",
+          "Skill: Persuasion",
+          "Tool: Gaming Set (choose one type)"
+        ],
+        "starting_equipment": [
+          "Gaming Set",
+          "Fine Clothes",
+          "Perfume",
+          "29 GP"
+        ]
+      },
+      {
+        "index": "sailor",
+        "name": "Sailor",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): STR, DEX, WIS.",
+          "Origin Feat: Tavern Brawler (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Acrobatics",
+          "Skill: Perception",
+          "Tool: Navigator's Tools"
+        ],
+        "starting_equipment": [
+          "Dagger",
+          "Navigator's Tools",
+          "Rope",
+          "Traveler's Clothes",
+          "20 GP"
+        ]
+      },
+      {
+        "index": "scribe",
+        "name": "Scribe",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): DEX, INT, WIS.",
+          "Origin Feat: Skilled (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Investigation",
+          "Skill: Perception",
+          "Tool: Calligrapher's Supplies"
+        ],
+        "starting_equipment": [
+          "Calligrapher's Supplies",
+          "Fine Clothes",
+          "Lamp",
+          "Oil (3 flasks)",
+          "Parchment (12 sheets)",
+          "23 GP"
+        ]
+      },
+      {
+        "index": "wayfarer",
+        "name": "Wayfarer",
+        "source": "custom-2024-backgrounds",
+        "desc": [
+          "2024 PHB background (not in the free SRD; added from a manually verified transcription).",
+          "Ability Scores (choose to increase, per 2024 background rules): DEX, WIS, CHA.",
+          "Origin Feat: Lucky (apply manually \u2014 dm20-protocol doesn't model background-granted feats)."
+        ],
+        "starting_proficiencies": [
+          "Skill: Insight",
+          "Skill: Stealth",
+          "Tool: Thieves' Tools"
+        ],
+        "starting_equipment": [
+          "Dagger",
+          "Dagger",
+          "Thieves' Tools",
+          "Gaming Set (any)",
+          "Bedroll",
+          "Pouch",
+          "Pouch",
+          "Traveler's Clothes",
+          "16 GP"
+        ]
+      }
+    ]
+  }
+}

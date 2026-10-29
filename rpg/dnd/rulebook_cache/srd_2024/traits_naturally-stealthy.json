@@ -1,0 +1,15 @@
+{
+  "index": "naturally-stealthy",
+  "url": "/api/2024/traits/naturally-stealthy",
+  "name": "Naturally Stealthy",
+  "description": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
+  "species": [
+    {
+      "index": "halfling",
+      "url": "/api/2024/species/halfling",
+      "name": "Halfling"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

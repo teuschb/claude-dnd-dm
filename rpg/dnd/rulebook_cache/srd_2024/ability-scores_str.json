@@ -1,0 +1,15 @@
+{
+  "index": "str",
+  "name": "STR",
+  "full_name": "Strength",
+  "description": "Physical might",
+  "skills": [
+    {
+      "name": "Athletics",
+      "index": "athletics",
+      "url": "/api/2024/skills/athletics"
+    }
+  ],
+  "url": "/api/2024/ability-scores/str",
+  "updated_at": "2026-04-23T07:06:25.606Z"
+}

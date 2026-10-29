@@ -1,0 +1,112 @@
+{
+  "index": "troll",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The troll makes three Rend attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "3",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Charge",
+      "desc": "The troll moves up to half its Speed straight toward an enemy it can see.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 20,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "9d10",
+  "hit_points": 94,
+  "hit_points_roll": "9d10 + 45",
+  "image": "/api/images/monsters/troll.png",
+  "intelligence": 7,
+  "languages": "Giant",
+  "legendary_actions": [],
+  "name": "Troll",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Loathsome Limbs",
+      "desc": "If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll\u2019s limbs is severed, falls into the troll\u2019s space, and becomes a Troll Limb. The limb acts immediately after the troll\u2019s turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.",
+      "usage": {
+        "type": "per day",
+        "times": 4,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Regeneration",
+      "desc": "The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn\u2019t function on the troll\u2019s next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn\u2019t regenerate.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 18,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/troll",
+  "wisdom": 9,
+  "xp": 1800,
+  "reactions": [],
+  "forms": []
+}

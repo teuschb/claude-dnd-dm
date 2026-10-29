@@ -1,0 +1,88 @@
+{
+  "index": "wolf",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "2d8",
+  "hit_points": 11,
+  "hit_points_roll": "2d8 + 2",
+  "image": "/api/images/monsters/wolf.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Wolf",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The wolf has Advantage on attack rolls against a creature if at least one of the wolf\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 14,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.698Z",
+  "url": "/api/2024/monsters/wolf",
+  "wisdom": 12,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,120 @@
+{
+  "index": "satyr",
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Mockery",
+      "desc": "Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "1d6+2"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic neutral",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 14,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "7d8",
+  "hit_points": 31,
+  "hit_points_roll": "7d8",
+  "image": "/api/images/monsters/satyr.png",
+  "intelligence": 12,
+  "languages": "Common, Elvish, Sylvan",
+  "legendary_actions": [],
+  "name": "Satyr",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-performance",
+        "name": "Skill: Performance",
+        "url": "/api/2024/proficiencies/skill-performance"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 12
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The satyr has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 12,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/satyr",
+  "wisdom": 10,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

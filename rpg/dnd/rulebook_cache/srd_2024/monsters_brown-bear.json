@@ -1,0 +1,111 @@
+{
+  "index": "brown-bear",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The bear makes one Bite attack and one Claw attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Claw",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 15,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "3d10",
+  "hit_points": 22,
+  "hit_points_roll": "3d10 + 6",
+  "image": "/api/images/monsters/brown-bear.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Brown Bear",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 17,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/brown-bear",
+  "wisdom": 13,
+  "xp": 200,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

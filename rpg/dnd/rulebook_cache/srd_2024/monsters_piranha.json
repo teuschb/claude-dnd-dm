@@ -1,0 +1,63 @@
+{
+  "index": "piranha",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5 (with Advantage if the target doesn\u2019t have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 2,
+  "condition_immunities": [],
+  "constitution": 9,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "1d4",
+  "hit_points": 1,
+  "hit_points_roll": "1d4 - 1",
+  "image": "/api/images/monsters/piranha-NYI.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Piranha",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Water Breathing",
+      "desc": "The piranha can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 2,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/piranha",
+  "wisdom": 7,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

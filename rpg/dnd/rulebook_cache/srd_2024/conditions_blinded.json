@@ -1,0 +1,7 @@
+{
+  "index": "blinded",
+  "name": "Blinded",
+  "description": "While you have the Blinded condition, you experience the following effects.\n**Can't See.** You can't see and automatically fail any ability check that requires sight.\n**Attacks Affected.** Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+  "url": "/api/2024/conditions/blinded",
+  "updated_at": "2026-04-23T07:06:26.480Z"
+}

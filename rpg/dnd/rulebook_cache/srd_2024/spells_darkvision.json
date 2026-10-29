@@ -1,0 +1,47 @@
+{
+  "index": "darkvision",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "description": "For the duration, a willing creature you touch has Darkvision with a range of 150 feet.",
+  "duration": "8 hours",
+  "level": 2,
+  "material": "a dried carrot",
+  "name": "Darkvision",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/darkvision",
+  "subclasses": []
+}

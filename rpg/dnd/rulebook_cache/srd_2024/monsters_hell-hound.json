@@ -1,0 +1,135 @@
+{
+  "index": "hell-hound",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The hound makes two Bite attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+3"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Fire Breath",
+      "desc": "Dexterity Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 17 (5d6) Fire damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "5d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 12,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "9d8",
+  "hit_points": 58,
+  "hit_points_roll": "9d8 + 18",
+  "image": "/api/images/monsters/hell-hound.png",
+  "intelligence": 6,
+  "languages": "Understands Infernal but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Hell Hound",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The hound has Advantage on an attack roll against a creature if at least one of the hound\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 17,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/hell-hound",
+  "wisdom": 13,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

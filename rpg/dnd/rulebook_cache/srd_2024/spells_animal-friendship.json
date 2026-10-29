@@ -1,0 +1,43 @@
+{
+  "index": "animal-friendship",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "description": "Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. If you or one of your allies deals damage to the target, the spells ends.",
+  "duration": "24 hours",
+  "higher_level": "You can target one additional Beast for each spell slot level above 1.",
+  "level": 1,
+  "material": "a morsel of food",
+  "name": "Animal Friendship",
+  "range": "30 feet",
+  "ritual": false,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/animal-friendship",
+  "subclasses": []
+}

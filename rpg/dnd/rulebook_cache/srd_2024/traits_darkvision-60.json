@@ -1,0 +1,30 @@
+{
+  "index": "darkvision-60",
+  "url": "/api/2024/traits/darkvision-60",
+  "name": "Darkvision (60 ft.)",
+  "description": "You have Darkvision with a range of 60 feet.",
+  "species": [
+    {
+      "index": "dragonborn",
+      "url": "/api/2024/species/dragonborn",
+      "name": "Dragonborn"
+    },
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    },
+    {
+      "index": "gnome",
+      "url": "/api/2024/species/gnome",
+      "name": "Gnome"
+    },
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

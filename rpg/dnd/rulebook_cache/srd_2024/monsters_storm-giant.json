@@ -1,0 +1,280 @@
+{
+  "index": "storm-giant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The giant makes two attacks, using Storm Sword or Thunderbolt in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Storm Sword",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Thunderbolt",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Storm Sword",
+      "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "4d6+9"
+        },
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "3d8"
+        }
+      ],
+      "attack_bonus": 14,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Thunderbolt",
+      "desc": "Ranged Attack Roll: +14, range 500 ft. Hit: 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "2d12+9"
+        }
+      ],
+      "attack_bonus": 14,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Lightning Storm",
+      "desc": "Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "10d10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 18,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The giant casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 18):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 18,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "light",
+            "name": "Light",
+            "level": 0,
+            "url": "/api/2024/spells/light",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "control-weather",
+            "name": "Control Weather",
+            "level": 8,
+            "url": "/api/2024/spells/control-weather",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic good",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 13,
+  "charisma": 18,
+  "condition_immunities": [],
+  "constitution": 20,
+  "damage_immunities": [
+    "lightning",
+    "thunder"
+  ],
+  "damage_resistances": [
+    "cold"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "20d12",
+  "hit_points": 230,
+  "hit_points_roll": "20d12 + 100",
+  "image": "/api/images/monsters/storm-giant.png",
+  "intelligence": 16,
+  "languages": "Common, Giant",
+  "legendary_actions": [],
+  "name": "Storm Giant",
+  "proficiencies": [
+    {
+      "value": 14,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 14,
+      "proficiency": {
+        "index": "skill-athletics",
+        "name": "Skill: Athletics",
+        "url": "/api/2024/proficiencies/skill-athletics"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "senses": {
+    "darkvision": "120 ft.",
+    "truesight": "30 ft.",
+    "passive_perception": 20
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The giant can breathe air and water.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "50 ft.",
+    "fly": "25 ft.",
+    "hover": true,
+    "swim": "50 ft."
+  },
+  "strength": 29,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/storm-giant",
+  "wisdom": 20,
+  "xp": 10000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

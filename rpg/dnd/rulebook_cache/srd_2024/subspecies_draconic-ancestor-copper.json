@@ -1,0 +1,30 @@
+{
+  "index": "draconic-ancestor-copper",
+  "url": "/api/2024/subspecies/draconic-ancestor-copper",
+  "name": "Draconic Ancestor: Copper",
+  "damage_type": {
+    "index": "acid",
+    "name": "Acid",
+    "url": "/api/2024/damage-types/acid"
+  },
+  "species": {
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "url": "/api/2024/species/dragonborn"
+  },
+  "traits": [
+    {
+      "index": "draconic-breath-weapon-acid",
+      "url": "/api/2024/traits/draconic-breath-weapon-acid",
+      "name": "Breath Weapon: Acid",
+      "level": 1
+    },
+    {
+      "index": "draconic-damage-resistance-acid",
+      "url": "/api/2024/traits/draconic-damage-resistance-acid",
+      "name": "Damage Resistance: Acid",
+      "level": 1
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

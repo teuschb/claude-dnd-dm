@@ -1,0 +1,223 @@
+{
+  "index": "incubus",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The incubus makes two Restless Touch attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Restless Touch",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Restless Touch",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "3d6+5"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 15,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "disguise-self",
+            "name": "Disguise Self",
+            "level": 1,
+            "url": "/api/2024/spells/disguise-self",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "etherealness",
+            "name": "Etherealness",
+            "level": 7,
+            "url": "/api/2024/spells/etherealness",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "dream",
+            "name": "Dream",
+            "level": 5,
+            "url": "/api/2024/spells/dream",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "hypnotic-pattern",
+            "name": "Hypnotic Pattern",
+            "level": 3,
+            "url": "/api/2024/spells/hypnotic-pattern",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Nightmare",
+      "desc": "Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "4d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 20,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "poison",
+    "psychic"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "12d8",
+  "hit_points": 66,
+  "hit_points_roll": "12d8 + 12",
+  "image": "/api/images/monsters/incubus-NYI.png",
+  "intelligence": 15,
+  "languages": "Abyssal, Common, Infernal; telepathy 60 ft.",
+  "legendary_actions": [],
+  "name": "Incubus",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion",
+        "url": "/api/2024/proficiencies/skill-persuasion"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Succubus Form",
+      "desc": "When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 8,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/incubus",
+  "wisdom": 12,
+  "xp": 1100,
+  "reactions": [],
+  "forms": []
+}

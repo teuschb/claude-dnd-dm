@@ -1,0 +1,15 @@
+{
+  "index": "powerful-build",
+  "url": "/api/2024/traits/powerful-build",
+  "name": "Powerful Build",
+  "description": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
+  "species": [
+    {
+      "index": "goliath",
+      "url": "/api/2024/species/goliath",
+      "name": "Goliath"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

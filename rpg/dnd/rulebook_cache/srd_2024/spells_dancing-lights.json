@@ -1,0 +1,42 @@
+{
+  "index": "dancing-lights",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": true,
+  "description": " You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10foot radius.\n  As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.",
+  "duration": "up to 1 minute",
+  "level": 0,
+  "material": "a bit of phosphorus",
+  "name": "Dancing Lights",
+  "range": "120 feet",
+  "ritual": false,
+  "school": {
+    "index": "illusion",
+    "name": "Illusion",
+    "url": "/api/2024/magic-schools/illusion"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/dancing-lights",
+  "subclasses": []
+}

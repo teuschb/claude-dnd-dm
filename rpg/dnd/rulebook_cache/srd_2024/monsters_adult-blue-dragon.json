@@ -1,0 +1,283 @@
+{
+  "index": "adult-blue-dragon",
+  "name": "Adult Blue Dragon",
+  "size": "Huge",
+  "type": "dragon",
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 19,
+      "armor": []
+    }
+  ],
+  "hit_points": 212,
+  "hit_dice": "17d12",
+  "hit_points_roll": "17d12 + 102",
+  "speed": {
+    "walk": "40 ft.",
+    "burrow": "30 ft.",
+    "fly": "80 ft."
+  },
+  "strength": 25,
+  "dexterity": 10,
+  "constitution": 23,
+  "intelligence": 16,
+  "wisdom": 15,
+  "charisma": 20,
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "damage_vulnerabilities": [],
+  "damage_resistances": [],
+  "damage_immunities": [
+    "lightning"
+  ],
+  "condition_immunities": [],
+  "senses": {
+    "darkvision": "120 ft.",
+    "blindsight": "60 ft.",
+    "passive_perception": 22
+  },
+  "languages": "Common, Draconic",
+  "challenge_rating": 16,
+  "proficiency_bonus": 5,
+  "xp": 15000,
+  "xp_in_lair": 18000,
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Rend",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Shatter",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d8+7"
+        },
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "1d10"
+        }
+      ],
+      "attack_bonus": 12,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Lightning Breath",
+      "desc": "Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-footwide Line. Failure: 60 (11d10) Lightning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "11d10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 19,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 18,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "mage-hand",
+            "name": "Mage Hand",
+            "level": 0,
+            "url": "/api/2024/spells/mage-hand",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "shatter",
+            "name": "Shatter",
+            "level": 2,
+            "url": "/api/2024/spells/shatter",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "scrying",
+            "name": "Scrying",
+            "level": 5,
+            "url": "/api/2024/spells/scrying",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "sending",
+            "name": "Sending",
+            "level": 3,
+            "url": "/api/2024/spells/sending",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "legendary_actions": [
+    {
+      "name": "Cloaked Flight",
+      "desc": "The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can\u2019t take this action again until the start of its next turn.",
+      "damage": []
+    },
+    {
+      "name": "Sonic Boom",
+      "desc": "The dragon uses Spellcasting to cast Shatter. The dragon can\u2019t take this action again until the start of its next turn.",
+      "damage": []
+    },
+    {
+      "name": "Tail Swipe",
+      "desc": "The dragon makes one Rend attack.",
+      "damage": []
+    }
+  ],
+  "image": "/api/images/monsters/adult-blue-dragon.png",
+  "url": "/api/2024/monsters/adult-blue-dragon",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

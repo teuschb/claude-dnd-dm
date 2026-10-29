@@ -1,0 +1,12 @@
+{
+  "index": "sleight-of-hand",
+  "name": "Sleight of Hand",
+  "description": "Pick a pocket, conceal a handheld object, or perform legerdemain.",
+  "ability_score": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "url": "/api/2024/skills/sleight-of-hand",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

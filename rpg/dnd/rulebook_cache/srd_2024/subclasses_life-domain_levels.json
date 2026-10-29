@@ -1,0 +1,84 @@
+[
+  {
+    "index": "life-3",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "features": [
+      {
+        "index": "life-disciple-of-life",
+        "url": "/api/2024/features/life-disciple-of-life",
+        "name": "Disciple of Life"
+      },
+      {
+        "index": "life-domain-spells",
+        "url": "/api/2024/features/life-domain-spells",
+        "name": "Life Domain Spells"
+      },
+      {
+        "index": "life-preserve-life",
+        "url": "/api/2024/features/life-preserve-life",
+        "name": "Preserve Life"
+      }
+    ],
+    "level": 3,
+    "name": "Life 3",
+    "subclass": {
+      "index": "life-domain",
+      "name": "Life Domain",
+      "url": "/api/2024/subclasses/life-domain"
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/subclasses/life/levels/3"
+  },
+  {
+    "index": "life-6",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "features": [
+      {
+        "index": "life-blessed-healer",
+        "url": "/api/2024/features/life-blessed-healer",
+        "name": "Blessed Healer"
+      }
+    ],
+    "level": 6,
+    "name": "Life 6",
+    "subclass": {
+      "index": "life-domain",
+      "name": "Life Domain",
+      "url": "/api/2024/subclasses/life-domain"
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/subclasses/life/levels/6"
+  },
+  {
+    "index": "life-17",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "features": [
+      {
+        "index": "life-supreme-healing",
+        "url": "/api/2024/features/life-supreme-healing",
+        "name": "Supreme Healing"
+      }
+    ],
+    "level": 17,
+    "name": "Life 17",
+    "subclass": {
+      "index": "life-domain",
+      "name": "Life Domain",
+      "url": "/api/2024/subclasses/life-domain"
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/subclasses/life/levels/17"
+  }
+]

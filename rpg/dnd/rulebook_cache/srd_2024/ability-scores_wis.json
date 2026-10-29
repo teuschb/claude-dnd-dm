@@ -1,0 +1,35 @@
+{
+  "index": "wis",
+  "name": "WIS",
+  "full_name": "Wisdom",
+  "description": "Perceptiveness and mental fortitude",
+  "skills": [
+    {
+      "name": "Animal Handling",
+      "index": "animal-handling",
+      "url": "/api/2024/skills/animal-handling"
+    },
+    {
+      "name": "Insight",
+      "index": "insight",
+      "url": "/api/2024/skills/insight"
+    },
+    {
+      "name": "Medicine",
+      "index": "medicine",
+      "url": "/api/2024/skills/medicine"
+    },
+    {
+      "name": "Perception",
+      "index": "perception",
+      "url": "/api/2024/skills/perception"
+    },
+    {
+      "name": "Survival",
+      "index": "survival",
+      "url": "/api/2024/skills/survival"
+    }
+  ],
+  "url": "/api/2024/ability-scores/wis",
+  "updated_at": "2026-04-23T07:06:25.606Z"
+}

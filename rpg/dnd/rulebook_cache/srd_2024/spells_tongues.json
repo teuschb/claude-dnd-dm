@@ -1,0 +1,51 @@
+{
+  "index": "tongues",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "M"
+  ],
+  "concentration": false,
+  "description": "This spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing.",
+  "duration": "1 hour",
+  "level": 3,
+  "material": "a miniature ziggurat",
+  "name": "Tongues",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/tongues",
+  "subclasses": []
+}

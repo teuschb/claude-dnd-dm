@@ -1,0 +1,34 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__dm20-protocol__party_resolve_action",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/rpg/dnd/scripts/hooks/check_resolve_leads.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking the narrative leads with the player's action"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/rpg/dnd/scripts/hooks/check_narration_rules.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking narration against the DM pre-send checklist"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__dm20-protocol__party_push",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/rpg/dnd/scripts/hooks/check_narration_rules.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking narration against the DM pre-send checklist"
+          }
+        ]
+      }
+    ]
+  }
+}

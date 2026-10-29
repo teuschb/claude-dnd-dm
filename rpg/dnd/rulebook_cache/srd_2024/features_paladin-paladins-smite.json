@@ -1,0 +1,17 @@
+{
+  "index": "paladin-paladins-smite",
+  "class": {
+    "index": "paladin",
+    "url": "/api/2024/classes/paladin",
+    "name": "Paladin"
+  },
+  "description": "You always have the Divine Smite spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.",
+  "level": {
+    "index": "paladin-2",
+    "url": "/api/2024/classes/paladin/levels/2",
+    "name": "Paladin 2"
+  },
+  "name": "Paladin's Smite",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/paladin-paladins-smite"
+}

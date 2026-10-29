@@ -1,0 +1,31 @@
+{
+  "index": "elven-lineage-wood-elf",
+  "url": "/api/2024/subspecies/elven-lineage-wood-elf",
+  "name": "Elven Lineage: Wood Elf",
+  "traits": [
+    {
+      "index": "wood-elf-speed-increase",
+      "url": "/api/2024/traits/wood-elf-speed-increase",
+      "name": "Wood Elf: Movement Speed Increase",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-longstrider",
+      "url": "/api/2024/traits/lineage-spell-longstrider",
+      "name": "Longstrider",
+      "level": 3
+    },
+    {
+      "index": "lineage-spell-pass-without-trace",
+      "url": "/api/2024/traits/lineage-spell-pass-without-trace",
+      "name": "Pass without Trace",
+      "level": 5
+    }
+  ],
+  "species": {
+    "index": "elf",
+    "name": "Elf",
+    "url": "/api/2024/species/elf"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

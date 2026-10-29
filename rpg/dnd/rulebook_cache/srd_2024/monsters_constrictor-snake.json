@@ -1,0 +1,108 @@
+{
+  "index": "constrictor-snake",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Constrict",
+      "desc": "Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet. Failure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "2d10",
+  "hit_points": 13,
+  "hit_points_roll": "2d10 + 2",
+  "image": "/api/images/monsters/constrictor-snake.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Constrictor Snake",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "10 ft.",
+    "passive_perception": 12
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 15,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/constrictor-snake",
+  "wisdom": 10,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

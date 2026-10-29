@@ -1,0 +1,19 @@
+{
+  "index": "hat-of-disguise",
+  "url": "/api/2024/magic-items/hat-of-disguise",
+  "image": "/api/images/magic-items/hat-of-disguise.png",
+  "name": "Hat of Disguise",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n While wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

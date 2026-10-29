@@ -1,0 +1,181 @@
+{
+  "index": "bone-devil",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The devil makes two Claw attacks and one Infernal Sting attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Infernal Sting",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d8+4"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Infernal Sting",
+      "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison damage, and the target has the Poisoned condition until the start of the devil\u2019s next turn. While Poisoned, the target can\u2019t regain Hit Points.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d10+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "4d8"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 18,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "17d10",
+  "hit_points": 161,
+  "hit_points_roll": "17d10 + 68",
+  "image": "/api/images/monsters/bone-devil.png",
+  "intelligence": 13,
+  "languages": "Infernal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Bone Devil",
+  "proficiencies": [
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "120 ft. (unimpeded by magical darkness)",
+    "passive_perception": 12
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Diabolical Restoration",
+      "desc": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The devil has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 18,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/bone-devil",
+  "wisdom": 14,
+  "xp": 5000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

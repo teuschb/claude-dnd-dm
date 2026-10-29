@@ -1,0 +1,68 @@
+{
+  "index": "badger",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "poison"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "1d4",
+  "hit_points": 5,
+  "hit_points_roll": "1d4 + 3",
+  "image": "/api/images/monsters/badger.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Badger",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "30 ft.",
+    "passive_perception": 13
+  },
+  "size": "Tiny",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft.",
+    "burrow": "5 ft."
+  },
+  "strength": 10,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/badger",
+  "wisdom": 12,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

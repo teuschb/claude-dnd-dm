@@ -1,0 +1,19 @@
+{
+  "index": "periapt-of-health",
+  "url": "/api/2024/magic-items/periapt-of-health",
+  "image": "/api/images/magic-items/periapt-of-health.png",
+  "name": "Periapt of Health",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.  \n In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

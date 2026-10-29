@@ -1,0 +1,20 @@
+{
+  "index": "wand-of-polymorph",
+  "url": "/api/2024/magic-items/wand-of-polymorph",
+  "image": "/api/images/magic-items/wand-of-polymorph.png",
+  "name": "Wand of Polymorph",
+  "equipment_category": {
+    "index": "wands",
+    "name": "Wands",
+    "url": "/api/2024/equipment-categories/wands"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "limited-to": "Spellcaster",
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Wand  \n This wand has 7 charges. While holding it, you can expend 1 charge to cast Polymorph (save DC 15) from it.  \n Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expendthe wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

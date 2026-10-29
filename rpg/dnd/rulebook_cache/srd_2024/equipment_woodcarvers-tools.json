@@ -1,0 +1,163 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "woodcarvers-tools",
+  "name": "Woodcarver's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "club",
+      "name": "Club",
+      "url": "/api/2024/equipment/club"
+    },
+    {
+      "index": "greatclub",
+      "name": "Greatclub",
+      "url": "/api/2024/equipment/greatclub"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "blowgun",
+      "name": "Blowgun",
+      "url": "/api/2024/equipment/blowgun"
+    },
+    {
+      "index": "dart",
+      "name": "Dart",
+      "url": "/api/2024/equipment/dart"
+    },
+    {
+      "index": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "url": "/api/2024/equipment/hand-crossbow"
+    },
+    {
+      "index": "heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "url": "/api/2024/equipment/heavy-crossbow"
+    },
+    {
+      "index": "light-crossbow",
+      "name": "Light Crossbow",
+      "url": "/api/2024/equipment/light-crossbow"
+    },
+    {
+      "index": "longbow",
+      "name": "Longbow",
+      "url": "/api/2024/equipment/longbow"
+    },
+    {
+      "index": "shortbow",
+      "name": "Shortbow",
+      "url": "/api/2024/equipment/shortbow"
+    },
+    {
+      "index": "crystal",
+      "name": "Crystal",
+      "url": "/api/2024/equipment/crystal"
+    },
+    {
+      "index": "orb",
+      "name": "Orb",
+      "url": "/api/2024/equipment/orb"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "rod",
+      "name": "Rod",
+      "url": "/api/2024/equipment/rod"
+    },
+    {
+      "index": "staff",
+      "name": "Staff",
+      "url": "/api/2024/equipment/staff"
+    },
+    {
+      "index": "wand",
+      "name": "Wand",
+      "url": "/api/2024/equipment/wand"
+    },
+    {
+      "index": "arrows",
+      "name": "Arrows",
+      "url": "/api/2024/equipment/arrows"
+    },
+    {
+      "index": "bolts",
+      "name": "Bolts",
+      "url": "/api/2024/equipment/bolts"
+    },
+    {
+      "index": "sprig-of-mistletoe",
+      "name": "Sprig of Mistletoe",
+      "url": "/api/2024/equipment/sprig-of-mistletoe"
+    },
+    {
+      "index": "staff",
+      "name": "Staff",
+      "url": "/api/2024/equipment/staff"
+    },
+    {
+      "index": "yew-wand",
+      "name": "Yew Wand",
+      "url": "/api/2024/equipment/yew-wand"
+    },
+    {
+      "index": "ink-pen",
+      "name": "Ink Pen",
+      "url": "/api/2024/equipment/ink-pen"
+    },
+    {
+      "index": "needles",
+      "name": "Needles",
+      "url": "/api/2024/equipment/needles"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Carve a pattern in wood",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/woodcarvers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

@@ -1,0 +1,42 @@
+{
+  "index": "guiding-bolt",
+  "attack_type": "ranged",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": false,
+  "damage": {
+    "damage_type": {
+      "index": "radiant",
+      "name": "Radiant",
+      "url": "/api/2024/damage-types/radiant"
+    },
+    "damage_at_slot_level": {
+      "1": "4d6"
+    }
+  },
+  "description": "You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.",
+  "duration": "1 round",
+  "higher_level": "The damage increases by 1d6 for each spell slot level above 1.",
+  "level": 1,
+  "name": "Guiding Bolt",
+  "range": "120 feet",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/guiding-bolt",
+  "subclasses": []
+}

@@ -1,0 +1,12 @@
+{
+  "index": "history",
+  "name": "History",
+  "description": "Recall lore about historical events, people, nations, and cultures.",
+  "ability_score": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "url": "/api/2024/skills/history",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

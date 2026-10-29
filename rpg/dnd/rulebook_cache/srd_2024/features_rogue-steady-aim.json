@@ -1,0 +1,17 @@
+{
+  "index": "rogue-steady-aim",
+  "class": {
+    "index": "rogue",
+    "url": "/api/2024/classes/rogue",
+    "name": "Rogue"
+  },
+  "description": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
+  "level": {
+    "index": "rogue-3",
+    "url": "/api/2024/classes/rogue/levels/3",
+    "name": "Rogue 3"
+  },
+  "name": "Steady Aim",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/rogue-steady-aim"
+}

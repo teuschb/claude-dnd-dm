@@ -1,0 +1,66 @@
+{
+  "index": "dispel-magic",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": false,
+  "description": "Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.",
+  "duration": "Instantaneous",
+  "higher_level": "You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.",
+  "level": 3,
+  "name": "Dispel Magic",
+  "range": "120 feet",
+  "ritual": false,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/dispel-magic",
+  "subclasses": []
+}

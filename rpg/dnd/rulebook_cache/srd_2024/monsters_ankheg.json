@@ -1,0 +1,121 @@
+{
+  "index": "ankheg",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5 (with Advantage if the target is Grappled by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 3 (1d6) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13).",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+3"
+        },
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "1d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 13,
+        "success_type": "none"
+      },
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Acid Spray",
+      "desc": "Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Acid damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "4d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 12,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "6d10",
+  "hit_points": 45,
+  "hit_points_roll": "6d10 + 12",
+  "image": "/api/images/monsters/ankheg.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Ankheg",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "tremorsense": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Tunneler",
+      "desc": "The ankheg can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "burrow": "10 ft."
+  },
+  "strength": 17,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/ankheg",
+  "wisdom": 13,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

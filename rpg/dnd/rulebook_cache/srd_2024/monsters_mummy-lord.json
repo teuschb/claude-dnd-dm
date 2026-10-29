@@ -1,0 +1,359 @@
+{
+  "index": "mummy-lord",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The mummy makes one Rotting Fist or Channel Negative Energy attack, and it uses Dreadful Glare.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Dreadful Glare",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Rotting Fist",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Channel Negative Energy",
+              "count": 1,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Rotting Fist",
+      "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can\u2019t regain Hit Points, it gains no benefit from finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d10+4"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Channel Negative Energy",
+      "desc": "Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "6d6+4"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Dreadful Glare",
+      "desc": "Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25 (6d6 + 4) Psychic damage, and the target has the Paralyzed condition until the end of the mummy\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "6d6+4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 17,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The mummy casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 17,
+        "modifier": 9,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "dispel-magic",
+            "name": "Dispel Magic",
+            "level": 3,
+            "url": "/api/2024/spells/dispel-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "thaumaturgy",
+            "name": "Thaumaturgy",
+            "level": 0,
+            "url": "/api/2024/spells/thaumaturgy",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "animate-dead",
+            "name": "Animate Dead",
+            "level": 3,
+            "url": "/api/2024/spells/animate-dead",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "harm",
+            "name": "Harm",
+            "level": 6,
+            "url": "/api/2024/spells/harm",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "insect-plague",
+            "name": "Insect Plague",
+            "level": 7,
+            "url": "/api/2024/spells/insect-plague",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 15,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 17,
+  "damage_immunities": [
+    "necrotic",
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [
+    "fire"
+  ],
+  "dexterity": 10,
+  "hit_dice": "25d8",
+  "hit_points": 187,
+  "hit_points_roll": "25d8 + 75",
+  "image": "/api/images/monsters/mummy-lord.png",
+  "intelligence": 11,
+  "languages": "Common plus three other languages",
+  "legendary_actions": [
+    {
+      "name": "Dread Command",
+      "desc": "The mummy casts Command (level 2 version), using the same spellcasting ability as Spellcasting. The mummy can\u2019t take this action again until the start of its next turn.",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 17,
+        "modifier": 9,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "command",
+            "name": "Command",
+            "level": 2,
+            "url": "/api/2024/spells/command"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Glare",
+      "desc": "The mummy uses Dreadful Glare. The mummy can\u2019t take this action again until the start of its next turn.",
+      "damage": []
+    },
+    {
+      "name": "Necrotic Strike",
+      "desc": "The mummy makes one Rotting Fist or Channel Negative Energy attack.",
+      "damage": []
+    }
+  ],
+  "name": "Mummy Lord",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "reactions": [
+    {
+      "name": "Whirlwind of Sand",
+      "desc": "Trigger: The mummy is hit by an attack roll. Response: The mummy adds 2 to its AC against the attack, possibly causing the attack to miss, and the mummy teleports up to 60 feet to an unoccupied space it can see. Each creature of its choice that it can see within 5 feet of its destination space has the Blinded condition until the end of the mummy\u2019s next turn.",
+      "damage": []
+    }
+  ],
+  "senses": {
+    "truesight": "60 ft.",
+    "passive_perception": 19
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the mummy fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The mummy has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    },
+    {
+      "name": "Undead Restoration",
+      "desc": "If destroyed, the mummy gains a new body in 24 hours if its heart is intact, reviving with all its Hit Points. The new body appears in an unoccupied space within the mummy\u2019s lair. The heart is a Tiny object that has AC 17, HP 10, and Immunity to all damage except Fire.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 18,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/mummy-lord",
+  "wisdom": 19,
+  "xp": 13000,
+  "xp_in_lair": 15000,
+  "bonus_actions": [],
+  "forms": []
+}

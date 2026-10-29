@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-mending",
+  "url": "/api/2024/traits/lineage-spell-mending",
+  "name": "Mending",
+  "description": "You know the cantrip Mending.",
+  "spells": [
+    {
+      "spell": {
+        "index": "mending",
+        "name": "Mending",
+        "url": "/api/2024/spells/mending"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "gnome",
+      "url": "/api/2024/species/gnome",
+      "name": "Gnome"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "gnomish-lineage-rock-gnome",
+      "url": "/api/2024/subspecies/gnomish-lineage-rock-gnome",
+      "name": "Gnomish Lineage: Rock Gnome"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

@@ -1,0 +1,89 @@
+{
+  "index": "owlbear",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The owlbear makes two Rend attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d8+5"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "7d10",
+  "hit_points": 59,
+  "hit_points_roll": "7d10 + 21",
+  "image": "/api/images/monsters/owlbear.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Owlbear",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft.",
+    "climb": "40 ft."
+  },
+  "strength": 20,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/owlbear",
+  "wisdom": 12,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

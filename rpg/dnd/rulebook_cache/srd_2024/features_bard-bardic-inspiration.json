@@ -1,0 +1,17 @@
+{
+  "index": "bard-bardic-inspiration",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "description": "You can supernaturally inspire others through words, music, or dance. This inspiration is repre- sented by your Bardic Inspiration die, which is a d6.\n  Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of your- self who can see or hear you. That creature gains\none of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n  Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspira- tion die and add the number rolled to the d20, po- tentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.\n  Number of Uses. You can confer a Bardic Inspira- tion die a number of times equal to your Charisma modifier (minimum of once), and you regain all ex- pended uses when you finish a Long Rest.\n  At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Fea- tures table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.",
+  "level": {
+    "index": "bard-1",
+    "name": "Bard 1",
+    "url": "/api/2024/classes/bard/levels/1"
+  },
+  "name": "Bardic Inspiration",
+  "updated_at": "2026-07-05T20:53:29.088Z",
+  "url": "/api/2024/features/bard-bardic-inspiration"
+}

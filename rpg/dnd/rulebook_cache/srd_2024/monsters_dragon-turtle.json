@@ -1,0 +1,182 @@
+{
+  "index": "dragon-turtle",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dragon makes three Bite attacks. It can replace one attack with a Tail attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Bite",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Tail",
+              "count": 1,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn\u2019t grant Resistance to this Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d10+7"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 13,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d10+7"
+        }
+      ],
+      "attack_bonus": 13,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Steam Breath",
+      "desc": "Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being underwater doesn\u2019t grant Resistance to this Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "16d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 19,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 20,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 17,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 20,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "fire"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "23d20",
+  "hit_points": 356,
+  "hit_points_roll": "23d20 + 115",
+  "image": "/api/images/monsters/dragon-turtle.png",
+  "intelligence": 10,
+  "languages": "Draconic, Primordial (Aquan)",
+  "legendary_actions": [],
+  "name": "Dragon Turtle",
+  "proficiencies": [
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 6,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 11
+  },
+  "size": "Gargantuan",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The dragon can breathe air and water.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft.",
+    "swim": "50 ft."
+  },
+  "strength": 25,
+  "type": "dragon",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/dragon-turtle",
+  "wisdom": 12,
+  "xp": 18000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

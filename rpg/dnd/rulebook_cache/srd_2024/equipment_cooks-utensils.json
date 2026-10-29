@@ -1,0 +1,65 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "cooks-utensils",
+  "name": "Cook's Utensils",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "rations",
+      "name": "Rations",
+      "url": "/api/2024/equipment/rations"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Improve food's flavor",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Detect spoiled or poisoned food",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 8,
+  "url": "/api/2024/equipment/cooks-utensils",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

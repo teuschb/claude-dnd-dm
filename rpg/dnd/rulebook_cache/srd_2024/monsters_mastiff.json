@@ -1,0 +1,82 @@
+{
+  "index": "mastiff",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "1d8",
+  "hit_points": 5,
+  "hit_points_roll": "1d8 + 1",
+  "image": "/api/images/monsters/mastiff.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Mastiff",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 13,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/mastiff",
+  "wisdom": 12,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

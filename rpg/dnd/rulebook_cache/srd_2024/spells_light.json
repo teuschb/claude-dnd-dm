@@ -1,0 +1,46 @@
+{
+  "index": "light",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "M"
+  ],
+  "concentration": false,
+  "description": "You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.\n  Covering the object with something opaque blocks the light. The spell ends if you cast it again.",
+  "duration": "1 hour",
+  "level": 0,
+  "material": "a firefly or phosphorescent moss",
+  "name": "Light",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/light",
+  "subclasses": []
+}

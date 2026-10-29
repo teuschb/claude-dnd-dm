@@ -1,0 +1,78 @@
+{
+  "index": "seahorse",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bubble Dash",
+      "desc": "While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 2,
+  "condition_immunities": [],
+  "constitution": 8,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "1d4",
+  "hit_points": 1,
+  "hit_points_roll": "1d4 - 1",
+  "image": "/api/images/monsters/seahorse-NYI.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Seahorse",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 12
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Water Breathing",
+      "desc": "The seahorse can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "20 ft."
+  },
+  "strength": 1,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/seahorse",
+  "wisdom": 10,
+  "xp": 0,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

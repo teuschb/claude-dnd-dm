@@ -1,0 +1,241 @@
+{
+  "index": "ice-devil",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Ice Spear",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Ice Spear",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Tail",
+              "count": 1,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Ice Spear",
+      "desc": "Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can\u2019t take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil\u2019s hand immediately after a ranged attack.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+5"
+        },
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d6+5"
+        },
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "4d8"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Ice Wall",
+      "desc": "The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17).",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 17,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "wall-of-ice",
+            "name": "Wall of Ice",
+            "level": 8,
+            "url": "/api/2024/spells/wall-of-ice"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 14,
+  "charisma": 18,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 18,
+  "damage_immunities": [
+    "cold",
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "24d10",
+  "hit_points": 228,
+  "hit_points_roll": "24d10 + 96",
+  "image": "/api/images/monsters/ice-devil.png",
+  "intelligence": 18,
+  "languages": "Infernal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Ice Devil",
+  "proficiencies": [
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion",
+        "url": "/api/2024/proficiencies/skill-persuasion"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "senses": {
+    "blindsight": "120 ft.",
+    "passive_perception": 17
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Diabolical Restoration",
+      "desc": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The devil has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 21,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/ice-devil",
+  "wisdom": 15,
+  "xp": 11500,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

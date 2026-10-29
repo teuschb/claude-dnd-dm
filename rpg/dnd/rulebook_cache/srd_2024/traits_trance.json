@@ -1,0 +1,15 @@
+{
+  "index": "trance",
+  "url": "/api/2024/traits/trance",
+  "name": "Trance",
+  "description": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

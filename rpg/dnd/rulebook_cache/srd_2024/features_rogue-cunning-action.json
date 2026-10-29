@@ -1,0 +1,17 @@
+{
+  "index": "rogue-cunning-action",
+  "class": {
+    "index": "rogue",
+    "url": "/api/2024/classes/rogue",
+    "name": "Rogue"
+  },
+  "description": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.",
+  "level": {
+    "index": "rogue-2",
+    "url": "/api/2024/classes/rogue/levels/2",
+    "name": "Rogue 2"
+  },
+  "name": "Cunning Action",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/rogue-cunning-action"
+}

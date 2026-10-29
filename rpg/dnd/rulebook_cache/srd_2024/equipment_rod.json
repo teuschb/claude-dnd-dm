@@ -1,0 +1,29 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "rod",
+  "name": "Rod",
+  "equipment_categories": [
+    {
+      "index": "arcane-foci",
+      "name": "Arcane Foci",
+      "url": "/api/2024/equipment-categories/arcane-foci"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 10,
+    "unit": "gp"
+  },
+  "weight": 2,
+  "url": "/api/2024/equipment/rod",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

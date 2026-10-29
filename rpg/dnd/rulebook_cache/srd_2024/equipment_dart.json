@@ -1,0 +1,71 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "dart",
+  "name": "Dart",
+  "equipment_categories": [
+    {
+      "index": "ranged-weapons",
+      "name": "Ranged Weapons",
+      "url": "/api/2024/equipment-categories/ranged-weapons"
+    },
+    {
+      "index": "simple-ranged-weapons",
+      "name": "Simple Ranged Weapons",
+      "url": "/api/2024/equipment-categories/simple-ranged-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "damage": {
+    "damage_dice": "1d4",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "range": {
+    "normal": 20,
+    "long": 60
+  },
+  "weight": 0.25,
+  "properties": [
+    {
+      "index": "finesse",
+      "name": "Finesse",
+      "url": "/api/2024/weapon-properties/finesse"
+    },
+    {
+      "index": "thrown",
+      "name": "Thrown",
+      "url": "/api/2024/weapon-properties/thrown"
+    }
+  ],
+  "mastery": {
+    "index": "vex",
+    "name": "Vex",
+    "url": "/api/2024/weapon-mastery-properties/vex"
+  },
+  "throw_range": {
+    "normal": 20,
+    "long": 60
+  },
+  "url": "/api/2024/equipment/dart",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

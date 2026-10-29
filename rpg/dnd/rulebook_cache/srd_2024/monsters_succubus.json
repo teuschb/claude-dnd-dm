@@ -1,0 +1,210 @@
+{
+  "index": "succubus",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The succubus makes one Fiendish Touch attack and uses Charm or Draining Kiss.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Fiendish Touch",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Charm",
+              "count": 1,
+              "type": "special"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Draining Kiss",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Fiendish Touch",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Psychic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "2d10+5"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Charm",
+      "desc": "The succubus casts Dominate Person (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 15).",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 15,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "dominate-person",
+            "name": "Dominate Person",
+            "level": 8,
+            "url": "/api/2024/spells/dominate-person"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Draining Kiss",
+      "desc": "Constitution Saving Throw: DC 15, one creature Charmed by the succubus within 5 feet. Failure: 13 (3d8) Psychic damage. Success: Half damage. Failure or Success: The target\u2019s Hit Point maximum decreases by an amount equal to the damage taken.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "3d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 15,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The succubus shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its Fly Speed is available only in its true form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 20,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "poison",
+    "psychic"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "13d8",
+  "hit_points": 71,
+  "hit_points_roll": "13d8 + 13",
+  "image": "/api/images/monsters/succubus-NYI.png",
+  "intelligence": 15,
+  "languages": "Abyssal, Common, Infernal; telepathy 60 ft.",
+  "legendary_actions": [],
+  "name": "Succubus",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion",
+        "url": "/api/2024/proficiencies/skill-persuasion"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Incubus Form",
+      "desc": "When the succubus finishes a Long Rest, it can shape-shift into an Incubus, using that stat block instead of this one.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 8,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/succubus",
+  "wisdom": 12,
+  "xp": 1100,
+  "reactions": [],
+  "forms": []
+}

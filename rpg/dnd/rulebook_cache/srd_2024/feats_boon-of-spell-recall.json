@@ -1,0 +1,12 @@
+{
+  "index": "boon-of-spell-recall",
+  "name": "Boon of Spell Recall",
+  "type": "epic-boon",
+  "prerequisites": {
+    "minimum_level": 19,
+    "feature_named": "Spellcasting"
+  },
+  "description": "You gain the following benefits.\n**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.\n**Free Casting.** Whenever you cast a spell with a level 1\u20134 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.",
+  "url": "/api/2024/feats/boon-of-spell-recall",
+  "updated_at": "2026-04-23T07:06:27.241Z"
+}

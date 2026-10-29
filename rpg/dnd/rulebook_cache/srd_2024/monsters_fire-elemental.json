@@ -1,0 +1,175 @@
+{
+  "index": "fire-elemental",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The elemental makes two Burn attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Burn",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Burn",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Fire damage. If the target is a creature or a flammable object, it starts burning.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d6+3"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 7,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "unconscious",
+      "name": "Unconscious",
+      "url": "/api/2024/conditions/unconscious"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "11d10",
+  "hit_points": 93,
+  "hit_points_roll": "11d10 + 33",
+  "image": "/api/images/monsters/fire-elemental.png",
+  "intelligence": 6,
+  "languages": "Primordial (Ignan)",
+  "legendary_actions": [],
+  "name": "Fire Elemental",
+  "proficiencies": [],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 10
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Fire Aura",
+      "desc": "At the end of each of the elemental\u2019s turns, each creature in a 10-foot Emanation originating from the elemental takes 5 (1d10) Fire damage. Creatures and flammable objects in the Emanation start burning.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d10"
+        }
+      ]
+    },
+    {
+      "name": "Fire Form",
+      "desc": "The elemental can move through a space as narrow as 1 inch without expending extra movement to do so, and it can enter a creature\u2019s space and stop there. The first time it enters a creature\u2019s space on a turn, that creature takes 5 (1d10) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d10"
+        }
+      ]
+    },
+    {
+      "name": "Illumination",
+      "desc": "The elemental sheds Bright Light in a 30foot radius and Dim Light for an additional 30 feet.",
+      "damage": []
+    },
+    {
+      "name": "Water Susceptibility",
+      "desc": "The elemental takes 3 (1d6) Cold damage for every 5 feet the elemental moves in water or for every gallon of water splashed on it.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "1d6"
+        }
+      ]
+    }
+  ],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 10,
+  "type": "elemental",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/fire-elemental",
+  "wisdom": 10,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

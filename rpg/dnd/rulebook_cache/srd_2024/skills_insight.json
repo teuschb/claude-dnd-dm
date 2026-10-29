@@ -1,0 +1,12 @@
+{
+  "index": "insight",
+  "name": "Insight",
+  "description": "Discern a person\u2019s mood and intentions.",
+  "ability_score": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "url": "/api/2024/skills/insight",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

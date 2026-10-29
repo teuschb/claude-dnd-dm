@@ -1,0 +1,131 @@
+{
+  "index": "gray-ooze",
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 10 (2d8 + 1) Acid damage. Nonmagical armor worn by the target takes a \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the Mending spell on the armor.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "2d8+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 9,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 2,
+  "condition_immunities": [
+    {
+      "index": "blinded",
+      "name": "Blinded",
+      "url": "/api/2024/conditions/blinded"
+    },
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "acid",
+    "cold",
+    "fire"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 6,
+  "hit_dice": "3d8",
+  "hit_points": 22,
+  "hit_points_roll": "3d8 + 9",
+  "image": "/api/images/monsters/gray-ooze.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Gray Ooze",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "The ooze can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "damage": []
+    },
+    {
+      "name": "Corrosive Form",
+      "desc": "Nonmagical ammunition is destroyed immediately after hitting the ooze and dealing any damage. Any nonmagical weapon takes a cumulative \u22121 penalty to attack rolls immediately after dealing damage to the ooze and coming into contact with it. The weapon is destroyed if the penalty reaches \u22125. The penalty can be removed by casting the Mending spell on the weapon. The ooze can eat through 2-inch-thick, nonmagical metal or wood in 1 round.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "10 ft.",
+    "climb": "10 ft."
+  },
+  "strength": 12,
+  "type": "ooze",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/gray-ooze",
+  "wisdom": 6,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

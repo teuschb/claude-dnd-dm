@@ -1,0 +1,19 @@
+{
+  "index": "wand-of-binding",
+  "url": "/api/2024/magic-items/wand-of-binding",
+  "image": "/api/images/magic-items/wand-of-binding.png",
+  "name": "Wand of Binding",
+  "equipment_category": {
+    "index": "wands",
+    "name": "Wands",
+    "url": "/api/2024/equipment-categories/wands"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wand  \n This wand has 7 charges.  \n Spells. While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.Spell  ChargeCostHold Person  2  \n Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expendthe wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

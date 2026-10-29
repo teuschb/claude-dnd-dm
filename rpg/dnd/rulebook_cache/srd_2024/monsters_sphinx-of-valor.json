@@ -1,0 +1,354 @@
+{
+  "index": "sphinx-of-valor",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The sphinx makes two Claw attacks and uses Roar.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Roar",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +12, reach 5 ft. Hit: 20 (4d6 + 6) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "4d6+6"
+        }
+      ],
+      "attack_bonus": 12,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Roar",
+      "desc": "The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "First Roar",
+      "desc": "Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Frightened condition for 1 minute.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Second Roar",
+      "desc": "Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Third Roar",
+      "desc": "Constitution Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: 44 (8d10) Thunder damage, and the target has the Prone condition. Success: Half damage only.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "thunder",
+            "name": "Thunder",
+            "url": "/api/2024/damage-types/thunder"
+          },
+          "damage_dice": "8d10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 20,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 20,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "thaumaturgy",
+            "name": "Thaumaturgy",
+            "level": 0,
+            "url": "/api/2024/spells/thaumaturgy",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "dispel-magic",
+            "name": "Dispel Magic",
+            "level": 3,
+            "url": "/api/2024/spells/dispel-magic",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "greater-restoration",
+            "name": "Greater Restoration",
+            "level": 5,
+            "url": "/api/2024/spells/greater-restoration",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "heroes-feast",
+            "name": "Heroes' Feast",
+            "level": 6,
+            "url": "/api/2024/spells/heroes-feast",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "zone-of-truth",
+            "name": "Zone of Truth",
+            "level": 2,
+            "url": "/api/2024/spells/zone-of-truth",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful neutral",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 17,
+  "charisma": 18,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 20,
+  "damage_immunities": [
+    "psychic"
+  ],
+  "damage_resistances": [
+    "necrotic",
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "19d10",
+  "hit_points": 199,
+  "hit_points_roll": "19d10 + 95",
+  "image": "/api/images/monsters/sphinx-of-valor-NYI.png",
+  "intelligence": 16,
+  "languages": "Celestial, Common",
+  "legendary_actions": [
+    {
+      "name": "Arcane Prowl",
+      "desc": "The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack.",
+      "damage": []
+    },
+    {
+      "name": "Weight of Years",
+      "desc": "Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can\u2019t take this action again until the start of its next turn.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 16,
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "name": "Sphinx of Valor",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 15,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    }
+  ],
+  "proficiency_bonus": 6,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 22
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Inscrutable",
+      "desc": "No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.",
+      "damage": []
+    },
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the sphinx fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 22,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/sphinx-of-valor",
+  "wisdom": 23,
+  "xp": 18000,
+  "xp_in_lair": 20000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

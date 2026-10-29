@@ -1,0 +1,32 @@
+{
+  "index": "guidance",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "components": [],
+  "concentration": true,
+  "description": "You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
+  "duration": "up to 1 minute",
+  "level": 0,
+  "name": "Guidance",
+  "range": "Touch Component: V, S",
+  "ritual": false,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/guidance",
+  "subclasses": []
+}

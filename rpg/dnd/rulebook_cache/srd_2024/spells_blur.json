@@ -1,0 +1,34 @@
+{
+  "index": "blur",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V"
+  ],
+  "concentration": true,
+  "description": "Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.",
+  "duration": "up to 1 minute",
+  "level": 2,
+  "name": "Blur",
+  "range": "Self",
+  "ritual": false,
+  "school": {
+    "index": "illusion",
+    "name": "Illusion",
+    "url": "/api/2024/magic-schools/illusion"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/blur",
+  "subclasses": []
+}

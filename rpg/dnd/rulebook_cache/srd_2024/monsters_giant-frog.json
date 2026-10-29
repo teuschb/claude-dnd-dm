@@ -1,0 +1,119 @@
+{
+  "index": "giant-frog",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Swallow",
+      "desc": "The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn\u2019t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can\u2019t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition. At the end of the frog\u2019s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn\u2019t kill it, the frog disgorges it, causing it to exit Prone.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "2d4"
+        }
+      ],
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "4d8",
+  "hit_points": 18,
+  "hit_points_roll": "4d8",
+  "image": "/api/images/monsters/giant-frog.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Frog",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "30 ft.",
+    "passive_perception": 12
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The frog can breathe air and water.",
+      "damage": []
+    },
+    {
+      "name": "Standing Leap",
+      "desc": "The frog\u2019s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 12,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-frog",
+  "wisdom": 10,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

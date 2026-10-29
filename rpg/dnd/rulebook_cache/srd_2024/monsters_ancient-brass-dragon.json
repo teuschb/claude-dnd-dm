@@ -1,0 +1,349 @@
+{
+  "index": "ancient-brass-dragon",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast Scorching Ray (level 3 version).",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Rend",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Sleep Breath",
+              "count": 1,
+              "type": "special"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Scorching Ray",
+              "count": 1,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +14, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 7 (2d6) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d10+8"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 14,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Fire Breath",
+      "desc": "Dexterity Saving Throw: DC 21, each creature in a 90-foot-long, 5-footwide Line. Failure: 58 (13d8) Fire damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "13d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 21,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Sleep Breath",
+      "desc": "Constitution Saving Throw: DC 21, each creature in a 90-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 21,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 20,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "level": 0,
+            "url": "/api/2024/spells/minor-illusion",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "scorching-ray",
+            "name": "Scorching Ray",
+            "level": 3,
+            "url": "/api/2024/spells/scorching-ray",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "shapechange",
+            "name": "Shapechange",
+            "level": 9,
+            "url": "/api/2024/spells/shapechange",
+            "notes": "Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "speak-with-animals",
+            "name": "Speak with Animals",
+            "level": 1,
+            "url": "/api/2024/spells/speak-with-animals",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "control-weather",
+            "name": "Control Weather",
+            "level": 8,
+            "url": "/api/2024/spells/control-weather",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "detect-thoughts",
+            "name": "Detect Thoughts",
+            "level": 2,
+            "url": "/api/2024/spells/detect-thoughts",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic good",
+  "armor_class": [
+    {
+      "value": 20,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 20,
+  "charisma": 22,
+  "condition_immunities": [],
+  "constitution": 25,
+  "damage_immunities": [
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "19d20",
+  "hit_points": 332,
+  "hit_points_roll": "19d20 + 133",
+  "image": "/api/images/monsters/ancient-brass-dragon.png",
+  "intelligence": 16,
+  "languages": "Common, Draconic",
+  "legendary_actions": [
+    {
+      "name": "Blazing Light",
+      "desc": "The dragon uses Spellcasting to cast Scorching Ray (level 3 version).",
+      "damage": []
+    },
+    {
+      "name": "Pounce",
+      "desc": "The dragon moves up to half its Speed, and it makes one Rend attack.",
+      "damage": []
+    },
+    {
+      "name": "Scorching Sands",
+      "desc": "Dexterity Saving Throw: DC 20, one creature the dragon can see within 120 feet. Failure: 36 (8d8) Fire damage, and the target\u2019s Speed is halved until the end of its next turn. Failure or Success: The dragon can\u2019t take this action again until the start of its next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "8d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      }
+    }
+  ],
+  "name": "Ancient Brass Dragon",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 14,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion",
+        "url": "/api/2024/proficiencies/skill-persuasion"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 6,
+  "senses": {
+    "darkvision": "120 ft.",
+    "blindsight": "60 ft.",
+    "passive_perception": 24
+  },
+  "size": "Gargantuan",
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 4,
+        "times_in_lair": 5,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "burrow": "40 ft.",
+    "fly": "80 ft."
+  },
+  "strength": 27,
+  "type": "dragon",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/ancient-brass-dragon",
+  "wisdom": 15,
+  "xp": 25000,
+  "xp_in_lair": 33000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

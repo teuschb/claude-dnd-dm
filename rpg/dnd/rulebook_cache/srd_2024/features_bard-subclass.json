@@ -1,0 +1,17 @@
+{
+  "index": "bard-subclass",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "description": "You gain a Bard subclass of your choice. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.",
+  "level": {
+    "index": "bard-3",
+    "name": "Bard 3",
+    "url": "/api/2024/classes/bard/levels/3"
+  },
+  "name": "Bard Subclass",
+  "updated_at": "2026-07-05T20:53:29.088Z",
+  "url": "/api/2024/features/bard-subclass"
+}

@@ -1,0 +1,697 @@
+[
+  {
+    "index": "cleric-1",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 0
+    },
+    "features": [
+      {
+        "index": "cleric-divine-order",
+        "name": "Divine Order",
+        "url": "/api/2024/features/cleric-divine-order"
+      },
+      {
+        "index": "cleric-spellcasting",
+        "name": "Spellcasting",
+        "url": "/api/2024/features/cleric-spellcasting"
+      }
+    ],
+    "level": 1,
+    "name": "Cleric 1",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 4,
+      "spell_slots_level_1": 2,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/1"
+  },
+  {
+    "index": "cleric-2",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "cleric-channel-divinity",
+        "name": "Channel Divinity",
+        "url": "/api/2024/features/cleric-channel-divinity"
+      }
+    ],
+    "level": 2,
+    "name": "Cleric 2",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 5,
+      "spell_slots_level_1": 3,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/2"
+  },
+  {
+    "index": "cleric-3",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "cleric-subclass",
+        "name": "Cleric Subclass",
+        "url": "/api/2024/features/cleric-subclass"
+      }
+    ],
+    "level": 3,
+    "name": "Cleric 3",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 6,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 2,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/3"
+  },
+  {
+    "index": "cleric-4",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "cleric-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/cleric-ability-score-improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Cleric 4",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 7,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/4"
+  },
+  {
+    "index": "cleric-5",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "cleric-sear-undead",
+        "name": "Sear Undead",
+        "url": "/api/2024/features/cleric-sear-undead"
+      }
+    ],
+    "level": 5,
+    "name": "Cleric 5",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 9,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 2,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/5"
+  },
+  {
+    "index": "cleric-6",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-subclass",
+        "name": "Cleric Subclass",
+        "url": "/api/2024/features/cleric-subclass"
+      }
+    ],
+    "level": 6,
+    "name": "Cleric 6",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 10,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/6"
+  },
+  {
+    "index": "cleric-7",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-blessed-strikes",
+        "name": "Blessed Strikes",
+        "url": "/api/2024/features/cleric-blessed-strikes"
+      }
+    ],
+    "level": 7,
+    "name": "Cleric 7",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 11,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 1,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/7"
+  },
+  {
+    "index": "cleric-8",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/cleric-ability-score-improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Cleric 8",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 12,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 2,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/8"
+  },
+  {
+    "index": "cleric-9",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 9,
+    "name": "Cleric 9",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 14,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 1,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/9"
+  },
+  {
+    "index": "cleric-10",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-divine-intervention",
+        "name": "Divine Intervention",
+        "url": "/api/2024/features/cleric-divine-intervention"
+      }
+    ],
+    "level": 10,
+    "name": "Cleric 10",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 15,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/10"
+  },
+  {
+    "index": "cleric-11",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 11,
+    "name": "Cleric 11",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/11"
+  },
+  {
+    "index": "cleric-12",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/cleric-ability-score-improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Cleric 12",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/12"
+  },
+  {
+    "index": "cleric-13",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 13,
+    "name": "Cleric 13",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/13"
+  },
+  {
+    "index": "cleric-14",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-improved-blessed-strikes",
+        "name": "Improved Blessed Strikes",
+        "url": "/api/2024/features/cleric-improved-blessed-strikes"
+      }
+    ],
+    "level": 14,
+    "name": "Cleric 14",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/14"
+  },
+  {
+    "index": "cleric-15",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 15,
+    "name": "Cleric 15",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/15"
+  },
+  {
+    "index": "cleric-16",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/cleric-ability-score-improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Cleric 16",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/16"
+  },
+  {
+    "index": "cleric-17",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "cleric-subclass",
+        "name": "Cleric Subclass",
+        "url": "/api/2024/features/cleric-subclass"
+      }
+    ],
+    "level": 17,
+    "name": "Cleric 17",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 19,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/17"
+  },
+  {
+    "index": "cleric-18",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 4
+    },
+    "features": [],
+    "level": 18,
+    "name": "Cleric 18",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 20,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/18"
+  },
+  {
+    "index": "cleric-19",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 4
+    },
+    "features": [
+      {
+        "index": "cleric-epic-boon",
+        "name": "Epic Boon",
+        "url": "/api/2024/features/cleric-epic-boon"
+      }
+    ],
+    "level": 19,
+    "name": "Cleric 19",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 21,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/19"
+  },
+  {
+    "index": "cleric-20",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 4
+    },
+    "features": [
+      {
+        "index": "cleric-greater-divine-intervention",
+        "name": "Greater Divine Intervention",
+        "url": "/api/2024/features/cleric-greater-divine-intervention"
+      }
+    ],
+    "level": 20,
+    "name": "Cleric 20",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 22,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 2,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/cleric/levels/20"
+  }
+]

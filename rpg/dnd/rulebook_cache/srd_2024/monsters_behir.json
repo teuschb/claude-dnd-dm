@@ -1,0 +1,194 @@
+{
+  "index": "behir",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The behir makes one Bite attack and uses Constrict.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Constrict",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 19 (2d12 + 6) Piercing damage plus 11 (2d10) Lightning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d12+6"
+        },
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "2d10"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Constrict",
+      "desc": "Strength Saving Throw: DC 18, one Large or smaller creature the behir can see within 5 feet. Failure: 28 (5d8 + 6) Bludgeoning damage. The target has the Grappled condition (escape DC 16), and it has the Restrained condition until the grapple ends.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "5d8+6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 18,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Lightning Breath",
+      "desc": "Dexterity Saving Throw: DC 16, each creature in a 90-foot-long, 5-footwide Line. Failure: 66 (12d10) Lightning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "12d10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 16,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "desc": "Dexterity Saving Throw: DC 18, one Large or smaller creature Grappled by the behir (the behir can have only one creature swallowed at a time). Failure: The behir swallows the target, which is no longer Grappled. While swallowed, a creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the behir, and takes 21 (6d6) Acid damage at the start of each of the behir\u2019s turns. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls in a space within 10 feet of the behir and has the Prone condition. If the behir dies, a swallowed creature is no longer Restrained and can escape from the corpse by using 15 feet of movement, exiting Prone.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "6d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 18,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 11,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 18,
+  "damage_immunities": [
+    "lightning"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "16d12",
+  "hit_points": 168,
+  "hit_points_roll": "16d12 + 64",
+  "image": "/api/images/monsters/behir.png",
+  "intelligence": 7,
+  "languages": "Draconic",
+  "legendary_actions": [],
+  "name": "Behir",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "90 ft.",
+    "passive_perception": 16
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "50 ft.",
+    "climb": "50 ft."
+  },
+  "strength": 23,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/behir",
+  "wisdom": 14,
+  "xp": 7200,
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "tome-of-clear-thought",
+  "url": "/api/2024/magic-items/tome-of-clear-thought",
+  "image": "/api/images/magic-items/tome-of-clear-thought.png",
+  "name": "Tome of Clear Thought",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Wondrous Item  \n This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of30. The manual then loses its magic but regains it in a century.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

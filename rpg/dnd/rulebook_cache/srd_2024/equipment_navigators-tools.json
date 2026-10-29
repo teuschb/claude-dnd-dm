@@ -1,0 +1,59 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "navigators-tools",
+  "name": "Navigator's Tools",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "cost": {
+    "quantity": 25,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Plot a course",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Determine position by stargazing",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 2,
+  "url": "/api/2024/equipment/navigators-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": []
+}

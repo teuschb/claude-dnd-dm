@@ -1,0 +1,19 @@
+{
+  "index": "horseshoes-of-speed",
+  "url": "/api/2024/magic-items/horseshoes-of-speed",
+  "image": "/api/images/magic-items/horseshoes-of-speed.png",
+  "name": "Horseshoes of Speed",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wondrous Item  \n These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.  \n While all four horseshoes are attached to the same creature, its Speed is increased by 30 feet.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

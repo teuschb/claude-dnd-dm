@@ -1,0 +1,19 @@
+{
+  "index": "mantle-of-spell-resistance",
+  "url": "/api/2024/magic-items/mantle-of-spell-resistance",
+  "image": "/api/images/magic-items/mantle-of-spell-resistance.png",
+  "name": "Mantle of Spell Resistance",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wondrous Item  \n You have Advantage on saving throws against spells while you wear this cloak.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

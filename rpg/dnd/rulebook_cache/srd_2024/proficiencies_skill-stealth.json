@@ -1,0 +1,20 @@
+{
+  "index": "skill-stealth",
+  "type": "Skills",
+  "name": "Skill: Stealth",
+  "backgrounds": [
+    {
+      "index": "criminal",
+      "name": "Criminal",
+      "url": "/api/2024/backgrounds/criminal"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "stealth",
+    "name": "Stealth",
+    "url": "/api/2024/skills/stealth"
+  },
+  "url": "/api/2024/proficiencies/skill-stealth",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

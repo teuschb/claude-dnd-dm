@@ -1,0 +1,79 @@
+{
+  "index": "giant-wasp",
+  "actions": [
+    {
+      "name": "Sting",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "2d4"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "5d8",
+  "hit_points": 22,
+  "hit_points_roll": "5d8",
+  "image": "/api/images/monsters/giant-wasp.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Wasp",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The wasp doesn\u2019t provoke an Opportunity Attack when it flies out of an enemy\u2019s reach.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "50 ft."
+  },
+  "strength": 10,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-wasp",
+  "wisdom": 10,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,30 @@
+{
+  "index": "high-elf-cantrip-versatility",
+  "url": "/api/2024/traits/high-elf-cantrip-versatility",
+  "name": "High Elf: Cantrip Versatility",
+  "description": "You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
+  "spells": [
+    {
+      "spell": {
+        "index": "prestidigitation",
+        "name": "Prestidigitation",
+        "url": "/api/2024/spells/prestidigitation"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "elven-lineage-high-elf",
+      "url": "/api/2024/subspecies/elven-lineage-high-elf",
+      "name": "Elven Lineage: High Elf"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.795Z"
+}

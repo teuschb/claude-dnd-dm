@@ -1,0 +1,20 @@
+{
+  "index": "whips",
+  "type": "Weapons",
+  "name": "Whips",
+  "classes": [
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/whips",
+  "reference": {
+    "index": "whip",
+    "name": "Whip",
+    "url": "/api/2024/equipment/whip"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "lantern-hooded",
+  "name": "Lantern, Hooded",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "description": [
+    "A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again."
+  ],
+  "weight": 2,
+  "url": "/api/2024/equipment/lantern-hooded",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

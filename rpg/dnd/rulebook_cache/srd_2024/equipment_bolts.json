@@ -1,0 +1,30 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "bolts",
+  "name": "Bolts",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "quantity": 20,
+  "storage": {
+    "index": "case-crossbow-bolt",
+    "name": "Case, Crossbow Bolt",
+    "url": "/api/2024/equipment/case-crossbow-bolt"
+  },
+  "weight": 1.5,
+  "url": "/api/2024/equipment/bolts",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

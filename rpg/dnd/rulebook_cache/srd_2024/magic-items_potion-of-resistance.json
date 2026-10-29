@@ -1,0 +1,19 @@
+{
+  "index": "potion-of-resistance",
+  "url": "/api/2024/magic-items/potion-of-resistance",
+  "image": "/api/images/magic-items/potion-of-resistance.png",
+  "name": "Potion of Resistance",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Potion  \n When you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table.1d10  Damage Type  1d10  Damage Type1 Acid  6  Necrotic2 Cold  7  Poison3 Fire  8  Psychic4 Force  9  Radiant5 Lightning  10  Thunder",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

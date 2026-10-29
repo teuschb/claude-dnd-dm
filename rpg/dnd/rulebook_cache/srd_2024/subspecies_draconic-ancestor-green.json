@@ -1,0 +1,30 @@
+{
+  "index": "draconic-ancestor-green",
+  "url": "/api/2024/subspecies/draconic-ancestor-green",
+  "name": "Draconic Ancestor: Green",
+  "damage_type": {
+    "index": "poison",
+    "name": "Poison",
+    "url": "/api/2024/damage-types/poison"
+  },
+  "species": {
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "url": "/api/2024/species/dragonborn"
+  },
+  "traits": [
+    {
+      "index": "draconic-breath-weapon-poison",
+      "url": "/api/2024/traits/draconic-breath-weapon-poison",
+      "name": "Breath Weapon: Poison",
+      "level": 1
+    },
+    {
+      "index": "draconic-damage-resistance-poison",
+      "url": "/api/2024/traits/draconic-damage-resistance-poison",
+      "name": "Damage Resistance: Poison",
+      "level": 1
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

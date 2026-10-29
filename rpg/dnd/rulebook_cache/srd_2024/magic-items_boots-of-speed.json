@@ -1,0 +1,19 @@
+{
+  "index": "boots-of-speed",
+  "url": "/api/2024/magic-items/boots-of-speed",
+  "image": "/api/images/magic-items/boots-of-speed.png",
+  "name": "Boots of Speed",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wondrous Item  \n While you wear these boots, you can take a Bonus Action to click the boots' heels together. If you do, the boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together again, you end the effect.  \n When you've used the boots' property for a total of 10 minutes, the magic ceases to function for you until you finish a Long Rest.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

@@ -1,0 +1,19 @@
+{
+  "index": "potion-of-gaseous-form",
+  "url": "/api/2024/magic-items/potion-of-gaseous-form",
+  "image": "/api/images/magic-items/potion-of-gaseous-form.png",
+  "name": "Potion of Gaseous Form",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Potion  \n Potion of Healing    (supreme)",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

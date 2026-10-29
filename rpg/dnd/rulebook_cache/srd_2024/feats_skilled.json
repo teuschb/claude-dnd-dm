@@ -1,0 +1,9 @@
+{
+  "index": "skilled",
+  "name": "Skilled",
+  "description": "You gain proficiency in any combination of three skills or tools of your choice.",
+  "repeatable": "You can take this feat more than once.",
+  "type": "origin",
+  "url": "/api/2024/feats/skilled",
+  "updated_at": "2026-04-23T07:06:27.241Z"
+}

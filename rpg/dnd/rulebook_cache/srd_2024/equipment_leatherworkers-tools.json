@@ -1,0 +1,108 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "leatherworkers-tools",
+  "name": "Leatherworker's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "sling",
+      "name": "Sling",
+      "url": "/api/2024/equipment/sling"
+    },
+    {
+      "index": "whip",
+      "name": "Whip",
+      "url": "/api/2024/equipment/whip"
+    },
+    {
+      "index": "hide-armor",
+      "name": "Hide Armor",
+      "url": "/api/2024/equipment/hide-armor"
+    },
+    {
+      "index": "leather-armor",
+      "name": "Leather Armor",
+      "url": "/api/2024/equipment/leather-armor"
+    },
+    {
+      "index": "studded-leather-armor",
+      "name": "Studded Leather Armor",
+      "url": "/api/2024/equipment/studded-leather-armor"
+    },
+    {
+      "index": "backpack",
+      "name": "Backpack",
+      "url": "/api/2024/equipment/backpack"
+    },
+    {
+      "index": "case-crossbow-bolt",
+      "name": "Case, Crossbow Bolt",
+      "url": "/api/2024/equipment/case-crossbow-bolt"
+    },
+    {
+      "index": "case-map-or-scroll",
+      "name": "Case, Map or Scroll",
+      "url": "/api/2024/equipment/case-map-or-scroll"
+    },
+    {
+      "index": "parchment",
+      "name": "Parchment",
+      "url": "/api/2024/equipment/parchment"
+    },
+    {
+      "index": "pouch",
+      "name": "Pouch",
+      "url": "/api/2024/equipment/pouch"
+    },
+    {
+      "index": "quiver",
+      "name": "Quiver",
+      "url": "/api/2024/equipment/quiver"
+    },
+    {
+      "index": "waterskin",
+      "name": "Waterskin",
+      "url": "/api/2024/equipment/waterskin"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Add a design to a leather item",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/leatherworkers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

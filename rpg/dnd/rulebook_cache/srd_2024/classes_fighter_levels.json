@@ -1,0 +1,517 @@
+[
+  {
+    "index": "fighter-1",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "fighter-fighting-style",
+        "name": "Fighting Style",
+        "url": "/api/2024/features/fighter-fighting-style"
+      },
+      {
+        "index": "fighter-second-wind",
+        "name": "Second Wind",
+        "url": "/api/2024/features/fighter-second-wind"
+      },
+      {
+        "index": "fighter-weapon-mastery",
+        "name": "Weapon Mastery",
+        "url": "/api/2024/features/fighter-weapon-mastery"
+      }
+    ],
+    "level": 1,
+    "name": "Fighter 1",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/1"
+  },
+  {
+    "index": "fighter-2",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "fighter-action-surge",
+        "name": "Action Surge",
+        "url": "/api/2024/features/fighter-action-surge"
+      },
+      {
+        "index": "fighter-tactical-mind",
+        "name": "Tactical Mind",
+        "url": "/api/2024/features/fighter-tactical-mind"
+      }
+    ],
+    "level": 2,
+    "name": "Fighter 2",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/2"
+  },
+  {
+    "index": "fighter-3",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "fighter-subclass",
+        "name": "Fighter Subclass",
+        "url": "/api/2024/features/fighter-subclass"
+      }
+    ],
+    "level": 3,
+    "name": "Fighter 3",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/3"
+  },
+  {
+    "index": "fighter-4",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Fighter 4",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/4"
+  },
+  {
+    "index": "fighter-5",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-extra-attack",
+        "url": "/api/2024/features/fighter-extra-attack",
+        "name": "Extra Attack"
+      },
+      {
+        "index": "fighter-tactical-shift",
+        "url": "/api/2024/features/fighter-tactical-shift",
+        "name": "Tactical Shift"
+      }
+    ],
+    "level": 5,
+    "name": "Fighter 5",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/5"
+  },
+  {
+    "index": "fighter-6",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 6,
+    "name": "Fighter 6",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/6"
+  },
+  {
+    "index": "fighter-7",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-subclass",
+        "url": "/api/2024/features/fighter-subclass",
+        "name": "Fighter Subclass"
+      }
+    ],
+    "level": 7,
+    "name": "Fighter 7",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/7"
+  },
+  {
+    "index": "fighter-8",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Fighter 8",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/8"
+  },
+  {
+    "index": "fighter-9",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "fighter-indomitable",
+        "url": "/api/2024/features/fighter-indomitable",
+        "name": "Indomitable"
+      },
+      {
+        "index": "fighter-tactical-master",
+        "url": "/api/2024/features/fighter-tactical-master",
+        "name": "Tactical Master"
+      }
+    ],
+    "level": 9,
+    "name": "Fighter 9",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/9"
+  },
+  {
+    "index": "fighter-10",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-subclass",
+        "url": "/api/2024/features/fighter-subclass",
+        "name": "Fighter Subclass"
+      }
+    ],
+    "level": 10,
+    "name": "Fighter 10",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/10"
+  },
+  {
+    "index": "fighter-11",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-two-extra-attacks",
+        "url": "/api/2024/features/fighter-two-extra-attacks",
+        "name": "Two Extra Attacks"
+      }
+    ],
+    "level": 11,
+    "name": "Fighter 11",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/11"
+  },
+  {
+    "index": "fighter-12",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Fighter 12",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/12"
+  },
+  {
+    "index": "fighter-13",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-indomitable",
+        "url": "/api/2024/features/fighter-indomitable",
+        "name": "Indomitable"
+      },
+      {
+        "index": "fighter-studied-attacks",
+        "url": "/api/2024/features/fighter-studied-attacks",
+        "name": "Studied Attacks"
+      }
+    ],
+    "level": 13,
+    "name": "Fighter 13",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/13"
+  },
+  {
+    "index": "fighter-14",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 14,
+    "name": "Fighter 14",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/14"
+  },
+  {
+    "index": "fighter-15",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 5
+    },
+    "features": [
+      {
+        "index": "fighter-subclass",
+        "url": "/api/2024/features/fighter-subclass",
+        "name": "Fighter Subclass"
+      }
+    ],
+    "level": 15,
+    "name": "Fighter 15",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/15"
+  },
+  {
+    "index": "fighter-16",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 6
+    },
+    "features": [
+      {
+        "index": "fighter-ability-score-improvement",
+        "url": "/api/2024/features/fighter-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Fighter 16",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/16"
+  },
+  {
+    "index": "fighter-17",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 6
+    },
+    "features": [
+      {
+        "index": "fighter-action-surge",
+        "url": "/api/2024/features/fighter-action-surge",
+        "name": "Action Surge"
+      },
+      {
+        "index": "fighter-indomitable",
+        "url": "/api/2024/features/fighter-indomitable",
+        "name": "Indomitable"
+      }
+    ],
+    "level": 17,
+    "name": "Fighter 17",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/17"
+  },
+  {
+    "index": "fighter-18",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 6
+    },
+    "features": [
+      {
+        "index": "fighter-subclass",
+        "url": "/api/2024/features/fighter-subclass",
+        "name": "Fighter Subclass"
+      }
+    ],
+    "level": 18,
+    "name": "Fighter 18",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/18"
+  },
+  {
+    "index": "fighter-19",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 6
+    },
+    "features": [
+      {
+        "index": "fighter-epic-boon",
+        "url": "/api/2024/features/fighter-epic-boon",
+        "name": "Epic Boon"
+      }
+    ],
+    "level": 19,
+    "name": "Fighter 19",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/19"
+  },
+  {
+    "index": "fighter-20",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "class_specific": {
+      "second_wind_uses": 4,
+      "weapon_mastery": 6
+    },
+    "features": [
+      {
+        "index": "fighter-three-extra-attacks",
+        "url": "/api/2024/features/fighter-three-extra-attacks",
+        "name": "Three Extra Attacks"
+      }
+    ],
+    "level": 20,
+    "name": "Fighter 20",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/fighter/levels/20"
+  }
+]

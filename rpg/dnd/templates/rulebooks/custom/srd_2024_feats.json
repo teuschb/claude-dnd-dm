@@ -1,0 +1,684 @@
+{
+  "$schema": "dm20-protocol/rulebook-v1",
+  "name": "SRD 2024 Feats (full list, verified transcription)",
+  "version": "2.0",
+  "content": {
+    "feats": [
+      {
+        "index": "ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20. Repeatable. You can take this feat more than once."
+        ]
+      },
+      {
+        "index": "actor",
+        "name": "Actor",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Charisma 13+)",
+          "Ability Score Increase. Increase your Charisma score by 1, to a maximum of 20. Impersonation. While you're disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person. Mimicry. You can mimic the sounds of other creatures, including speech."
+        ]
+      },
+      {
+        "index": "alert",
+        "name": "Alert",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll. Initiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat."
+        ]
+      },
+      {
+        "index": "archery",
+        "name": "Archery",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "You gain a +2 bonus to attack rolls you make with Ranged weapons."
+        ]
+      },
+      {
+        "index": "athlete",
+        "name": "Athlete",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20. Climb Speed equal to your Speed. Hop Up with only 5 feet of movement. Jumping after moving only 5 feet."
+        ]
+      },
+      {
+        "index": "blind-fighting",
+        "name": "Blind Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "You have Blindsight with a range of 10 feet."
+        ]
+      },
+      {
+        "index": "boon-of-combat-prowess",
+        "name": "Boon of Combat Prowess",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Peerless Aim: when you miss with an attack roll, you can hit instead, once until start of next turn."
+        ]
+      },
+      {
+        "index": "boon-of-dimensional-travel",
+        "name": "Boon of Dimensional Travel",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Blink Steps: teleport up to 30 feet immediately after Attack or Magic action."
+        ]
+      },
+      {
+        "index": "boon-of-energy-resistance",
+        "name": "Boon of Energy Resistance",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Description not available (not OGL)."
+        ]
+      },
+      {
+        "index": "boon-of-fate",
+        "name": "Boon of Fate",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Improve Fate: roll 2d4 to boost or penalize a nearby D20 Test, once per Initiative roll or rest."
+        ]
+      },
+      {
+        "index": "boon-of-fortitude",
+        "name": "Boon of Fortitude",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Description not available (not OGL)."
+        ]
+      },
+      {
+        "index": "boon-of-irresistible-offense",
+        "name": "Boon of Irresistible Offense",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 30). Overcome Defenses: physical damage ignores Resistance. Overwhelming Strike: natural 20 deals extra damage equal to the increased ability score."
+        ]
+      },
+      {
+        "index": "boon-of-recovery",
+        "name": "Boon of Recovery",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Description not available (not OGL)."
+        ]
+      },
+      {
+        "index": "boon-of-skill",
+        "name": "Boon of Skill",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Description not available (not OGL)."
+        ]
+      },
+      {
+        "index": "boon-of-speed",
+        "name": "Boon of Speed",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Description not available (not OGL)."
+        ]
+      },
+      {
+        "index": "boon-of-spell-recall",
+        "name": "Boon of Spell Recall",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 30). Free Casting: roll 1d4 when casting a level 1-4 spell; matching the slot level refunds the slot."
+        ]
+      },
+      {
+        "index": "boon-of-the-night-spirit",
+        "name": "Boon of the Night Spirit",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Merge with Shadows: Invisible as a Bonus Action in Dim Light/Darkness until you act. Shadowy Form: Resistance to all but Psychic/Radiant damage in Dim Light/Darkness."
+        ]
+      },
+      {
+        "index": "boon-of-truesight",
+        "name": "Boon of Truesight",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Truesight within 60 feet."
+        ]
+      },
+      {
+        "index": "charger",
+        "name": "Charger",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Improved Dash: +10 ft Speed when Dashing. Charge Attack: after moving 10+ feet in a line before a melee hit, gain +1d8 damage or push the target 10 feet, once per turn."
+        ]
+      },
+      {
+        "index": "chef",
+        "name": "Chef",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (CON/WIS) by 1 (max 20). Cook's Utensils proficiency. Replenishing Meal: cooked food after a Short Rest grants extra Hit Die healing. Bolstering Treats: cooked treats grant Temporary HP once per Long Rest."
+        ]
+      },
+      {
+        "index": "crafter",
+        "name": "Crafter",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Tool Proficiency with three Artisan's Tools. Discount: 20% off nonmagical items. Fast Crafting: craft a temporary piece of gear (per an Artisan's Tools table) each Long Rest."
+        ]
+      },
+      {
+        "index": "crossbow-expert",
+        "name": "Crossbow Expert",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+          "Ability Score Increase (DEX) by 1 (max 20). Ignore Loading on crossbows. Firing in Melee without Disadvantage. Dual Wielding: add ability modifier to Light-property crossbow bonus attacks."
+        ]
+      },
+      {
+        "index": "crusher",
+        "name": "Crusher",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/CON) by 1 (max 20). Push: move a Bludgeoning-hit target 5 feet, once per turn. Enhanced Critical: Bludgeoning crit grants Advantage on attacks against that creature until your next turn."
+        ]
+      },
+      {
+        "index": "defense",
+        "name": "Defense",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "While wearing any armor, +1 bonus to Armor Class."
+        ]
+      },
+      {
+        "index": "defensive-duelist",
+        "name": "Defensive Duelist",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+          "Ability Score Increase (DEX) by 1 (max 20). Parry: Reaction with a Finesse weapon adds Proficiency Bonus to AC against one melee attack."
+        ]
+      },
+      {
+        "index": "dual-wielder",
+        "name": "Dual Wielder",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Enhanced Dual Wielding: bonus-action extra attack with a non-two-handed melee weapon after attacking with a Light weapon. Quick Draw: draw/stow two weapons at once."
+        ]
+      },
+      {
+        "index": "dueling",
+        "name": "Dueling",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "While holding a Melee weapon in one hand and no other weapons, +2 bonus to damage rolls with it."
+        ]
+      },
+      {
+        "index": "durable",
+        "name": "Durable",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (CON) by 1 (max 20). Defy Death: Advantage on Death Saving Throws. Speedy Recovery: Bonus Action to spend a Hit Die and heal."
+        ]
+      },
+      {
+        "index": "elemental-adept",
+        "name": "Elemental Adept",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Energy Mastery: choose a damage type (Acid/Cold/Fire/Lightning/Thunder); your spells of that type ignore Resistance and treat 1s on damage dice as 2s. Repeatable, different type each time."
+        ]
+      },
+      {
+        "index": "fey-touched",
+        "name": "Fey-Touched",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Fey Magic: always-prepared free-cast Misty Step plus a chosen level 1 Divination/Enchantment spell, once per Long Rest each."
+        ]
+      },
+      {
+        "index": "grappler",
+        "name": "Grappler",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Punch and Grab: combine Unarmed Strike damage and Grapple in one attack, once per turn. Attack Advantage against creatures you've grappled. Fast Wrestler: move grappled same-or-smaller creatures freely."
+        ]
+      },
+      {
+        "index": "great-weapon-fighting",
+        "name": "Great Weapon Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "When rolling damage with a two-handed or Versatile Melee weapon held two-handed, treat 1s or 2s on damage dice as 3s."
+        ]
+      },
+      {
+        "index": "great-weapon-master",
+        "name": "Great Weapon Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength 13+)",
+          "Ability Score Increase (STR) by 1 (max 20). Heavy Weapon Mastery: extra damage equal to Proficiency Bonus on a hit with a Heavy weapon. Hew: bonus-action attack after a Critical Hit or a kill with a Melee weapon."
+        ]
+      },
+      {
+        "index": "healer",
+        "name": "Healer",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Battle Medic: expend a Healer's Kit use to let a nearby creature spend a Hit Die, healed plus your Proficiency Bonus. Healing Rerolls: reroll 1s on healing dice (spells or Battle Medic)."
+        ]
+      },
+      {
+        "index": "heavily-armored",
+        "name": "Heavily Armored",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
+          "Ability Score Increase (CON/STR) by 1 (max 20). Armor Training: gain training with Heavy armor."
+        ]
+      },
+      {
+        "index": "heavy-armor-master",
+        "name": "Heavy Armor Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Heavy Armor Training)",
+          "Ability Score Increase (CON/STR) by 1 (max 20). Damage Reduction: reduce Bludgeoning/Piercing/Slashing damage taken while wearing Heavy armor by your Proficiency Bonus."
+        ]
+      },
+      {
+        "index": "inspiring-leader",
+        "name": "Inspiring Leader",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Wisdom or Charisma 13+)",
+          "Ability Score Increase (WIS/CHA) by 1 (max 20). Bolstering Performance: after a rest, grant Temporary HP (character level + ability modifier) to up to six allies who witness a performance."
+        ]
+      },
+      {
+        "index": "interception",
+        "name": "Interception",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "Reaction to reduce damage to a nearby ally hit by an attack by 1d10 plus your Proficiency Bonus, while holding a Shield/Simple/Martial weapon."
+        ]
+      },
+      {
+        "index": "keen-mind",
+        "name": "Keen Mind",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Intelligence 13+)",
+          "Ability Score Increase (INT) by 1 (max 20). Lore Knowledge: proficiency or Expertise in a chosen knowledge skill. Quick Study: take the Study action as a Bonus Action."
+        ]
+      },
+      {
+        "index": "lightly-armored",
+        "name": "Lightly Armored",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Armor Training: gain training with Light armor and Shields."
+        ]
+      },
+      {
+        "index": "lucky",
+        "name": "Lucky",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Luck Points equal to Proficiency Bonus, regained on a Long Rest. Spend 1 to give yourself Advantage on a D20 Test, or impose Disadvantage on an attack roll made against you."
+        ]
+      },
+      {
+        "index": "mage-slayer",
+        "name": "Mage Slayer",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Concentration Breaker: damaging a concentrating creature imposes Disadvantage on its Concentration save. Guarded Mind: turn a failed INT/WIS/CHA save into a success, once per rest."
+        ]
+      },
+      {
+        "index": "magic-initiate",
+        "name": "Magic Initiate",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Two Cantrips and a level 1 spell (free-cast once per Long Rest) from the Cleric, Druid, or Wizard list. Repeatable, different list each time."
+        ]
+      },
+      {
+        "index": "martial-weapon-training",
+        "name": "Martial Weapon Training",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Weapon Proficiency with Martial weapons."
+        ]
+      },
+      {
+        "index": "medium-armor-master",
+        "name": "Medium Armor Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Medium Armor Training)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Dexterous Wearer: add up to +3 (instead of +2) Dexterity to AC in Medium armor."
+        ]
+      },
+      {
+        "index": "moderately-armored",
+        "name": "Moderately Armored",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Light Armor Training)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Armor Training: gain training with Medium armor."
+        ]
+      },
+      {
+        "index": "mounted-combatant",
+        "name": "Mounted Combatant",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX/WIS) by 1 (max 20). Mounted Strike: Advantage vs smaller unmounted creatures near your mount. Leap Aside and Veer: protect your mount from area/attack damage."
+        ]
+      },
+      {
+        "index": "musician",
+        "name": "Musician",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Instrument Training with three instruments. Encouraging Song: grant Heroic Inspiration to allies (equal to Proficiency Bonus) after a rest."
+        ]
+      },
+      {
+        "index": "observant",
+        "name": "Observant",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Intelligence or Wisdom 13+)",
+          "Ability Score Increase (INT/WIS) by 1 (max 20). Keen Observer: proficiency or Expertise in Insight/Investigation/Perception. Quick Search: take the Search action as a Bonus Action."
+        ]
+      },
+      {
+        "index": "piercer",
+        "name": "Piercer",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Puncture: reroll a Piercing damage die once per turn. Enhanced Critical: extra Piercing damage die on a crit."
+        ]
+      },
+      {
+        "index": "poisoner",
+        "name": "Poisoner",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (DEX/INT) by 1 (max 20). Potent Poison: your Poison damage ignores Resistance. Brew Poison: craft poison doses with a Poisoner's Kit dealing 2d8 Poison + Poisoned on a failed save."
+        ]
+      },
+      {
+        "index": "polearm-master",
+        "name": "Polearm Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (DEX/STR) by 1 (max 20). Pole Strike: bonus-action d4 Bludgeoning attack with the opposite end of a reach/heavy polearm. Reactive Strike: Opportunity Attack when a creature enters your reach."
+        ]
+      },
+      {
+        "index": "protection",
+        "name": "Protection",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "Reaction with a Shield to impose Disadvantage on an attack targeting a nearby ally."
+        ]
+      },
+      {
+        "index": "resilient",
+        "name": "Resilient",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase by 1 (max 20) in an ability you lack saving throw proficiency in, plus gain that saving throw proficiency."
+        ]
+      },
+      {
+        "index": "ritual-caster",
+        "name": "Ritual Caster",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Ritual Spells: always-prepared level 1 Ritual-tag spells equal to Proficiency Bonus. Quick Ritual: cast one of them at normal casting time once per Long Rest without a slot."
+        ]
+      },
+      {
+        "index": "savage-attacker",
+        "name": "Savage Attacker",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Once per turn on a weapon hit, roll the weapon's damage dice twice and use either result."
+        ]
+      },
+      {
+        "index": "sentinel",
+        "name": "Sentinel",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Guardian: Opportunity Attack when a nearby creature Disengages or attacks someone else. Halt: an Opportunity Attack hit reduces the target's Speed to 0 for the turn."
+        ]
+      },
+      {
+        "index": "shadow-touched",
+        "name": "Shadow-Touched",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Shadow Magic: always-prepared free-cast Invisibility plus a chosen level 1 Illusion/Necromancy spell, once per Long Rest each."
+        ]
+      },
+      {
+        "index": "sharpshooter",
+        "name": "Sharpshooter",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+          "Ability Score Increase (DEX) by 1 (max 20). Bypass Cover, Firing in Melee, and Long Shots: ranged attacks ignore cover penalties, melee-adjacency Disadvantage, and long-range Disadvantage."
+        ]
+      },
+      {
+        "index": "shield-master",
+        "name": "Shield Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Shield Training)",
+          "Ability Score Increase (STR) by 1 (max 20). Shield Bash: push/Prone a melee-hit target via Shield, once per turn. Interpose Shield: no damage on a successful Dexterity save while wielding a Shield."
+        ]
+      },
+      {
+        "index": "skill-expert",
+        "name": "Skill Expert",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase by 1 (max 20). Gain one skill proficiency, plus Expertise in a skill you already have."
+        ]
+      },
+      {
+        "index": "skilled",
+        "name": "Skilled",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Proficiency in any combination of three skills or tools. Repeatable."
+        ]
+      },
+      {
+        "index": "skulker",
+        "name": "Skulker",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Dexterity 13+)",
+          "Ability Score Increase (DEX) by 1 (max 20). Blindsight 10 ft. Fog of War: Advantage on Stealth checks made while Hiding in combat. Sniper: a missed hidden attack doesn't reveal your location."
+        ]
+      },
+      {
+        "index": "slasher",
+        "name": "Slasher",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Hamstring: reduce a Slashing-hit target's Speed by 10 ft, once per turn. Enhanced Critical: a Slashing crit imposes Disadvantage on the target's attacks until your next turn."
+        ]
+      },
+      {
+        "index": "speedy",
+        "name": "Speedy",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)",
+          "Ability Score Increase (DEX/CON) by 1 (max 20). +10 ft Speed. Dash Over Difficult Terrain ignores its extra cost when Dashing. Agile Movement: Opportunity Attacks against you have Disadvantage."
+        ]
+      },
+      {
+        "index": "spell-sniper",
+        "name": "Spell Sniper",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Bypass Cover and Casting in Melee for spell attacks. Increased Range: +60 ft on attack-roll spells with 10+ ft range."
+        ]
+      },
+      {
+        "index": "tavern-brawler",
+        "name": "Tavern Brawler",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Enhanced Unarmed Strike (1d4+STR Bludgeoning). Damage Rerolls on a 1. Improvised Weaponry proficiency. Push a hit target 5 feet, once per turn."
+        ]
+      },
+      {
+        "index": "telekinetic",
+        "name": "Telekinetic",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Minor Telekinesis: learn an enhanced, silent Mage Hand. Telekinetic Shove: bonus-action forced move on a failed Strength save."
+        ]
+      },
+      {
+        "index": "telepathic",
+        "name": "Telepathic",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Telepathic Utterance within 60 ft. Detect Thoughts always prepared, free-cast once per Long Rest."
+        ]
+      },
+      {
+        "index": "thrown-weapon-fighting",
+        "name": "Thrown Weapon Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "+2 bonus to damage rolls with Thrown-property ranged weapon attacks."
+        ]
+      },
+      {
+        "index": "tough",
+        "name": "Tough",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "HP maximum increases by 2x character level immediately, +2 per level thereafter."
+        ]
+      },
+      {
+        "index": "two-weapon-fighting",
+        "name": "Two-Weapon Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "Add your ability modifier to the damage of a Light-property extra attack."
+        ]
+      },
+      {
+        "index": "unarmed-fighting",
+        "name": "Unarmed Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "Enhanced Unarmed Strike (1d6+STR, or 1d8 if no weapon/Shield held). Deal 1d4 Bludgeoning to a creature you're grappling at the start of your turns."
+        ]
+      },
+      {
+        "index": "war-caster",
+        "name": "War Caster",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 20). Advantage on Concentration saves. Reactive Spell: cast an action-speed single-target spell as your Opportunity Attack Reaction. Somatic Components performable with weapons/Shield in hand."
+        ]
+      },
+      {
+        "index": "weapon-master",
+        "name": "Weapon Master",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Mastery Property: use the mastery property of one proficient Simple/Martial weapon, changeable each Long Rest."
+        ]
+      }
+    ]
+  }
+}

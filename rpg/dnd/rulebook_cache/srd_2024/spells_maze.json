@@ -1,0 +1,30 @@
+{
+  "index": "maze",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": true,
+  "description": "You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.\n  The target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.\n   When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.",
+  "duration": "up to 10 minutes",
+  "level": 8,
+  "name": "Maze",
+  "range": "60 feet",
+  "ritual": false,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/maze",
+  "subclasses": []
+}

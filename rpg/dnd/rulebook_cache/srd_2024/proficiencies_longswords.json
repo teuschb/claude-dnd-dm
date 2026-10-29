@@ -1,0 +1,20 @@
+{
+  "index": "longswords",
+  "type": "Weapons",
+  "name": "Longswords",
+  "classes": [
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/longswords",
+  "reference": {
+    "index": "longsword",
+    "name": "Longsword",
+    "url": "/api/2024/equipment/longsword"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

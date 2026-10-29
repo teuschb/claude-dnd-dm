@@ -1,0 +1,20 @@
+{
+  "index": "skill-history",
+  "type": "Skills",
+  "name": "Skill: History",
+  "backgrounds": [
+    {
+      "index": "sage",
+      "name": "Sage",
+      "url": "/api/2024/backgrounds/sage"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "history",
+    "name": "History",
+    "url": "/api/2024/skills/history"
+  },
+  "url": "/api/2024/proficiencies/skill-history",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

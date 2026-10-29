@@ -1,0 +1,7 @@
+{
+  "index": "paralyzed",
+  "name": "Paralyzed",
+  "description": "While you have the Paralyzed condition, you experience the following effects.\n**Incapacitated.** You have the Incapacitated condition.\n**Speed 0.** Your Speed is 0 and can't increase.\n**Saving Throws Affected.** You automatically fail Strength and Dexterity saving throws.\n**Attacks Affected.** Attack rolls against you have Advantage.\n**Automatic Critical Hits.** Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+  "url": "/api/2024/conditions/paralyzed",
+  "updated_at": "2026-04-23T07:06:26.480Z"
+}

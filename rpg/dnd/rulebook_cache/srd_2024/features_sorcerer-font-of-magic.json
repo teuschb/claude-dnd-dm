@@ -1,0 +1,17 @@
+{
+  "index": "sorcerer-font-of-magic",
+  "class": {
+    "index": "sorcerer",
+    "url": "/api/2024/classes/sorcerer",
+    "name": "Sorcerer"
+  },
+  "description": "You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.\nYou have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can\u2019t have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.\nYou can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.\nConverting Spell Slots to Sorcery Points. You can expend a spell slot to gain a number of Sorcery Points equal to the slot\u2019s level (no action required).\nCreating Spell Slots. As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.\nAny spell slot you create with this feature vanishes when you finish a Long Rest.\nCreating Spell Slots Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level\n1 | 2 | 2\n2 | 3 | 3\n3 | 5 | 5\n4 | 6 | 7\n5 | 7 | 9",
+  "level": {
+    "index": "sorcerer-2",
+    "url": "/api/2024/classes/sorcerer/levels/2",
+    "name": "Sorcerer 2"
+  },
+  "name": "Font of Magic",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/sorcerer-font-of-magic"
+}

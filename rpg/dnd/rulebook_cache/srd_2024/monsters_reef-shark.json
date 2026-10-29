@@ -1,0 +1,86 @@
+{
+  "index": "reef-shark",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d4+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 4,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "4d8",
+  "hit_points": 22,
+  "hit_points_roll": "4d8 + 4",
+  "image": "/api/images/monsters/reef-shark.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Reef Shark",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "30 ft.",
+    "passive_perception": 12
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The shark has Advantage on an attack roll against a creature if at least one of the shark\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The shark can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 14,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/reef-shark",
+  "wisdom": 10,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

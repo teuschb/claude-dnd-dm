@@ -1,0 +1,119 @@
+{
+  "index": "giant-constrictor-snake",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The snake makes one Bite attack and uses Constrict.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Constrict",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d6+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Constrict",
+      "desc": "Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d8+4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "8d12",
+  "hit_points": 60,
+  "hit_points_roll": "8d12 + 8",
+  "image": "/api/images/monsters/giant-constrictor-snake.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Constrictor Snake",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "10 ft.",
+    "passive_perception": 12
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 19,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-constrictor-snake",
+  "wisdom": 10,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

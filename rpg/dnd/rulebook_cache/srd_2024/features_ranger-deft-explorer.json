@@ -1,0 +1,17 @@
+{
+  "index": "ranger-deft-explorer",
+  "class": {
+    "index": "ranger",
+    "url": "/api/2024/classes/ranger",
+    "name": "Ranger"
+  },
+  "description": "Thanks to your travels, you gain the following benefits.\n  Expertise. Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n  Languages. You know two languages of your choice from the language tables in \"Character Creation.\"",
+  "level": {
+    "index": "ranger-2",
+    "url": "/api/2024/classes/ranger/levels/2",
+    "name": "Ranger 2"
+  },
+  "name": "Deft Explorer",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/ranger-deft-explorer"
+}

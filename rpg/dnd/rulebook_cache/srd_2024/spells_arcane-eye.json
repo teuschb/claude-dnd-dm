@@ -1,0 +1,32 @@
+{
+  "index": "arcane-eye",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": true,
+  "description": "You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.\n  As a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+  "duration": "up to 1 hour",
+  "level": 4,
+  "material": "a bit of bat fur",
+  "name": "Arcane Eye",
+  "range": "30 feet",
+  "ritual": false,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/arcane-eye",
+  "subclasses": []
+}

@@ -1,0 +1,48 @@
+{
+  "index": "invisibility",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": true,
+  "description": "A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.",
+  "duration": "up to 1 hour",
+  "higher_level": "You can target one additional creature for each spell slot level above 2.",
+  "level": 2,
+  "material": "an eyelash in gum arabic",
+  "name": "Invisibility",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "illusion",
+    "name": "Illusion",
+    "url": "/api/2024/magic-schools/illusion"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/invisibility",
+  "subclasses": []
+}

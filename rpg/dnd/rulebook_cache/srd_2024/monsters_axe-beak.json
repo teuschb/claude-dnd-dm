@@ -1,0 +1,64 @@
+{
+  "index": "axe-beak",
+  "actions": [
+    {
+      "name": "Beak",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d8+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "3d10",
+  "hit_points": 19,
+  "hit_points_roll": "3d10 + 3",
+  "image": "/api/images/monsters/axe-beak.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Axe Beak",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 14,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/axe-beak",
+  "wisdom": 10,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

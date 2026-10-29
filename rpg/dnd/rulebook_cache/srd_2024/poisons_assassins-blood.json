@@ -1,0 +1,9 @@
+{
+  "index": "assassins-blood",
+  "cost": 150,
+  "description": "A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the Poisoned condition for 24 hours. On a successful save, the creature takes half as much damage only.",
+  "name": "Assassin's Blood",
+  "type": "ingested",
+  "updated_at": "2026-06-03T21:13:53.683Z",
+  "url": "/api/2024/poisons/assassins-blood"
+}

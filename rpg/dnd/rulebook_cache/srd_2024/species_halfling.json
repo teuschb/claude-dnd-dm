@@ -1,0 +1,32 @@
+{
+  "index": "halfling",
+  "url": "/api/2024/species/halfling",
+  "name": "Halfling",
+  "type": "Humanoid",
+  "size": "Small",
+  "speed": 30,
+  "traits": [
+    {
+      "index": "brave",
+      "url": "/api/2024/traits/brave",
+      "name": "Brave"
+    },
+    {
+      "index": "halfling-nimbleness",
+      "url": "/api/2024/traits/halfling-nimbleness",
+      "name": "Halfling Nimbleness"
+    },
+    {
+      "index": "luck",
+      "url": "/api/2024/traits/luck",
+      "name": "Luck"
+    },
+    {
+      "index": "naturally-stealthy",
+      "url": "/api/2024/traits/naturally-stealthy",
+      "name": "Naturally Stealthy"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.509Z",
+  "subspecies": []
+}

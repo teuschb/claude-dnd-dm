@@ -1,0 +1,21 @@
+{
+  "index": "giant-ancestry-storms-thunder",
+  "url": "/api/2024/traits/giant-ancestry-storms-thunder",
+  "name": "Giant Ancestry: Storm's Thunder",
+  "description": "When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
+  "species": [
+    {
+      "index": "goliath",
+      "name": "Goliath",
+      "url": "/api/2024/species/goliath"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "giant-ancestry-storms-thunder",
+      "url": "/api/2024/subspecies/giant-ancestry-storms-thunder",
+      "name": "Giant Ancestry: Storm's Thunder"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

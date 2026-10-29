@@ -1,0 +1,93 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "carpenters-tools",
+  "name": "Carpenter's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  },
+  "craft": [
+    {
+      "index": "club",
+      "name": "Club",
+      "url": "/api/2024/equipment/club"
+    },
+    {
+      "index": "greatclub",
+      "name": "Greatclub",
+      "url": "/api/2024/equipment/greatclub"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "barrel",
+      "name": "Barrel",
+      "url": "/api/2024/equipment/barrel"
+    },
+    {
+      "index": "chest",
+      "name": "Chest",
+      "url": "/api/2024/equipment/chest"
+    },
+    {
+      "index": "ladder",
+      "name": "Ladder",
+      "url": "/api/2024/equipment/ladder"
+    },
+    {
+      "index": "pole",
+      "name": "Pole",
+      "url": "/api/2024/equipment/pole"
+    },
+    {
+      "index": "ram-portable",
+      "name": "Ram, Portable",
+      "url": "/api/2024/equipment/ram-portable"
+    },
+    {
+      "index": "torch",
+      "name": "Torch",
+      "url": "/api/2024/equipment/torch"
+    }
+  ],
+  "cost": {
+    "quantity": 8,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": ": Seal or pry open a door or container",
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 6,
+  "url": "/api/2024/equipment/carpenters-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

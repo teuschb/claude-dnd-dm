@@ -1,0 +1,77 @@
+{
+  "index": "giant-badger",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d4+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "poison"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "2d8",
+  "hit_points": 15,
+  "hit_points_roll": "2d8 + 6",
+  "image": "/api/images/monsters/giant-badger.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Badger",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "burrow": "10 ft."
+  },
+  "strength": 13,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-badger",
+  "wisdom": 12,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,17 @@
+{
+  "index": "monk-deflect-attacks",
+  "class": {
+    "index": "monk",
+    "url": "/api/2024/classes/monk",
+    "name": "Monk"
+  },
+  "description": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.\n  If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.",
+  "level": {
+    "index": "monk-3",
+    "url": "/api/2024/classes/monk/levels/3",
+    "name": "Monk 3"
+  },
+  "name": "Deflect Attacks",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/monk-deflect-attacks"
+}

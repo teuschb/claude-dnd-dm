@@ -1,0 +1,33 @@
+{
+  "index": "ammunition",
+  "name": "Ammunition",
+  "equipment": [
+    {
+      "index": "arrows",
+      "name": "Arrows",
+      "url": "/api/2024/equipment/arrows"
+    },
+    {
+      "index": "bolts",
+      "name": "Bolts",
+      "url": "/api/2024/equipment/bolts"
+    },
+    {
+      "index": "bullets-firearm",
+      "name": "Bullets, Firearm",
+      "url": "/api/2024/equipment/bullets-firearm"
+    },
+    {
+      "index": "bullets-sling",
+      "name": "Bullets, Sling",
+      "url": "/api/2024/equipment/bullets-sling"
+    },
+    {
+      "index": "needles",
+      "name": "Needles",
+      "url": "/api/2024/equipment/needles"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/ammunition",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

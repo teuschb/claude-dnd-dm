@@ -1,0 +1,25 @@
+{
+  "index": "scimitars",
+  "type": "Weapons",
+  "name": "Scimitars",
+  "classes": [
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/scimitars",
+  "reference": {
+    "index": "scimitar",
+    "name": "Scimitar",
+    "url": "/api/2024/equipment/scimitar"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

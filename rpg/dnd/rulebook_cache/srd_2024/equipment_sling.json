@@ -1,0 +1,67 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "sling",
+  "name": "Sling",
+  "equipment_categories": [
+    {
+      "index": "ranged-weapons",
+      "name": "Ranged Weapons",
+      "url": "/api/2024/equipment-categories/ranged-weapons"
+    },
+    {
+      "index": "simple-ranged-weapons",
+      "name": "Simple Ranged Weapons",
+      "url": "/api/2024/equipment-categories/simple-ranged-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "ammunition": {
+    "index": "bullets-sling",
+    "name": "Bullets, Sling",
+    "url": "/api/2024/equipment/bullets-sling"
+  },
+  "cost": {
+    "quantity": 1,
+    "unit": "sp"
+  },
+  "damage": {
+    "damage_dice": "1d4",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "range": {
+    "normal": 30,
+    "long": 120
+  },
+  "weight": 0,
+  "properties": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/weapon-properties/ammunition"
+    }
+  ],
+  "mastery": {
+    "index": "slow",
+    "name": "Slow",
+    "url": "/api/2024/weapon-mastery-properties/slow"
+  },
+  "url": "/api/2024/equipment/sling",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

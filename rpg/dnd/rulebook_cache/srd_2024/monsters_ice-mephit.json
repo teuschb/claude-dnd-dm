@@ -1,0 +1,190 @@
+{
+  "index": "ice-mephit",
+  "actions": [
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d4+1"
+        },
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Fog Cloud",
+      "desc": "The mephit casts Fog Cloud, requiring no spell components and using Charisma as the spellcasting ability.",
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "components_required": [],
+        "spells": [
+          {
+            "index": "fog-cloud",
+            "name": "Fog Cloud",
+            "level": 1,
+            "url": "/api/2024/spells/fog-cloud"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Frost Breath",
+      "desc": "Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 7 (3d4) Cold damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "3d4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 10,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 12,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [
+    "cold",
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [
+    "fire"
+  ],
+  "dexterity": 13,
+  "hit_dice": "6d6",
+  "hit_points": 21,
+  "hit_points_roll": "6d6",
+  "image": "/api/images/monsters/ice-mephit.png",
+  "intelligence": 9,
+  "languages": "Primordial (Aquan, Auran)",
+  "legendary_actions": [],
+  "name": "Ice Mephit",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 12
+  },
+  "size": "Small",
+  "special_abilities": [
+    {
+      "name": "Death Burst",
+      "desc": "The mephit explodes when it dies. Constitution Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "2d4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 10,
+        "success_type": "half"
+      }
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "30 ft."
+  },
+  "strength": 7,
+  "type": "elemental",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/ice-mephit",
+  "wisdom": 11,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

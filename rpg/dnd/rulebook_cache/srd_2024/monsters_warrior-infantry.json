@@ -1,0 +1,77 @@
+{
+  "index": "warrior-infantry",
+  "actions": [
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": [
+        {
+          "index": "chain-shirt",
+          "name": "Chain Shirt",
+          "url": "/api/2024/equipment/chain-shirt"
+        }
+      ]
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "gear": "Chain Shirt, Spear",
+  "hit_dice": "2d8",
+  "hit_points": 9,
+  "hit_points_roll": "2d8",
+  "image": "/api/images/monsters/warrior-infantry-NYI.png",
+  "intelligence": 8,
+  "languages": "Common",
+  "legendary_actions": [],
+  "name": "Warrior Infantry",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The warrior has Advantage on an attack roll against a creature if at least one of the warrior\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 13,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/warrior-infantry",
+  "wisdom": 11,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

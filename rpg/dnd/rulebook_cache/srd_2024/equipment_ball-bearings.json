@@ -1,0 +1,27 @@
+{
+  "notes": [],
+  "index": "ball-bearings",
+  "name": "Ball bearings",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "weight": 2,
+  "description": [
+    "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-footsquare area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings."
+  ],
+  "image": "/api/images/equipment/ball-bearings-bag-of-1000.png",
+  "url": "/api/2024/equipment/ball-bearings",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "robe-of-useful-items",
+  "url": "/api/2024/magic-items/robe-of-useful-items",
+  "image": "/api/images/magic-items/robe-of-useful-items.png",
+  "name": "Robe of Useful Items",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can take a Magic action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.The robe has two of each of the following patches:\u2022 Bullseye Lantern (filled and lit)\u2022 Dagger\u2022 Mirror\u2022 Pole\u2022 Rope (coiled)\u2022 SackIn addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table.1d100  Patch 01-08 Bag of 100 GP   09-15 Silver coffer (1 foot long, 6 inches wide anddeep) worth 500 GP23-30  10 gems worth 100 GP each 31-44 Wooden ladder (24 feet long)   45-51 Riding Horse with a Riding Saddle60-68  4 Potions of Healing 69-75 Rowboat (12 feet long)   76-83 Spell Scroll containing one spell of level 1, 2, or3 (your choice) 84-90  2 Mastiffs  91-96 Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach 97-00  Portable Ram",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

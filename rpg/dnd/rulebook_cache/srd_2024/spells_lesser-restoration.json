@@ -1,0 +1,50 @@
+{
+  "index": "lesser-restoration",
+  "casting_time": "Bonus Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": false,
+  "description": "You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.",
+  "duration": "Instantaneous",
+  "level": 2,
+  "name": "Lesser Restoration",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/lesser-restoration",
+  "subclasses": []
+}

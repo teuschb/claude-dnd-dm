@@ -1,0 +1,156 @@
+{
+  "index": "spy",
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Cunning Action",
+      "desc": "The spy takes the Dash, Disengage, or Hide action.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 16,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "gear": "Hand Crossbow, Shortsword, Thieves' Tools",
+  "hit_dice": "6d8",
+  "hit_points": 27,
+  "hit_points_roll": "6d8",
+  "image": "/api/images/monsters/spy.png",
+  "intelligence": 12,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Spy",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-investigation",
+        "name": "Skill: Investigation",
+        "url": "/api/2024/proficiencies/skill-investigation"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-sleight-of-hand",
+        "name": "Skill: Sleight of Hand",
+        "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 16
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 10,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/spy",
+  "wisdom": 14,
+  "xp": 200,
+  "reactions": [],
+  "forms": []
+}

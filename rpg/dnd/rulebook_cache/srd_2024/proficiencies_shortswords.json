@@ -1,0 +1,25 @@
+{
+  "index": "shortswords",
+  "type": "Weapons",
+  "name": "Shortswords",
+  "classes": [
+    {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/shortswords",
+  "reference": {
+    "index": "shortsword",
+    "name": "Shortsword",
+    "url": "/api/2024/equipment/shortsword"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

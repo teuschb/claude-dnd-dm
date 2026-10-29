@@ -1,0 +1,78 @@
+{
+  "index": "boar",
+  "actions": [
+    {
+      "name": "Gore",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+1"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "2d8",
+  "hit_points": 13,
+  "hit_points_roll": "2d8 + 4",
+  "image": "/api/images/monsters/boar.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Boar",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 9
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Bloodied Fury",
+      "desc": "While Bloodied, the boar has Advantage on attack rolls.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 13,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/boar",
+  "wisdom": 9,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

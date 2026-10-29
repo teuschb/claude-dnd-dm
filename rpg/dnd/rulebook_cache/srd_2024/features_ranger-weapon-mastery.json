@@ -1,0 +1,17 @@
+{
+  "index": "ranger-weapon-mastery",
+  "class": {
+    "index": "ranger",
+    "url": "/api/2024/classes/ranger",
+    "name": "Ranger"
+  },
+  "description": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n  Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.",
+  "level": {
+    "index": "ranger-1",
+    "url": "/api/2024/classes/ranger/levels/1",
+    "name": "Ranger 1"
+  },
+  "name": "Weapon Mastery",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/ranger-weapon-mastery"
+}

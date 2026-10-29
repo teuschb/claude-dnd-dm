@@ -1,0 +1,19 @@
+{
+  "index": "crystal-ball-of-true-seeing",
+  "url": "/api/2024/magic-items/crystal-ball-of-true-seeing",
+  "image": "/api/images/magic-items/crystal-ball-of-true-seeing.png",
+  "name": "Crystal Ball of True Seeing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Legendary"
+  },
+  "desc": "Wondrous Item  \n While touching this crystal orb, you can cast Scrying (save DC 17) with it. In addition, you have Truesight with a range of 120 feet centered on the spell's sensor.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

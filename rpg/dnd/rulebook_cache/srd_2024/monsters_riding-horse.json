@@ -1,0 +1,64 @@
+{
+  "index": "riding-horse",
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d8+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "2d10",
+  "hit_points": 13,
+  "hit_points_roll": "2d10 + 2",
+  "image": "/api/images/monsters/riding-horse.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Riding Horse",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "60 ft."
+  },
+  "strength": 16,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/riding-horse",
+  "wisdom": 11,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

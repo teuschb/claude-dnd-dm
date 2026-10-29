@@ -1,0 +1,17 @@
+{
+  "index": "paladin-subclass",
+  "class": {
+    "index": "paladin",
+    "url": "/api/2024/classes/paladin",
+    "name": "Paladin"
+  },
+  "description": "You gain a Paladin subclass of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.",
+  "level": {
+    "index": "paladin-3",
+    "url": "/api/2024/classes/paladin/levels/3",
+    "name": "Paladin 3"
+  },
+  "name": "Paladin Subclass",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/paladin-subclass"
+}

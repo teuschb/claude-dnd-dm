@@ -1,0 +1,153 @@
+{
+  "notes": [],
+  "index": "scholars-pack",
+  "name": "Scholar's Pack",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    },
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    }
+  ],
+  "container": [
+    {
+      "index": "backpack",
+      "name": "Backpack",
+      "url": "/api/2024/equipment/backpack"
+    },
+    {
+      "index": "blanket",
+      "name": "Blanket",
+      "url": "/api/2024/equipment/blanket"
+    },
+    {
+      "index": "book",
+      "name": "Book",
+      "url": "/api/2024/equipment/book"
+    },
+    {
+      "index": "ink",
+      "name": "Ink",
+      "url": "/api/2024/equipment/ink"
+    },
+    {
+      "index": "ink-pen",
+      "name": "Ink Pen",
+      "url": "/api/2024/equipment/ink-pen"
+    },
+    {
+      "index": "lamp",
+      "name": "Lamp",
+      "url": "/api/2024/equipment/lamp"
+    },
+    {
+      "index": "oil",
+      "name": "Oil",
+      "url": "/api/2024/equipment/oil",
+      "quantity": 10
+    },
+    {
+      "index": "parchment",
+      "name": "Parchment",
+      "url": "/api/2024/equipment/parchment",
+      "quantity": 10
+    },
+    {
+      "index": "tinderbox",
+      "name": "Tinderbox",
+      "url": "/api/2024/equipment/tinderbox"
+    }
+  ],
+  "cost": {
+    "quantity": 40,
+    "unit": "gp"
+  },
+  "description": [
+    "A Scholar's Pack contains the following items: Backpack, Blanket, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+  ],
+  "weight": 22,
+  "url": "/api/2024/equipment/scholars-pack",
+  "updated_at": "2026-04-25T18:44:21.306Z",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "blanket",
+        "name": "Blanket",
+        "url": "/api/2024/equipment/blanket"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "book",
+        "name": "Book",
+        "url": "/api/2024/equipment/book"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "ink",
+        "name": "Ink",
+        "url": "/api/2024/equipment/ink"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "ink-pen",
+        "name": "Ink Pen",
+        "url": "/api/2024/equipment/ink-pen"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "lamp",
+        "name": "Lamp",
+        "url": "/api/2024/equipment/lamp"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "parchment",
+        "name": "Parchment",
+        "url": "/api/2024/equipment/parchment"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    }
+  ],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

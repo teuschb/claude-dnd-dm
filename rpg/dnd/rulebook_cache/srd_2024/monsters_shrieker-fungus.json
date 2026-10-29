@@ -1,0 +1,74 @@
+{
+  "index": "shrieker-fungus",
+  "actions": [],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 5,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "blinded",
+      "name": "Blinded",
+      "url": "/api/2024/conditions/blinded"
+    },
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 1,
+  "hit_dice": "3d8",
+  "hit_points": 13,
+  "hit_points_roll": "3d8",
+  "image": "/api/images/monsters/shrieker-fungus-NYI.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Shrieker Fungus",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "reactions": [
+    {
+      "name": "Shriek",
+      "desc": "Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies.",
+      "damage": []
+    }
+  ],
+  "senses": {
+    "blindsight": "30 ft.",
+    "passive_perception": 6
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "5 ft."
+  },
+  "strength": 1,
+  "type": "plant",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/shrieker-fungus",
+  "wisdom": 3,
+  "xp": 0,
+  "bonus_actions": [],
+  "forms": []
+}

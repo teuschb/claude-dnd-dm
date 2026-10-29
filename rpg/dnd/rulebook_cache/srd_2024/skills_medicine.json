@@ -1,0 +1,12 @@
+{
+  "index": "medicine",
+  "name": "Medicine",
+  "description": "Diagnose an illness, or determine what killed the recently slain.",
+  "ability_score": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "url": "/api/2024/skills/medicine",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

@@ -1,0 +1,58 @@
+{
+  "index": "musical-instruments",
+  "name": "Musical Instruments",
+  "equipment": [
+    {
+      "index": "bagpipes",
+      "name": "Bagpipes",
+      "url": "/api/2024/equipment/bagpipes"
+    },
+    {
+      "index": "drum",
+      "name": "Drum",
+      "url": "/api/2024/equipment/drum"
+    },
+    {
+      "index": "dulcimer",
+      "name": "Dulcimer",
+      "url": "/api/2024/equipment/dulcimer"
+    },
+    {
+      "index": "flute",
+      "name": "Flute",
+      "url": "/api/2024/equipment/flute"
+    },
+    {
+      "index": "horn",
+      "name": "Horn",
+      "url": "/api/2024/equipment/horn"
+    },
+    {
+      "index": "lute",
+      "name": "Lute",
+      "url": "/api/2024/equipment/lute"
+    },
+    {
+      "index": "lyre",
+      "name": "Lyre",
+      "url": "/api/2024/equipment/lyre"
+    },
+    {
+      "index": "pan-flute",
+      "name": "Pan flute",
+      "url": "/api/2024/equipment/pan-flute"
+    },
+    {
+      "index": "shawm",
+      "name": "Shawm",
+      "url": "/api/2024/equipment/shawm"
+    },
+    {
+      "index": "viol",
+      "name": "Viol",
+      "url": "/api/2024/equipment/viol"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/musical-instruments",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

@@ -1,0 +1,199 @@
+{
+  "index": "young-bronze-dragon",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Rend",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Repulsion Breath",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d10+5"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Lightning Breath",
+      "desc": "Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-footwide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "9d10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 15,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Repulsion Breath",
+      "desc": "Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition.",
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 8,
+  "charisma": 17,
+  "condition_immunities": [],
+  "constitution": 19,
+  "damage_immunities": [
+    "lightning"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "15d10",
+  "hit_points": 142,
+  "hit_points_roll": "15d10 + 60",
+  "image": "/api/images/monsters/young-bronze-dragon.png",
+  "intelligence": 14,
+  "languages": "Common, Draconic",
+  "legendary_actions": [],
+  "name": "Young Bronze Dragon",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "120 ft.",
+    "blindsight": "30 ft.",
+    "passive_perception": 17
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The dragon can breathe air and water.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "80 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 21,
+  "type": "dragon",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/young-bronze-dragon",
+  "wisdom": 13,
+  "xp": 3900,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

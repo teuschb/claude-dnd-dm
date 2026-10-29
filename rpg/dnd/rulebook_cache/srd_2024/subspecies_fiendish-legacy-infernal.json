@@ -1,0 +1,37 @@
+{
+  "index": "fiendish-legacy-infernal",
+  "url": "/api/2024/subspecies/fiendish-legacy-infernal",
+  "name": "Fiendish Legacy: Infernal",
+  "traits": [
+    {
+      "index": "lineage-resistance-fire",
+      "url": "/api/2024/traits/lineage-resistance-fire",
+      "name": "Damage Resistance: Fire",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-fire-bolt",
+      "url": "/api/2024/traits/lineage-spell-fire-bolt",
+      "name": "Fire Bolt",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-hellish-rebuke",
+      "url": "/api/2024/traits/lineage-spell-hellish-rebuke",
+      "name": "Hellish Rebuke",
+      "level": 3
+    },
+    {
+      "index": "lineage-spell-darkness",
+      "url": "/api/2024/traits/lineage-spell-darkness",
+      "name": "Darkness",
+      "level": 5
+    }
+  ],
+  "species": {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/2024/species/tiefling"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

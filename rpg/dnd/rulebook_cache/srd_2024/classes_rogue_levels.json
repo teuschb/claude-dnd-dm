@@ -1,0 +1,552 @@
+[
+  {
+    "index": "rogue-1",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 1,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-expertise",
+        "name": "Expertise",
+        "url": "/api/2024/features/rogue-expertise"
+      },
+      {
+        "index": "rogue-sneak-attack",
+        "name": "Sneak Attack",
+        "url": "/api/2024/features/rogue-sneak-attack"
+      },
+      {
+        "index": "rogue-thieves-cant",
+        "name": "Thieves' Cant",
+        "url": "/api/2024/features/rogue-thieves-cant"
+      },
+      {
+        "index": "rogue-weapon-mastery",
+        "name": "Weapon Mastery",
+        "url": "/api/2024/features/rogue-weapon-mastery"
+      }
+    ],
+    "level": 1,
+    "name": "Rogue 1",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/1"
+  },
+  {
+    "index": "rogue-2",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 1,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-cunning-action",
+        "name": "Cunning Action",
+        "url": "/api/2024/features/rogue-cunning-action"
+      }
+    ],
+    "level": 2,
+    "name": "Rogue 2",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/2"
+  },
+  {
+    "index": "rogue-3",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 2,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-subclass",
+        "name": "Rogue Subclass",
+        "url": "/api/2024/features/rogue-subclass"
+      },
+      {
+        "index": "rogue-steady-aim",
+        "name": "Steady Aim",
+        "url": "/api/2024/features/rogue-steady-aim"
+      }
+    ],
+    "level": 3,
+    "name": "Rogue 3",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/3"
+  },
+  {
+    "index": "rogue-4",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 2,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/rogue-ability-score-improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Rogue 4",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/4"
+  },
+  {
+    "index": "rogue-5",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 3,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-cunning-strike",
+        "name": "Cunning Strike",
+        "url": "/api/2024/features/rogue-cunning-strike"
+      },
+      {
+        "index": "rogue-uncanny-dodge",
+        "name": "Uncanny Dodge",
+        "url": "/api/2024/features/rogue-uncanny-dodge"
+      }
+    ],
+    "level": 5,
+    "name": "Rogue 5",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/5"
+  },
+  {
+    "index": "rogue-6",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 3,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-expertise",
+        "name": "Expertise",
+        "url": "/api/2024/features/rogue-expertise"
+      }
+    ],
+    "level": 6,
+    "name": "Rogue 6",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/6"
+  },
+  {
+    "index": "rogue-7",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 4,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-evasion",
+        "name": "Evasion",
+        "url": "/api/2024/features/rogue-evasion"
+      },
+      {
+        "index": "rogue-reliable-talent",
+        "name": "Reliable Talent",
+        "url": "/api/2024/features/rogue-reliable-talent"
+      }
+    ],
+    "level": 7,
+    "name": "Rogue 7",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/7"
+  },
+  {
+    "index": "rogue-8",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 4,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/rogue-ability-score-improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Rogue 8",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/8"
+  },
+  {
+    "index": "rogue-9",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 5,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-subclass",
+        "name": "Rogue Subclass",
+        "url": "/api/2024/features/rogue-subclass"
+      }
+    ],
+    "level": 9,
+    "name": "Rogue 9",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/9"
+  },
+  {
+    "index": "rogue-10",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 5,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/rogue-ability-score-improvement"
+      }
+    ],
+    "level": 10,
+    "name": "Rogue 10",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/10"
+  },
+  {
+    "index": "rogue-11",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 6,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-improved-cunning-strike",
+        "name": "Improved Cunning Strike",
+        "url": "/api/2024/features/rogue-improved-cunning-strike"
+      }
+    ],
+    "level": 11,
+    "name": "Rogue 11",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/11"
+  },
+  {
+    "index": "rogue-12",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 6,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/rogue-ability-score-improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Rogue 12",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/12"
+  },
+  {
+    "index": "rogue-13",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 7,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-subclass",
+        "name": "Rogue Subclass",
+        "url": "/api/2024/features/rogue-subclass"
+      }
+    ],
+    "level": 13,
+    "name": "Rogue 13",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/13"
+  },
+  {
+    "index": "rogue-14",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 7,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-devious-strikes",
+        "name": "Devious Strikes",
+        "url": "/api/2024/features/rogue-devious-strikes"
+      }
+    ],
+    "level": 14,
+    "name": "Rogue 14",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/14"
+  },
+  {
+    "index": "rogue-15",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 8,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-slippery-mind",
+        "name": "Slippery Mind",
+        "url": "/api/2024/features/rogue-slippery-mind"
+      }
+    ],
+    "level": 15,
+    "name": "Rogue 15",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/15"
+  },
+  {
+    "index": "rogue-16",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 8,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/rogue-ability-score-improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Rogue 16",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/16"
+  },
+  {
+    "index": "rogue-17",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 9,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-subclass",
+        "name": "Rogue Subclass",
+        "url": "/api/2024/features/rogue-subclass"
+      }
+    ],
+    "level": 17,
+    "name": "Rogue 17",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/17"
+  },
+  {
+    "index": "rogue-18",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 9,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-elusive",
+        "name": "Elusive",
+        "url": "/api/2024/features/rogue-elusive"
+      }
+    ],
+    "level": 18,
+    "name": "Rogue 18",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/18"
+  },
+  {
+    "index": "rogue-19",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 10,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-epic-boon",
+        "name": "Epic Boon",
+        "url": "/api/2024/features/rogue-epic-boon"
+      }
+    ],
+    "level": 19,
+    "name": "Rogue 19",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/19"
+  },
+  {
+    "index": "rogue-20",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "class_specific": {
+      "sneak_attack": {
+        "dice_count": 10,
+        "dice_value": 6
+      }
+    },
+    "features": [
+      {
+        "index": "rogue-stroke-of-luck",
+        "name": "Stroke of Luck",
+        "url": "/api/2024/features/rogue-stroke-of-luck"
+      }
+    ],
+    "level": 20,
+    "name": "Rogue 20",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/rogue/levels/20"
+  }
+]

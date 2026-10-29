@@ -1,0 +1,43 @@
+{
+  "index": "flame-strike",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "damage": {
+    "damage_type": {
+      "index": "fire",
+      "name": "Fire",
+      "url": "/api/2024/damage-types/fire"
+    },
+    "damage_at_slot_level": {
+      "5": "5d6"
+    }
+  },
+  "description": "A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foothigh Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.",
+  "duration": "Instantaneous",
+  "higher_level": "The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.",
+  "level": 5,
+  "material": "a pinch of sulfur",
+  "name": "Flame Strike",
+  "range": "60 feet",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/flame-strike",
+  "subclasses": []
+}

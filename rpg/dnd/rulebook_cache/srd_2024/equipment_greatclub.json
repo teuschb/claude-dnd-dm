@@ -1,0 +1,61 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "greatclub",
+  "name": "Greatclub",
+  "equipment_categories": [
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "sp"
+  },
+  "damage": {
+    "damage_dice": "1d8",
+    "damage_type": {
+      "index": "bludgeoning",
+      "name": "Bludgeoning",
+      "url": "/api/2024/damage-types/bludgeoning"
+    }
+  },
+  "range": {
+    "normal": 5
+  },
+  "weight": 10,
+  "properties": [
+    {
+      "index": "two-handed",
+      "name": "Two-Handed",
+      "url": "/api/2024/weapon-properties/two-handed"
+    }
+  ],
+  "mastery": {
+    "index": "push",
+    "name": "Push",
+    "url": "/api/2024/weapon-mastery-properties/push"
+  },
+  "url": "/api/2024/equipment/greatclub",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

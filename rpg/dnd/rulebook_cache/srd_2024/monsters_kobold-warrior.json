@@ -1,0 +1,77 @@
+{
+  "index": "kobold-warrior",
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 9,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "gear": "Daggers (3)",
+  "hit_dice": "3d6",
+  "hit_points": 7,
+  "hit_points_roll": "3d6 - 3",
+  "image": "/api/images/monsters/kobold-warrior-NYI.png",
+  "intelligence": 8,
+  "languages": "Common, Draconic",
+  "legendary_actions": [],
+  "name": "Kobold Warrior",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Small",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The kobold has Advantage on an attack roll against a creature if at least one of the kobold\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 7,
+  "type": "dragon",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/kobold-warrior",
+  "wisdom": 7,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

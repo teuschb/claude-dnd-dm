@@ -1,0 +1,20 @@
+{
+  "index": "tool-playing-cards",
+  "type": "Tools",
+  "name": "Tool: Playing Cards",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "playing-cards",
+    "name": "Playing Cards",
+    "url": "/api/2024/equipment/playing-cards"
+  },
+  "url": "/api/2024/proficiencies/tool-playing-cards",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

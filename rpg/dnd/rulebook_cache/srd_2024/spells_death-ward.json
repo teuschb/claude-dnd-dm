@@ -1,0 +1,35 @@
+{
+  "index": "death-ward",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": false,
+  "description": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.\n  If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.",
+  "duration": "8 hours",
+  "level": 4,
+  "name": "Death Ward",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/death-ward",
+  "subclasses": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "giant-ancestry-frosts-chill",
+  "url": "/api/2024/subspecies/giant-ancestry-frosts-chill",
+  "name": "Giant Ancestry: Frost's Chill",
+  "traits": [
+    {
+      "index": "giant-ancestry-frosts-chill",
+      "url": "/api/2024/traits/giant-ancestry-frosts-chill",
+      "name": "Giant Ancestry: Frost's Chill",
+      "level": 1
+    }
+  ],
+  "species": {
+    "index": "goliath",
+    "name": "Goliath",
+    "url": "/api/2024/species/goliath"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

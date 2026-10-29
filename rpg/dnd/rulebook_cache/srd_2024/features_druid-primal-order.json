@@ -1,0 +1,17 @@
+{
+  "index": "druid-primal-order",
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "description": "You have dedicated yourself to one of the following sacred roles of your choice.\n  Magician. You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).\n  Warden. Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
+  "level": {
+    "index": "druid-1",
+    "url": "/api/2024/classes/druid/levels/1",
+    "name": "Druid 1"
+  },
+  "name": "Primal Order",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/druid-primal-order"
+}

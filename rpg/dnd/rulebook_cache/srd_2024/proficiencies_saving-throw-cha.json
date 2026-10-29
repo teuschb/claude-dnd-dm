@@ -1,0 +1,40 @@
+{
+  "index": "saving-throw-cha",
+  "type": "Saving Throws",
+  "name": "Saving Throw: CHA",
+  "backgrounds": [],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    }
+  ],
+  "url": "/api/2024/proficiencies/saving-throw-cha",
+  "reference": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

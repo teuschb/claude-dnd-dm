@@ -1,0 +1,241 @@
+{
+  "index": "druid",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Vine Staff",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Verdant Wisp",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Vine Staff",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d8+3"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Verdant Wisp",
+      "desc": "Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 13,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "druidcraft",
+            "name": "Druidcraft",
+            "level": 0,
+            "url": "/api/2024/spells/druidcraft",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "speak-with-animals",
+            "name": "Speak with Animals",
+            "level": 1,
+            "url": "/api/2024/spells/speak-with-animals",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "entangle",
+            "name": "Entangle",
+            "level": 1,
+            "url": "/api/2024/spells/entangle",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "thunderwave",
+            "name": "Thunderwave",
+            "level": 1,
+            "url": "/api/2024/spells/thunderwave",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "animal-messenger",
+            "name": "Animal Messenger",
+            "level": 2,
+            "url": "/api/2024/spells/animal-messenger",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "longstrider",
+            "name": "Longstrider",
+            "level": 1,
+            "url": "/api/2024/spells/longstrider",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "moonbeam",
+            "name": "Moonbeam",
+            "level": 2,
+            "url": "/api/2024/spells/moonbeam",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": [
+        {
+          "index": "studded-leather-armor",
+          "name": "Studded Leather Armor",
+          "url": "/api/2024/equipment/studded-leather-armor"
+        }
+      ]
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "gear": "Studded Leather Armor",
+  "hit_dice": "8d8",
+  "hit_points": 44,
+  "hit_points_roll": "8d8 + 8",
+  "image": "/api/images/monsters/druid.png",
+  "intelligence": 12,
+  "languages": "Common, Druidic, Sylvan",
+  "legendary_actions": [],
+  "name": "Druid",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-medicine",
+        "name": "Skill: Medicine",
+        "url": "/api/2024/proficiencies/skill-medicine"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-nature",
+        "name": "Skill: Nature",
+        "url": "/api/2024/proficiencies/skill-nature"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 15
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 10,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/druid",
+  "wisdom": 16,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

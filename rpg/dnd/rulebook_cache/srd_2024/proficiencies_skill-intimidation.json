@@ -1,0 +1,20 @@
+{
+  "index": "skill-intimidation",
+  "type": "Skills",
+  "name": "Skill: Intimidation",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "intimidation",
+    "name": "Intimidation",
+    "url": "/api/2024/skills/intimidation"
+  },
+  "url": "/api/2024/proficiencies/skill-intimidation",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

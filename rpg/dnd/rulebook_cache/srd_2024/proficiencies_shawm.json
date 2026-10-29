@@ -1,0 +1,14 @@
+{
+  "index": "shawm",
+  "type": "Musical Instruments",
+  "name": "Shawm",
+  "backgrounds": [],
+  "classes": [],
+  "url": "/api/2024/proficiencies/shawm",
+  "reference": {
+    "index": "shawm",
+    "name": "Shawm",
+    "url": "/api/2024/equipment/shawm"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

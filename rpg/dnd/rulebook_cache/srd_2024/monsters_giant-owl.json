@@ -1,0 +1,145 @@
+{
+  "index": "giant-owl",
+  "actions": [
+    {
+      "name": "Talons",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d10+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "components_required": [],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "clairvoyance",
+            "name": "Clairvoyance",
+            "level": 3,
+            "url": "/api/2024/spells/clairvoyance",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "necrotic",
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "3d10",
+  "hit_points": 19,
+  "hit_points_roll": "3d10 + 3",
+  "image": "/api/images/monsters/giant-owl.png",
+  "intelligence": 10,
+  "languages": "Celestial; understands Common, Elvish, and Sylvan but can\u2019t speak them",
+  "legendary_actions": [],
+  "name": "Giant Owl",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 16
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The owl doesn\u2019t provoke an Opportunity Attack when it flies out of an enemy\u2019s reach.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 13,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-owl",
+  "wisdom": 14,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

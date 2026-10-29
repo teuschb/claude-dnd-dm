@@ -1,0 +1,37 @@
+{
+  "index": "resurrection",
+  "casting_time": "1 hour",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "description": " With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.\n  The creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts.\n  Coming back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.\n  Casting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.",
+  "duration": "Instantaneous",
+  "level": 7,
+  "material": "a diamond worth 1,000+ GP, which the spell consumes",
+  "name": "Resurrection",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/resurrection",
+  "subclasses": []
+}

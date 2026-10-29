@@ -1,0 +1,101 @@
+{
+  "index": "ogre-zombie",
+  "actions": [
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d8+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 8,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 18,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 6,
+  "hit_dice": "9d10",
+  "hit_points": 85,
+  "hit_points_roll": "9d10 + 36",
+  "image": "/api/images/monsters/ogre-zombie.png",
+  "intelligence": 3,
+  "languages": "Understands Common and Giant but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Ogre Zombie",
+  "proficiencies": [
+    {
+      "value": 0,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Undead Fortitude",
+      "desc": "If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 19,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/ogre-zombie",
+  "wisdom": 6,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,9 @@
+{
+  "index": "serpent-venom",
+  "cost": 200,
+  "description": "A creature subjected to Serpent Venom must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) Poison damage on a failed save or half as much damage on a successful one.",
+  "name": "Serpent Venom",
+  "type": "injury",
+  "updated_at": "2026-06-03T21:13:53.683Z",
+  "url": "/api/2024/poisons/serpent-venom"
+}

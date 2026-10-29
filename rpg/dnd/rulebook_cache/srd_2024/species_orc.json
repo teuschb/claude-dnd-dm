@@ -1,0 +1,27 @@
+{
+  "index": "orc",
+  "url": "/api/2024/species/orc",
+  "name": "Orc",
+  "type": "Humanoid",
+  "size": "Medium",
+  "speed": 30,
+  "traits": [
+    {
+      "index": "adrenaline-rush",
+      "url": "/api/2024/traits/adrenaline-rush",
+      "name": "Adrenaline Rush"
+    },
+    {
+      "index": "darkvision-120",
+      "url": "/api/2024/traits/darkvision-120",
+      "name": "Darkvision (120 ft.)"
+    },
+    {
+      "index": "relentless-endurance",
+      "url": "/api/2024/traits/relentless-endurance",
+      "name": "Relentless Endurance"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.509Z",
+  "subspecies": []
+}

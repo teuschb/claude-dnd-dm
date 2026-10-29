@@ -1,0 +1,19 @@
+{
+  "index": "vorpal-sword",
+  "url": "/api/2024/magic-items/vorpal-sword",
+  "image": "/api/images/magic-items/vorpal-sword.png",
+  "name": "Vorpal Sword",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Legendary"
+  },
+  "desc": "Weapon (Glaive, Greatsword, Longsword, or Scimitar)  \n You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. In addition, the weapon ignores Resistance to Slashing damage.  \n When you use this weapon to attack a creature that has at least one head and roll a 20 on the d20 for the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it has Immunity to Slashing damage, if it doesn't have or need a head, or if the GM decides that thecreature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 30 Slashing damage from the hit. If the creature has Legendary Resistance, it can expend one daily use of that trait to avoid losing its head, taking the extra damage instead.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

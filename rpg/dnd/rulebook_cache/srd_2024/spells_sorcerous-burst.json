@@ -1,0 +1,28 @@
+{
+  "index": "sorcerous-burst",
+  "attack_type": "ranged",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    }
+  ],
+  "components": [],
+  "concentration": false,
+  "description": "You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.\n  If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.\n  Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+  "duration": "Instantaneous",
+  "level": 0,
+  "name": "Sorcerous Burst",
+  "range": "120 feet Component: V, S",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/sorcerous-burst",
+  "subclasses": []
+}

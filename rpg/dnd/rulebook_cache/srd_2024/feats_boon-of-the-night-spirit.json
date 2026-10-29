@@ -1,0 +1,11 @@
+{
+  "index": "boon-of-the-night-spirit",
+  "name": "Boon of the Night Spirit",
+  "type": "epic-boon",
+  "prerequisites": {
+    "minimum_level": 19
+  },
+  "description": "You gain the following benefits.\n**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.\n**Merge with Shadows.** While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n**Shadowy form.** While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+  "url": "/api/2024/feats/boon-of-the-night-spirit",
+  "updated_at": "2026-04-23T07:06:27.241Z"
+}

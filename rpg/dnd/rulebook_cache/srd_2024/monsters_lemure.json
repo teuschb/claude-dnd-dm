@@ -1,0 +1,92 @@
+{
+  "index": "lemure",
+  "actions": [
+    {
+      "name": "Vile Slime",
+      "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 9,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 3,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 11,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 5,
+  "hit_dice": "2d8",
+  "hit_points": 9,
+  "hit_points_roll": "2d8",
+  "image": "/api/images/monsters/lemure.png",
+  "intelligence": 1,
+  "languages": "Understands Infernal but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Lemure",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft. (unimpeded by magical darkness)",
+    "passive_perception": 10
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Hellish Restoration",
+      "desc": "If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 10,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/lemure",
+  "wisdom": 11,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

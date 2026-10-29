@@ -1,0 +1,177 @@
+{
+  "index": "clay-golem",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The golem makes two Slam attacks, or it makes three Slam attacks if it used Hasten this turn.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "two Slam attacks, or it makes three Slam attacks if it used Hasten this turn",
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Slam",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Slam",
+              "count": 3,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning damage plus 6 (1d12) Acid damage, and the target\u2019s Hit Point maximum decreases by an amount equal to the Acid damage taken.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d10+5"
+        },
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "1d12"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Hasten",
+      "desc": "The golem takes the Dash and Disengage actions.",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 18,
+  "damage_immunities": [
+    "acid",
+    "poison",
+    "psychic"
+  ],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 9,
+  "hit_dice": "13d10",
+  "hit_points": 123,
+  "hit_points_roll": "13d10 + 52",
+  "image": "/api/images/monsters/clay-golem.png",
+  "intelligence": 3,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Clay Golem",
+  "proficiencies": [],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Acid Absorption",
+      "desc": "Whenever the golem is subjected to Acid damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.",
+      "damage": []
+    },
+    {
+      "name": "Berserk",
+      "desc": "Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it continues to be berserk until it is destroyed or it is no longer Bloodied.",
+      "damage": []
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The golem can\u2019t shape-shift.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The golem has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 20,
+  "type": "construct",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/clay-golem",
+  "wisdom": 8,
+  "xp": 5000,
+  "reactions": [],
+  "forms": []
+}

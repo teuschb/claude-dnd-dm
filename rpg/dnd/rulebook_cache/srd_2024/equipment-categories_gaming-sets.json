@@ -1,0 +1,28 @@
+{
+  "index": "gaming-sets",
+  "name": "Gaming Sets",
+  "equipment": [
+    {
+      "index": "dice",
+      "name": "Dice",
+      "url": "/api/2024/equipment/dice"
+    },
+    {
+      "index": "dragonchess",
+      "name": "Dragonchess",
+      "url": "/api/2024/equipment/dragonchess"
+    },
+    {
+      "index": "playing-cards",
+      "name": "Playing Cards",
+      "url": "/api/2024/equipment/playing-cards"
+    },
+    {
+      "index": "three-dragon-ante",
+      "name": "Three-Dragon Ante",
+      "url": "/api/2024/equipment/three-dragon-ante"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/gaming-sets",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

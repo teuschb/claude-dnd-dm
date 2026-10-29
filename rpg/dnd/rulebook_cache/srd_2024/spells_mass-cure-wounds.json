@@ -1,0 +1,41 @@
+{
+  "index": "mass-cure-wounds",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": false,
+  "description": "A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier.",
+  "duration": "Instantaneous",
+  "higher_level": "The healing increases by 1d8 for each spell slot level above 5.",
+  "level": 5,
+  "name": "Mass Cure Wounds",
+  "range": "60 feet",
+  "ritual": false,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/mass-cure-wounds",
+  "subclasses": []
+}

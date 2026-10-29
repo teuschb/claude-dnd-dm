@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-minor-illusion",
+  "url": "/api/2024/traits/lineage-spell-minor-illusion",
+  "name": "Minor Illusion",
+  "description": "You know the spell Minor Illusion.",
+  "spells": [
+    {
+      "spell": {
+        "index": "minor-illusion",
+        "name": "Minor Illusion",
+        "url": "/api/2024/spells/minor-illusion"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "gnome",
+      "url": "/api/2024/species/gnome",
+      "name": "Gnome"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "gnomish-lineage-forest-gnome",
+      "url": "/api/2024/subspecies/gnomish-lineage-forest-gnome",
+      "name": "Gnomish Lineage: Forest Gnome"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

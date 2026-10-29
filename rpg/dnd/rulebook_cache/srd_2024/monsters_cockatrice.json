@@ -1,0 +1,81 @@
+{
+  "index": "cockatrice",
+  "actions": [
+    {
+      "name": "Petrifying Bite",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+1"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    }
+  ],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "5d6",
+  "hit_points": 22,
+  "hit_points_roll": "5d6 + 5",
+  "image": "/api/images/monsters/cockatrice.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Cockatrice",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 6,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/cockatrice",
+  "wisdom": 13,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

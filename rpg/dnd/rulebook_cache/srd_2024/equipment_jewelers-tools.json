@@ -1,0 +1,93 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "jewelers-tools",
+  "name": "Jeweler's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "cost": {
+    "quantity": 25,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "crystal",
+      "name": "Crystal",
+      "url": "/api/2024/equipment/crystal"
+    },
+    {
+      "index": "orb",
+      "name": "Orb",
+      "url": "/api/2024/equipment/orb"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "rod",
+      "name": "Rod",
+      "url": "/api/2024/equipment/rod"
+    },
+    {
+      "index": "staff",
+      "name": "Staff",
+      "url": "/api/2024/equipment/staff"
+    },
+    {
+      "index": "wand",
+      "name": "Wand",
+      "url": "/api/2024/equipment/wand"
+    },
+    {
+      "index": "amulet",
+      "name": "Amulet",
+      "url": "/api/2024/equipment/amulet"
+    },
+    {
+      "index": "emblem",
+      "name": "Emblem",
+      "url": "/api/2024/equipment/emblem"
+    },
+    {
+      "index": "reliquary",
+      "name": "Reliquary",
+      "url": "/api/2024/equipment/reliquary"
+    }
+  ],
+  "utilize": [
+    {
+      "name": " Discern a gem's value",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 2,
+  "url": "/api/2024/equipment/jewelers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

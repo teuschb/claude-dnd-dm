@@ -1,0 +1,74 @@
+{
+  "index": "stirge",
+  "actions": [
+    {
+      "name": "Proboscis",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can\u2019t make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge\u2019s turns. The stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+3"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "2d4"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "2d4",
+  "hit_points": 5,
+  "hit_points_roll": "2d4",
+  "image": "/api/images/monsters/stirge.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Stirge",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Tiny",
+  "special_abilities": [],
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 4,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/stirge",
+  "wisdom": 8,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

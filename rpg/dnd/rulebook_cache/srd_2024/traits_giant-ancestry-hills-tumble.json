@@ -1,0 +1,21 @@
+{
+  "index": "giant-ancestry-hills-tumble",
+  "url": "/api/2024/traits/giant-ancestry-hills-tumble",
+  "name": "Giant Ancestry: Hill's Tumble",
+  "description": "When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
+  "species": [
+    {
+      "index": "goliath",
+      "name": "Goliath",
+      "url": "/api/2024/species/goliath"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "giant-ancestry-hills-tumble",
+      "url": "/api/2024/subspecies/giant-ancestry-hills-tumble",
+      "name": "Giant Ancestry: Hill's Tumble"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

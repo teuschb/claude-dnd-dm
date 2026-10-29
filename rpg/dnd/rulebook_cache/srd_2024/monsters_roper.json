@@ -1,0 +1,137 @@
+{
+  "index": "roper",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The roper makes two Tentacle attacks, uses Reel, and makes two Bite attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Tentacle",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Reel",
+          "count": "1",
+          "type": "special"
+        },
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (3d8 + 4) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d8+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Tentacle",
+      "desc": "Melee Attack Roll: +7, reach 60 ft. Hit: The target has the Grappled condition (escape DC 14) from one of six tentacles, and the target has the Poisoned condition until the grapple ends. The tentacle can be damaged, freeing a creature it has Grappled when destroyed (AC 20, HP 10, Immunity to Poison and Psychic damage). Damaging the tentacle deals no damage to the roper, and a destroyed tentacle regrows at the start of the roper\u2019s next turn.",
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Reel",
+      "desc": "The roper pulls each creature Grappled by it up to 30 feet straight toward it.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 20,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 8,
+  "hit_dice": "11d10",
+  "hit_points": 93,
+  "hit_points_roll": "11d10 + 33",
+  "image": "/api/images/monsters/roper.png",
+  "intelligence": 7,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Roper",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 16
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The roper can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "10 ft.",
+    "climb": "20 ft."
+  },
+  "strength": 18,
+  "type": "aberration",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/roper",
+  "wisdom": 16,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

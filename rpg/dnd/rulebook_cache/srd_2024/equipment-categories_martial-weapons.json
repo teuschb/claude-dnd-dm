@@ -1,0 +1,128 @@
+{
+  "index": "martial-weapons",
+  "name": "Martial Weapons",
+  "equipment": [
+    {
+      "index": "battleaxe",
+      "name": "Battleaxe",
+      "url": "/api/2024/equipment/battleaxe"
+    },
+    {
+      "index": "blowgun",
+      "name": "Blowgun",
+      "url": "/api/2024/equipment/blowgun"
+    },
+    {
+      "index": "flail",
+      "name": "Flail",
+      "url": "/api/2024/equipment/flail"
+    },
+    {
+      "index": "glaive",
+      "name": "Glaive",
+      "url": "/api/2024/equipment/glaive"
+    },
+    {
+      "index": "greataxe",
+      "name": "Greataxe",
+      "url": "/api/2024/equipment/greataxe"
+    },
+    {
+      "index": "greatsword",
+      "name": "Greatsword",
+      "url": "/api/2024/equipment/greatsword"
+    },
+    {
+      "index": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "url": "/api/2024/equipment/hand-crossbow"
+    },
+    {
+      "index": "halberd",
+      "name": "Halberd",
+      "url": "/api/2024/equipment/halberd"
+    },
+    {
+      "index": "heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "url": "/api/2024/equipment/heavy-crossbow"
+    },
+    {
+      "index": "lance",
+      "name": "Lance",
+      "url": "/api/2024/equipment/lance"
+    },
+    {
+      "index": "longbow",
+      "name": "Longbow",
+      "url": "/api/2024/equipment/longbow"
+    },
+    {
+      "index": "longsword",
+      "name": "Longsword",
+      "url": "/api/2024/equipment/longsword"
+    },
+    {
+      "index": "maul",
+      "name": "Maul",
+      "url": "/api/2024/equipment/maul"
+    },
+    {
+      "index": "morningstar",
+      "name": "Morningstar",
+      "url": "/api/2024/equipment/morningstar"
+    },
+    {
+      "index": "musket",
+      "name": "Musket",
+      "url": "/api/2024/equipment/musket"
+    },
+    {
+      "index": "pike",
+      "name": "Pike",
+      "url": "/api/2024/equipment/pike"
+    },
+    {
+      "index": "pistol",
+      "name": "Pistol",
+      "url": "/api/2024/equipment/pistol"
+    },
+    {
+      "index": "rapier",
+      "name": "Rapier",
+      "url": "/api/2024/equipment/rapier"
+    },
+    {
+      "index": "scimitar",
+      "name": "Scimitar",
+      "url": "/api/2024/equipment/scimitar"
+    },
+    {
+      "index": "shortsword",
+      "name": "Shortsword",
+      "url": "/api/2024/equipment/shortsword"
+    },
+    {
+      "index": "trident",
+      "name": "Trident",
+      "url": "/api/2024/equipment/trident"
+    },
+    {
+      "index": "warhammer",
+      "name": "Warhammer",
+      "url": "/api/2024/equipment/warhammer"
+    },
+    {
+      "index": "war-pick",
+      "name": "War Pick",
+      "url": "/api/2024/equipment/war-pick"
+    },
+    {
+      "index": "whip",
+      "name": "Whip",
+      "url": "/api/2024/equipment/whip"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/martial-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

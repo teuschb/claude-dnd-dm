@@ -1,0 +1,179 @@
+{
+  "index": "cloaker",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The cloaker makes one Attach attack and two Tail attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Attach",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Tail",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Attach",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can\u2019t make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage. The cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d6+3"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d10+3"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic neutral",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Moan",
+      "desc": "Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker\u2019s next turn. Success: The target is immune to this cloaker\u2019s Moan for the next 24 hours.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 13,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Phantasms",
+      "desc": "The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light.",
+      "usage": {
+        "type": "recharge after rest",
+        "rest_types": [
+          "short",
+          "long"
+        ]
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "components_required": [],
+        "spells": [
+          {
+            "index": "mirror-image",
+            "name": "Mirror Image",
+            "level": 2,
+            "url": "/api/2024/spells/mirror-image"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 8,
+  "charisma": 7,
+  "condition_immunities": [
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "14d10",
+  "hit_points": 91,
+  "hit_points_roll": "14d10 + 14",
+  "image": "/api/images/monsters/cloaker.png",
+  "intelligence": 13,
+  "languages": "Deep Speech, Undercommon",
+  "legendary_actions": [],
+  "name": "Cloaker",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 12
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Light Sensitivity",
+      "desc": "While in Bright Light, the cloaker has Disadvantage on attack rolls.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 17,
+  "type": "aberration",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/cloaker",
+  "wisdom": 14,
+  "xp": 3900,
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,35 @@
+{
+  "index": "saving-throw-dex",
+  "type": "Saving Throws",
+  "name": "Saving Throw: DEX",
+  "backgrounds": [],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "url": "/api/2024/proficiencies/saving-throw-dex",
+  "reference": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

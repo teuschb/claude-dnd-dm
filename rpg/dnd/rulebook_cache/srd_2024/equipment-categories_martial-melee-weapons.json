@@ -1,0 +1,93 @@
+{
+  "index": "martial-melee-weapons",
+  "name": "Martial Melee Weapons",
+  "equipment": [
+    {
+      "index": "battleaxe",
+      "name": "Battleaxe",
+      "url": "/api/2024/equipment/battleaxe"
+    },
+    {
+      "index": "flail",
+      "name": "Flail",
+      "url": "/api/2024/equipment/flail"
+    },
+    {
+      "index": "glaive",
+      "name": "Glaive",
+      "url": "/api/2024/equipment/glaive"
+    },
+    {
+      "index": "greataxe",
+      "name": "Greataxe",
+      "url": "/api/2024/equipment/greataxe"
+    },
+    {
+      "index": "greatsword",
+      "name": "Greatsword",
+      "url": "/api/2024/equipment/greatsword"
+    },
+    {
+      "index": "halberd",
+      "name": "Halberd",
+      "url": "/api/2024/equipment/halberd"
+    },
+    {
+      "index": "lance",
+      "name": "Lance",
+      "url": "/api/2024/equipment/lance"
+    },
+    {
+      "index": "maul",
+      "name": "Maul",
+      "url": "/api/2024/equipment/maul"
+    },
+    {
+      "index": "morningstar",
+      "name": "Morningstar",
+      "url": "/api/2024/equipment/morningstar"
+    },
+    {
+      "index": "pike",
+      "name": "Pike",
+      "url": "/api/2024/equipment/pike"
+    },
+    {
+      "index": "rapier",
+      "name": "Rapier",
+      "url": "/api/2024/equipment/rapier"
+    },
+    {
+      "index": "scimitar",
+      "name": "Scimitar",
+      "url": "/api/2024/equipment/scimitar"
+    },
+    {
+      "index": "shortsword",
+      "name": "Shortsword",
+      "url": "/api/2024/equipment/shortsword"
+    },
+    {
+      "index": "trident",
+      "name": "Trident",
+      "url": "/api/2024/equipment/trident"
+    },
+    {
+      "index": "warhammer",
+      "name": "Warhammer",
+      "url": "/api/2024/equipment/warhammer"
+    },
+    {
+      "index": "war-pick",
+      "name": "War Pick",
+      "url": "/api/2024/equipment/war-pick"
+    },
+    {
+      "index": "whip",
+      "name": "Whip",
+      "url": "/api/2024/equipment/whip"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/martial-melee-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

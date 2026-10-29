@@ -1,0 +1,110 @@
+{
+  "index": "azer-sentinel",
+  "actions": [
+    {
+      "name": "Burning Hammer",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 3 (1d6) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d10+3"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful neutral",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 10,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "6d8",
+  "hit_points": 39,
+  "hit_points_roll": "6d8 + 12",
+  "image": "/api/images/monsters/azer-sentinel-NYI.png",
+  "intelligence": 12,
+  "languages": "Primordial (Ignan)",
+  "legendary_actions": [],
+  "name": "Azer Sentinel",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 11
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Fire Aura",
+      "desc": "At the end of each of the azer\u2019s turns, each creature of the azer\u2019s choice in a 5-foot Emanation originating from the azer takes 5 (1d10) Fire damage unless the azer has the Incapacitated condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d10"
+        }
+      ]
+    },
+    {
+      "name": "Illumination",
+      "desc": "The azer sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 17,
+  "type": "elemental",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/azer-sentinel",
+  "wisdom": 13,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

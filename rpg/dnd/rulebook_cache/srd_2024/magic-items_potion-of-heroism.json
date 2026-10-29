@@ -1,0 +1,19 @@
+{
+  "index": "potion-of-heroism",
+  "url": "/api/2024/magic-items/potion-of-heroism",
+  "image": "/api/images/magic-items/potion-of-heroism.png",
+  "name": "Potion of Heroism",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Potion  \n     10d4 + 20  Very Rare      When you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.  \n This potion's container seems to hold fog that moves and pours like water.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

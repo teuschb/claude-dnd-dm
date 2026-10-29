@@ -1,0 +1,148 @@
+{
+  "index": "mummy",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The mummy makes two Rotting Fist attacks and uses Dreadful Glare.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rotting Fist",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Dreadful Glare",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Rotting Fist",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can\u2019t regain Hit Points, its Hit Point maximum doesn\u2019t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d10+3"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Dreadful Glare",
+      "desc": "Wisdom Saving Throw: DC 11, one creature the mummy can see within 60 feet. Failure: The target has the Frightened condition until the end of the mummy\u2019s next turn. Success: The target is immune to this mummy\u2019s Dreadful Glare for 24 hours.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 12,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "necrotic",
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [
+    "fire"
+  ],
+  "dexterity": 8,
+  "hit_dice": "9d8",
+  "hit_points": 58,
+  "hit_points_roll": "9d8 + 18",
+  "image": "/api/images/monsters/mummy.png",
+  "intelligence": 6,
+  "languages": "Common plus two other languages",
+  "legendary_actions": [],
+  "name": "Mummy",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 16,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/mummy",
+  "wisdom": 12,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,25 @@
+{
+  "index": "heavy-armor",
+  "type": "Armor",
+  "name": "Heavy Armor",
+  "classes": [
+    {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/heavy-armor",
+  "reference": {
+    "index": "heavy-armor",
+    "name": "Heavy Armor",
+    "url": "/api/2024/equipment-categories/heavy-armor"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

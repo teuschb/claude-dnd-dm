@@ -1,0 +1,99 @@
+{
+  "index": "grimlock",
+  "actions": [
+    {
+      "name": "Bone Cudgel",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+3"
+        },
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "2d8",
+  "hit_points": 11,
+  "hit_points_roll": "2d8 + 2",
+  "image": "/api/images/monsters/grimlock.png",
+  "intelligence": 9,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Grimlock",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-athletics",
+        "name": "Skill: Athletics",
+        "url": "/api/2024/proficiencies/skill-athletics"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "30 ft.",
+    "passive_perception": 13
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 16,
+  "type": "aberration",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/grimlock",
+  "wisdom": 8,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

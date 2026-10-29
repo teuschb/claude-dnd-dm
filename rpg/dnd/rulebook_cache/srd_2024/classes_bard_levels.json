@@ -1,0 +1,708 @@
+[
+  {
+    "index": "bard-1",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 6
+    },
+    "features": [
+      {
+        "index": "bard-bardic-inspiration",
+        "name": "Bardic Inspiration",
+        "url": "/api/2024/features/bard-bardic-inspiration"
+      },
+      {
+        "index": "bard-spellcasting",
+        "name": "Spellcasting",
+        "url": "/api/2024/features/bard-spellcasting"
+      }
+    ],
+    "level": 1,
+    "name": "Bard 1",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 2,
+      "prepared_spells": 4,
+      "spell_slots_level_1": 2,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/1"
+  },
+  {
+    "index": "bard-2",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 6
+    },
+    "features": [
+      {
+        "index": "bard-expertise",
+        "name": "Expertise",
+        "url": "/api/2024/features/bard-expertise"
+      },
+      {
+        "index": "bard-jack-of-all-trades",
+        "name": "Jack of All Trades",
+        "url": "/api/2024/features/bard-jack-of-all-trades"
+      }
+    ],
+    "level": 2,
+    "name": "Bard 2",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 2,
+      "prepared_spells": 5,
+      "spell_slots_level_1": 3,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/2"
+  },
+  {
+    "index": "bard-3",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 6
+    },
+    "features": [
+      {
+        "index": "bard-subclass",
+        "name": "Bard Subclass",
+        "url": "/api/2024/features/bard-subclass"
+      }
+    ],
+    "level": 3,
+    "name": "Bard 3",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 2,
+      "prepared_spells": 6,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 2,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/3"
+  },
+  {
+    "index": "bard-4",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 6
+    },
+    "features": [
+      {
+        "index": "bard-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/bard-ability-score-improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Bard 4",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 7,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/4"
+  },
+  {
+    "index": "bard-5",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 8
+    },
+    "features": [
+      {
+        "index": "bard-font-of-inspiration",
+        "name": "Font of Inspiration",
+        "url": "/api/2024/features/bard-font-of-inspiration"
+      }
+    ],
+    "level": 5,
+    "name": "Bard 5",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 9,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 2,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/5"
+  },
+  {
+    "index": "bard-6",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 8
+    },
+    "features": [
+      {
+        "index": "bard-subclass",
+        "name": "Bard Subclass",
+        "url": "/api/2024/features/bard-subclass"
+      }
+    ],
+    "level": 6,
+    "name": "Bard 6",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 10,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/6"
+  },
+  {
+    "index": "bard-7",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 8
+    },
+    "features": [
+      {
+        "index": "bard-countercharm",
+        "name": "Countercharm",
+        "url": "/api/2024/features/bard-countercharm"
+      }
+    ],
+    "level": 7,
+    "name": "Bard 7",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 11,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 1,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/7"
+  },
+  {
+    "index": "bard-8",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 8
+    },
+    "features": [
+      {
+        "index": "bard-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/bard-ability-score-improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Bard 8",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 12,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 2,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/8"
+  },
+  {
+    "index": "bard-9",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 8
+    },
+    "features": [
+      {
+        "index": "bard-expertise",
+        "name": "Expertise",
+        "url": "/api/2024/features/bard-expertise"
+      }
+    ],
+    "level": 9,
+    "name": "Bard 9",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 3,
+      "prepared_spells": 14,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 1,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/9"
+  },
+  {
+    "index": "bard-10",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 10
+    },
+    "features": [
+      {
+        "index": "bard-magical-secrets",
+        "name": "Magical Secrets",
+        "url": "/api/2024/features/bard-magical-secrets"
+      }
+    ],
+    "level": 10,
+    "name": "Bard 10",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 15,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/10"
+  },
+  {
+    "index": "bard-11",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 10
+    },
+    "features": [],
+    "level": 11,
+    "name": "Bard 11",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/11"
+  },
+  {
+    "index": "bard-12",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 10
+    },
+    "features": [
+      {
+        "index": "bard-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/bard-ability-score-improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Bard 12",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/12"
+  },
+  {
+    "index": "bard-13",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 10
+    },
+    "features": [],
+    "level": 13,
+    "name": "Bard 13",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/13"
+  },
+  {
+    "index": "bard-14",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 10
+    },
+    "features": [
+      {
+        "index": "bard-subclass",
+        "name": "Bard Subclass",
+        "url": "/api/2024/features/bard-subclass"
+      }
+    ],
+    "level": 14,
+    "name": "Bard 14",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/14"
+  },
+  {
+    "index": "bard-15",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [],
+    "level": 15,
+    "name": "Bard 15",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/15"
+  },
+  {
+    "index": "bard-16",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [
+      {
+        "index": "bard-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/bard-ability-score-improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Bard 16",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/16"
+  },
+  {
+    "index": "bard-17",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [],
+    "level": 17,
+    "name": "Bard 17",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 19,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/17"
+  },
+  {
+    "index": "bard-18",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [
+      {
+        "index": "bard-superior-inspiration",
+        "name": "Superior Inspiration",
+        "url": "/api/2024/features/bard-superior-inspiration"
+      }
+    ],
+    "level": 18,
+    "name": "Bard 18",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 20,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/18"
+  },
+  {
+    "index": "bard-19",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [
+      {
+        "index": "bard-epic-boon",
+        "name": "Epic Boon",
+        "url": "/api/2024/features/bard-epic-boon"
+      }
+    ],
+    "level": 19,
+    "name": "Bard 19",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 21,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/19"
+  },
+  {
+    "index": "bard-20",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "class_specific": {
+      "bardic_inspiration_die": 12
+    },
+    "features": [
+      {
+        "index": "bard-words-of-creation",
+        "name": "Words of Creation",
+        "url": "/api/2024/features/bard-words-of-creation"
+      }
+    ],
+    "level": 20,
+    "name": "Bard 20",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 22,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 2,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/bard/levels/20"
+  }
+]

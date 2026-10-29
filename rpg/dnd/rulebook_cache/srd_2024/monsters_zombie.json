@@ -1,0 +1,101 @@
+{
+  "index": "zombie",
+  "actions": [
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d8+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 8,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 6,
+  "hit_dice": "2d8",
+  "hit_points": 15,
+  "hit_points_roll": "2d8 + 6",
+  "image": "/api/images/monsters/zombie.png",
+  "intelligence": 3,
+  "languages": "Understands Common plus one other language but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Zombie",
+  "proficiencies": [
+    {
+      "value": 0,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Undead Fortitude",
+      "desc": "If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 13,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/zombie",
+  "wisdom": 6,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

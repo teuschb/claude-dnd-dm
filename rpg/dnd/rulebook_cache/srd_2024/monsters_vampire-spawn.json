@@ -1,0 +1,200 @@
+{
+  "index": "vampire-spawn",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The vampire makes two Claw attacks and uses Bite.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Bite",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d4+3"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 13,
+        "success_type": "none"
+      },
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target\u2019s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+3"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Deathless Agility",
+      "desc": "The vampire takes the Dash or Disengage action.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "necrotic"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "12d8",
+  "hit_points": 90,
+  "hit_points_roll": "12d8 + 36",
+  "image": "/api/images/monsters/vampire-spawn.png",
+  "intelligence": 11,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Vampire Spawn",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    },
+    {
+      "name": "Vampire Weakness",
+      "desc": "The vampire has these weaknesses:",
+      "damage": []
+    },
+    {
+      "name": "Forbiddance",
+      "desc": "The vampire can\u2019t enter a residence without an invitation from an occupant.",
+      "damage": []
+    },
+    {
+      "name": "Running Water",
+      "desc": "The vampire takes 20 Acid damage if it ends its turn in running water.",
+      "damage": []
+    },
+    {
+      "name": "Stake to the Heart",
+      "desc": "The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire\u2019s heart while the vampire has the Incapacitated condition.",
+      "damage": []
+    },
+    {
+      "name": "Sunlight",
+      "desc": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 16,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/vampire-spawn",
+  "wisdom": 10,
+  "xp": 1800,
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,17 @@
+{
+  "index": "barbarian-primal-knowledge",
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "description": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.\n  In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a differ- ent ability: Acrobatics, Intimidation, Perception,\nStealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.",
+  "level": {
+    "index": "barbarian-3",
+    "name": "Barbarian 3",
+    "url": "/api/2024/classes/barbarian/levels/3"
+  },
+  "name": "Primal Knowledge",
+  "updated_at": "2026-07-05T20:53:29.088Z",
+  "url": "/api/2024/features/barbarian-primal-knowledge"
+}

@@ -1,0 +1,155 @@
+{
+  "index": "swarm-of-ravens",
+  "actions": [
+    {
+      "name": "Beaks",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Cacophony",
+      "desc": "Wisdom Saving Throw: DC 10, one creature in the swarm\u2019s space. Failure: The target has the Deafened condition until the start of the swarm\u2019s next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 6,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "stunned",
+      "name": "Stunned",
+      "url": "/api/2024/conditions/stunned"
+    }
+  ],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "2d8",
+  "hit_points": 11,
+  "hit_points_roll": "2d8 + 2",
+  "image": "/api/images/monsters/swarm-of-ravens.png",
+  "intelligence": 5,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Swarm of Ravens",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature\u2019s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can\u2019t regain Hit Points or gain Temporary Hit Points.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "50 ft."
+  },
+  "strength": 6,
+  "type": "swarm of tiny beasts",
+  "updated_at": "2026-09-22T23:01:02.698Z",
+  "url": "/api/2024/monsters/swarm-of-ravens",
+  "wisdom": 12,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

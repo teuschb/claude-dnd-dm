@@ -1,0 +1,17 @@
+{
+  "index": "monk-monks-focus",
+  "class": {
+    "index": "monk",
+    "url": "/api/2024/classes/monk",
+    "name": "Monk"
+  },
+  "description": "Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.\n  You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.\n  When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.\n Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.\n  Flurry of Blows. You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.\n  Patient Defense. You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.\n  Step of the Wind. You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash\nactions as a Bonus Action, and your jump distance is doubled for the turn.",
+  "level": {
+    "index": "monk-2",
+    "url": "/api/2024/classes/monk/levels/2",
+    "name": "Monk 2"
+  },
+  "name": "Monk's Focus",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/monk-monks-focus"
+}

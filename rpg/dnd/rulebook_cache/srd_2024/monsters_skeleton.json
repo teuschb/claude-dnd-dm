@@ -1,0 +1,98 @@
+{
+  "index": "skeleton",
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [
+    "bludgeoning"
+  ],
+  "dexterity": 16,
+  "gear": "Shortbow, Shortsword",
+  "hit_dice": "2d8",
+  "hit_points": 13,
+  "hit_points_roll": "2d8 + 4",
+  "image": "/api/images/monsters/skeleton.png",
+  "intelligence": 6,
+  "languages": "Understands Common plus one other language but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Skeleton",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 10,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/skeleton",
+  "wisdom": 8,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

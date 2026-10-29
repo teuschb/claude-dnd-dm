@@ -1,0 +1,113 @@
+{
+  "index": "gargoyle",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The gargoyle makes two Claw attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d4+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 7,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "9d8",
+  "hit_points": 67,
+  "hit_points_roll": "9d8 + 27",
+  "image": "/api/images/monsters/gargoyle.png",
+  "intelligence": 6,
+  "languages": "Primordial (Terran)",
+  "legendary_actions": [],
+  "name": "Gargoyle",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 10
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The gargoyle doesn\u2019t provoke an Opportunity Attack when it flies out of an enemy\u2019s reach.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 15,
+  "type": "elemental",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/gargoyle",
+  "wisdom": 11,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

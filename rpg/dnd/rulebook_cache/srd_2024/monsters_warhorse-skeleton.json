@@ -1,0 +1,80 @@
+{
+  "index": "warhorse-skeleton",
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [
+    "bludgeoning"
+  ],
+  "dexterity": 12,
+  "hit_dice": "3d10",
+  "hit_points": 22,
+  "hit_points_roll": "3d10 + 6",
+  "image": "/api/images/monsters/warhorse-skeleton.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Warhorse Skeleton",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "60 ft."
+  },
+  "strength": 18,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/warhorse-skeleton",
+  "wisdom": 8,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

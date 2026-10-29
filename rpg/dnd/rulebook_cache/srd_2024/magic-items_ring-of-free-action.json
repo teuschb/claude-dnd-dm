@@ -1,0 +1,19 @@
+{
+  "index": "ring-of-free-action",
+  "url": "/api/2024/magic-items/ring-of-free-action",
+  "image": "/api/images/magic-items/ring-of-free-action.png",
+  "name": "Ring of Free Action",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Ring  \n While you wear this ring, Difficult Terrain doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the Paralyzed or Restrained condition.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

@@ -1,0 +1,130 @@
+{
+  "index": "sprite",
+  "actions": [
+    {
+      "name": "Needle Sword",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Enchanting Bow",
+      "desc": "Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage, and the target has the Charmed condition until the start of the sprite\u2019s next turn.",
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Heart Sight",
+      "desc": "Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, and Undead automatically fail the save). Failure: The sprite knows the target\u2019s emotions and alignment.",
+      "dc": {
+        "dc_type": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Invisibility",
+      "desc": "The sprite casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "components_required": [],
+        "spells": [
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility",
+            "notes": "Self only"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral good",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "hit_dice": "4d4",
+  "hit_points": 10,
+  "hit_points_roll": "4d4",
+  "image": "/api/images/monsters/sprite.png",
+  "intelligence": 14,
+  "languages": "Common, Elvish, Sylvan",
+  "legendary_actions": [],
+  "name": "Sprite",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 13
+  },
+  "size": "Tiny",
+  "special_abilities": [],
+  "speed": {
+    "walk": "10 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 3,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/sprite",
+  "wisdom": 13,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

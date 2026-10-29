@@ -1,0 +1,303 @@
+{
+  "index": "guardian-naga",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Bite",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Poisonous Spittle",
+              "count": 2,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d12+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "4d10"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Poisonous Spittle",
+      "desc": "Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga\u2019s next turn. Success: Half damage only.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "7d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 16,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 16,
+        "components_required": [
+          "V"
+        ],
+        "spells": [
+          {
+            "index": "thaumaturgy",
+            "name": "Thaumaturgy",
+            "level": 0,
+            "url": "/api/2024/spells/thaumaturgy",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "clairvoyance",
+            "name": "Clairvoyance",
+            "level": 3,
+            "url": "/api/2024/spells/clairvoyance",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "cure-wounds",
+            "name": "Cure Wounds",
+            "level": 6,
+            "url": "/api/2024/spells/cure-wounds",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "flame-strike",
+            "name": "Flame Strike",
+            "level": 6,
+            "url": "/api/2024/spells/flame-strike",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "geas",
+            "name": "Geas",
+            "level": 5,
+            "url": "/api/2024/spells/geas",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "true-seeing",
+            "name": "True Seeing",
+            "level": 6,
+            "url": "/api/2024/spells/true-seeing",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 10,
+  "charisma": 18,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "hit_dice": "16d10",
+  "hit_points": 136,
+  "hit_points_roll": "16d10 + 48",
+  "image": "/api/images/monsters/guardian-naga.png",
+  "intelligence": 16,
+  "languages": "Celestial, Common",
+  "legendary_actions": [],
+  "name": "Guardian Naga",
+  "proficiencies": [
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Celestial Restoration",
+      "desc": "If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "climb": "40 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 19,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/guardian-naga",
+  "wisdom": 19,
+  "xp": 5900,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

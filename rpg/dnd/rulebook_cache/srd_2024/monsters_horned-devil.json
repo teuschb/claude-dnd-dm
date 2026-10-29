@@ -1,0 +1,207 @@
+{
+  "index": "horned-devil",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 3,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Searing Fork",
+              "count": 3,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Hurl Flame",
+              "count": 3,
+              "type": "ranged"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Infernal Tail",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Searing Fork",
+      "desc": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+6"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d8"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Hurl Flame",
+      "desc": "Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn\u2019t being worn or carried, it starts burning.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "5d8+4"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Infernal Tail",
+      "desc": "Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn\u2019t have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "1d8+6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 17,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 11,
+  "charisma": 18,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 21,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "19d10",
+  "hit_points": 199,
+  "hit_points_roll": "19d10 + 95",
+  "image": "/api/images/monsters/horned-devil.png",
+  "intelligence": 12,
+  "languages": "Infernal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Horned Devil",
+  "proficiencies": [
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "150 ft. (unimpeded by magical darkness)",
+    "passive_perception": 13
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Diabolical Restoration",
+      "desc": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The devil has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 22,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/horned-devil",
+  "wisdom": 16,
+  "xp": 7200,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

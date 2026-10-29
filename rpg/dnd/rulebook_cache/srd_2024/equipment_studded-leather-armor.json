@@ -1,0 +1,37 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "studded-leather-armor",
+  "name": "Studded Leather Armor",
+  "equipment_categories": [
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    },
+    {
+      "index": "light-armor",
+      "name": "Light Armor",
+      "url": "/api/2024/equipment-categories/light-armor"
+    }
+  ],
+  "armor_class": {
+    "base": 12,
+    "dex_bonus": true
+  },
+  "cost": {
+    "quantity": 45,
+    "unit": "gp"
+  },
+  "don_time": "1 minute",
+  "doff_time": "1 minute",
+  "stealth_disadvantage": false,
+  "str_minimum": 0,
+  "weight": 13,
+  "url": "/api/2024/equipment/studded-leather-armor",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

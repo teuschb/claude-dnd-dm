@@ -1,0 +1,11 @@
+{
+  "index": "two-weapon-fighting",
+  "name": "Two Weapon Fighting",
+  "type": "fighting-style",
+  "prerequisites": {
+    "feature_named": "Fighting Style"
+  },
+  "description": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
+  "url": "/api/2024/feats/two-weapon-fighting",
+  "updated_at": "2026-04-23T07:06:27.241Z"
+}

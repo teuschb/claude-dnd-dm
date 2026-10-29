@@ -1,0 +1,157 @@
+{
+  "index": "bearded-devil",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The devil makes one Beard attack and one Infernal Glaive attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Beard",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Infernal Glaive",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Beard",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the target has the Poisoned condition until the start of the devil\u2019s next turn. Until this poison ends, the target can\u2019t regain Hit Points.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Infernal Glaive",
+      "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage. If the target is a creature and doesn\u2019t already have an infernal wound, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target receives an infernal wound. While wounded, the target loses 5 (1d10) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 12 Wisdom (Medicine) check.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d10+3"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 14,
+  "condition_immunities": [
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "9d8",
+  "hit_points": 58,
+  "hit_points_roll": "9d8 + 18",
+  "image": "/api/images/monsters/bearded-devil.png",
+  "intelligence": 9,
+  "languages": "Infernal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Bearded Devil",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft. (unimpeded by magical darkness)",
+    "passive_perception": 10
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The devil has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 16,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/bearded-devil",
+  "wisdom": 11,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

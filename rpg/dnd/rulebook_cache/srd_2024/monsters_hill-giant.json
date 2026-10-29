@@ -1,0 +1,120 @@
+{
+  "index": "hill-giant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The giant makes two attacks, using Tree Club or Trash Lob in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Tree Club",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Trash Lob",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tree Club",
+      "desc": "Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d8+5"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Trash Lob",
+      "desc": "Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d10+5"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 19,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 8,
+  "hit_dice": "10d12",
+  "hit_points": 105,
+  "hit_points_roll": "10d12 + 40",
+  "image": "/api/images/monsters/hill-giant.png",
+  "intelligence": 5,
+  "languages": "Giant",
+  "legendary_actions": [],
+  "name": "Hill Giant",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "passive_perception": 12
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 21,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/hill-giant",
+  "wisdom": 9,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

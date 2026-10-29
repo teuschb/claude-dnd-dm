@@ -1,0 +1,120 @@
+{
+  "index": "grick",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The grick makes one Beak attack and one Tentacles attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Beak",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Tentacles",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d6+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tentacles",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12) from all four tentacles.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d10+2"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "12d8",
+  "hit_points": 54,
+  "hit_points_roll": "12d8",
+  "image": "/api/images/monsters/grick.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Grick",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 12
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 14,
+  "type": "aberration",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/grick",
+  "wisdom": 14,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,37 @@
+{
+  "index": "elven-lineage-drow",
+  "url": "/api/2024/subspecies/elven-lineage-drow",
+  "name": "Elven Lineage: Drow",
+  "traits": [
+    {
+      "index": "darkvision-120",
+      "name": "Darkvision (120 ft.)",
+      "url": "/api/2024/traits/darkvision-120",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-dancing-lights",
+      "url": "/api/2024/traits/lineage-spell-dancing-lights",
+      "name": "Dancing Lights",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-faerie-fire",
+      "url": "/api/2024/traits/lineage-spell-faerie-fire",
+      "name": "Faerie Fire",
+      "level": 3
+    },
+    {
+      "index": "lineage-spell-darkness",
+      "url": "/api/2024/traits/lineage-spell-darkness",
+      "name": "Darkness",
+      "level": 5
+    }
+  ],
+  "species": {
+    "index": "elf",
+    "name": "Elf",
+    "url": "/api/2024/species/elf"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

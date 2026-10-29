@@ -1,0 +1,40 @@
+{
+  "index": "lineage-spell-darkness",
+  "url": "/api/2024/traits/lineage-spell-darkness",
+  "name": "Darkness",
+  "description": "You know the spell Darkness.",
+  "spells": [
+    {
+      "spell": {
+        "index": "darkness",
+        "name": "Darkness",
+        "url": "/api/2024/spells/darkness"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    },
+    {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "elven-lineage-drow",
+      "url": "/api/2024/subspecies/elven-lineage-drow",
+      "name": "Elven Lineage: Drow"
+    },
+    {
+      "index": "fiendish-legacy-infernal",
+      "url": "/api/2024/subspecies/fiendish-legacy-infernal",
+      "name": "Fiendish Legacy: Infernal"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

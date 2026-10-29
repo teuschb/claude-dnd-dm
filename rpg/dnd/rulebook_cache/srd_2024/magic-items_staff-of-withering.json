@@ -1,0 +1,19 @@
+{
+  "index": "staff-of-withering",
+  "url": "/api/2024/magic-items/staff-of-withering",
+  "image": "/api/images/magic-items/staff-of-withering.png",
+  "name": "Staff of Withering",
+  "equipment_category": {
+    "index": "staffs",
+    "name": "Staffs",
+    "url": "/api/2024/equipment-categories/staffs"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Staff  \n This staff has 3 charges and regains 1d3 expended charges daily at dawn.  \n The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff, and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

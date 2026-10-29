@@ -1,0 +1,15 @@
+{
+  "index": "fey-ancestry",
+  "url": "/api/2024/traits/fey-ancestry",
+  "name": "Fey Ancestry",
+  "description": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

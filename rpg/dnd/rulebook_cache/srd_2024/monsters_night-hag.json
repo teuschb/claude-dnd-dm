@@ -1,0 +1,297 @@
+{
+  "index": "night-hag",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The hag makes two Claw attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d8+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Nightmare Haunting (Requires Soul Bag)",
+      "desc": "While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell\u2019s messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a Magic Circle spell. If the target takes damage from the Dream spell, the target\u2019s Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag\u2019s soul bag, and the target can\u2019t be raised from the dead until its soul is released.",
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "dream",
+            "name": "Dream",
+            "level": 5,
+            "url": "/api/2024/spells/dream"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The hag casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 14):",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "etherealness",
+            "name": "Etherealness",
+            "level": 7,
+            "url": "/api/2024/spells/etherealness",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "magic-missile",
+            "name": "Magic Missile",
+            "level": 4,
+            "url": "/api/2024/spells/magic-missile",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "phantasmal-killer",
+            "name": "Phantasmal Killer",
+            "level": 4,
+            "url": "/api/2024/spells/phantasmal-killer",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "plane-shift",
+            "name": "Plane Shift",
+            "level": 7,
+            "url": "/api/2024/spells/plane-shift",
+            "notes": "Self only",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The hag shape-shifts into a Small or Medium Humanoid, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "cold",
+    "fire"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "15d8",
+  "hit_points": 112,
+  "hit_points_roll": "15d8 + 45",
+  "image": "/api/images/monsters/night-hag.png",
+  "intelligence": 16,
+  "languages": "Abyssal, Common, Infernal, Primordial",
+  "legendary_actions": [],
+  "name": "Night Hag",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Coven Magic",
+      "desc": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell\u2019s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 14): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "augury",
+            "name": "Augury",
+            "level": 2,
+            "url": "/api/2024/spells/augury"
+          },
+          {
+            "index": "find-familiar",
+            "name": "Find Familiar",
+            "level": 1,
+            "url": "/api/2024/spells/find-familiar"
+          },
+          {
+            "index": "identify",
+            "name": "Identify",
+            "level": 1,
+            "url": "/api/2024/spells/identify"
+          },
+          {
+            "index": "locate-object",
+            "name": "Locate Object",
+            "level": 2,
+            "url": "/api/2024/spells/locate-object"
+          },
+          {
+            "index": "scrying",
+            "name": "Scrying",
+            "level": 5,
+            "url": "/api/2024/spells/scrying"
+          },
+          {
+            "index": "unseen-servant",
+            "name": "Unseen Servant",
+            "level": 1,
+            "url": "/api/2024/spells/unseen-servant"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The hag has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    },
+    {
+      "name": "Soul Bag",
+      "desc": "The hag has a soul bag. While holding or carrying the bag, the hag can use its Nightmare Haunting action. The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 18,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/night-hag",
+  "wisdom": 14,
+  "xp": 1800,
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "dust-of-disappearance",
+  "url": "/api/2024/magic-items/dust-of-disappearance",
+  "image": "/api/images/magic-items/dust-of-disappearance.png",
+  "name": "Dust of Disappearance",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n This powder resembles fine sand. There is enough of it for one use. When you take a Utilize action to throw the dust into the air, you and each creature and object within a 10-foot Emanation originating from you have the Invisible condition for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the Invisible condition ends for that creature.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

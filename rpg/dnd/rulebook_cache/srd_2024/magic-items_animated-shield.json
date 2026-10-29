@@ -1,0 +1,19 @@
+{
+  "index": "animated-shield",
+  "url": "/api/2024/magic-items/animated-shield",
+  "image": "/api/images/magic-items/animated-shield.png",
+  "name": "Animated Shield",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Armor (Shield)  \n While holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the Incapacitated condition, at which point the Shield falls to the ground or into your hand if you have one free.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

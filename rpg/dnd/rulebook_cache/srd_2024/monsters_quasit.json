@@ -1,0 +1,144 @@
+{
+  "index": "quasit",
+  "actions": [
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Invisibility",
+      "desc": "The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "components_required": [],
+        "spells": [
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility",
+            "notes": "Self only"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Scare",
+      "desc": "Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 10,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "lightning"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "10d4",
+  "hit_points": 25,
+  "hit_points_roll": "10d4",
+  "image": "/api/images/monsters/quasit.png",
+  "intelligence": 7,
+  "languages": "Abyssal, Common",
+  "legendary_actions": [],
+  "name": "Quasit",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 10
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The quasit has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 5,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/quasit",
+  "wisdom": 10,
+  "xp": 200,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

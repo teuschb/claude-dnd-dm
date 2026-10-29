@@ -1,0 +1,234 @@
+{
+  "index": "balor",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The balor makes one Flame Whip attack and one Lightning Blade attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Flame Whip",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Lightning Blade",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Flame Whip",
+      "desc": "Melee Attack Roll: +14, reach 30 ft. Hit: 18 (3d6 + 8) Force damage plus 17 (5d6) Fire damage. If the target is a Huge or smaller creature, the balor pulls the target up to 25 feet straight toward itself, and the target has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "3d6+8"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "5d6"
+        }
+      ],
+      "attack_bonus": 14,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Lightning Blade",
+      "desc": "Melee Attack Roll: +14, reach 10 ft. Hit: 21 (3d8 + 8) Force damage plus 22 (4d10) Lightning damage, and the target can\u2019t take Reactions until the start of the balor\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "3d8+8"
+        },
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "4d10"
+        }
+      ],
+      "attack_bonus": 14,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 19,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Teleport",
+      "desc": "The balor teleports itself or a willing demon within 10 feet of itself up to 60 feet to an unoccupied space the balor can see.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 19,
+  "charisma": 22,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 22,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold",
+    "lightning"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "23d12",
+  "hit_points": 287,
+  "hit_points_roll": "23d12 + 138",
+  "image": "/api/images/monsters/balor.png",
+  "intelligence": 20,
+  "languages": "Abyssal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Balor",
+  "proficiencies": [
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 6,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 19
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Death Throes",
+      "desc": "The balor explodes when it dies. Dexterity Saving Throw: DC 20, each creature in a 30-foot Emanation originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6) Force damage. Success: Half damage. Failure or Success: If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "9d6"
+        },
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "9d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 20,
+        "success_type": "half"
+      }
+    },
+    {
+      "name": "Fire Aura",
+      "desc": "At the end of each of the balor\u2019s turns, each creature in a 5-foot Emanation originating from the balor takes 13 (3d8) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "3d8"
+        }
+      ]
+    },
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the balor fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The balor has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "80 ft."
+  },
+  "strength": 26,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/balor",
+  "wisdom": 16,
+  "xp": 22000,
+  "reactions": [],
+  "forms": []
+}

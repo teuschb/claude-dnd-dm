@@ -1,0 +1,150 @@
+{
+  "index": "wererat-human",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Scratch",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Hand Crossbow",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Scratch",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "Ranged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small rat, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "forms": [
+    {
+      "index": "wererat-hybrid",
+      "name": "Wererat, Hybrid Form",
+      "url": "/api/2024/monsters/wererat-hybrid"
+    },
+    {
+      "index": "wererat-rat",
+      "name": "Wererat, Rat Form",
+      "url": "/api/2024/monsters/wererat-rat"
+    }
+  ],
+  "gear": "Hand Crossbow",
+  "hit_dice": "11d8",
+  "hit_points": 60,
+  "hit_points_roll": "11d8 + 11",
+  "image": "/api/images/monsters/wererat-human.png",
+  "intelligence": 11,
+  "languages": "Common (can\u2019t speak in rat form)",
+  "name": "Wererat, Human Form",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Medium",
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 10,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/wererat-human",
+  "wisdom": 10,
+  "xp": 450,
+  "special_abilities": [],
+  "legendary_actions": [],
+  "reactions": []
+}

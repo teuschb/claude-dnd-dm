@@ -1,0 +1,12 @@
+{
+  "index": "animal-handling",
+  "name": "Animal Handling",
+  "description": "Calm or train an animal, or get an animal to behave in a certain way.",
+  "ability_score": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "url": "/api/2024/skills/animal-handling",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

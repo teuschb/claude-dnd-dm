@@ -1,0 +1,17 @@
+{
+  "index": "fighter-subclass",
+  "class": {
+    "index": "fighter",
+    "url": "/api/2024/classes/fighter",
+    "name": "Fighter"
+  },
+  "description": "You gain a Fighter subclass of your choice. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.",
+  "level": {
+    "index": "fighter-3",
+    "url": "/api/2024/classes/fighter/levels/3",
+    "name": "Fighter 3"
+  },
+  "name": "Fighter Subclass",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/fighter-subclass"
+}

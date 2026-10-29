@@ -1,0 +1,161 @@
+{
+  "index": "doppelganger",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The doppelganger makes two Slam attacks and uses Unsettling Visage if available.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Slam",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Unsettling Visage",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +6 (with Advantage during the first round of each combat), reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d6+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Read Thoughts",
+      "desc": "The doppelganger casts Detect Thoughts, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 12).",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 12,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "detect-thoughts",
+            "name": "Detect Thoughts",
+            "level": 2,
+            "url": "/api/2024/spells/detect-thoughts"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Unsettling Visage",
+      "desc": "Wisdom Saving Throw: DC 12, each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: The target has the Frightened condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 6,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The doppelganger shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 14,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    }
+  ],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "hit_dice": "8d8",
+  "hit_points": 52,
+  "hit_points_roll": "8d8 + 16",
+  "image": "/api/images/monsters/doppelganger.png",
+  "intelligence": 11,
+  "languages": "Common plus three other languages",
+  "legendary_actions": [],
+  "name": "Doppelganger",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 11,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/doppelganger",
+  "wisdom": 12,
+  "xp": 700,
+  "reactions": [],
+  "forms": []
+}

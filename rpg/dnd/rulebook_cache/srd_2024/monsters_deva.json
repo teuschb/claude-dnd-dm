@@ -1,0 +1,257 @@
+{
+  "index": "deva",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The deva makes two Holy Mace attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Holy Mace",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Holy Mace",
+      "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+4"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "4d8"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 17,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "shapechange",
+            "name": "Shapechange",
+            "level": 9,
+            "url": "/api/2024/spells/shapechange",
+            "notes": "Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "commune",
+            "name": "Commune",
+            "level": 5,
+            "url": "/api/2024/spells/commune",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "raise-dead",
+            "name": "Raise Dead",
+            "level": 5,
+            "url": "/api/2024/spells/raise-dead",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Divine Aid",
+      "desc": "The deva casts Cure Wounds, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 2,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 17,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "cure-wounds",
+            "name": "Cure Wounds",
+            "level": 1,
+            "url": "/api/2024/spells/cure-wounds"
+          },
+          {
+            "index": "lesser-restoration",
+            "name": "Lesser Restoration",
+            "level": 2,
+            "url": "/api/2024/spells/lesser-restoration"
+          },
+          {
+            "index": "remove-curse",
+            "name": "Remove Curse",
+            "level": 3,
+            "url": "/api/2024/spells/remove-curse"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 10,
+  "charisma": 20,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 18,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "hit_dice": "27d8",
+  "hit_points": 229,
+  "hit_points_roll": "27d8 + 108",
+  "image": "/api/images/monsters/deva.png",
+  "intelligence": 17,
+  "languages": "All; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Deva",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 19
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Exalted Restoration",
+      "desc": "If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The deva has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "fly": "90 ft.",
+    "hover": true
+  },
+  "strength": 18,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/deva",
+  "wisdom": 20,
+  "xp": 5900,
+  "reactions": [],
+  "forms": []
+}

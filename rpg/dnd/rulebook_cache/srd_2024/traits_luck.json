@@ -1,0 +1,15 @@
+{
+  "index": "luck",
+  "url": "/api/2024/traits/luck",
+  "name": "Luck",
+  "description": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
+  "species": [
+    {
+      "index": "halfling",
+      "url": "/api/2024/species/halfling",
+      "name": "Halfling"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

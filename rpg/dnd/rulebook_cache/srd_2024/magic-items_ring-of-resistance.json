@@ -1,0 +1,19 @@
+{
+  "index": "ring-of-resistance",
+  "url": "/api/2024/magic-items/ring-of-resistance",
+  "image": "/api/images/magic-items/ring-of-resistance.png",
+  "name": "Ring of Resistance",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Ring  \n You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

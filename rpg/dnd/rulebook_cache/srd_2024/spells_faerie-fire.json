@@ -1,0 +1,34 @@
+{
+  "index": "faerie-fire",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "components": [
+    "V"
+  ],
+  "concentration": true,
+  "description": "Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition.\n  Attack rolls against an affected creature or object have Advantage if the attacker can see it.",
+  "duration": "up to 1 minute",
+  "level": 1,
+  "name": "Faerie Fire",
+  "range": "60 feet",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/faerie-fire",
+  "subclasses": []
+}

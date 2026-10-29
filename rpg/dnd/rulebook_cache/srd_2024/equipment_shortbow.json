@@ -1,0 +1,72 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "shortbow",
+  "name": "Shortbow",
+  "equipment_categories": [
+    {
+      "index": "ranged-weapons",
+      "name": "Ranged Weapons",
+      "url": "/api/2024/equipment-categories/ranged-weapons"
+    },
+    {
+      "index": "simple-ranged-weapons",
+      "name": "Simple Ranged Weapons",
+      "url": "/api/2024/equipment-categories/simple-ranged-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "ammunition": {
+    "index": "arrows",
+    "name": "Arrows",
+    "url": "/api/2024/equipment/arrows"
+  },
+  "cost": {
+    "quantity": 25,
+    "unit": "gp"
+  },
+  "damage": {
+    "damage_dice": "1d6",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "range": {
+    "normal": 80,
+    "long": 320
+  },
+  "properties": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/weapon-properties/ammunition"
+    },
+    {
+      "index": "two-handed",
+      "name": "Two-Handed",
+      "url": "/api/2024/weapon-properties/two-handed"
+    }
+  ],
+  "mastery": {
+    "index": "vex",
+    "name": "Vex",
+    "url": "/api/2024/weapon-mastery-properties/vex"
+  },
+  "weight": 2,
+  "url": "/api/2024/equipment/shortbow",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

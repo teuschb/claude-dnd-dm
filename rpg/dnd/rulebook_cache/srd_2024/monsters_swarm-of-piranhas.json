@@ -1,0 +1,130 @@
+{
+  "index": "swarm-of-piranhas",
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "Melee Attack Roll: +5 (with Advantage if the target doesn\u2019t have all its Hit Points), reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d4+3"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 2,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "stunned",
+      "name": "Stunned",
+      "url": "/api/2024/conditions/stunned"
+    }
+  ],
+  "constitution": 9,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "8d8",
+  "hit_points": 28,
+  "hit_points_roll": "8d8 - 8",
+  "image": "/api/images/monsters/swarm-of-piranhas-NYI.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Swarm of Piranhas",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature\u2019s space and vice versa, and the swarm can move through any opening large enough for a Tiny piranha. The swarm can\u2019t regain Hit Points or gain Temporary Hit Points.",
+      "damage": []
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The swarm can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 13,
+  "type": "swarm of tiny beasts",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/swarm-of-piranhas",
+  "wisdom": 7,
+  "xp": 200,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

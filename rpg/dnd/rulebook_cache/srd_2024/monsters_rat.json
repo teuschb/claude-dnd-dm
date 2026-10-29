@@ -1,0 +1,72 @@
+{
+  "index": "rat",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 10,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 4,
+  "condition_immunities": [],
+  "constitution": 9,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "1d4",
+  "hit_points": 1,
+  "hit_points_roll": "1d4 - 1",
+  "image": "/api/images/monsters/rat.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Rat",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "30 ft.",
+    "passive_perception": 12
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Agile",
+      "desc": "The rat doesn\u2019t provoke an Opportunity Attack when it moves out of an enemy\u2019s reach.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft.",
+    "climb": "20 ft."
+  },
+  "strength": 2,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/rat",
+  "wisdom": 10,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

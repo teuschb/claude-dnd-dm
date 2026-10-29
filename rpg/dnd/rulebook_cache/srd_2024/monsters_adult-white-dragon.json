@@ -1,0 +1,229 @@
+{
+  "index": "adult-white-dragon",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dragon makes three Rend attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rend",
+          "count": "3",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 13 (2d6 + 6) Slashing damage plus 4 (1d8) Cold damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+6"
+        },
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "1d8"
+        }
+      ],
+      "attack_bonus": 11,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Cold Breath",
+      "desc": "Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "12d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 19,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 13,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 22,
+  "damage_immunities": [
+    "cold"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "16d12",
+  "hit_points": 200,
+  "hit_points_roll": "16d12 + 96",
+  "image": "/api/images/monsters/adult-white-dragon.png",
+  "intelligence": 8,
+  "languages": "Common, Draconic",
+  "legendary_actions": [
+    {
+      "name": "Freezing Burst",
+      "desc": "Constitution Saving Throw: DC 14, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 7 (2d6) Cold damage, and the target\u2019s Speed is 0 until the end of the target\u2019s next turn. Failure or Success: The dragon can\u2019t take this action again until the start of its next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "cold",
+            "name": "Cold",
+            "url": "/api/2024/damage-types/cold"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Frightful Presence",
+      "desc": "The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14). The dragon can\u2019t take this action again until the start of its next turn.",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "fear",
+            "name": "Fear",
+            "level": 3,
+            "url": "/api/2024/spells/fear"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Pounce",
+      "desc": "The dragon moves up to half its Speed, and it makes one Rend attack.",
+      "damage": []
+    }
+  ],
+  "name": "Adult White Dragon",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "senses": {
+    "darkvision": "120 ft.",
+    "blindsight": "60 ft.",
+    "passive_perception": 21
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Ice Walk",
+      "desc": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn\u2019t cost it extra movement.",
+      "damage": []
+    },
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "burrow": "30 ft.",
+    "fly": "80 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 22,
+  "type": "dragon",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/adult-white-dragon",
+  "wisdom": 12,
+  "xp": 10000,
+  "xp_in_lair": 11500,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

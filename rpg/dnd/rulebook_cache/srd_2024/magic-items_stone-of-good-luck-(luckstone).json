@@ -1,0 +1,19 @@
+{
+  "index": "stone-of-good-luck-(luckstone)",
+  "url": "/api/2024/magic-items/stone-of-good-luck-(luckstone)",
+  "image": "/api/images/magic-items/stone-of-good-luck-(luckstone).png",
+  "name": "Stone of Good Luck (Luckstone)",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

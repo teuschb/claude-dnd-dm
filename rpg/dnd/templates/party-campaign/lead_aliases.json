@@ -1,0 +1,3 @@
+{
+  "_comment": "Extra names that count as 'the acting character' for the lead-with-the-action hook (rpg/dnd/scripts/hooks/check_resolve_leads.py). Keyed by character id. Add companions/familiars a PC commands, e.g. \"AbC123xy\": [\"rusty\"]."
+}

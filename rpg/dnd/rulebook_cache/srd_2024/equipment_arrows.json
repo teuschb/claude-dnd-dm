@@ -1,0 +1,30 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "arrows",
+  "name": "Arrows",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "quantity": 20,
+  "storage": {
+    "index": "quiver",
+    "name": "Quiver",
+    "url": "/api/2024/equipment/quiver"
+  },
+  "weight": 1,
+  "url": "/api/2024/equipment/arrows",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

@@ -1,0 +1,17 @@
+{
+  "index": "paladin-weapon-mastery",
+  "class": {
+    "index": "paladin",
+    "url": "/api/2024/classes/paladin",
+    "name": "Paladin"
+  },
+  "description": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",
+  "level": {
+    "index": "paladin-1",
+    "url": "/api/2024/classes/paladin/levels/1",
+    "name": "Paladin 1"
+  },
+  "name": "Weapon Mastery",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/paladin-weapon-mastery"
+}

@@ -1,0 +1,17 @@
+{
+  "index": "sorcerer-subclass",
+  "class": {
+    "index": "sorcerer",
+    "url": "/api/2024/classes/sorcerer",
+    "name": "Sorcerer"
+  },
+  "description": "You gain a Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after this class\u2019s description. A subclass is a specialization that grants you features at certain Sorcerer levels.\nFor the rest of your career, you gain each of your subclass\u2019s features that are of your Sorcerer level or lower.",
+  "level": {
+    "index": "sorcerer-3",
+    "url": "/api/2024/classes/sorcerer/levels/3",
+    "name": "Sorcerer 3"
+  },
+  "name": "Sorcerer Subclass",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/sorcerer-subclass"
+}

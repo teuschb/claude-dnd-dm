@@ -1,0 +1,174 @@
+{
+  "index": "bugbear-stalker",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The bugbear makes two Javelin or Morningstar attacks.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Javelin",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Morningstar",
+              "count": 2,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Javelin",
+      "desc": "Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Morningstar",
+      "desc": "Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": [
+        {
+          "index": "chain-shirt",
+          "name": "Chain Shirt",
+          "url": "/api/2024/equipment/chain-shirt"
+        }
+      ]
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Quick Grapple",
+      "desc": "Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13).",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 13,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "gear": "Chain Shirt, Javelins (6), Morningstar",
+  "hit_dice": "10d8",
+  "hit_points": 65,
+  "hit_points_roll": "10d8 + 20",
+  "image": "/api/images/monsters/bugbear-stalker-NYI.png",
+  "intelligence": 11,
+  "languages": "Common, Goblin",
+  "legendary_actions": [],
+  "name": "Bugbear Stalker",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-survival",
+        "name": "Skill: Survival",
+        "url": "/api/2024/proficiencies/skill-survival"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Abduct",
+      "desc": "The bugbear needn\u2019t spend extra movement to move a creature it is grappling.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 17,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/bugbear-stalker",
+  "wisdom": 12,
+  "xp": 700,
+  "reactions": [],
+  "forms": []
+}

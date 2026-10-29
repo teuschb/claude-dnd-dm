@@ -1,0 +1,38 @@
+{
+  "index": "arcane-sword",
+  "attack_type": "melee",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": true,
+  "description": "You create a spectral sword that hovers within range. It lasts for the duration.\n  When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.\n  On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.",
+  "duration": "up to 1 minute",
+  "level": 7,
+  "material": "(a miniature sword worth 250+ GP",
+  "name": "Arcane Sword",
+  "range": "90 feet",
+  "ritual": false,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/arcane-sword",
+  "subclasses": []
+}

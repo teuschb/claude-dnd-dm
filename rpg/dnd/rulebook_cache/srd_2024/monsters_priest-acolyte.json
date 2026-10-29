@@ -1,0 +1,197 @@
+{
+  "index": "priest-acolyte",
+  "actions": [
+    {
+      "name": "Mace",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Radiant Flame",
+      "desc": "Ranged Attack Roll: +4, range 60 ft. Hit: 7 (2d6) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The priest casts one of the following spells, using Wisdom as the spellcasting ability:",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "light",
+            "name": "Light",
+            "level": 0,
+            "url": "/api/2024/spells/light",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "thaumaturgy",
+            "name": "Thaumaturgy",
+            "level": 0,
+            "url": "/api/2024/spells/thaumaturgy",
+            "usage": {
+              "type": "at will"
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": [
+        {
+          "index": "chain-shirt",
+          "name": "Chain Shirt",
+          "url": "/api/2024/equipment/chain-shirt"
+        }
+      ]
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Divine Aid",
+      "desc": "The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "bless",
+            "name": "Bless",
+            "level": 1,
+            "url": "/api/2024/spells/bless"
+          },
+          {
+            "index": "healing-word",
+            "name": "Healing Word",
+            "level": 1,
+            "url": "/api/2024/spells/healing-word"
+          },
+          {
+            "index": "sanctuary",
+            "name": "Sanctuary",
+            "level": 1,
+            "url": "/api/2024/spells/sanctuary"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "gear": "Chain Shirt, Holy Symbol, Mace",
+  "hit_dice": "2d8",
+  "hit_points": 11,
+  "hit_points_roll": "2d8 + 2",
+  "image": "/api/images/monsters/priest-acolyte-NYI.png",
+  "intelligence": 10,
+  "languages": "Common",
+  "legendary_actions": [],
+  "name": "Priest Acolyte",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-medicine",
+        "name": "Skill: Medicine",
+        "url": "/api/2024/proficiencies/skill-medicine"
+      }
+    },
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 12
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 14,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/priest-acolyte",
+  "wisdom": 14,
+  "xp": 50,
+  "reactions": [],
+  "forms": []
+}

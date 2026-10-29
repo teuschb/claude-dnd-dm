@@ -1,0 +1,19 @@
+{
+  "index": "medallion-of-thoughts",
+  "url": "/api/2024/magic-items/medallion-of-thoughts",
+  "image": "/api/images/magic-items/medallion-of-thoughts.png",
+  "name": "Medallion of Thoughts",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n The medallion has 5 charges. While wearing it, you can expend 1 charge to cast Detect Thoughts (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

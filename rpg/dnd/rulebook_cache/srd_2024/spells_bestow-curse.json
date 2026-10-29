@@ -1,0 +1,51 @@
+{
+  "index": "bestow-curse",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": true,
+  "damage": {
+    "damage_type": {
+      "index": "necrotic",
+      "name": "Necrotic",
+      "url": "/api/2024/damage-types/necrotic"
+    },
+    "damage_at_slot_level": {
+      "3": "1d8"
+    }
+  },
+  "description": "You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice: \u2022 Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability. \u2022 The target has Disadvantage on attack rolls against you. \u2022 In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn. \u2022 If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.",
+  "duration": "up to 1 minute",
+  "higher_level": "If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8 hours (level 5-6 slot) or 24 hours (level 7-8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.",
+  "level": 3,
+  "name": "Bestow Curse",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/bestow-curse",
+  "subclasses": []
+}

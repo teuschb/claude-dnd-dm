@@ -1,0 +1,324 @@
+{
+  "index": "sphinx-of-lore",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The sphinx makes three Claw attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "3",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "3d6+4"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Mind-Rending Roar",
+      "desc": "Wisdom Saving Throw: DC 16, each enemy in a 300-foot Emanation originating from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has the Incapacitated condition until the start of the sphinx\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "10d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 16,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 16,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "identify",
+            "name": "Identify",
+            "level": 1,
+            "url": "/api/2024/spells/identify",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "mage-hand",
+            "name": "Mage Hand",
+            "level": 0,
+            "url": "/api/2024/spells/mage-hand",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "level": 0,
+            "url": "/api/2024/spells/minor-illusion",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "prestidigitation",
+            "name": "Prestidigitation",
+            "level": 0,
+            "url": "/api/2024/spells/prestidigitation",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "dispel-magic",
+            "name": "Dispel Magic",
+            "level": 3,
+            "url": "/api/2024/spells/dispel-magic",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "legend-lore",
+            "name": "Legend Lore",
+            "level": 5,
+            "url": "/api/2024/spells/legend-lore",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "locate-object",
+            "name": "Locate Object",
+            "level": 2,
+            "url": "/api/2024/spells/locate-object",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "plane-shift",
+            "name": "Plane Shift",
+            "level": 7,
+            "url": "/api/2024/spells/plane-shift",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "remove-curse",
+            "name": "Remove Curse",
+            "level": 3,
+            "url": "/api/2024/spells/remove-curse",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "tongues",
+            "name": "Tongues",
+            "level": 3,
+            "url": "/api/2024/spells/tongues",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful neutral",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 11,
+  "charisma": 18,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "psychic"
+  ],
+  "damage_resistances": [
+    "necrotic",
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "20d10",
+  "hit_points": 170,
+  "hit_points_roll": "20d10 + 60",
+  "image": "/api/images/monsters/sphinx-of-lore-NYI.png",
+  "intelligence": 18,
+  "languages": "Celestial, Common",
+  "legendary_actions": [
+    {
+      "name": "Arcane Prowl",
+      "desc": "The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack.",
+      "damage": []
+    },
+    {
+      "name": "Weight of Years",
+      "desc": "Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can\u2019t take this action again until the start of its next turn.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 16,
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "name": "Sphinx of Lore",
+  "proficiencies": [
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 18
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Inscrutable",
+      "desc": "No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.",
+      "damage": []
+    },
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the sphinx fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "60 ft."
+  },
+  "strength": 18,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/sphinx-of-lore",
+  "wisdom": 18,
+  "xp": 7200,
+  "xp_in_lair": 8400,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

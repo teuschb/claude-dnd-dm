@@ -1,0 +1,20 @@
+{
+  "index": "skill-religion",
+  "type": "Skills",
+  "name": "Skill: Religion",
+  "backgrounds": [
+    {
+      "index": "acolyte",
+      "name": "Acolyte",
+      "url": "/api/2024/backgrounds/acolyte"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "religion",
+    "name": "Religion",
+    "url": "/api/2024/skills/religion"
+  },
+  "url": "/api/2024/proficiencies/skill-religion",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

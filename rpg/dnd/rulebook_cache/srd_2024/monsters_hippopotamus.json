@@ -1,0 +1,102 @@
+{
+  "index": "hippopotamus",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The hippopotamus makes two Bite attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d10+5"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 4,
+  "condition_immunities": [],
+  "constitution": 15,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 7,
+  "hit_dice": "11d10",
+  "hit_points": 82,
+  "hit_points_roll": "11d10 + 22",
+  "image": "/api/images/monsters/hippopotamus-NYI.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Hippopotamus",
+  "proficiencies": [
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 13
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The hippopotamus can hold its breath for 10 minutes.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 21,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/hippopotamus",
+  "wisdom": 12,
+  "xp": 1100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

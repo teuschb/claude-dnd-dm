@@ -1,0 +1,91 @@
+{
+  "index": "giant-weasel",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "2d8",
+  "hit_points": 9,
+  "hit_points_roll": "2d8",
+  "image": "/api/images/monsters/giant-weasel.png",
+  "intelligence": 4,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Weasel",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-acrobatics",
+        "name": "Skill: Acrobatics",
+        "url": "/api/2024/proficiencies/skill-acrobatics"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 11,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-weasel",
+  "wisdom": 12,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,170 @@
+{
+  "index": "fire-giant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Flame Sword",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Hammer Throw",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Flame Sword",
+      "desc": "Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing damage plus 10 (3d6) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "4d6+7"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 11,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Hammer Throw",
+      "desc": "Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d10+7"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "1d8"
+        }
+      ],
+      "attack_bonus": 11,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 13,
+  "condition_immunities": [],
+  "constitution": 23,
+  "damage_immunities": [
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 9,
+  "hit_dice": "13d12",
+  "hit_points": 162,
+  "hit_points_roll": "13d12 + 78",
+  "image": "/api/images/monsters/fire-giant.png",
+  "intelligence": 10,
+  "languages": "Giant",
+  "legendary_actions": [],
+  "name": "Fire Giant",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-athletics",
+        "name": "Skill: Athletics",
+        "url": "/api/2024/proficiencies/skill-athletics"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "passive_perception": 16
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 25,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/fire-giant",
+  "wisdom": 14,
+  "xp": 5000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}
