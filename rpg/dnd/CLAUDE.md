@@ -49,7 +49,7 @@ Party Mode is **session-based, not always-on.** The party web server runs *insid
 3. `start_party_mode` — prints player URLs + QR paths. **Player links are secret per-campaign tokens** (secret in `campaigns/<c>/party/.token_secret.json`, gitignored). They stay the same across restarts. A lost/leaked link: `party_refresh_token("<character name>")` rotates just that player's.
 4. Optional, for phones off your LAN: expose port 8080 publicly, e.g. `tailscale funnel --bg 8080`.
 5. Arm a `Monitor` on `party/actions.jsonl` for `'"status": "pending"'` (use `tail -n 0 -F`, capital F: the file may not exist yet on a clean feed). Monitors expire after 30 min, so re-arm on expiry.
-6. `get_game_state` and read the campaign's `CAMPAIGN_ARC.md` before narrating anything.
+6. `get_game_state` and read the campaign's `CAMPAIGN_ARC.md` before narrating anything. If it's missing or unfilled, write it first (Campaign Creation Workflow step 6).
 
 **Cost note:** every wake-up resends the whole conversation, so idle polling for days in one long session burns usage fast. Run the DM loop on demand ("check now", or "watch for N hours") from a fresh session rather than leaving it polling.
 
@@ -116,9 +116,12 @@ Campaigns here standardize on the **SRD 2024** ruleset (`rules_version="2024"` a
 4. Copy the starter files into `campaigns/<name>/`:
    - `templates/rulebooks/custom/*.json` → `campaigns/<name>/rulebooks/custom/`, then load them (order above).
    - Party Mode: everything in `templates/party-campaign/`. Solo: `templates/solo-campaign/CLAUDE.md`.
-   - Both: `templates/ENCOUNTER_LOG.md`, `templates/PLAYER_FEEDBACK.md`, `templates/CAMPAIGN_ARC.md`, `templates/setting.md`. Fill in the names.
+   - Both: `templates/ENCOUNTER_LOG.md`, `templates/PLAYER_FEEDBACK.md`, `templates/CAMPAIGN_ARC.md`, `templates/setting.md`. Fill in the names, and fill `setting.md` with the player(s): tone, guardrails, world, each PC's hooks.
 5. `create_character(...)` — ask for species, class, and background before calling. Use `d20-mcp` for any ability-score or creation rolls (e.g. `4d6kh3` × 6 if the player wants rolled stats).
-6. If `git config dnd.campaignStorage` is unset, walk the player through "Saving Campaigns" before the first session.
+6. **Write the campaign arc before session 1.** Fill in every section of `CAMPAIGN_ARC.md`: the hidden truth, the layers the party uncovers in order, the cast (want, flaw, secret), the session-by-session menu with several doors into each beat, the clock that advances when the party doesn't interfere, and at least three endings. Build it from `setting.md` and each PC's backstory hooks, sized to the level range the table expects. Without it, play drifts into wandering around and asking questions, so don't start session 1 until it's written. If the player wants to be surprised, write it without showing them and just say it's done.
+7. If `git config dnd.campaignStorage` is unset, walk the player through "Saving Campaigns" before the first session.
+
+**At every session start**, if `CAMPAIGN_ARC.md` is missing, still has template placeholders (`<...>`, `_(...)_`), or has empty sections, write it per step 6 before narrating anything. This catches campaigns that skipped it.
 
 ## Saving Campaigns
 
