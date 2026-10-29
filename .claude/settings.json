@@ -28,6 +28,17 @@
             "statusMessage": "Checking narration against the DM pre-send checklist"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/rpg/dnd/scripts/hooks/guard_campaign_privacy.py\"",
+            "timeout": 60,
+            "statusMessage": "Checking campaign data stays private"
+          }
+        ]
       }
     ]
   }

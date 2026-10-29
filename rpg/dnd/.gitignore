@@ -3,14 +3,12 @@ rulebook_cache/*
 !rulebook_cache/srd_2014/
 !rulebook_cache/srd_2024/
 
-# Per-campaign rulebook cache (campaigns/{name}/rulebooks/cache/) doesn't split
-# by source the way the top-level rulebook_cache/ does, so it's all ignored for
-# now. Revisit once a real `srd` load shows what that cache looks like there.
-campaigns/*/rulebooks/cache/
-
-# Party Mode session artifacts: the party/ folder holds per-session access
-# tokens and QR codes (committing them would publish working join credentials),
-# and voice_registry.yaml is regenerated per session. Both are session-scoped,
-# not campaign record.
-campaigns/*/party/
-campaigns/*/voice_registry.yaml
+# Campaign data never goes in this repo. It's a public framework, so anything
+# committed here is one push away from being published: characters, the secret
+# arc, session notes. Each campaign folder is its own (private) git repo
+# instead; see "Saving a Campaign" in CLAUDE.md. events/ is dm20's adventure
+# log, shared across campaigns, and stays local.
+# scripts/hooks/guard_campaign_privacy.py backs this up for pushes Claude runs.
+campaigns/*
+!campaigns/README.md
+events/

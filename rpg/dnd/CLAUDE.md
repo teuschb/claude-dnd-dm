@@ -13,13 +13,13 @@ rpg/dnd/
 ├── templates/              ← starter files for a new campaign (see "Campaign Creation Workflow")
 ├── scripts/hooks/          ← narration checks run before every Party Mode message (see "Hooks")
 ├── campaigns/              ← dm20-protocol's own storage root (DM20_STORAGE_DIR)
-│   └── {campaign-name}/    ← campaign.json, characters.json, sessions/, etc.
-├── events/                 ← dm20-protocol adventure log (shared across campaigns)
+│   └── {campaign-name}/    ← campaign.json, characters.json, sessions/, etc. (gitignored; optionally its own private repo)
+├── events/                 ← dm20-protocol adventure log (shared across campaigns, gitignored)
 ├── library/                ← imported PDF/homebrew rulebooks (gitignored, can be large)
 └── rulebook_cache/         ← cached SRD API responses (srd_2024 committed, the rest gitignored)
 ```
 
-`campaigns/` and `events/` are plain JSON. Commit them if you want git to be the campaign record (recommended: it makes a crashed or torn-down session lose nothing). `library/` (PDFs/homebrew) and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored — regenerable/bulky.
+**Campaign data never goes in this repo.** This framework is a public repo, so `campaigns/` and `events/` are gitignored: characters, the secret arc and session notes would otherwise be one push away from being published. To keep a campaign in git, give it its own private repo (see "Saving a Campaign"). `library/` (PDFs/homebrew) and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored too — regenerable/bulky.
 
 `rulebook_cache/srd_2024/` is the exception — it **is** committed. It's small (official SRD only), and committing it means a rules lookup fetched once is available afterward to any session that can't reach the SRD API directly, like a remote/sandboxed or phone session. See "Network Access" below.
 
@@ -40,7 +40,7 @@ First use in a freshly cloned repo requires approving the project's MCP servers 
 
 ## Session Start / Stop Checklist (Party Mode)
 
-Party Mode is **session-based, not always-on.** The party web server runs *inside* the dm20-protocol MCP process, which is a child of the Claude Code session — so closing the laptop kills the server and the DM together. That's fine if campaign state (`campaigns/**`) is committed to git: a teardown loses nothing. `party/` is gitignored and its links regenerate on the next `start_party_mode`.
+Party Mode is **session-based, not always-on.** The party web server runs *inside* the dm20-protocol MCP process, which is a child of the Claude Code session — so closing the laptop kills the server and the DM together. That's fine: campaign state is plain files on disk, so a teardown loses nothing (and with a private campaign repo, nothing is lost even if the disk is). `party/` is gitignored and its links regenerate on the next `start_party_mode`.
 
 ### Start (~2 minutes)
 
@@ -90,6 +90,8 @@ When a party-mode session is live and Claude is the DM, **act directly**: pop th
 
 On a false positive, fix the narrative, not the hook. Deliberate exceptions: `[words-exempt: why]` or `[positions-exempt: why]` in `dm_notes`.
 
+A third hook, `scripts/hooks/guard_campaign_privacy.py`, runs before every Bash command and blocks git/gh commands that would publish campaign data (see "Saving a Campaign"). It has no exemption marker on purpose: if it blocks something the human really wants, tell them and let them run it themselves.
+
 ## Rulebook state doesn't persist across sessions
 
 `load_campaign` does not reload a campaign's rulebooks from `rulebooks/manifest.json`. Every session re-runs `load_rulebook` for the SRD base and each overlay before relying on `get_class_info`, `get_race_info` or `search_rules`.
@@ -116,6 +118,24 @@ Campaigns here standardize on the **SRD 2024** ruleset (`rules_version="2024"` a
    - Party Mode: everything in `templates/party-campaign/`. Solo: `templates/solo-campaign/CLAUDE.md`.
    - Both: `templates/ENCOUNTER_LOG.md`, `templates/PLAYER_FEEDBACK.md`, `templates/CAMPAIGN_ARC.md`, `templates/setting.md`. Fill in the names.
 5. `create_character(...)` — ask for species, class, and background before calling. Use `d20-mcp` for any ability-score or creation rolls (e.g. `4d6kh3` × 6 if the player wants rolled stats).
+6. Ask whether they want the campaign saved to a private GitHub repo (see "Saving a Campaign"). Default is no: it stays on this machine only.
+
+## Saving a Campaign
+
+The framework repo is public, so the campaign never goes in it: `campaigns/` is gitignored, and the privacy hook blocks force-adding it. A campaign is saved in **its own private repo**, inside its folder:
+
+```bash
+cd rpg/dnd/campaigns/<name>
+cp ../../templates/campaign.gitignore .gitignore   # keeps party/ secrets out
+git init -b main && git add -A && git commit -m "Start <name>"
+gh repo create <name> --private --source . --push
+```
+
+- **Always `--private`.** Never `--public`, and never change an existing campaign repo to public; the hook blocks both. The arc holds spoilers, and the sheets and notes are the players' table.
+- Before the first push, confirm with the human (it creates a GitHub repo), then verify: `gh repo view <name> --json visibility` must say `PRIVATE`.
+- Afterward, commit and push from the campaign folder at session end. The framework repo's own `git status` never shows campaign files; that's expected.
+- Sharing with a co-DM: keep it private and add them as a collaborator (`gh api -X PUT repos/<owner>/<name>/collaborators/<user> -f permission=push`).
+- If someone forks this framework on GitHub, the fork is public, and none of the above changes: campaigns still live only in their own private repos.
 
 ## Slash Commands
 
