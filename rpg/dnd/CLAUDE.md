@@ -13,13 +13,13 @@ rpg/dnd/
 ├── templates/              ← starter files for a new campaign (see "Campaign Creation Workflow")
 ├── scripts/hooks/          ← narration checks run before every Party Mode message (see "Hooks")
 ├── campaigns/              ← dm20-protocol's own storage root (DM20_STORAGE_DIR)
-│   └── {campaign-name}/    ← campaign.json, characters.json, sessions/, etc. (gitignored; optionally its own private repo)
-├── events/                 ← dm20-protocol adventure log (shared across campaigns, gitignored)
+│   └── {campaign-name}/    ← campaign.json, characters.json, sessions/, etc.
+├── events/                 ← dm20-protocol adventure log (shared across campaigns)
 ├── library/                ← imported PDF/homebrew rulebooks (gitignored, can be large)
 └── rulebook_cache/         ← cached SRD API responses (srd_2024 committed, the rest gitignored)
 ```
 
-**Campaign data never goes in this repo.** This framework is a public repo, so `campaigns/` and `events/` are gitignored: characters, the secret arc and session notes would otherwise be one push away from being published. To keep a campaign in git, give it its own private repo (see "Saving a Campaign"). `library/` (PDFs/homebrew) and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored too — regenerable/bulky.
+`campaigns/` and `events/` are gitignored by default, because this framework started as a public repo: characters, the secret arc and session notes would otherwise be one push away from being published. That also means they're **not backed up** until the player picks a setup in "Saving Campaigns". `campaigns/*/party/` (player-link secrets) is ignored in every setup. `library/` (PDFs/homebrew) and `rulebook_cache/` for non-SRD sources (5etools, open5e, custom) are gitignored too — regenerable/bulky.
 
 `rulebook_cache/srd_2024/` is the exception — it **is** committed. It's small (official SRD only), and committing it means a rules lookup fetched once is available afterward to any session that can't reach the SRD API directly, like a remote/sandboxed or phone session. See "Network Access" below.
 
@@ -40,7 +40,7 @@ First use in a freshly cloned repo requires approving the project's MCP servers 
 
 ## Session Start / Stop Checklist (Party Mode)
 
-Party Mode is **session-based, not always-on.** The party web server runs *inside* the dm20-protocol MCP process, which is a child of the Claude Code session — so closing the laptop kills the server and the DM together. That's fine: campaign state is plain files on disk, so a teardown loses nothing (and with a private campaign repo, nothing is lost even if the disk is). `party/` is gitignored and its links regenerate on the next `start_party_mode`.
+Party Mode is **session-based, not always-on.** The party web server runs *inside* the dm20-protocol MCP process, which is a child of the Claude Code session — so closing the laptop kills the server and the DM together. That's fine: campaign state is plain files on disk, so a teardown loses nothing (and if campaigns are backed up to git, nothing is lost even if the disk is). `party/` is gitignored and its links regenerate on the next `start_party_mode`.
 
 ### Start (~2 minutes)
 
@@ -90,7 +90,7 @@ When a party-mode session is live and Claude is the DM, **act directly**: pop th
 
 On a false positive, fix the narrative, not the hook. Deliberate exceptions: `[words-exempt: why]` or `[positions-exempt: why]` in `dm_notes`.
 
-A third hook, `scripts/hooks/guard_campaign_privacy.py`, runs before every Bash command and blocks git/gh commands that would publish campaign data (see "Saving a Campaign"). It has no exemption marker on purpose: if it blocks something the human really wants, tell them and let them run it themselves.
+A third hook, `scripts/hooks/guard_campaign_privacy.py`, runs before every Bash command. When a `git push` targets a public (or unverifiable) remote of a repo holding campaign data, or a `gh repo` command makes a repo public while campaign data is in git, it asks the human to approve and says what would become readable. It never blocks, and it skips a repo whose owner already chose public (`git config dnd.campaignsPublic true` in that repo). See "Saving Campaigns".
 
 ## Rulebook state doesn't persist across sessions
 
@@ -118,24 +118,41 @@ Campaigns here standardize on the **SRD 2024** ruleset (`rules_version="2024"` a
    - Party Mode: everything in `templates/party-campaign/`. Solo: `templates/solo-campaign/CLAUDE.md`.
    - Both: `templates/ENCOUNTER_LOG.md`, `templates/PLAYER_FEEDBACK.md`, `templates/CAMPAIGN_ARC.md`, `templates/setting.md`. Fill in the names.
 5. `create_character(...)` — ask for species, class, and background before calling. Use `d20-mcp` for any ability-score or creation rolls (e.g. `4d6kh3` × 6 if the player wants rolled stats).
-6. Ask whether they want the campaign saved to a private GitHub repo (see "Saving a Campaign"). Default is no: it stays on this machine only.
+6. If `git config dnd.campaignStorage` is unset, walk the player through "Saving Campaigns" before the first session.
 
-## Saving a Campaign
+## Saving Campaigns
 
-The framework repo is public, so the campaign never goes in it: `campaigns/` is gitignored, and the privacy hook blocks force-adding it. A campaign is saved in **its own private repo**, inside its folder:
+Campaigns are gitignored by default, so a new campaign is **not backed up**. Backup matters for two things: losing the disk, and running the DM from more than one place (a phone or claude.ai/code web session works from a fresh clone and only sees campaigns that were pushed). Multiplayer doesn't need git: players connect to the DM's machine through their links.
 
+Ask once per clone (the answer is recorded in `git config dnd.campaignStorage`, which is local and never committed). Explain the consequences in plain words, and confirm with the human before creating any GitHub repo. Ask in this order:
+
+**1. "Do you want a separate repo just for your campaign data?"** Recommended: the game data and the framework stay apart, and the framework can be updated from upstream without touching it.
+- Create it **private**: `gh repo create dnd-campaigns --private`, then confirm `gh repo view dnd-campaigns --json visibility` says `PRIVATE`.
+- Set it up outside this clone (default `~/dnd-campaigns`) and symlink it in. dm20 creates `campaigns/` and `events/` on startup, so move anything already there:
+  ```bash
+  D=~/dnd-campaigns; mkdir -p "$D" && cd "$D" && git init -b main
+  cp <framework>/rpg/dnd/templates/campaign-data.gitignore .gitignore
+  mv <framework>/rpg/dnd/campaigns "$D/campaigns" && mv <framework>/rpg/dnd/events "$D/events"
+  ln -s "$D/campaigns" <framework>/rpg/dnd/campaigns && ln -s "$D/events" <framework>/rpg/dnd/events
+  git add -A && git commit -m "Campaign data" && git remote add origin <url from gh> && git push -u origin main
+  ```
+  Then restart Claude Code so dm20 picks up the moved folders. `git config dnd.campaignStorage separate`.
+- Everything except `party/` is backed up, spoilers included: the arc and hidden notes are exactly what's worth keeping, and the repo is private. Commit and push from `~/dnd-campaigns` at session end.
+
+**2. If not: "Keep it all in this repo, as a private repo of your own?"** This clone points at the public framework repo, which they can't push to. Making it theirs means a **new private repo, not a GitHub fork** (a fork of a public repo is always public):
 ```bash
-cd rpg/dnd/campaigns/<name>
-cp ../../templates/campaign.gitignore .gitignore   # keeps party/ secrets out
-git init -b main && git add -A && git commit -m "Start <name>"
-gh repo create <name> --private --source . --push
+git remote rename origin upstream          # keep pulling framework updates
+gh repo create <name> --private --source . --remote origin --push
 ```
+Confirm it says `PRIVATE`, then ask: **back up the campaign data in it, or keep it on this machine only?**
+- Back up: delete the "Campaign data" block (`campaigns` and `events`) from `rpg/dnd/.gitignore` and commit. `party/` stays ignored. `git config dnd.campaignStorage same-repo`.
+- Local only: leave the ignore as is. `git config dnd.campaignStorage local`.
 
-- **Always `--private`.** Never `--public`, and never change an existing campaign repo to public; the hook blocks both. The arc holds spoilers, and the sheets and notes are the players' table.
-- Before the first push, confirm with the human (it creates a GitHub repo), then verify: `gh repo view <name> --json visibility` must say `PRIVATE`.
-- Afterward, commit and push from the campaign folder at session end. The framework repo's own `git status` never shows campaign files; that's expected.
-- Sharing with a co-DM: keep it private and add them as a collaborator (`gh api -X PUT repos/<owner>/<name>/collaborators/<user> -f permission=push`).
-- If someone forks this framework on GitHub, the fork is public, and none of the above changes: campaigns still live only in their own private repos.
+**3. If they don't want a private repo,** say plainly what public means: anyone can read the characters, the DM's secret arc and every spoiler in it, and the session notes, including the players themselves. Then ask once more: **keep campaigns gitignored (not backed up), or publish them?** Their answer is final; don't re-ask.
+- Gitignored: `git config dnd.campaignStorage local`.
+- Publish: delete the "Campaign data" block from `rpg/dnd/.gitignore`, then `git config dnd.campaignsPublic true` (the privacy hook skips repos marked this way) and `git config dnd.campaignStorage public`.
+
+Sharing with a co-DM: keep the repo private and add them as a collaborator (`gh api -X PUT repos/<owner>/<repo>/collaborators/<user> -f permission=push`).
 
 ## Slash Commands
 

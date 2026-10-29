@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
-"""PreToolUse hook for Bash: keep campaign data out of public repos.
+"""PreToolUse hook for Bash: ask before campaign data goes somewhere public.
 
-This framework repo is public. Campaign files (characters, the secret arc,
-session notes) belong in each campaign's own private repo, never here.
-.gitignore already keeps campaigns/ and events/ out of the framework; this hook
-backs it up for the git/gh commands Claude runs.
+Campaign data (characters, the DM's secret arc and other spoilers, session
+notes) can live in this framework repo or in a separate campaign-data repo
+symlinked in at rpg/dnd/campaigns (see "Saving Campaigns" in rpg/dnd/CLAUDE.md).
+Either is fine. What this hook adds is friction before that data becomes
+public by accident.
 
-Blocks (exit 2, reason on stderr -> fed back to Claude) when a command:
-  1. force-adds anything under campaigns/ or events/ (bypassing .gitignore),
-  2. creates, forks or switches a repo to public from or about a campaign folder,
-  3. commits or pushes while the framework repo tracks campaign files, or
-  4. pushes while any campaign repo's remote is public or can't be confirmed
-     private on GitHub.
+Asks the human to approve (permissionDecision "ask", with the reason) when a
+command:
+  1. runs `git push` while a repo holding campaign data has a remote that is
+     public, or that can't be confirmed private on GitHub, or
+  2. creates, forks or switches a repo to public while campaign data is in git.
 
-Allows everything else, and any internal error in the checks for 1-3 (a hook
-bug must never stall the game). Check 4 fails closed: an unverifiable remote
-blocks the push and leaves the call to the human.
+A repo whose owner already chose to publish its campaigns
+(`git config dnd.campaignsPublic true` in that repo) is skipped: the choice
+was made once, at setup. Never blocks, and allows on any internal error (a hook
+bug must never stall the game).
 """
 from __future__ import annotations
 
@@ -27,82 +28,94 @@ from pathlib import Path
 
 DND = Path(__file__).resolve().parents[2]
 ROOT = DND.parents[1]
-CAMPAIGNS = DND / "campaigns"
 SEG = r"[^;&|\n]*"  # stays within one shell command
-FORCE_ADD_RE = re.compile(rf"\bgit\b{SEG}\badd\b{SEG}(\s-[a-zA-Z]*f\b|\s--force\b)")
-PUBLIC_RE = re.compile(rf"\bgh\s+repo\s+(create|edit|fork)\b{SEG}(--public\b|--visibility[= ]public\b)")
-COMMIT_OR_PUSH_RE = re.compile(rf"\bgit\b{SEG}\b(commit|push)\b")
 PUSH_RE = re.compile(rf"\bgit\b{SEG}\bpush\b")
-GITHUB_RE = re.compile(r"github\.com[:/]([^/]+)/([^/]+?)(\.git)?/?$")
-HOW_TO = "See \"Saving a Campaign\" in rpg/dnd/CLAUDE.md."
-
-
-def block(reason: str) -> None:
-    print(f"Blocked to keep campaign data private: {reason} {HOW_TO}", file=sys.stderr)
-    sys.exit(2)
+PUBLIC_RE = re.compile(rf"\bgh\s+repo\s+(create|edit|fork)\b{SEG}(--public\b|--visibility[= ]public\b)")
+GITHUB_RE = re.compile(r"github\.com[:/]([^/\s]+)/([^/\s]+?)(\.git)?/?$")
+CONTENTS = "characters, the DM's secret arc and other spoilers, session notes"
 
 
 def git(*args: str) -> str:
     return subprocess.run(["git", *args], capture_output=True, text=True, timeout=5).stdout.strip()
 
 
-def touches_campaigns(command: str, cwd: str) -> bool:
-    return "campaigns" in command or "events" in command or Path(cwd).resolve().is_relative_to(CAMPAIGNS)
+def campaign_repos() -> list[Path]:
+    """Repos holding campaign data, minus those whose owner chose public."""
+    repos = []
+    if git("-C", str(ROOT), "ls-files", "--", "rpg/dnd/campaigns", "rpg/dnd/events"):
+        repos.append(ROOT)
+    link = DND / "campaigns"
+    if link.is_symlink():
+        top = git("-C", str(link.resolve()), "rev-parse", "--show-toplevel")
+        if top and Path(top) != ROOT:
+            repos.append(Path(top))
+    return [r for r in repos if git("-C", str(r), "config", "--bool", "dnd.campaignsPublic") != "true"]
 
 
-def tracked_campaign_files() -> list[str]:
-    files = git("-C", str(ROOT), "ls-files", "--", "rpg/dnd/campaigns", "rpg/dnd/events").splitlines()
-    return [f for f in files if f != "rpg/dnd/campaigns/README.md"]
+def push_targets(repo: Path, command: str) -> set[str]:
+    """Remotes the push could go to: any named in the command, else the default."""
+    remotes = set(git("-C", str(repo), "remote").split())
+    named = remotes & set(re.findall(r"[\w.-]+", command))
+    if named:
+        return named
+    default = git("-C", str(repo), "rev-parse", "--abbrev-ref", "@{push}").split("/")[0]
+    return {default if default in remotes else "origin"} & remotes
 
 
-def remote_problem(repo: Path) -> str | None:
-    url = git("-C", str(repo), "remote", "get-url", "origin")
-    if not url:
-        return None  # no remote, nothing to push to
+def visibility_problem(url: str) -> str | None:
     m = GITHUB_RE.search(url)
     if not m:
-        return f"campaign repo '{repo.name}' pushes to {url}, which isn't GitHub, so it can't be checked as private."
+        return f"{url} isn't on GitHub, so it can't be checked as private"
     slug = f"{m.group(1)}/{m.group(2)}"
     try:
         out = subprocess.run(["gh", "repo", "view", slug, "--json", "visibility", "-q", ".visibility"],
                              capture_output=True, text=True, timeout=15)
     except (OSError, subprocess.TimeoutExpired):
-        return f"couldn't check whether {slug} (campaign '{repo.name}') is private: gh isn't available."
+        return f"couldn't check whether {slug} is private (gh isn't available)"
     visibility = out.stdout.strip().upper()
     if visibility in ("PRIVATE", "INTERNAL"):
         return None
     if visibility == "PUBLIC":
-        return f"{slug} (campaign '{repo.name}') is PUBLIC. Make it private first: gh repo edit {slug} --visibility private."
-    return f"couldn't confirm {slug} (campaign '{repo.name}') is private ({out.stderr.strip() or 'no answer from gh'})."
+        return f"{slug} is PUBLIC: anyone can read it"
+    return f"couldn't confirm {slug} is private"
+
+
+def ask(reason: str) -> None:
+    print(json.dumps({"hookSpecificOutput": {
+        "hookEventName": "PreToolUse",
+        "permissionDecision": "ask",
+        "permissionDecisionReason": reason,
+    }}))
+    sys.exit(0)
 
 
 def main() -> None:
-    data = json.load(sys.stdin)
-    command = (data.get("tool_input") or {}).get("command") or ""
-    cwd = data.get("cwd") or str(ROOT)
+    command = (json.load(sys.stdin).get("tool_input") or {}).get("command") or ""
+    pushing, publishing = PUSH_RE.search(command), PUBLIC_RE.search(command)
+    if not (pushing or publishing):
+        return
+    repos = campaign_repos()
+    if not repos:
+        return
 
+    if publishing:
+        ask(f"This makes a repo public while campaign data is in git ({CONTENTS}). "
+            "If this repo holds it, anyone will be able to read it, including your players. Approve only if that's intended.")
+
+    problems = []
+    for repo in repos:
+        urls = {git("-C", str(repo), "remote", "get-url", "--push", r) for r in push_targets(repo, command)}
+        problems += [f"{repo.name}: {p}" for p in map(visibility_problem, sorted(urls - {""})) if p]
+    if problems:
+        ask(f"This push may publish campaign data ({CONTENTS}). " + "; ".join(problems) +
+            ". Approve only if that's intended. To stop being asked, record the choice: "
+            "git config dnd.campaignsPublic true (in that repo).")
+
+
+if __name__ == "__main__":
     try:
-        if FORCE_ADD_RE.search(command) and touches_campaigns(command, cwd):
-            block("force-adding campaign files would put them in the public framework repo.")
-        if PUBLIC_RE.search(command) and touches_campaigns(command, cwd):
-            block("campaign repos must be private. Use --private.")
-        if COMMIT_OR_PUSH_RE.search(command):
-            tracked = tracked_campaign_files()
-            if tracked:
-                block(f"the framework repo tracks campaign files ({', '.join(tracked[:3])}...). "
-                      "Untrack them with git rm -r --cached rpg/dnd/campaigns rpg/dnd/events, "
-                      "keeping campaigns/README.md.")
+        main()
     except SystemExit:
         raise
     except Exception:
         pass
-
-    if PUSH_RE.search(command) and CAMPAIGNS.is_dir():
-        for repo in sorted(p for p in CAMPAIGNS.iterdir() if (p / ".git").exists()):
-            problem = remote_problem(repo)
-            if problem:
-                block(f"{problem} If the human confirms it's private, they can run the push themselves.")
-
-
-if __name__ == "__main__":
-    main()
