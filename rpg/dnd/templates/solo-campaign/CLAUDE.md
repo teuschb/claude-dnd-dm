@@ -22,7 +22,9 @@ craft, NPC prep, solo combat, leveling, session end). Also here:
    rewrites `rulebooks/manifest.json`; that file is only a record — if this
    campaign has its own private repo, don't commit the churn if it only
    lost/gained overlay entries.
-3. `get_game_state`, then skim `PLAYER_FEEDBACK.md` open questions. No
+3. `get_game_state`, then read `CAMPAIGN_ARC.md` (if it's missing or still has
+   template placeholders, write it first; see "Campaign Creation Workflow" step 6
+   in `../../CLAUDE.md`), then skim `PLAYER_FEEDBACK.md` open questions. No
    `start_party_mode`, no Tailscale funnel, no Monitor/`/loop` — just play in chat.
 4. At the end follow DM_CORE "Session end" (session note, quests, encounter log,
    player feedback).
@@ -47,7 +49,7 @@ craft, NPC prep, solo combat, leveling, session end). Also here:
   mirror any correction back to the template.
 
 ## Hidden plan
-`CAMPAIGN_ARC.md` (DM-only, spoilers): the hidden truth, clocks/schedule, encounter sketches, leveling milestones. Read it at session start after `get_game_state`.
+`CAMPAIGN_ARC.md` (DM-only, spoilers): the hidden truth, clocks/schedule, encounter sketches, leveling milestones. Written in full before session 1; read it at session start after `get_game_state`.
 
 ## Campaign notes
 - Setting/tone: see `setting.md`. Current scene and any clocks live in
