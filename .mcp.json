@@ -2,7 +2,7 @@
   "mcpServers": {
     "dm20-protocol": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/teuschb/dm20-protocol@20980089f57b04da8806b21eae3e4d020ab032d5", "dm20-protocol"],
+      "args": ["--from", "git+https://github.com/teuschb/dm20-protocol@7725cb32297303e58d153bbce60bfaa37f4ab34a", "dm20-protocol"],
       "env": {
         "DM20_STORAGE_DIR": "${CLAUDE_PROJECT_DIR:-.}/rpg/dnd"
       }
