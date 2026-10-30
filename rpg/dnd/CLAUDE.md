@@ -9,6 +9,7 @@ rpg/dnd/
 ├── CLAUDE.md               ← you are here
 ├── AGENTS.md               ← condensed version for non-Claude-Code agents (no Party Mode)
 ├── DM_CORE.md              ← DM rules for solo campaigns
+├── IMPROV_TOOLKIT.md       ← random names, NPC wants, obstacles
 ├── SRD_2024_*.md           ← rules references (class features, monsters, magic items)
 ├── templates/              ← starter files for a new campaign (see "Campaign Creation Workflow")
 ├── scripts/hooks/          ← narration checks run before every Party Mode message (see "Hooks")
@@ -118,7 +119,7 @@ Campaigns here standardize on the **SRD 2024** ruleset (`rules_version="2024"` a
    - Party Mode: everything in `templates/party-campaign/`. Solo: `templates/solo-campaign/CLAUDE.md`.
    - Both: `templates/ENCOUNTER_LOG.md`, `templates/PLAYER_FEEDBACK.md`, `templates/CAMPAIGN_ARC.md`, `templates/setting.md`. Fill in the names, and fill `setting.md` with the player(s): tone, guardrails, world, each PC's hooks.
 5. `create_character(...)` — ask for species, class, and background before calling. Use `d20-mcp` for any ability-score or creation rolls (e.g. `4d6kh3` × 6 if the player wants rolled stats).
-6. **Write the campaign arc before session 1.** Fill in every section of `CAMPAIGN_ARC.md`: the hidden truth, the layers the party uncovers in order, the cast (want, flaw, secret), the session-by-session menu with several doors into each beat, the clock that advances when the party doesn't interfere, and at least three endings. Build it from `setting.md` and each PC's backstory hooks, sized to the level range the table expects. Without it, play drifts into wandering around and asking questions, so don't start session 1 until it's written. If the player wants to be surprised, write it without showing them and just say it's done.
+6. **Write the campaign arc before session 1.** Fill in every section of `CAMPAIGN_ARC.md`: the hidden truth, the layers the party uncovers in order, the cast (want, flaw, secret), the session-by-session menu with several doors into each beat, the clock that advances when the party doesn't interfere, the planned close of each chapter, and at least three endings. Build it from `setting.md` and each PC's backstory hooks, sized to the level range the table expects. Without it, play drifts into wandering around and asking questions, so don't start session 1 until it's written. If the player wants to be surprised, write it without showing them and just say it's done.
 7. If `git config dnd.campaignStorage` is unset, walk the player through "Saving Campaigns" before the first session.
 
 **At every session start**, if `CAMPAIGN_ARC.md` is missing, still has template placeholders (`<...>`, `_(...)_`), or has empty sections, write it per step 6 before narrating anything. This catches campaigns that skipped it.

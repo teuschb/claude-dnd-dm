@@ -26,4 +26,7 @@ _(one step per session the party doesn't interfere; what happens at the end)_
 
 ## 7. Endings — at least three, all valid
 
-## 8. Running notes
+## 8. Chapter closes
+_(for each chapter: the scene or revelation that ends it, what has changed for the party by then, and the hook into the next chapter; plan these in advance)_
+
+## 9. Running notes

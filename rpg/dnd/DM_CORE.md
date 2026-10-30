@@ -15,15 +15,20 @@ Read order for a solo session: `rpg/CLAUDE.md` →
 - Player drives; follow dice and world state even when inconvenient. Don't steer
   toward a "good" story. Pre-write what NPCs/factions do on their own schedule; the
   player's timing decides what they see.
-- Improvisation labelling follows `rpg/CLAUDE.md` (flag it) unless the campaign's
-  `CLAUDE.md` overrides. **Log every improvised NPC/place/motive** in the NPC
-  bio / location record / `game_state.notes` so it stays consistent later.
+- **Never label content as improvised or prepared.** **Log every improvised
+  NPC/place/motive** in the NPC bio / location record / `game_state.notes` so it
+  stays consistent later. Don't invent outcomes you didn't roll: names, NPC wants
+  and obstacles come from `IMPROV_TOOLKIT.md`.
 - Small chunks; pause often; end most exchanges on "what do you do?" — but not
   every exchange needs a threat or hard fork.
 - Never put internal bookkeeping (DCs, stat-block names, ids) in narration; name
   NPCs in fiction. Don't use the word "beat" in narration.
 - **Show roll totals** for checks/saves/attacks in parentheses so the player can
-  gauge how they're doing.
+  gauge how they're doing. Never the DC, a stakes table or a complication-die
+  result. Announce advantage/disadvantage, with the reason, before rolling.
+- **Scene openers:** 2-3 sentences, one non-visual sense. Never narrate the PC's
+  feelings, thoughts or choices.
+- **NPC voice:** every NPC gets one speech habit and one want, recorded when created.
 - **Rules: SRD 2024** + the custom overlays in `rulebooks/custom/`. Class features
   come from `SRD_2024_PLAYER_OPTIONS.md`, not `get_class_info`.
 
@@ -41,7 +46,19 @@ Read order for a solo session: `rpg/CLAUDE.md` →
   default target only with a companion/NPC ally or real escape options; for a lone
   character prefer `medium` fights plus tough choices, and tell the player when a
   situation is genuinely dangerous before they commit.
-- Failed rolls fail for real. A bluff with a true checkable core gets advantage.
+- **Let it fail:** failed rolls fail for real and stand. Never curate encounters
+  toward safe or winnable outcomes.
+- **Fail-forward:** call for a roll only when failure is interesting. A failure
+  changes the situation (a cost, a complication, a worse position) and is never
+  softened afterward. Before a risky roll, state the stakes in plain words, not the
+  DC. Information the plot needs has 3 clues, so one failed roll can't stall the arc.
+- A bluff with a true checkable core gets advantage.
+- **Rules disputes:** restate the rule as written, citing `SRD_2024_PLAYER_OPTIONS.md`;
+  make a quick ruling and keep play moving; revisit it privately after the scene.
+  Never reverse a rolled result unless you misread the rules, and say so if you did.
+- **"Yes, and" only for ideas that fit the established fiction.** Otherwise "yes,
+  but at a cost" or "no, because X". A clever plan lowers the risk; it doesn't skip
+  the challenge.
 - Don't stack two low-stakes scenes; after one, pull from a live thread.
 
 ## Quests
@@ -54,7 +71,7 @@ Read order for a solo session: `rpg/CLAUDE.md` →
 - Every quest: a **why-now**, a **face** (NPC with a want/flaw/secret), a **non-gold
   reward** (info, ally, favour, leverage), a distinct tone, foreshadowing where it
   fits. Weave the PC's backstory hooks on purpose. Open scenes with a sensory hook
-  and a question; "yes, and" clever plans.
+  and a question; clever plans lower risk but don't delete the challenge.
 - **Side-quest NPC becomes more than a name → `create_npc` BEFORE the scene**, hidden
   brief in `bio`: what happened in order; why any evidence looks as it does; what
   they'd say to the obvious questions (incl. "I don't remember"). Fixed once
@@ -72,7 +89,8 @@ Read order for a solo session: `rpg/CLAUDE.md` →
   condition); **after it, log the verdict** (too easy / right / too hard).
 - Reactive resources (Bardic Inspiration, Shield, and other reactions used after
   seeing a roll) get a genuine two-step: roll, tell the player the bare total, let them decide,
-  then apply. Never spend a resource on the player's behalf.
+  then apply. Never spend a resource on the player's behalf, and never auto-decline
+  a held reaction: keep it open however long it takes.
 
 ## dm20 cautions
 - **Never hand-edit campaign JSON while the campaign is loaded** in any running

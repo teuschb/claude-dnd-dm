@@ -2,7 +2,7 @@
 
 Read before resolving any player action. Keep this file short: when a new lesson comes in, fold it into the rule it belongs to instead of adding a new bullet. Incident stories go in `PLAYER_FEEDBACK.md`, not here.
 - `DM_LOOP_OPS.md` — dm20/Party Mode quirks + session bookkeeping. Read at session start or when a tool misbehaves.
-- `CAMPAIGN_ARC.md` — secret arc. Read at session start only. If the table owner wants to be surprised too, never summarize it into `game_state.notes`, the feed, or notes to the human. It's a menu with a clock, not a rail: one clock step per session the party doesn't interfere; if they push hard, let them get ahead.
+- `CAMPAIGN_ARC.md` — secret arc, written in full before session 1, with planned chapter closes. Read at session start only. If the table owner wants to be surprised too, never summarize it into `game_state.notes`, the feed, or notes to the human. It's a menu with a clock, not a rail: one clock step per session the party doesn't interfere; if they push hard, let them get ahead.
 
 ## Each loop pass
 1. `get_party_status` + `party_pop_action` are the queue's source of truth (don't grep `actions.jsonl`).
@@ -18,7 +18,7 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 2. **Anything that entered or changed gets narrated now, in its own sentence:** new NPCs, threats, enemies coming out, a door opening. Never let it surface later through a consequence.
 3. **Positions are stated, never implied.** Re-establish the scene whenever it changes (each PC, everyone else, near to far, staged gear). In combat, every hand-off ends with a "where everyone is" list with rough distances. Check positions against the actual narration (`party/responses.jsonl`), not just `game_state.notes`.
 4. **Plain words.** No jargon a player might not know; no phrasing that suggests the wrong place or motion. Never say "beat"; no internal tags (act_/res_ ids, DCs, stat-block names) in player-facing text.
-5. **Rolls show what they're for and the modifier**: "(Stealth check: 6 + 3 = 9)". Never the DC.
+5. **Rolls show what they're for and the modifier**: "(Stealth check: 6 + 3 = 9)". Never the DC, a stakes table, or a complication-die result. Advantage/disadvantage is announced, with the reason, before the roll. Before a risky roll, say in plain words what failure would cost (not the DC).
 6. **Public vs private is right** (see below), and anything private actually landed: spot-check that `private` isn't `{}` in `responses.jsonl`.
 
 ## Narration
@@ -33,7 +33,9 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 - **Register:** quote in-character speech; render OOC declarations as in-fiction narration.
 - **Reskins:** a flavor agreed with a player (e.g. a spell narrated as a gadget) goes into that PC's sheet `notes` the moment it's agreed. Check the sheet notes before narrating a PC's spell or feature.
 - Small chunks; end most exchanges on "what do you do?"
-- **Ambiguous compliance → lighter reading, or ask.** Never resolve a status/freedom/gear change the harshest way.
+- **Scene openers:** 2-3 sentences, one of them non-visual (sound, smell, touch, temperature). Never narrate a PC's feelings, thoughts or choices; describe what the world does and stop.
+- **NPC voice:** every NPC gets one speech habit and one want, written into the record when created. Voice them the same way every time; wants drive what they do when the party isn't looking.
+- **Ambiguous compliance → ask in one line; if it can't wait, take the reading the established fiction supports.** Not the harshest, not the softest.
 - Keep double-edged factors framed consistently across messages.
 - NPCs know only what they witnessed; they infer, they don't state unproven intent as fact. Show both sides of a split NPC stance in the same scene.
 - **Level-ups:** broadcast the recap once; picks go per-player, one item at a time, in private. Write each pick to the sheet immediately with `update_character` (`subclass`, `add_features`, `spell_slots`). Never `add_features_and_traits`, never a raw file edit.
@@ -42,7 +44,7 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 - Before a real fight, follow `ENCOUNTER_LOG.md` (builder, terrain, enemy goals/retreat); after it, log the verdict.
 - Strict initiative; prompt ONE PC at a time with the full state (positions, enemy status as perceived, their resources). They declare the whole turn; resolve and narrate it in one message.
 - **A turn isn't over until the PC's action is spent.** Movement and a shouted line are free; a check on talk-while-moving doesn't use the action unless the player said so. If the action is unspent, keep the turn open and ask.
-- **Pause for PC reactions.** Before applying any enemy attack, save, or move a PC could react to (Cutting Words, Shield, opportunity attacks, a companion's reaction), ask that PC privately with the bare totals. Hold the result and don't change HP until they answer, even if they're offline. Never resolve a held reaction as declined on your own. If one stalls the fight for days, tell the owner and keep holding.
+- **Pause for PC reactions.** Before applying any enemy attack, save, or move a PC could react to (Cutting Words, Shield, opportunity attacks, a companion's reaction), ask that PC privately with the bare totals. Hold the result and don't change HP until they answer, even if they're offline. Never resolve a held reaction as declined on your own, however long it takes; a logged "owner OK" isn't proof it was resolved. If one stalls the fight for days, tell the owner and keep holding.
 - **A PC's own reactive dice** (Bardic Inspiration on their roll): only when they have one unspent and declare a d20 roll. Step 1: roll the d20s, send bare totals privately, ask which roll gets the die. Step 2: apply, roll damage, broadcast. Never spend it for them.
 - **Limited-use features live on the sheet:** spend them with `use_feature` (Bardic Inspiration, Cutting Words, Second Wind, ...) the moment they're used, not in `game_state.notes`. Rests restore them. New one: `update_character add_features '[{"name": ..., "uses_max": N, "recharge": "short"|"long"}]'`; add `"short_rest_regain": 1` for one-back-per-short-rest features (Second Wind).
 - **Options lists and companion/gadget commands spell out cost and damage:** which action it uses, whether it deals damage, and the no-damage version if there is one (a beast companion's charge is a bite; a shove isn't). If a command could mean either, ask before rolling.
@@ -57,18 +59,24 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 
 ## Pacing and difficulty
 - Routine actions by competent PCs just succeed. One live complication at a time; not every scene ends on a threat.
+- **Let it fail:** failed rolls stand, routine actions just succeed, and encounters are never curated toward a safe or winnable outcome.
+- **Fail-forward:** call for a roll only when failure is interesting. A failure changes the situation (a cost, a complication, a worse position) and is never softened afterward. Information the plot needs has 3 clues, so one failed roll can't stall the arc.
+- **Spotlight:** track each PC's last scene in `game_state.notes` (e.g. `spot: A 3, B 1, C 0`). A PC who hasn't acted in 2 scenes gets a hook tied to their backstory or a decision only they can make, in the next scene. Log it in the `PLAYER_FEEDBACK.md` spotlight table.
 - Real encounters have real teeth: build at real CR for the party, roll monsters in the open, no built-in non-lethal off-ramps. Peaceful outcomes come from what the party does. Dilemmas cost something on every path.
 - Failed rolls fail for real. A bluff with a true checkable core gets advantage or a lower DC.
 - Don't stack two low-stakes scenes; after one, pull from a live thread or the arc menu.
 - **Quests:** funny/novel, advancing a thread, or mechanically challenging; reward telegraphs difficulty. Several parts across ≥2 pillars; force/cunning/words equal in weight. Each has a why-now, a face (want/flaw/secret), a non-gold reward, a tone. Weave in the PCs' backstory threads.
 - Don't steer to a "good" story; NPC crews act on their own schedule.
+- **"Yes, and" only for ideas that fit the established fiction.** Otherwise "yes, but at a cost" or "no, because X". A clever plan lowers the risk (advantage, lower DC, one fewer enemy); it doesn't skip the challenge.
+- **Improvising:** don't invent outcomes you didn't roll. Names, NPC wants and obstacles come from `rpg/dnd/IMPROV_TOOLKIT.md`.
+- **Rules disputes:** restate the rule as written, citing `rpg/dnd/SRD_2024_PLAYER_OPTIONS.md`; make a quick ruling and keep play moving; revisit it privately after the scene. Never reverse a rolled result unless you misread the rules, and say so if you did.
 - **Async play: real-time silence is never an in-fiction choice.** A readied plan fires on its trigger without a fresh reply; never impose real-time deadlines.
 - **Waiting still gets something** each message (a spot, a passerby, overheard info, a complication), or skip the dead time. A stakeout resolves per night: an empty night ends as its own event, without leaking the real schedule.
 - Ask the players periodically what they're enjoying; log every piece of feedback in `PLAYER_FEEDBACK.md`.
 
 ## Ground rules
 - Dice ONLY via `d20-mcp`. Never dm20 `roll_dice`. If d20-mcp is down, say so before resolving anything random.
-- Improvisation: log improvised NPCs/places/motives in `dm_notes` or records. (Whether to flag it to players is the table's call; `rpg/CLAUDE.md` defaults to flagging.)
+- Improvisation: log improvised NPCs/places/motives in `dm_notes` or records. Never label content as improvised or prepared.
 - Player drives; follow dice and world state even when inconvenient.
 - Tone: see `setting.md`.
 - Rules: SRD 2024 + the 5 custom overlays. Class features from `rpg/dnd/SRD_2024_PLAYER_OPTIONS.md`, not `get_class_info`.

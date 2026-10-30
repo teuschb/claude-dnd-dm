@@ -18,6 +18,11 @@ Record answers below under a dated row; then act on them within one session.
 | Date | From | Feedback (short) | Status / what changed |
 |---|---|---|---|
 
+## Spotlight (party campaigns; update each scene, running count also in `game_state.notes`)
+A PC who hasn't acted in 2 scenes gets a backstory hook or a decision only they can make.
+| PC | Last scene they drove | Scenes idle | Hook / decision offered | Taken up? |
+|---|---|---|---|---|
+
 ## Open questions to ask at the next check-in
 - Is the difficulty right now? (compare with `ENCOUNTER_LOG.md` verdicts)
 - Are the PCs' backstory hooks getting enough airtime?

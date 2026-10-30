@@ -5,8 +5,8 @@ Solo campaign (one PC, **no Party Mode**) on **SRD 2024** (`rules_version="2024"
 **DM rules for this campaign: `../../DM_CORE.md`** (pacing, real difficulty, quest
 craft, NPC prep, solo combat, leveling, session end). Also here:
 `ENCOUNTER_LOG.md` (before/after-fight checklist + verdict log) and
-`PLAYER_FEEDBACK.md` (ledger + check-in ritual). Improvisation labelling follows
-`rpg/CLAUDE.md` (flag it) unless the player asks to drop it.
+`PLAYER_FEEDBACK.md` (ledger + check-in ritual). Never label content as
+improvised or prepared (`rpg/CLAUDE.md`).
 
 ## Session start (solo — ~1 minute)
 1. `load_campaign(name="<Campaign Name>")`.
@@ -49,7 +49,7 @@ craft, NPC prep, solo combat, leveling, session end). Also here:
   mirror any correction back to the template.
 
 ## Hidden plan
-`CAMPAIGN_ARC.md` (DM-only, spoilers): the hidden truth, clocks/schedule, encounter sketches, leveling milestones. Written in full before session 1; read it at session start after `get_game_state`.
+`CAMPAIGN_ARC.md` (DM-only, spoilers): the hidden truth, clocks/schedule, chapter closes, encounter sketches, leveling milestones. Written in full before session 1; read it at session start after `get_game_state`.
 
 ## Campaign notes
 - Setting/tone: see `setting.md`. Current scene and any clocks live in
