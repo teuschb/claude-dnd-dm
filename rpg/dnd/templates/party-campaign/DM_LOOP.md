@@ -82,6 +82,6 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 - Rules: SRD 2024 + the 5 custom overlays. Class features from `rpg/dnd/SRD_2024_PLAYER_OPTIONS.md`, not `get_class_info`.
 
 ## Leveling & session end
-- Milestone, no XP: level every PC one step at each session end; call the end yourself at a natural stopping point. ~1–1.5 missions per level early; ~2 arcs from level 5.
+- Milestone, no XP: at levels ~1–3 level every PC one step at the end of every session; after that level less often (about one step per arc/mission, ~2 arcs per level from level 5). Call the end yourself at a natural stopping point.
 - Level via `level_up_character` / `bulk_update_characters`; hand-verify HP, features, slots against `SRD_2024_PLAYER_OPTIONS.md`.
 - Then `add_session_note` (prose summary, loot inside the prose), `update_quest` for every quest touched, archive the feed. Details: `DM_LOOP_OPS.md`.

@@ -12,7 +12,7 @@ full trait/feature descriptions (a bug in the installed tool, not a data gap).
    2014's "Natural Explorer" instead of 2024's Weapon Mastery/Deft Explorer) even
    though class shells (hit die, saves, subclass names) were correctly 2024 —
    fixed by `srd_2024_class_progression.json`, rebuilt from the live API for all
-   12 classes, levels 1-3.
+   12 classes, levels 1–20 (overlay v2.0).
 3. The SRD only ships 4 backgrounds (Acolyte, Criminal, Sage, Soldier); the other
    12 from the full 2024 PHB (Artisan, Charlatan, Entertainer, Farmer, Guard,
    Guide, Hermit, Merchant, Noble, Sailor, Scribe, Wayfarer) were added via

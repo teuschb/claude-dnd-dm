@@ -5,7 +5,7 @@ sessions steer from it instead of rediscovering it.
 **Append at every debrief / whenever a player gives feedback.** Plain file — safe
 to edit while the campaign is loaded.
 
-## Check-in ritual (every ~2 sessions, and at each milestone level-up)
+## Check-in ritual (every ~2 sessions, and at each milestone level-up once leveling is less frequent)
 Ask the table (via the table owner, or `party_push` to the shared feed) three
 questions, one at a time:
 1. Best moment so far? (what to do more of)

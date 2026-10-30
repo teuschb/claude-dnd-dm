@@ -106,9 +106,10 @@ Read order for a solo session: `rpg/CLAUDE.md` →
   overlay every session (order in the campaign's `CLAUDE.md`).
 
 ## Leveling — milestone (default; the campaign may override)
-- Milestone, not XP; no per-encounter XP. Level one step per completed arc/mission
-  (~1–1.5 missions per level early, ~2 from level 5). Call it yourself at a natural
-  stopping point.
+- Milestone, not XP; no per-encounter XP. Early on (about levels 1–3) level every PC
+  one step at the end of every session; after that, level less often (roughly one
+  step per completed arc/mission, ~2 arcs per level from level 5). Call the session
+  end yourself at a natural stopping point.
 - Level via `level_up_character`, hand-verify HP/features/slots, then re-set
   anything the tool can't (`update_character` extras).
 
@@ -116,7 +117,7 @@ Read order for a solo session: `rpg/CLAUDE.md` →
 1. `add_session_note` — a title plus real story prose (what happened, in story
    voice; loot amounts inside the prose), not a checklist.
 2. `update_quest` for every quest touched; refresh `game_state.notes` (≤ ~600 chars:
-   where we are + open threads); level up if a milestone was hit.
+   where we are + open threads); level up if it's a leveling session (every session at levels 1–3, then per the pacing above).
 3. Append encounter verdicts to `ENCOUNTER_LOG.md`; append any player feedback to
    `PLAYER_FEEDBACK.md`.
 4. Offer the end-of-session debrief from `rpg/CLAUDE.md`, and every ~2 sessions run

@@ -8,7 +8,7 @@ Shared conventions for any tabletop RPG run through this repo. System-specific s
 rpg/
 ├── CLAUDE.md               ← you are here: rules that apply to every RPG
 └── dnd/                    ← D&D 5e specific (see dnd/CLAUDE.md)
-    └── <campaign-name>/    ← one folder per campaign
+    └── campaigns/<campaign-name>/  ← one folder per campaign
 ```
 
 ## Ground Rules (all systems, all campaigns)

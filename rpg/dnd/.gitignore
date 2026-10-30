@@ -1,6 +1,5 @@
 library/
 rulebook_cache/*
-!rulebook_cache/srd_2014/
 !rulebook_cache/srd_2024/
 
 # --- Campaign data: kept out of this repo by default -------------------------

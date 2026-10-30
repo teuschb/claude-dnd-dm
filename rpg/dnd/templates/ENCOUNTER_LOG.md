@@ -12,7 +12,8 @@ loaded (dm20 never touches it).
    2024. Treat it as a sanity check, not gospel — cross-check monster CR vs
    `SRD_2024_MONSTERS.md`. Never award XP (milestone leveling).
 2. Pick the target: `easy / medium / hard / deadly`. Default for a real fight:
-   **hard**, unless the table wants it gentler.
+   **hard**, unless the table wants it gentler. A lone solo PC defaults to
+   **medium** (see the solo caveat in `DM_CORE.md`).
 3. Write 2–3 interactive terrain features and each enemy's **goal, tactics, and
    retreat/surrender condition** — combat should not be HP trading.
 4. Non-lethal/talk paths must cost comparable *weight* (see `DM_LOOP.md` or `DM_CORE.md`).

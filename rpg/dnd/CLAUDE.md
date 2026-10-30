@@ -59,7 +59,7 @@ Party Mode is **session-based, not always-on.** The party web server runs *insid
 1. `stop_party_mode`
 2. If you opened a public tunnel, close it (e.g. `tailscale funnel --https=443 off`, verify with `tailscale funnel status`).
 3. `TaskStop` the Monitor; `ScheduleWakeup(stop: true)` if a `/loop` is running.
-4. At a **session** boundary (not every teardown): archive the feed — `mkdir -p party/sessions/session_NN && mv party/responses.jsonl party/actions.jsonl party/sessions/session_NN/` — then `add_session_note`, level every PC one step (milestone), and update `game_state.notes`.
+4. At a **session** boundary (not every teardown): archive the feed — `mkdir -p party/sessions/session_NN && mv party/responses.jsonl party/actions.jsonl party/sessions/session_NN/` — then `add_session_note`, level every PC one step (milestone: every session at levels ~1–3, less often after that; see `DM_CORE.md`), and update `game_state.notes`.
 
 ### Keeping the laptop awake mid-session
 
@@ -84,10 +84,10 @@ When a party-mode session is live and Claude is the DM, **act directly**: pop th
 
 ## Hooks
 
-`.claude/settings.json` runs two checks before every `party_resolve_action` / `party_push`:
+`.claude/settings.json` runs these checks (`party_resolve_action` runs both; `party_push` runs only the narration check):
 
-- `scripts/hooks/check_resolve_leads.py` — the narrative must lead with what the acting PC did (names come from `characters.json` plus the campaign's `lead_aliases.json` for companions).
-- `scripts/hooks/check_narration_rules.py` — no words from the campaign's `narration_rules.json` banned list, and in combat a position list plus a `reactions: ...` note in `dm_notes`.
+- `scripts/hooks/check_resolve_leads.py` (`party_resolve_action` only) — the narrative must lead with what the acting PC did (names come from `characters.json` plus the campaign's `lead_aliases.json` for companions).
+- `scripts/hooks/check_narration_rules.py` (`party_resolve_action` and `party_push`) — no words from the campaign's `narration_rules.json` banned list, and in combat a position list plus a `reactions: ...` note in `dm_notes`.
 
 On a false positive, fix the narrative, not the hook. Deliberate exceptions: `[words-exempt: why]` or `[positions-exempt: why]` in `dm_notes`.
 
