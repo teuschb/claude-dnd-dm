@@ -46,7 +46,7 @@ Campaigns in this folder standardize on the **SRD 2024** ruleset (`rules_version
 2. `load_rulebook(source="srd", version="2024")` (the version defaults to 2014).
 3. `create_campaign(name=..., description=..., rules_version="2024")` — ask the player for name/setting/tone.
 4. `create_character(...)` — ask the player for race, class, and background before calling. Use `d20-mcp` for any creation rolls.
-5. Write the full `CAMPAIGN_ARC.md` (from `templates/CAMPAIGN_ARC.md`) before session 1: hidden truth, layers, cast, session menu, clock, three or more endings. At any session start, if it's missing or unfilled, write it before narrating. See step 6 of the workflow in `CLAUDE.md`.
+5. Write the full `CAMPAIGN_ARC.md` (from `templates/CAMPAIGN_ARC.md`) before session 1: hidden truth, layers, cast, session menu, clock, chapter closes, three or more endings. At any session start, if it's missing or unfilled, write it before narrating. This is step 6 of the longer "Campaign Creation Workflow" in `CLAUDE.md`, which has the full detail.
 
 ## Slash Commands
 

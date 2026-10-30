@@ -29,7 +29,13 @@ from pathlib import Path
 DND = Path(__file__).resolve().parents[2]
 ROOT = DND.parents[1]
 SEG = r"[^;&|\n]*"  # stays within one shell command
-PUSH_RE = re.compile(rf"\bgit\b{SEG}\bpush\b")
+ARG = r"""(?:"[^"]*"|'[^']*'|\S+)"""
+# `git [global options] push`, at the start of a command (after ; && || | or
+# VAR=val prefixes), so "push" inside a commit message or another subcommand's
+# arguments doesn't match. Global options that take a value: -C, -c, --git-dir...
+GIT_OPTS = rf"(?:\s+(?:-[Cc]\s+{ARG}|--(?:git-dir|work-tree|namespace|exec-path)\s+{ARG}|-{{1,2}}[\w-]+(?:=\S*)?))*"
+PUSH_RE = re.compile(rf"(?:^|[;&|\n(]|\bthen\b|\bdo\b)\s*(?:\w+={ARG}\s+)*git{GIT_OPTS}\s+push\b")
+URL_RE = re.compile(r"^(?:[\w+.-]+://|[\w.-]+@[\w.-]+:)")
 PUBLIC_RE = re.compile(rf"\bgh\s+repo\s+(create|edit|fork)\b{SEG}(--public\b|--visibility[= ]public\b)")
 GITHUB_RE = re.compile(r"github\.com[:/]([^/\s]+)/([^/\s]+?)(\.git)?/?$")
 CONTENTS = "characters, the DM's secret arc and other spoilers, session notes"
@@ -52,14 +58,16 @@ def campaign_repos() -> list[Path]:
     return [r for r in repos if git("-C", str(r), "config", "--bool", "dnd.campaignsPublic") != "true"]
 
 
-def push_targets(repo: Path, command: str) -> set[str]:
-    """Remotes the push could go to: any named in the command, else the default."""
+def push_targets(repo: Path, args: str) -> set[str]:
+    """URLs the push could go to: raw URLs in the command, remotes named in it, else the default."""
+    tokens = [t.strip("\"'") for t in re.findall(ARG, args)]
+    urls = {t for t in tokens if URL_RE.match(t)}
     remotes = set(git("-C", str(repo), "remote").split())
-    named = remotes & set(re.findall(r"[\w.-]+", command))
-    if named:
-        return named
-    default = git("-C", str(repo), "rev-parse", "--abbrev-ref", "@{push}").split("/")[0]
-    return {default if default in remotes else "origin"} & remotes
+    named = remotes & set(tokens)
+    if not (urls or named):
+        default = git("-C", str(repo), "rev-parse", "--abbrev-ref", "@{push}").split("/")[0]
+        named = {default if default in remotes else "origin"} & remotes
+    return urls | {git("-C", str(repo), "remote", "get-url", "--push", r) for r in named}
 
 
 def visibility_problem(url: str) -> str | None:
@@ -104,7 +112,7 @@ def main() -> None:
 
     problems = []
     for repo in repos:
-        urls = {git("-C", str(repo), "remote", "get-url", "--push", r) for r in push_targets(repo, command)}
+        urls = push_targets(repo, command[pushing.end():].split("\n")[0].split("&&")[0].split(";")[0].split("|")[0])
         problems += [f"{repo.name}: {p}" for p in map(visibility_problem, sorted(urls - {""})) if p]
     if problems:
         ask(f"This push may publish campaign data ({CONTENTS}). " + "; ".join(problems) +

@@ -68,7 +68,7 @@ def character_aliases(campaign_dir: Path, player_id: str) -> list[str]:
             aliases = {a.lower() for a in extra.get(player_id, [])}
             for n in names:
                 for w in words(n):
-                    if len(w) >= 3 and w not in {"von", "van", "the", "n/a"}:
+                    if len(w) >= 3 and w not in {"von", "van", "the"}:
                         aliases.add(w)
             return sorted(aliases)
     return []
