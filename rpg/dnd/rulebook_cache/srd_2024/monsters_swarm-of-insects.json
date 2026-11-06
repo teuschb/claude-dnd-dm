@@ -1,0 +1,129 @@
+{
+  "index": "swarm-of-insects",
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "2d4+1"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "1d4+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "stunned",
+      "name": "Stunned",
+      "url": "/api/2024/conditions/stunned"
+    }
+  ],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "3d8",
+  "hit_points": 19,
+  "hit_points_roll": "3d8 + 6",
+  "image": "/api/images/monsters/swarm-of-insects.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Swarm of Insects",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "30 ft.",
+    "passive_perception": 8
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature\u2019s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can\u2019t regain Hit Points or gain Temporary Hit Points.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 3,
+  "type": "swarm of tiny beasts",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/swarm-of-insects",
+  "wisdom": 7,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

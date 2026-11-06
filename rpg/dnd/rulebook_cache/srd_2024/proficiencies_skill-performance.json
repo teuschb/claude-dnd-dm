@@ -1,0 +1,14 @@
+{
+  "index": "skill-performance",
+  "type": "Skills",
+  "name": "Skill: Performance",
+  "backgrounds": [],
+  "classes": [],
+  "reference": {
+    "index": "performance",
+    "name": "Performance",
+    "url": "/api/2024/skills/performance"
+  },
+  "url": "/api/2024/proficiencies/skill-performance",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

@@ -1,0 +1,46 @@
+{
+  "index": "fog-cloud",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": true,
+  "description": "You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.",
+  "duration": "up to 1 hour",
+  "higher_level": "The fog's radius increases by 20 feet for each spell slot level above 1.",
+  "level": 1,
+  "name": "Fog Cloud",
+  "range": "120 feet",
+  "ritual": false,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/fog-cloud",
+  "subclasses": []
+}

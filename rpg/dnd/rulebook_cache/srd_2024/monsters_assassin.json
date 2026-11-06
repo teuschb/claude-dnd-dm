@@ -1,0 +1,191 @@
+{
+  "index": "assassin",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The assassin makes three attacks, using Shortsword or Light Crossbow in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 3,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Shortsword",
+              "count": 3,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Light Crossbow",
+              "count": 3,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin\u2019s next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "5d6"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Light Crossbow",
+      "desc": "Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "6d6"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": [
+        {
+          "index": "studded-leather-armor",
+          "name": "Studded Leather Armor",
+          "url": "/api/2024/equipment/studded-leather-armor"
+        }
+      ]
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Cunning Action",
+      "desc": "The assassin takes the Dash, Disengage, or Hide action.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 8,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "poison"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "gear": "Light Crossbow, Shortsword, Studded Leather Armor",
+  "hit_dice": "15d8",
+  "hit_points": 97,
+  "hit_points_roll": "15d8 + 30",
+  "image": "/api/images/monsters/assassin.png",
+  "intelligence": 16,
+  "languages": "Common, Thieves\u2019 Cant",
+  "legendary_actions": [],
+  "name": "Assassin",
+  "proficiencies": [
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-acrobatics",
+        "name": "Skill: Acrobatics",
+        "url": "/api/2024/proficiencies/skill-acrobatics"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "passive_perception": 16
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the save and only half damage if it fails. It can\u2019t use this trait if it has the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 11,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/assassin",
+  "wisdom": 11,
+  "xp": 3900,
+  "reactions": [],
+  "forms": []
+}

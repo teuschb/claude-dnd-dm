@@ -1,0 +1,532 @@
+[
+  {
+    "index": "barbarian-1",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 2,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 2
+    },
+    "features": [
+      {
+        "index": "barbarian-rage",
+        "name": "Rage",
+        "url": "/api/2024/features/barbarian-rage"
+      },
+      {
+        "index": "barbarian-unarmored-defense",
+        "name": "Unarmored Defense",
+        "url": "/api/2024/features/barbarian-unarmored-defense"
+      },
+      {
+        "index": "barbarian-weapon-mastery",
+        "name": "Weapon Mastery",
+        "url": "/api/2024/features/barbarian-weapon-mastery"
+      }
+    ],
+    "level": 1,
+    "name": "Barbarian 1",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.626Z",
+    "url": "/api/2024/classes/barbarian/levels/1"
+  },
+  {
+    "index": "barbarian-2",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 2,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 2
+    },
+    "features": [
+      {
+        "index": "barbarian-danger-sense",
+        "name": "Danger Sense",
+        "url": "/api/2024/features/barbarian-danger-sense"
+      },
+      {
+        "index": "barbarian-reckless-attack",
+        "name": "Reckless Attack",
+        "url": "/api/2024/features/barbarian-reckless-attack"
+      }
+    ],
+    "level": 2,
+    "name": "Barbarian 2",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/2"
+  },
+  {
+    "index": "barbarian-3",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 3,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 2
+    },
+    "features": [
+      {
+        "index": "barbarian-subclass",
+        "name": "Barbarian Subclass",
+        "url": "/api/2024/features/barbarian-subclass"
+      },
+      {
+        "index": "barbarian-primal-knowledge",
+        "name": "Primal Knowledge",
+        "url": "/api/2024/features/barbarian-primal-knowledge"
+      }
+    ],
+    "level": 3,
+    "name": "Barbarian 3",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/3"
+  },
+  {
+    "index": "barbarian-4",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 3,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-ability-score-improvement",
+        "url": "/api/2024/features/barbarian-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Barbarian 4",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/4"
+  },
+  {
+    "index": "barbarian-5",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 3,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-extra-attack",
+        "url": "/api/2024/features/barbarian-extra-attack",
+        "name": "Extra Attack"
+      },
+      {
+        "index": "barbarian-fast-movement",
+        "url": "/api/2024/features/barbarian-fast-movement",
+        "name": "Fast Movement"
+      }
+    ],
+    "level": 5,
+    "name": "Barbarian 5",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/5"
+  },
+  {
+    "index": "barbarian-6",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-subclass",
+        "url": "/api/2024/features/barbarian-subclass",
+        "name": "Barbarian Subclass"
+      }
+    ],
+    "level": 6,
+    "name": "Barbarian 6",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/6"
+  },
+  {
+    "index": "barbarian-7",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-feral-instinct",
+        "url": "/api/2024/features/barbarian-feral-instinct",
+        "name": "Feral Instinct"
+      },
+      {
+        "index": "barbarian-instinctive-pounce",
+        "url": "/api/2024/features/barbarian-instinctive-pounce",
+        "name": "Instinctive Pounce"
+      }
+    ],
+    "level": 7,
+    "name": "Barbarian 7",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/7"
+  },
+  {
+    "index": "barbarian-8",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 2,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-ability-score-improvement",
+        "url": "/api/2024/features/barbarian-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Barbarian 8",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/8"
+  },
+  {
+    "index": "barbarian-9",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 3
+    },
+    "features": [
+      {
+        "index": "barbarian-brutal-strike",
+        "url": "/api/2024/features/barbarian-brutal-strike",
+        "name": "Brutal Strike"
+      }
+    ],
+    "level": 9,
+    "name": "Barbarian 9",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/9"
+  },
+  {
+    "index": "barbarian-10",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-subclass",
+        "url": "/api/2024/features/barbarian-subclass",
+        "name": "Barbarian Subclass"
+      }
+    ],
+    "level": 10,
+    "name": "Barbarian 10",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/10"
+  },
+  {
+    "index": "barbarian-11",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 4,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-relentless-rage",
+        "url": "/api/2024/features/barbarian-relentless-rage",
+        "name": "Relentless Rage"
+      }
+    ],
+    "level": 11,
+    "name": "Barbarian 11",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/11"
+  },
+  {
+    "index": "barbarian-12",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 5,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-ability-score-improvement",
+        "url": "/api/2024/features/barbarian-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Barbarian 12",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/12"
+  },
+  {
+    "index": "barbarian-13",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 5,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-improved-brutal-strike-1",
+        "url": "/api/2024/features/barbarian-improved-brutal-strike-1",
+        "name": "Improved Brutal Strike"
+      }
+    ],
+    "level": 13,
+    "name": "Barbarian 13",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/13"
+  },
+  {
+    "index": "barbarian-14",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 5,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-subclass",
+        "url": "/api/2024/features/barbarian-subclass",
+        "name": "Barbarian Subclass"
+      }
+    ],
+    "level": 14,
+    "name": "Barbarian 14",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/14"
+  },
+  {
+    "index": "barbarian-15",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 5,
+      "rage_damage_bonus": 3,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-persistent-rage",
+        "url": "/api/2024/features/barbarian-persistent-rage",
+        "name": "Persistent Rage"
+      }
+    ],
+    "level": 15,
+    "name": "Barbarian 15",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/15"
+  },
+  {
+    "index": "barbarian-16",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 5,
+      "rage_damage_bonus": 4,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-ability-score-improvement",
+        "url": "/api/2024/features/barbarian-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Barbarian 16",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/16"
+  },
+  {
+    "index": "barbarian-17",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 6,
+      "rage_damage_bonus": 4,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-improved-brutal-strike-2",
+        "url": "/api/2024/features/barbarian-improved-brutal-strike-2",
+        "name": "Improved Brutal Strike"
+      }
+    ],
+    "level": 17,
+    "name": "Barbarian 17",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/17"
+  },
+  {
+    "index": "barbarian-18",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 6,
+      "rage_damage_bonus": 4,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-indomitable-might",
+        "url": "/api/2024/features/barbarian-indomitable-might",
+        "name": "Indomitable Might"
+      }
+    ],
+    "level": 18,
+    "name": "Barbarian 18",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/18"
+  },
+  {
+    "index": "barbarian-19",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 6,
+      "rage_damage_bonus": 4,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-epic-boon",
+        "url": "/api/2024/features/barbarian-epic-boon",
+        "name": "Epic Boon"
+      }
+    ],
+    "level": 19,
+    "name": "Barbarian 19",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/19"
+  },
+  {
+    "index": "barbarian-20",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "class_specific": {
+      "rage_count": 6,
+      "rage_damage_bonus": 4,
+      "weapon_mastery": 4
+    },
+    "features": [
+      {
+        "index": "barbarian-primal-champion",
+        "url": "/api/2024/features/barbarian-primal-champion",
+        "name": "Primal Champion"
+      }
+    ],
+    "level": 20,
+    "name": "Barbarian 20",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/barbarian/levels/20"
+  }
+]

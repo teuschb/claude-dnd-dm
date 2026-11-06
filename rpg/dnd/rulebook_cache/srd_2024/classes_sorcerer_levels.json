@@ -1,0 +1,708 @@
+[
+  {
+    "index": "sorcerer-1",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 0
+    },
+    "features": [
+      {
+        "index": "sorcerer-innate-sorcery",
+        "name": "Innate Sorcery",
+        "url": "/api/2024/features/sorcerer-innate-sorcery"
+      },
+      {
+        "index": "sorcerer-spellcasting",
+        "name": "Spellcasting",
+        "url": "/api/2024/features/sorcerer-spellcasting"
+      }
+    ],
+    "level": 1,
+    "name": "Sorcerer 1",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 2,
+      "spell_slots_level_1": 2,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/1"
+  },
+  {
+    "index": "sorcerer-2",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 2
+    },
+    "features": [
+      {
+        "index": "sorcerer-font-of-magic",
+        "name": "Font of Magic",
+        "url": "/api/2024/features/sorcerer-font-of-magic"
+      },
+      {
+        "index": "sorcerer-metamagic",
+        "name": "Metamagic",
+        "url": "/api/2024/features/sorcerer-metamagic"
+      }
+    ],
+    "level": 2,
+    "name": "Sorcerer 2",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 4,
+      "spell_slots_level_1": 3,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/2"
+  },
+  {
+    "index": "sorcerer-3",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 3
+    },
+    "features": [
+      {
+        "index": "sorcerer-subclass",
+        "name": "Sorcerer Subclass",
+        "url": "/api/2024/features/sorcerer-subclass"
+      }
+    ],
+    "level": 3,
+    "name": "Sorcerer 3",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 4,
+      "prepared_spells": 6,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 2,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/3"
+  },
+  {
+    "index": "sorcerer-4",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 4
+    },
+    "features": [
+      {
+        "index": "sorcerer-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/sorcerer-ability-score-improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Sorcerer 4",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 7,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/4"
+  },
+  {
+    "index": "sorcerer-5",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 5
+    },
+    "features": [
+      {
+        "index": "sorcerer-sorcerous-restoration",
+        "name": "Sorcerous Restoration",
+        "url": "/api/2024/features/sorcerer-sorcerous-restoration"
+      }
+    ],
+    "level": 5,
+    "name": "Sorcerer 5",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 9,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 2,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/5"
+  },
+  {
+    "index": "sorcerer-6",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 6
+    },
+    "features": [
+      {
+        "index": "sorcerer-subclass",
+        "name": "Sorcerer Subclass",
+        "url": "/api/2024/features/sorcerer-subclass"
+      }
+    ],
+    "level": 6,
+    "name": "Sorcerer 6",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 10,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/6"
+  },
+  {
+    "index": "sorcerer-7",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 7
+    },
+    "features": [
+      {
+        "index": "sorcerer-sorcery-incarnate",
+        "name": "Sorcery Incarnate",
+        "url": "/api/2024/features/sorcerer-sorcery-incarnate"
+      }
+    ],
+    "level": 7,
+    "name": "Sorcerer 7",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 11,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 1,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/7"
+  },
+  {
+    "index": "sorcerer-8",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 8
+    },
+    "features": [
+      {
+        "index": "sorcerer-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/sorcerer-ability-score-improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Sorcerer 8",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 12,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 2,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/8"
+  },
+  {
+    "index": "sorcerer-9",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 9
+    },
+    "features": [],
+    "level": 9,
+    "name": "Sorcerer 9",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 5,
+      "prepared_spells": 14,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 1,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/9"
+  },
+  {
+    "index": "sorcerer-10",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 10
+    },
+    "features": [
+      {
+        "index": "sorcerer-metamagic",
+        "name": "Metamagic",
+        "url": "/api/2024/features/sorcerer-metamagic"
+      }
+    ],
+    "level": 10,
+    "name": "Sorcerer 10",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 15,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/10"
+  },
+  {
+    "index": "sorcerer-11",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 11
+    },
+    "features": [],
+    "level": 11,
+    "name": "Sorcerer 11",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/11"
+  },
+  {
+    "index": "sorcerer-12",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 12
+    },
+    "features": [
+      {
+        "index": "sorcerer-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/sorcerer-ability-score-improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Sorcerer 12",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 16,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/12"
+  },
+  {
+    "index": "sorcerer-13",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 13
+    },
+    "features": [],
+    "level": 13,
+    "name": "Sorcerer 13",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/13"
+  },
+  {
+    "index": "sorcerer-14",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 14
+    },
+    "features": [
+      {
+        "index": "sorcerer-subclass",
+        "name": "Sorcerer Subclass",
+        "url": "/api/2024/features/sorcerer-subclass"
+      }
+    ],
+    "level": 14,
+    "name": "Sorcerer 14",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 17,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/14"
+  },
+  {
+    "index": "sorcerer-15",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 15
+    },
+    "features": [],
+    "level": 15,
+    "name": "Sorcerer 15",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/15"
+  },
+  {
+    "index": "sorcerer-16",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 16
+    },
+    "features": [
+      {
+        "index": "sorcerer-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/sorcerer-ability-score-improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Sorcerer 16",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 18,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/16"
+  },
+  {
+    "index": "sorcerer-17",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 17
+    },
+    "features": [
+      {
+        "index": "sorcerer-metamagic",
+        "name": "Metamagic",
+        "url": "/api/2024/features/sorcerer-metamagic"
+      }
+    ],
+    "level": 17,
+    "name": "Sorcerer 17",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 19,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/17"
+  },
+  {
+    "index": "sorcerer-18",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 18
+    },
+    "features": [
+      {
+        "index": "sorcerer-subclass",
+        "name": "Sorcerer Subclass",
+        "url": "/api/2024/features/sorcerer-subclass"
+      }
+    ],
+    "level": 18,
+    "name": "Sorcerer 18",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 20,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 1,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/18"
+  },
+  {
+    "index": "sorcerer-19",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 19
+    },
+    "features": [
+      {
+        "index": "sorcerer-epic-boon",
+        "name": "Epic Boon",
+        "url": "/api/2024/features/sorcerer-epic-boon"
+      }
+    ],
+    "level": 19,
+    "name": "Sorcerer 19",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 21,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 1,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/19"
+  },
+  {
+    "index": "sorcerer-20",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "class_specific": {
+      "sorcery_points": 20
+    },
+    "features": [
+      {
+        "index": "sorcerer-arcane-apotheosis",
+        "name": "Arcane Apotheosis",
+        "url": "/api/2024/features/sorcerer-arcane-apotheosis"
+      }
+    ],
+    "level": 20,
+    "name": "Sorcerer 20",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 6,
+      "prepared_spells": 22,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 3,
+      "spell_slots_level_6": 2,
+      "spell_slots_level_7": 2,
+      "spell_slots_level_8": 1,
+      "spell_slots_level_9": 1
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/sorcerer/levels/20"
+  }
+]

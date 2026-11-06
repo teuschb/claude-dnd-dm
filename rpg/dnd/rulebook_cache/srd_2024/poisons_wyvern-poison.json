@@ -1,0 +1,9 @@
+{
+  "index": "wyvern-poison",
+  "cost": 1200,
+  "description": "A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one.",
+  "name": "Wyvern Poison",
+  "type": "injury",
+  "updated_at": "2026-06-03T21:13:53.683Z",
+  "url": "/api/2024/poisons/wyvern-poison"
+}

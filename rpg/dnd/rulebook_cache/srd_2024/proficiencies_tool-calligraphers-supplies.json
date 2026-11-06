@@ -1,0 +1,20 @@
+{
+  "index": "tool-calligraphers-supplies",
+  "type": "Tools",
+  "name": "Tool: Calligrapher's Supplies",
+  "backgrounds": [
+    {
+      "index": "acolyte",
+      "name": "Acolyte",
+      "url": "/api/2024/backgrounds/acolyte"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "calligraphers-supplies",
+    "name": "Calligrapher's Supplies",
+    "url": "/api/2024/equipment/calligraphers-supplies"
+  },
+  "url": "/api/2024/proficiencies/tool-calligraphers-supplies",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

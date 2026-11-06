@@ -1,0 +1,284 @@
+{
+  "index": "glabrezu",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Pincer",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Pummel",
+              "count": 1,
+              "type": "special"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Spellcasting",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Pincer",
+      "desc": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 15) from one of two pincers.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d10+5"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      },
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Pummel",
+      "desc": "Dexterity Saving Throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d6+5"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 17,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The glabrezu casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 16,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "darkness",
+            "name": "Darkness",
+            "level": 2,
+            "url": "/api/2024/spells/darkness",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "dispel-magic",
+            "name": "Dispel Magic",
+            "level": 3,
+            "url": "/api/2024/spells/dispel-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "confusion",
+            "name": "Confusion",
+            "level": 4,
+            "url": "/api/2024/spells/confusion",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "fly",
+            "name": "Fly",
+            "level": 3,
+            "url": "/api/2024/spells/fly",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "power-word-stun",
+            "name": "Power Word Stun",
+            "level": 8,
+            "url": "/api/2024/spells/power-word-stun",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 21,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "lightning"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "18d10",
+  "hit_points": 189,
+  "hit_points_roll": "18d10 + 90",
+  "image": "/api/images/monsters/glabrezu.png",
+  "intelligence": 19,
+  "languages": "Abyssal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Glabrezu",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 17
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Demonic Restoration",
+      "desc": "If the glabrezu dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The glabrezu has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 20,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/glabrezu",
+  "wisdom": 17,
+  "xp": 5000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

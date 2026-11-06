@@ -1,0 +1,136 @@
+{
+  "index": "death-dog",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The death dog makes two Bite attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target\u2019s Hit Point maximum doesn\u2019t return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target\u2019s Hit Point maximum decreases by 5 (1d10).",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+2"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 6,
+  "condition_immunities": [
+    {
+      "index": "blinded",
+      "name": "Blinded",
+      "url": "/api/2024/conditions/blinded"
+    },
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "stunned",
+      "name": "Stunned",
+      "url": "/api/2024/conditions/stunned"
+    },
+    {
+      "index": "unconscious",
+      "name": "Unconscious",
+      "url": "/api/2024/conditions/unconscious"
+    }
+  ],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "6d8",
+  "hit_points": 39,
+  "hit_points_roll": "6d8 + 12",
+  "image": "/api/images/monsters/death-dog.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Death Dog",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 15,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/death-dog",
+  "wisdom": 13,
+  "xp": 200,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

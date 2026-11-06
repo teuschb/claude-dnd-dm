@@ -1,0 +1,17 @@
+{
+  "index": "monk-unarmored-defense",
+  "class": {
+    "index": "monk",
+    "url": "/api/2024/classes/monk",
+    "name": "Monk"
+  },
+  "description": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
+  "level": {
+    "index": "monk-1",
+    "url": "/api/2024/classes/monk/levels/1",
+    "name": "Monk 1"
+  },
+  "name": "Unarmored Defense",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/monk-unarmored-defense"
+}

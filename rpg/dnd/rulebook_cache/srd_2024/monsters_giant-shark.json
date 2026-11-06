@@ -1,0 +1,95 @@
+{
+  "index": "giant-shark",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The shark makes two Bite attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +9 (with Advantage if the target doesn\u2019t have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d10+6"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 21,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "8d12",
+  "hit_points": 92,
+  "hit_points_roll": "8d12 + 40",
+  "image": "/api/images/monsters/giant-shark.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Shark",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "blindsight": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Water Breathing",
+      "desc": "The shark can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "60 ft."
+  },
+  "strength": 23,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-shark",
+  "wisdom": 10,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

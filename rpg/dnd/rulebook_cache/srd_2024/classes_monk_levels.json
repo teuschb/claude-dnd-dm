@@ -1,0 +1,542 @@
+[
+  {
+    "index": "monk-1",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 6,
+      "focus_points": 0,
+      "unarmored_movement_bonus": 0
+    },
+    "features": [
+      {
+        "index": "monk-martial-arts",
+        "name": "Martial Arts",
+        "url": "/api/2024/features/monk-martial-arts"
+      },
+      {
+        "index": "monk-unarmored-defense",
+        "name": "Unarmored Defense",
+        "url": "/api/2024/features/monk-unarmored-defense"
+      }
+    ],
+    "level": 1,
+    "name": "Monk 1",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/1"
+  },
+  {
+    "index": "monk-2",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 6,
+      "focus_points": 2,
+      "unarmored_movement_bonus": 10
+    },
+    "features": [
+      {
+        "index": "monk-monks-focus",
+        "name": "Monk's Focus",
+        "url": "/api/2024/features/monk-monks-focus"
+      },
+      {
+        "index": "monk-unarmored-movement",
+        "name": "Unarmored Movement",
+        "url": "/api/2024/features/monk-unarmored-movement"
+      },
+      {
+        "index": "monk-uncanny-metabolism",
+        "name": "Uncanny Metabolism",
+        "url": "/api/2024/features/monk-uncanny-metabolism"
+      }
+    ],
+    "level": 2,
+    "name": "Monk 2",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/2"
+  },
+  {
+    "index": "monk-3",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 6,
+      "focus_points": 3,
+      "unarmored_movement_bonus": 10
+    },
+    "features": [
+      {
+        "index": "monk-subclass",
+        "name": "Monk Subclass",
+        "url": "/api/2024/features/monk-subclass"
+      },
+      {
+        "index": "monk-deflect-attacks",
+        "name": "Deflect Attacks",
+        "url": "/api/2024/features/monk-deflect-attacks"
+      }
+    ],
+    "level": 3,
+    "name": "Monk 3",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/3"
+  },
+  {
+    "index": "monk-4",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 6,
+      "focus_points": 4,
+      "unarmored_movement_bonus": 10
+    },
+    "features": [
+      {
+        "index": "monk-ability-score-improvement",
+        "url": "/api/2024/features/monk-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      },
+      {
+        "index": "monk-slow-fall",
+        "name": "Slow Fall",
+        "url": "/api/2024/features/monk-slow-fall"
+      }
+    ],
+    "level": 4,
+    "name": "Monk 4",
+    "prof_bonus": 2,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/4"
+  },
+  {
+    "index": "monk-5",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 5,
+      "unarmored_movement_bonus": 10
+    },
+    "features": [
+      {
+        "index": "monk-extra-attack",
+        "url": "/api/2024/features/monk-extra-attack",
+        "name": "Extra Attack"
+      },
+      {
+        "index": "monk-stunning-strike",
+        "url": "/api/2024/features/monk-stunning-strike",
+        "name": "Stunning Strike"
+      }
+    ],
+    "level": 5,
+    "name": "Monk 5",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/5"
+  },
+  {
+    "index": "monk-6",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 6,
+      "unarmored_movement_bonus": 15
+    },
+    "features": [
+      {
+        "index": "monk-subclass",
+        "name": "Monk Subclass",
+        "url": "/api/2024/features/monk-subclass"
+      },
+      {
+        "index": "monk-empowered-strikes",
+        "url": "/api/2024/features/monk-empowered-strikes",
+        "name": "Empowered Strikes"
+      }
+    ],
+    "level": 6,
+    "name": "Monk 6",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/6"
+  },
+  {
+    "index": "monk-7",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 7,
+      "unarmored_movement_bonus": 15
+    },
+    "features": [
+      {
+        "index": "monk-evasion",
+        "url": "/api/2024/features/monk-evasion",
+        "name": "Evasion"
+      }
+    ],
+    "level": 7,
+    "name": "Monk 7",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/7"
+  },
+  {
+    "index": "monk-8",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 8,
+      "unarmored_movement_bonus": 15
+    },
+    "features": [
+      {
+        "index": "monk-ability-score-improvement",
+        "url": "/api/2024/features/monk-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Monk 8",
+    "prof_bonus": 3,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/8"
+  },
+  {
+    "index": "monk-9",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 9,
+      "unarmored_movement_bonus": 15
+    },
+    "features": [
+      {
+        "index": "monk-acrobatic-movement",
+        "url": "/api/2024/features/monk-acrobatic-movement",
+        "name": "Acrobatic Movement"
+      }
+    ],
+    "level": 9,
+    "name": "Monk 9",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/9"
+  },
+  {
+    "index": "monk-10",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 8,
+      "focus_points": 10,
+      "unarmored_movement_bonus": 20
+    },
+    "features": [
+      {
+        "index": "monk-heightened-focus",
+        "url": "/api/2024/features/monk-heightened-focus",
+        "name": "Heightened Focus"
+      },
+      {
+        "index": "monk-self-restoration",
+        "url": "/api/2024/features/monk-self-restoration",
+        "name": "Self-Restoration"
+      }
+    ],
+    "level": 10,
+    "name": "Monk 10",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/10"
+  },
+  {
+    "index": "monk-11",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 11,
+      "unarmored_movement_bonus": 20
+    },
+    "features": [
+      {
+        "index": "monk-subclass",
+        "url": "/api/2024/features/monk-subclass",
+        "name": "Monk Subclass"
+      }
+    ],
+    "level": 11,
+    "name": "Monk 11",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/11"
+  },
+  {
+    "index": "monk-12",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 12,
+      "unarmored_movement_bonus": 20
+    },
+    "features": [
+      {
+        "index": "monk-ability-score-improvement",
+        "url": "/api/2024/features/monk-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Monk 12",
+    "prof_bonus": 4,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/12"
+  },
+  {
+    "index": "monk-13",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 13,
+      "unarmored_movement_bonus": 20
+    },
+    "features": [
+      {
+        "index": "monk-deflect-energy",
+        "url": "/api/2024/features/monk-deflect-energy",
+        "name": "Deflect Energy"
+      }
+    ],
+    "level": 13,
+    "name": "Monk 13",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/13"
+  },
+  {
+    "index": "monk-14",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 14,
+      "unarmored_movement_bonus": 25
+    },
+    "features": [
+      {
+        "index": "monk-disciplined-survivor",
+        "url": "/api/2024/features/monk-disciplined-survivor",
+        "name": "Disciplined Survivor"
+      }
+    ],
+    "level": 14,
+    "name": "Monk 14",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/14"
+  },
+  {
+    "index": "monk-15",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 15,
+      "unarmored_movement_bonus": 25
+    },
+    "features": [
+      {
+        "index": "monk-perfect-focus",
+        "url": "/api/2024/features/monk-perfect-focus",
+        "name": "Perfect Focus"
+      }
+    ],
+    "level": 15,
+    "name": "Monk 15",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/15"
+  },
+  {
+    "index": "monk-16",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 10,
+      "focus_points": 16,
+      "unarmored_movement_bonus": 25
+    },
+    "features": [
+      {
+        "index": "monk-ability-score-improvement",
+        "url": "/api/2024/features/monk-ability-score-improvement",
+        "name": "Ability Score Improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Monk 16",
+    "prof_bonus": 5,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/16"
+  },
+  {
+    "index": "monk-17",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 12,
+      "focus_points": 17,
+      "unarmored_movement_bonus": 25
+    },
+    "features": [
+      {
+        "index": "monk-subclass",
+        "url": "/api/2024/features/monk-subclass",
+        "name": "Monk Subclass"
+      }
+    ],
+    "level": 17,
+    "name": "Monk 17",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/17"
+  },
+  {
+    "index": "monk-18",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 12,
+      "focus_points": 18,
+      "unarmored_movement_bonus": 30
+    },
+    "features": [
+      {
+        "index": "monk-superior-defense",
+        "url": "/api/2024/features/monk-superior-defense",
+        "name": "Superior Defense"
+      }
+    ],
+    "level": 18,
+    "name": "Monk 18",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/18"
+  },
+  {
+    "index": "monk-19",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 12,
+      "focus_points": 19,
+      "unarmored_movement_bonus": 30
+    },
+    "features": [
+      {
+        "index": "monk-epic-boon",
+        "url": "/api/2024/features/monk-epic-boon",
+        "name": "Epic Boon"
+      }
+    ],
+    "level": 19,
+    "name": "Monk 19",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/19"
+  },
+  {
+    "index": "monk-20",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "class_specific": {
+      "martial_arts_die": 12,
+      "focus_points": 20,
+      "unarmored_movement_bonus": 30
+    },
+    "features": [
+      {
+        "index": "monk-body-and-mind",
+        "url": "/api/2024/features/monk-body-and-mind",
+        "name": "Body and Mind"
+      }
+    ],
+    "level": 20,
+    "name": "Monk 20",
+    "prof_bonus": 6,
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/monk/levels/20"
+  }
+]

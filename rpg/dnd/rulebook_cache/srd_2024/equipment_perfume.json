@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "perfume",
+  "name": "Perfume",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "description": [
+    "Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself."
+  ],
+  "weight": 0,
+  "url": "/api/2024/equipment/perfume",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

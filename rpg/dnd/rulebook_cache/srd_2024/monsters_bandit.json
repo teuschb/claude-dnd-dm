@@ -1,0 +1,88 @@
+{
+  "index": "bandit",
+  "actions": [
+    {
+      "name": "Scimitar",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d6+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Light Crossbow",
+      "desc": "Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": [
+        {
+          "index": "leather-armor",
+          "name": "Leather Armor",
+          "url": "/api/2024/equipment/leather-armor"
+        }
+      ]
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "gear": "Leather Armor, Light Crossbow, Scimitar",
+  "hit_dice": "2d8",
+  "hit_points": 11,
+  "hit_points_roll": "2d8 + 2",
+  "image": "/api/images/monsters/bandit.png",
+  "intelligence": 10,
+  "languages": "Common, Thieves\u2019 Cant",
+  "legendary_actions": [],
+  "name": "Bandit",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 11,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/bandit",
+  "wisdom": 10,
+  "xp": 25,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,59 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "horn",
+  "name": "Horn",
+  "equipment_categories": [
+    {
+      "index": "musical-instruments",
+      "name": "Musical Instruments",
+      "url": "/api/2024/equipment-categories/musical-instruments"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  },
+  "cost": {
+    "quantity": 3,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Play a known tune",
+      "dc": {
+        "dc_type": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Improvise a song",
+      "dc": {
+        "dc_type": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 2,
+  "url": "/api/2024/equipment/horn",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": []
+}

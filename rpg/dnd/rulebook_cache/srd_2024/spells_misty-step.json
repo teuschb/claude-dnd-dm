@@ -1,0 +1,39 @@
+{
+  "index": "misty-step",
+  "casting_time": "Bonus Action",
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V"
+  ],
+  "concentration": false,
+  "description": " Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.",
+  "duration": "Instantaneous",
+  "level": 2,
+  "name": "Misty Step",
+  "range": "Self",
+  "ritual": false,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/misty-step",
+  "subclasses": []
+}

@@ -1,0 +1,38 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "chain-shirt",
+  "name": "Chain Shirt",
+  "equipment_categories": [
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    },
+    {
+      "index": "medium-armor",
+      "name": "Medium Armor",
+      "url": "/api/2024/equipment-categories/medium-armor"
+    }
+  ],
+  "armor_class": {
+    "base": 13,
+    "dex_bonus": true,
+    "max_bonus": 2
+  },
+  "cost": {
+    "quantity": 50,
+    "unit": "gp"
+  },
+  "don_time": "5 minutes",
+  "doff_time": "1 minute",
+  "stealth_disadvantage": false,
+  "str_minimum": 0,
+  "weight": 14,
+  "url": "/api/2024/equipment/chain-shirt",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

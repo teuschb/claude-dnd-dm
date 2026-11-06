@@ -1,0 +1,120 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "weavers-tools",
+  "name": "Weaver's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "padded-armor",
+      "name": "Padded Armor",
+      "url": "/api/2024/equipment/padded-armor"
+    },
+    {
+      "index": "basket",
+      "name": "Basket",
+      "url": "/api/2024/equipment/basket"
+    },
+    {
+      "index": "bedroll",
+      "name": "Bedroll",
+      "url": "/api/2024/equipment/bedroll"
+    },
+    {
+      "index": "blanket",
+      "name": "Blanket",
+      "url": "/api/2024/equipment/blanket"
+    },
+    {
+      "index": "clothes-fine",
+      "name": "Clothes, Fine",
+      "url": "/api/2024/equipment/clothes-fine"
+    },
+    {
+      "index": "net",
+      "name": "Net",
+      "url": "/api/2024/equipment/net"
+    },
+    {
+      "index": "robe",
+      "name": "Robe",
+      "url": "/api/2024/equipment/robe"
+    },
+    {
+      "index": "rope",
+      "name": "Rope",
+      "url": "/api/2024/equipment/rope"
+    },
+    {
+      "index": "sack",
+      "name": "Sack",
+      "url": "/api/2024/equipment/sack"
+    },
+    {
+      "index": "string",
+      "name": "String",
+      "url": "/api/2024/equipment/string"
+    },
+    {
+      "index": "tent",
+      "name": "Tent",
+      "url": "/api/2024/equipment/tent"
+    },
+    {
+      "index": "clothes-travelers",
+      "name": "Clothes, Traveler's",
+      "url": "/api/2024/equipment/clothes-travelers"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Mend a tear in clothing",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "sew a Tiny design",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/weavers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

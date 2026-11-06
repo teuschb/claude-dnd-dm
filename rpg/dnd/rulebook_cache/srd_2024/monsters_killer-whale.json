@@ -1,0 +1,89 @@
+{
+  "index": "killer-whale",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "5d6+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 7,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "12d12",
+  "hit_points": 90,
+  "hit_points_roll": "12d12 + 12",
+  "image": "/api/images/monsters/killer-whale.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Killer Whale",
+  "proficiencies": [
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "120 ft.",
+    "passive_perception": 13
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The whale can hold its breath for 30 minutes.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "60 ft."
+  },
+  "strength": 19,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/killer-whale",
+  "wisdom": 12,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

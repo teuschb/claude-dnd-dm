@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "ladder",
+  "name": "Ladder",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "sp"
+  },
+  "description": [
+    "A Ladder is 10 feet tall. You must climb to move up or down it. Lamp (5 SP)"
+  ],
+  "weight": 25,
+  "url": "/api/2024/equipment/ladder",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

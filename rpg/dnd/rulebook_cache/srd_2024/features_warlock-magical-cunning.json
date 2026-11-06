@@ -1,0 +1,17 @@
+{
+  "index": "warlock-magical-cunning",
+  "class": {
+    "index": "warlock",
+    "url": "/api/2024/classes/warlock",
+    "name": "Warlock"
+  },
+  "description": "You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a Long Rest.",
+  "level": {
+    "index": "warlock-2",
+    "url": "/api/2024/classes/warlock/levels/2",
+    "name": "Warlock 2"
+  },
+  "name": "Magical Cunning",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/warlock-magical-cunning"
+}

@@ -1,0 +1,25 @@
+{
+  "index": "dex",
+  "name": "DEX",
+  "full_name": "Dexterity",
+  "description": "Agility, reflexes, and balance",
+  "skills": [
+    {
+      "name": "Acrobatics",
+      "index": "acrobatics",
+      "url": "/api/2024/skills/acrobatics"
+    },
+    {
+      "name": "Sleight of Hand",
+      "index": "sleight-of-hand",
+      "url": "/api/2024/skills/sleight-of-hand"
+    },
+    {
+      "name": "Stealth",
+      "index": "stealth",
+      "url": "/api/2024/skills/stealth"
+    }
+  ],
+  "url": "/api/2024/ability-scores/dex",
+  "updated_at": "2026-04-23T07:06:25.606Z"
+}

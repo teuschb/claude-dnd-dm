@@ -1,0 +1,19 @@
+{
+  "index": "necklace-of-fireballs",
+  "url": "/api/2024/magic-items/necklace-of-fireballs",
+  "image": "/api/images/magic-items/necklace-of-fireballs.png",
+  "name": "Necklace of Fireballs",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wondrous Item  \n This necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).  \n You can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the Fireball by 1d6 for each bead after the first (maximum 12d6).",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

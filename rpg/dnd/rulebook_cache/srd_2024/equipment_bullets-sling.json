@@ -1,0 +1,30 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "bullets-sling",
+  "name": "Bullets, Sling",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": {
+    "quantity": 4,
+    "unit": "cp"
+  },
+  "quantity": 20,
+  "storage": {
+    "index": "pouch",
+    "name": "Pouch",
+    "url": "/api/2024/equipment/pouch"
+  },
+  "weight": 1.5,
+  "url": "/api/2024/equipment/bullets-sling",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

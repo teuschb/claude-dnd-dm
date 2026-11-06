@@ -1,0 +1,15 @@
+{
+  "index": "fiendish-legacy",
+  "url": "/api/2024/traits/fiendish-legacy",
+  "name": "Fiendish Legacy",
+  "description": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table.\nYou always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\nIntelligence, Wisdom, or Charisma is your spell-casting ability for the spells you cast with this trait (choose the ability when you select the legacy).\nFiendish Legacies\nAbyssal.\nLevel 1. You have Resistance to Poison damage. You also know the Poison Spray cantrip.\nLevel 3. Ray of Sickness\nLevel 5. Hold Person\nChthonic.\nLevel 1. You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.\nLevel 3. False Life\nLevel 5. Ray of Enfeeblement\nInfernal.\nLevel 1. You have Resistance to Fire damage. You also know the Fire Bolt cantrip.\nLevel 3. Hellish Rebuke\nLevel 5. Darkness",
+  "species": [
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

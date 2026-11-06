@@ -1,0 +1,258 @@
+{
+  "index": "vampire-bat",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target\u2019s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire\u2019s control.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+4"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "3d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 17,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful evil",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Charm",
+      "desc": "The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire\u2019s Bite, the damage of which doesn\u2019t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 17,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "charm-person",
+            "name": "Charm Person",
+            "level": 1,
+            "url": "/api/2024/spells/charm-person"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "If the vampire isn\u2019t in sunlight or running water, it shape-shifts into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it. While in bat form, the vampire can\u2019t speak. Its game statistics, other than its size and Speed, are unchanged. While in mist form, the vampire can\u2019t take any actions, speak, or manipulate objects. It is weightless and can enter an enemy\u2019s space and stop there. If air can pass through a space, the mist can do so, but it can\u2019t pass through liquid. It has Resistance to all damage, except the damage it takes from sunlight.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 13,
+  "charisma": 18,
+  "condition_immunities": [],
+  "constitution": 18,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "necrotic"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 18,
+  "forms": [
+    {
+      "index": "vampire-vampire",
+      "name": "Vampire, Vampire Form",
+      "url": "/api/2024/monsters/vampire-vampire"
+    },
+    {
+      "index": "vampire-mist",
+      "name": "Vampire, Mist Form",
+      "url": "/api/2024/monsters/vampire-mist"
+    }
+  ],
+  "hit_dice": "23d8",
+  "hit_points": 195,
+  "hit_points_roll": "23d8 + 92",
+  "image": "/api/images/monsters/vampire-bat.png",
+  "intelligence": 17,
+  "languages": "Common plus two other languages",
+  "legendary_actions": [
+    {
+      "name": "Beguile",
+      "desc": "The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can\u2019t take this action again until the start of its next turn.",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 17,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "command",
+            "name": "Command",
+            "level": 1,
+            "url": "/api/2024/spells/command"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Deathless Strike",
+      "desc": "The vampire moves up to half its Speed, and it makes one Grave Strike attack.",
+      "damage": []
+    }
+  ],
+  "name": "Vampire, Bat Form",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 17
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the vampire fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "times_in_lair": 4,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Misty Escape",
+      "desc": "If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can\u2019t use ShapeShift, it is destroyed. While it has 0 Hit Points in mist form, it can\u2019t return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.",
+      "damage": []
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    },
+    {
+      "name": "Vampire Weakness",
+      "desc": "The vampire has these weaknesses:",
+      "damage": []
+    },
+    {
+      "name": "Forbiddance",
+      "desc": "The vampire can\u2019t enter a residence without an invitation from an occupant.",
+      "damage": []
+    },
+    {
+      "name": "Running Water",
+      "desc": "The vampire takes 20 Acid damage if it ends its turn in running water.",
+      "damage": []
+    },
+    {
+      "name": "Stake to the Heart",
+      "desc": "If a weapon that deals Piercing damage is driven into the vampire\u2019s heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.",
+      "damage": []
+    },
+    {
+      "name": "Sunlight",
+      "desc": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "fly": "30 ft."
+  },
+  "strength": 18,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/vampire-bat",
+  "wisdom": 15,
+  "xp": 10000,
+  "xp_in_lair": 11500,
+  "reactions": []
+}

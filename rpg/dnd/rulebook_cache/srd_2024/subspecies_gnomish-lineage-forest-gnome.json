@@ -1,0 +1,25 @@
+{
+  "index": "gnomish-lineage-forest-gnome",
+  "url": "/api/2024/subspecies/gnomish-lineage-forest-gnome",
+  "name": "Gnomish Lineage: Forest Gnome",
+  "traits": [
+    {
+      "index": "gnomish-lineage-forest-gnome",
+      "url": "/api/2024/traits/gnomish-lineage-forest-gnome",
+      "name": "Gnomish Lineage: Forest Gnome",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-minor-illusion",
+      "url": "/api/2024/traits/lineage-spell-minor-illusion",
+      "name": "Minor Illusion",
+      "level": 1
+    }
+  ],
+  "species": {
+    "index": "gnome",
+    "name": "Gnome",
+    "url": "/api/2024/species/gnome"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

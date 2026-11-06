@@ -1,0 +1,19 @@
+{
+  "index": "wand-of-fear",
+  "url": "/api/2024/magic-items/wand-of-fear",
+  "image": "/api/images/magic-items/wand-of-fear.png",
+  "name": "Wand of Fear",
+  "equipment_category": {
+    "index": "wands",
+    "name": "Wands",
+    "url": "/api/2024/equipment-categories/wands"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Wand  \n This wand has 7 charges.  \n Spells. While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.Charge",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

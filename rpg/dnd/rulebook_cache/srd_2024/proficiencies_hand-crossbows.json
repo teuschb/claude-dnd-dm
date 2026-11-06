@@ -1,0 +1,25 @@
+{
+  "index": "hand-crossbows",
+  "type": "Weapons",
+  "name": "Hand crossbows",
+  "classes": [
+    {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/hand-crossbows",
+  "reference": {
+    "index": "hand-crossbow",
+    "name": "Hand Crossbow",
+    "url": "/api/2024/equipment/hand-crossbow"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

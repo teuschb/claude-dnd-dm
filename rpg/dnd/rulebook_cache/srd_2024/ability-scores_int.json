@@ -1,0 +1,35 @@
+{
+  "index": "int",
+  "name": "INT",
+  "full_name": "Intelligence",
+  "description": "Reasoning and memory",
+  "skills": [
+    {
+      "name": "Arcana",
+      "index": "arcana",
+      "url": "/api/2024/skills/arcana"
+    },
+    {
+      "name": "History",
+      "index": "history",
+      "url": "/api/2024/skills/history"
+    },
+    {
+      "name": "Investigation",
+      "index": "investigation",
+      "url": "/api/2024/skills/investigation"
+    },
+    {
+      "name": "Nature",
+      "index": "nature",
+      "url": "/api/2024/skills/nature"
+    },
+    {
+      "name": "Religion",
+      "index": "religion",
+      "url": "/api/2024/skills/religion"
+    }
+  ],
+  "url": "/api/2024/ability-scores/int",
+  "updated_at": "2026-04-23T07:06:25.606Z"
+}

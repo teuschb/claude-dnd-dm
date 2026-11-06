@@ -1,0 +1,163 @@
+{
+  "index": "knight",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Greatsword",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Heavy Crossbow",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Greatsword",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+3"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "1d8"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Heavy Crossbow",
+      "desc": "Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d10"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "1d8"
+        }
+      ],
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": [
+        {
+          "index": "plate-armor",
+          "name": "Plate Armor",
+          "url": "/api/2024/equipment/plate-armor"
+        }
+      ]
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 15,
+  "condition_immunities": [
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "gear": "Greatsword, Heavy Crossbow, Plate Armor",
+  "hit_dice": "8d8",
+  "hit_points": 52,
+  "hit_points_roll": "8d8 + 16",
+  "image": "/api/images/monsters/knight.png",
+  "intelligence": 11,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Knight",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss.",
+      "damage": []
+    }
+  ],
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 16,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/knight",
+  "wisdom": 11,
+  "xp": 700,
+  "bonus_actions": [],
+  "forms": []
+}

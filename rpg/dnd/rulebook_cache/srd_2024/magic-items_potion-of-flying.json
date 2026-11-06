@@ -1,0 +1,19 @@
+{
+  "index": "potion-of-flying",
+  "url": "/api/2024/magic-items/potion-of-flying",
+  "image": "/api/images/magic-items/potion-of-flying.png",
+  "name": "Potion of Flying",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Potion  \n When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft.This potion's clear liquid floats at the top of itsPotionStr.RarityPotion of Giant Strength (hill)21UncommonPotion of Giant Strength (frost or stone)23RarePotion of Giant Strength (fire)25RarePotion of Giant Strength (cloud)27Very RarePotion of Giant Strength (storm)29Legendary",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

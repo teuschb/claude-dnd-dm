@@ -1,0 +1,17 @@
+{
+  "index": "monk-subclass",
+  "class": {
+    "index": "monk",
+    "url": "/api/2024/classes/monk",
+    "name": "Monk"
+  },
+  "description": "You gain a Monk subclass of your choice. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.",
+  "level": {
+    "index": "monk-3",
+    "url": "/api/2024/classes/monk/levels/3",
+    "name": "Monk 3"
+  },
+  "name": "Monk Subclass",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/monk-subclass"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "staff-of-healing",
+  "url": "/api/2024/magic-items/staff-of-healing",
+  "image": "/api/images/magic-items/staff-of-healing.png",
+  "name": "Staff of Healing",
+  "equipment_category": {
+    "index": "staffs",
+    "name": "Staffs",
+    "url": "/api/2024/equipment-categories/staffs"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "limited-to": "Bard, Cleric, or Druid",
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Staff  \n This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.Spell  Charge CostLesser Restoration  2  \n Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

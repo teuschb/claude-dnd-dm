@@ -1,0 +1,61 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "club",
+  "name": "Club",
+  "equipment_categories": [
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "sp"
+  },
+  "damage": {
+    "damage_dice": "1d4",
+    "damage_type": {
+      "index": "bludgeoning",
+      "name": "Bludgeoning",
+      "url": "/api/2024/damage-types/bludgeoning"
+    }
+  },
+  "range": {
+    "normal": 5
+  },
+  "properties": [
+    {
+      "index": "light",
+      "name": "Light",
+      "url": "/api/2024/weapon-properties/light"
+    }
+  ],
+  "mastery": {
+    "index": "slow",
+    "name": "Slow",
+    "url": "/api/2024/weapon-mastery-properties/slow"
+  },
+  "weight": 2,
+  "url": "/api/2024/equipment/club",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

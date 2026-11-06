@@ -1,0 +1,12 @@
+{
+  "index": "nature",
+  "name": "Nature",
+  "description": "Recall lore about terrain, plants, animals, and weather.",
+  "ability_score": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "url": "/api/2024/skills/nature",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

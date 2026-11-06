@@ -1,0 +1,265 @@
+{
+  "index": "green-hag",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The hag makes two Claw attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Claw",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d8+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "1d6"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The hag casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):",
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc": 12,
+        "modifier": 4,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "dancing-lights",
+            "name": "Dancing Lights",
+            "level": 0,
+            "url": "/api/2024/spells/dancing-lights",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "disguise-self",
+            "name": "Disguise Self",
+            "level": 1,
+            "url": "/api/2024/spells/disguise-self",
+            "notes": "24-hour duration",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility",
+            "notes": "Self only, and the hag leaves no tracks while Invisible",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "level": 0,
+            "url": "/api/2024/spells/minor-illusion",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "ray-of-sickness",
+            "name": "Ray of Sickness",
+            "level": 3,
+            "url": "/api/2024/spells/ray-of-sickness",
+            "usage": {
+              "type": "at will"
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 14,
+  "condition_immunities": [],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "11d8",
+  "hit_points": 82,
+  "hit_points_roll": "11d8 + 33",
+  "image": "/api/images/monsters/green-hag.png",
+  "intelligence": 13,
+  "languages": "Common, Elvish, Sylvan",
+  "legendary_actions": [],
+  "name": "Green Hag",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-deception",
+        "name": "Skill: Deception",
+        "url": "/api/2024/proficiencies/skill-deception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The hag can breathe air and water.",
+      "damage": []
+    },
+    {
+      "name": "Coven Magic",
+      "desc": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell\u2019s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 11,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "augury",
+            "name": "Augury",
+            "level": 2,
+            "url": "/api/2024/spells/augury"
+          },
+          {
+            "index": "find-familiar",
+            "name": "Find Familiar",
+            "level": 1,
+            "url": "/api/2024/spells/find-familiar"
+          },
+          {
+            "index": "identify",
+            "name": "Identify",
+            "level": 1,
+            "url": "/api/2024/spells/identify"
+          },
+          {
+            "index": "locate-object",
+            "name": "Locate Object",
+            "level": 2,
+            "url": "/api/2024/spells/locate-object"
+          },
+          {
+            "index": "scrying",
+            "name": "Scrying",
+            "level": 5,
+            "url": "/api/2024/spells/scrying"
+          },
+          {
+            "index": "unseen-servant",
+            "name": "Unseen Servant",
+            "level": 1,
+            "url": "/api/2024/spells/unseen-servant"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Mimicry",
+      "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 18,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/green-hag",
+  "wisdom": 14,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

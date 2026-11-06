@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "blanket",
+  "name": "Blanket",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "weight": 3,
+  "description": [
+    "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see \u201cGameplay Toolbox\u201d)."
+  ],
+  "url": "/api/2024/equipment/blanket",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

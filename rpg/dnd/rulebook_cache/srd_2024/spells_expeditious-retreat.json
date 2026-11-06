@@ -1,0 +1,40 @@
+{
+  "index": "expeditious-retreat",
+  "casting_time": "Bonus Action",
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S"
+  ],
+  "concentration": true,
+  "description": "You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.",
+  "duration": "up to 10 minutes",
+  "level": 1,
+  "name": "Expeditious Retreat",
+  "range": "Self",
+  "ritual": false,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/expeditious-retreat",
+  "subclasses": []
+}

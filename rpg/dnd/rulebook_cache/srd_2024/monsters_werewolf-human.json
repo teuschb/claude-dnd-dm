@@ -1,0 +1,155 @@
+{
+  "index": "werewolf-human",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Scratch",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Longbow",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Scratch",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Longbow",
+      "desc": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "forms": [
+    {
+      "index": "werewolf-hybrid",
+      "name": "Werewolf, Hybrid Form",
+      "url": "/api/2024/monsters/werewolf-hybrid"
+    },
+    {
+      "index": "werewolf-wolf",
+      "name": "Werewolf, Wolf Form",
+      "url": "/api/2024/monsters/werewolf-wolf"
+    }
+  ],
+  "gear": "Longbow",
+  "hit_dice": "11d8",
+  "hit_points": 71,
+  "hit_points_roll": "11d8 + 22",
+  "image": "/api/images/monsters/werewolf-human.png",
+  "intelligence": 10,
+  "languages": "Common (can\u2019t speak in wolf form)",
+  "name": "Werewolf, Human Form",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 16,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/werewolf-human",
+  "wisdom": 11,
+  "xp": 700,
+  "legendary_actions": [],
+  "reactions": []
+}

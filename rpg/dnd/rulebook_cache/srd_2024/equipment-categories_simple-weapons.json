@@ -1,0 +1,78 @@
+{
+  "index": "simple-weapons",
+  "name": "Simple Weapons",
+  "equipment": [
+    {
+      "index": "club",
+      "name": "Club",
+      "url": "/api/2024/equipment/club"
+    },
+    {
+      "index": "dagger",
+      "name": "Dagger",
+      "url": "/api/2024/equipment/dagger"
+    },
+    {
+      "index": "dart",
+      "name": "Dart",
+      "url": "/api/2024/equipment/dart"
+    },
+    {
+      "index": "greatclub",
+      "name": "Greatclub",
+      "url": "/api/2024/equipment/greatclub"
+    },
+    {
+      "index": "handaxe",
+      "name": "Handaxe",
+      "url": "/api/2024/equipment/handaxe"
+    },
+    {
+      "index": "javelin",
+      "name": "Javelin",
+      "url": "/api/2024/equipment/javelin"
+    },
+    {
+      "index": "light-crossbow",
+      "name": "Light Crossbow",
+      "url": "/api/2024/equipment/light-crossbow"
+    },
+    {
+      "index": "light-hammer",
+      "name": "Light Hammer",
+      "url": "/api/2024/equipment/light-hammer"
+    },
+    {
+      "index": "mace",
+      "name": "Mace",
+      "url": "/api/2024/equipment/mace"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "shortbow",
+      "name": "Shortbow",
+      "url": "/api/2024/equipment/shortbow"
+    },
+    {
+      "index": "sickle",
+      "name": "Sickle",
+      "url": "/api/2024/equipment/sickle"
+    },
+    {
+      "index": "sling",
+      "name": "Sling",
+      "url": "/api/2024/equipment/sling"
+    },
+    {
+      "index": "spear",
+      "name": "Spear",
+      "url": "/api/2024/equipment/spear"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/simple-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

@@ -1,0 +1,200 @@
+{
+  "index": "sea-hag",
+  "actions": [
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Death Glare",
+      "desc": "Wisdom Saving Throw: DC 11, one Frightened creature the hag can see within 30 feet. Failure: If the target has 20 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes 13 (3d8) Psychic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "psychic",
+            "name": "Psychic",
+            "url": "/api/2024/damage-types/psychic"
+          },
+          "damage_dice": "3d8"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Illusory Appearance",
+      "desc": "The hag casts Disguise Self, using Constitution as the spellcasting ability (spell save DC 13). The spell\u2019s duration is 24 hours.",
+      "spellcasting": {
+        "ability": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc": 13,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "disguise-self",
+            "name": "Disguise Self",
+            "level": 1,
+            "url": "/api/2024/spells/disguise-self"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 13,
+  "condition_immunities": [],
+  "constitution": 16,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "7d8",
+  "hit_points": 52,
+  "hit_points_roll": "7d8 + 21",
+  "image": "/api/images/monsters/sea-hag.png",
+  "intelligence": 12,
+  "languages": "Common, Giant, Primordial (Aquan)",
+  "legendary_actions": [],
+  "name": "Sea Hag",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The hag can breathe air and water.",
+      "damage": []
+    },
+    {
+      "name": "Coven Magic",
+      "desc": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell\u2019s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 11,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "augury",
+            "name": "Augury",
+            "level": 2,
+            "url": "/api/2024/spells/augury"
+          },
+          {
+            "index": "find-familiar",
+            "name": "Find Familiar",
+            "level": 1,
+            "url": "/api/2024/spells/find-familiar"
+          },
+          {
+            "index": "identify",
+            "name": "Identify",
+            "level": 1,
+            "url": "/api/2024/spells/identify"
+          },
+          {
+            "index": "locate-object",
+            "name": "Locate Object",
+            "level": 2,
+            "url": "/api/2024/spells/locate-object"
+          },
+          {
+            "index": "scrying",
+            "name": "Scrying",
+            "level": 5,
+            "url": "/api/2024/spells/scrying"
+          },
+          {
+            "index": "unseen-servant",
+            "name": "Unseen Servant",
+            "level": 1,
+            "url": "/api/2024/spells/unseen-servant"
+          }
+        ]
+      },
+      "damage": []
+    },
+    {
+      "name": "Vile Appearance",
+      "desc": "Wisdom Saving Throw: DC 11, any Beast or Humanoid that starts its turn within 30 feet of the hag and can see the hag\u2019s true form. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this hag\u2019s Vile Appearance for 24 hours.",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 16,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/sea-hag",
+  "wisdom": 12,
+  "xp": 450,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

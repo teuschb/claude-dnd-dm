@@ -1,0 +1,19 @@
+{
+  "index": "potions-of-healing",
+  "url": "/api/2024/magic-items/potions-of-healing",
+  "image": "/api/images/magic-items/potions-of-healing.png",
+  "name": "Potions of Healing",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rarity Varies"
+  },
+  "desc": "Potion  \n You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion's rarity, as shown in the table below.  \n Whatever its potency, the potion's red liquid glimmers when agitated.PotionHP RegainedRarityPotion of Healing2d4 + 2CommonPotion of Healing(greater)4d4 + 4UncommonPotion of Healing(superior)8d4 + 8Rarecontainer and has cloudy white impurities drifting in it.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

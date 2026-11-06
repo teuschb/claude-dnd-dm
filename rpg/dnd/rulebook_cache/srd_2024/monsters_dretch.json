@@ -1,0 +1,98 @@
+{
+  "index": "dretch",
+  "actions": [
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d6+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Fetid Cloud",
+      "desc": "Constitution Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the dretch. Failure: The target has the Poisoned condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can\u2019t take Reactions.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 11,
+        "success_type": "none"
+      },
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 11,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 3,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 12,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "lightning"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "4d6",
+  "hit_points": 18,
+  "hit_points_roll": "4d6 + 4",
+  "image": "/api/images/monsters/dretch.png",
+  "intelligence": 5,
+  "languages": "Abyssal; telepathy 60 ft. (works only with creatures that understand Abyssal)",
+  "legendary_actions": [],
+  "name": "Dretch",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 12,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/dretch",
+  "wisdom": 8,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

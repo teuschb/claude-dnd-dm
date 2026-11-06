@@ -1,0 +1,72 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "pistol",
+  "name": "Pistol",
+  "equipment_categories": [
+    {
+      "index": "martial-ranged-weapons",
+      "name": "Martial Ranged Weapons",
+      "url": "/api/2024/equipment-categories/martial-ranged-weapons"
+    },
+    {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    },
+    {
+      "index": "ranged-weapons",
+      "name": "Ranged Weapons",
+      "url": "/api/2024/equipment-categories/ranged-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": {
+    "quantity": 250,
+    "unit": "gp"
+  },
+  "damage": {
+    "damage_dice": "1d10",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "range": {
+    "normal": 30,
+    "long": 90
+  },
+  "weight": 3,
+  "properties": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/weapon-properties/ammunition"
+    },
+    {
+      "index": "loading",
+      "name": "Loading",
+      "url": "/api/2024/weapon-properties/loading"
+    }
+  ],
+  "ammunition": {
+    "index": "bullets-firearm",
+    "name": "Bullets, Firearm",
+    "url": "/api/2024/equipment/bullets-firearm"
+  },
+  "mastery": {
+    "index": "vex",
+    "name": "Vex",
+    "url": "/api/2024/weapon-mastery-properties/vex"
+  },
+  "url": "/api/2024/equipment/pistol",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "utilize": []
+}

@@ -1,0 +1,82 @@
+{
+  "index": "weasel",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 8,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 16,
+  "hit_dice": "1d4",
+  "hit_points": 1,
+  "hit_points_roll": "1d4 - 1",
+  "image": "/api/images/monsters/weasel.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Weasel",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-acrobatics",
+        "name": "Skill: Acrobatics",
+        "url": "/api/2024/proficiencies/skill-acrobatics"
+      }
+    },
+    {
+      "value": 3,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Tiny",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 3,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.698Z",
+  "url": "/api/2024/monsters/weasel",
+  "wisdom": 12,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

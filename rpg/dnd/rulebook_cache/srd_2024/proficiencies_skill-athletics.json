@@ -1,0 +1,20 @@
+{
+  "index": "skill-athletics",
+  "type": "Skills",
+  "name": "Skill: Athletics",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "athletics",
+    "name": "Athletics",
+    "url": "/api/2024/skills/athletics"
+  },
+  "url": "/api/2024/proficiencies/skill-athletics",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

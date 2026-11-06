@@ -1,0 +1,71 @@
+{
+  "index": "baboon",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 \u2212 1) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4-1"
+        }
+      ],
+      "attack_bonus": 1,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "1d6",
+  "hit_points": 3,
+  "hit_points_roll": "1d6",
+  "image": "/api/images/monsters/baboon.png",
+  "intelligence": 4,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Baboon",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 11
+  },
+  "size": "Small",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The baboon has Advantage on an attack roll against a creature if at least one of the baboon\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "climb": "30 ft."
+  },
+  "strength": 8,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/baboon",
+  "wisdom": 12,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

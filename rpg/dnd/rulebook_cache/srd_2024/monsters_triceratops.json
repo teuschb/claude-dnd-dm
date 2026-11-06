@@ -1,0 +1,86 @@
+{
+  "index": "triceratops",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The triceratops makes two Gore attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Gore",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d12+6"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 9,
+  "hit_dice": "12d12",
+  "hit_points": 114,
+  "hit_points_roll": "12d12 + 36",
+  "image": "/api/images/monsters/triceratops.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Triceratops",
+  "proficiencies": [],
+  "proficiency_bonus": 3,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 22,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.698Z",
+  "url": "/api/2024/monsters/triceratops",
+  "wisdom": 11,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

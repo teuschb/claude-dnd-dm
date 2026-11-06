@@ -1,0 +1,17 @@
+{
+  "index": "fighter-weapon-mastery",
+  "class": {
+    "index": "fighter",
+    "url": "/api/2024/classes/fighter",
+    "name": "Fighter"
+  },
+  "description": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish\na Long Rest, you can practice weapon drills and change one of those weapon choices.\n  When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
+  "level": {
+    "index": "fighter-1",
+    "url": "/api/2024/classes/fighter/levels/1",
+    "name": "Fighter 1"
+  },
+  "name": "Weapon Mastery",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/fighter-weapon-mastery"
+}

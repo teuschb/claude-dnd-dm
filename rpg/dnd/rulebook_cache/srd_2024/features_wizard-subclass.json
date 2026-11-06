@@ -1,0 +1,17 @@
+{
+  "index": "wizard-subclass",
+  "class": {
+    "index": "wizard",
+    "url": "/api/2024/classes/wizard",
+    "name": "Wizard"
+  },
+  "description": "You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class\u2019s description.\nA subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass\u2019s features that are of your Wizard level or lower.",
+  "level": {
+    "index": "wizard-3",
+    "url": "/api/2024/classes/wizard/levels/3",
+    "name": "Wizard 3"
+  },
+  "name": "Wizard Subclass",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/wizard-subclass"
+}

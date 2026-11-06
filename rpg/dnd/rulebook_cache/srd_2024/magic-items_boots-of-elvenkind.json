@@ -1,0 +1,19 @@
+{
+  "index": "boots-of-elvenkind",
+  "url": "/api/2024/magic-items/boots-of-elvenkind",
+  "image": "/api/images/magic-items/boots-of-elvenkind.png",
+  "name": "Boots of Elvenkind",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

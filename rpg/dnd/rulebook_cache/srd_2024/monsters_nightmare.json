@@ -1,0 +1,94 @@
+{
+  "index": "nightmare",
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d8+4"
+        },
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "3d6"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Ethereal Stride",
+      "desc": "The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 3,
+  "charisma": 15,
+  "condition_immunities": [],
+  "constitution": 16,
+  "damage_immunities": [
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "8d10",
+  "hit_points": 68,
+  "hit_points_roll": "8d10 + 24",
+  "image": "/api/images/monsters/nightmare.png",
+  "intelligence": 10,
+  "languages": "Understands Abyssal, Common, and Infernal but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Nightmare",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 11
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Confer Fire Resistance",
+      "desc": "The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare.",
+      "damage": []
+    },
+    {
+      "name": "Illumination",
+      "desc": "The nightmare sheds Bright Light in a 10foot radius and Dim Light for an additional 10 feet.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "60 ft.",
+    "fly": "90 ft.",
+    "hover": true
+  },
+  "strength": 18,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/nightmare",
+  "wisdom": 13,
+  "xp": 700,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

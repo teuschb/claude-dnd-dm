@@ -1,0 +1,173 @@
+{
+  "index": "werebear-hybrid",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Handaxe",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Rend",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Bite",
+              "count": 1,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM\u2019s control and has 10 Hit Points. Success: The target is immune to this werebear\u2019s curse for 24 hours.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d12+4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Handaxe",
+      "desc": "Melee or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit: 14 (3d6 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "3d6+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d8+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral good",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The werebear shape-shifts into a Large bear-humanoid hybrid form or a Large bear, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "forms": [
+    {
+      "index": "werebear-human",
+      "name": "Werebear, Human Form",
+      "url": "/api/2024/monsters/werebear-human"
+    },
+    {
+      "index": "werebear-bear",
+      "name": "Werebear, Bear Form",
+      "url": "/api/2024/monsters/werebear-bear"
+    }
+  ],
+  "gear": "Handaxes (4)",
+  "hit_dice": "18d8",
+  "hit_points": 135,
+  "hit_points_roll": "18d8 + 54",
+  "image": "/api/images/monsters/werebear-hybrid.png",
+  "intelligence": 11,
+  "languages": "Common (can\u2019t speak in bear form)",
+  "name": "Werebear, Hybrid Form",
+  "proficiencies": [
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 17
+  },
+  "size": "Large",
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 19,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/werebear-hybrid",
+  "wisdom": 12,
+  "xp": 1800,
+  "special_abilities": [],
+  "legendary_actions": [],
+  "reactions": []
+}

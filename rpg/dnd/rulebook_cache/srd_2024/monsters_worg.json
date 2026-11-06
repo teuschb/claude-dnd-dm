@@ -1,0 +1,74 @@
+{
+  "index": "worg",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg\u2019s next turn has Advantage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d8+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 13,
+  "hit_dice": "4d10",
+  "hit_points": 26,
+  "hit_points_roll": "4d10 + 4",
+  "image": "/api/images/monsters/worg.png",
+  "intelligence": 7,
+  "languages": "Goblin, Worg",
+  "legendary_actions": [],
+  "name": "Worg",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Large",
+  "special_abilities": [],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 16,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/worg",
+  "wisdom": 11,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

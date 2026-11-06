@@ -1,0 +1,26 @@
+{
+  "index": "draconic-damage-resistance-acid",
+  "url": "/api/2024/traits/draconic-damage-resistance-acid",
+  "name": "Damage Resistance: Acid",
+  "description": "You have Resistance to acid damage, as determined by your Draconic Ancestry trait.",
+  "species": [
+    {
+      "index": "dragonborn",
+      "url": "/api/2024/species/dragonborn",
+      "name": "Dragonborn"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "draconic-ancestor-black",
+      "url": "/api/2024/subspecies/draconic-ancestor-black",
+      "name": "Draconic Ancestor: Black"
+    },
+    {
+      "index": "draconic-ancestor-copper",
+      "url": "/api/2024/subspecies/draconic-ancestor-copper",
+      "name": "Draconic Ancestor: Copper"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

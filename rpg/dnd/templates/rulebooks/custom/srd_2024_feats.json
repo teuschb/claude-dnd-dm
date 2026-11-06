@@ -1,0 +1,162 @@
+{
+  "$schema": "dm20-protocol/rulebook-v1",
+  "name": "SRD 2024 Feats (SRD-only, 17 feats)",
+  "version": "2.0-srd-only",
+  "content": {
+    "feats": [
+      {
+        "index": "ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+)",
+          "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20. Repeatable. You can take this feat more than once."
+        ]
+      },
+      {
+        "index": "alert",
+        "name": "Alert",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll. Initiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat."
+        ]
+      },
+      {
+        "index": "archery",
+        "name": "Archery",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "You gain a +2 bonus to attack rolls you make with Ranged weapons."
+        ]
+      },
+      {
+        "index": "boon-of-combat-prowess",
+        "name": "Boon of Combat Prowess",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Peerless Aim: when you miss with an attack roll, you can hit instead, once until start of next turn."
+        ]
+      },
+      {
+        "index": "boon-of-dimensional-travel",
+        "name": "Boon of Dimensional Travel",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Blink Steps: teleport up to 30 feet immediately after Attack or Magic action."
+        ]
+      },
+      {
+        "index": "boon-of-fate",
+        "name": "Boon of Fate",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Improve Fate: roll 2d4 to boost or penalize a nearby D20 Test, once per Initiative roll or rest."
+        ]
+      },
+      {
+        "index": "boon-of-irresistible-offense",
+        "name": "Boon of Irresistible Offense",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 30). Overcome Defenses: physical damage ignores Resistance. Overwhelming Strike: natural 20 deals extra damage equal to the increased ability score."
+        ]
+      },
+      {
+        "index": "boon-of-spell-recall",
+        "name": "Boon of Spell Recall",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)",
+          "Ability Score Increase (INT/WIS/CHA) by 1 (max 30). Free Casting: roll 1d4 when casting a level 1-4 spell; matching the slot level refunds the slot."
+        ]
+      },
+      {
+        "index": "boon-of-truesight",
+        "name": "Boon of Truesight",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Truesight within 60 feet."
+        ]
+      },
+      {
+        "index": "boon-of-the-night-spirit",
+        "name": "Boon of the Night Spirit",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Epic Boon Feat (Prerequisite: Level 19+)",
+          "Ability Score Increase by 1 (max 30). Merge with Shadows: Invisible as a Bonus Action in Dim Light/Darkness until you act. Shadowy Form: Resistance to all but Psychic/Radiant damage in Dim Light/Darkness."
+        ]
+      },
+      {
+        "index": "defense",
+        "name": "Defense",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "While wearing any armor, +1 bonus to Armor Class."
+        ]
+      },
+      {
+        "index": "grappler",
+        "name": "Grappler",
+        "source": "custom-2024-feats",
+        "desc": [
+          "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)",
+          "Ability Score Increase (STR/DEX) by 1 (max 20). Punch and Grab: combine Unarmed Strike damage and Grapple in one attack, once per turn. Attack Advantage against creatures you've grappled. Fast Wrestler: move grappled same-or-smaller creatures freely."
+        ]
+      },
+      {
+        "index": "great-weapon-fighting",
+        "name": "Great Weapon Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "When rolling damage with a two-handed or Versatile Melee weapon held two-handed, treat 1s or 2s on damage dice as 3s."
+        ]
+      },
+      {
+        "index": "magic-initiate",
+        "name": "Magic Initiate",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Two Cantrips and a level 1 spell (free-cast once per Long Rest) from the Cleric, Druid, or Wizard list. Repeatable, different list each time."
+        ]
+      },
+      {
+        "index": "savage-attacker",
+        "name": "Savage Attacker",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Once per turn on a weapon hit, roll the weapon's damage dice twice and use either result."
+        ]
+      },
+      {
+        "index": "skilled",
+        "name": "Skilled",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Origin Feat",
+          "Proficiency in any combination of three skills or tools. Repeatable."
+        ]
+      },
+      {
+        "index": "two-weapon-fighting",
+        "name": "Two Weapon Fighting",
+        "source": "custom-2024-feats",
+        "desc": [
+          "Fighting Style Feat (Prerequisite: Fighting Style Feature)",
+          "Add your ability modifier to the damage of a Light-property extra attack."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-poison-spray",
+  "url": "/api/2024/traits/lineage-spell-poison-spray",
+  "name": "Poison Spray",
+  "description": "You know the spell Poison Spray.",
+  "spells": [
+    {
+      "spell": {
+        "index": "poison-spray",
+        "name": "Poison Spray",
+        "url": "/api/2024/spells/poison-spray"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "fiendish-legacy-abyssal",
+      "url": "/api/2024/subspecies/fiendish-legacy-abyssal",
+      "name": "Fiendish Legacy: Abyssal"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

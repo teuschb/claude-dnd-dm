@@ -1,0 +1,38 @@
+{
+  "index": "martial-ranged-weapons",
+  "name": "Martial Ranged Weapons",
+  "equipment": [
+    {
+      "index": "blowgun",
+      "name": "Blowgun",
+      "url": "/api/2024/equipment/blowgun"
+    },
+    {
+      "index": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "url": "/api/2024/equipment/hand-crossbow"
+    },
+    {
+      "index": "heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "url": "/api/2024/equipment/heavy-crossbow"
+    },
+    {
+      "index": "longbow",
+      "name": "Longbow",
+      "url": "/api/2024/equipment/longbow"
+    },
+    {
+      "index": "musket",
+      "name": "Musket",
+      "url": "/api/2024/equipment/musket"
+    },
+    {
+      "index": "pistol",
+      "name": "Pistol",
+      "url": "/api/2024/equipment/pistol"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/martial-ranged-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

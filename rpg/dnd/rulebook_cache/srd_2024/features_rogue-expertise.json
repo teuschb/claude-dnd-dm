@@ -1,0 +1,17 @@
+{
+  "index": "rogue-expertise",
+  "class": {
+    "index": "rogue",
+    "url": "/api/2024/classes/rogue",
+    "name": "Rogue"
+  },
+  "description": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+  "level": {
+    "index": "rogue-1",
+    "url": "/api/2024/classes/rogue/levels/1",
+    "name": "Rogue 1"
+  },
+  "name": "Expertise",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/rogue-expertise"
+}

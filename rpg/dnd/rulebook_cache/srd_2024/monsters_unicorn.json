@@ -1,0 +1,232 @@
+{
+  "index": "unicorn",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The unicorn makes one Hooves attack and one Radiant Horn attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Hooves",
+          "count": "1",
+          "type": "melee"
+        },
+        {
+          "action_name": "Radiant Horn",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Hooves",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d6+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Radiant Horn",
+      "desc": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "1d10+4"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The unicorn casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 14):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 14,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "druidcraft",
+            "name": "Druidcraft",
+            "level": 0,
+            "url": "/api/2024/spells/druidcraft",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "calm-emotions",
+            "name": "Calm Emotions",
+            "level": 2,
+            "url": "/api/2024/spells/calm-emotions",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "dispel-evil-and-good",
+            "name": "Dispel Evil and Good",
+            "level": 5,
+            "url": "/api/2024/spells/dispel-evil-and-good",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "entangle",
+            "name": "Entangle",
+            "level": 1,
+            "url": "/api/2024/spells/entangle",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "pass-without-trace",
+            "name": "Pass without Trace",
+            "level": 2,
+            "url": "/api/2024/spells/pass-without-trace",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "word-of-recall",
+            "name": "Word of Recall",
+            "level": 6,
+            "url": "/api/2024/spells/word-of-recall",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 5,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 15,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "hit_dice": "13d10",
+  "hit_points": 97,
+  "hit_points_roll": "13d10 + 26",
+  "image": "/api/images/monsters/unicorn.png",
+  "intelligence": 11,
+  "languages": "Celestial, Elvish, Sylvan; telepathy 120 ft.",
+  "legendary_actions": [
+    {
+      "name": "Charging Horn",
+      "desc": "The unicorn moves up to half its Speed without provoking Opportunity Attacks, and it makes one Radiant Horn attack.",
+      "damage": []
+    },
+    {
+      "name": "Shimmering Shield",
+      "desc": "The unicorn targets itself or one creature it can see within 60 feet of itself. The target gains 10 (3d6) Temporary Hit Points, and its AC increases by 2 until the end of the unicorn\u2019s next turn. The unicorn can\u2019t take this action again until the start of its next turn.",
+      "damage": []
+    }
+  ],
+  "name": "Unicorn",
+  "proficiencies": [],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 13
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the unicorn fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The unicorn has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "50 ft."
+  },
+  "strength": 18,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/unicorn",
+  "wisdom": 17,
+  "xp": 1800,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

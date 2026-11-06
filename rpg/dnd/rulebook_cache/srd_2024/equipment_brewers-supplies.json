@@ -1,0 +1,65 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "brewers-supplies",
+  "name": "Brewer's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "craft": [
+    {
+      "index": "antitoxin",
+      "name": "Antitoxin",
+      "url": "/api/2024/equipment/antitoxin"
+    }
+  ],
+  "cost": {
+    "quantity": 20,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Detect poisoned drink",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Identify alcohol",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 9,
+  "url": "/api/2024/equipment/brewers-supplies",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

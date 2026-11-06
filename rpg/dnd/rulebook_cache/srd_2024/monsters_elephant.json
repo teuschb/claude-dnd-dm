@@ -1,0 +1,104 @@
+{
+  "index": "elephant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The elephant makes two Gore attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Gore",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+6"
+        }
+      ],
+      "attack_bonus": 8,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Trample",
+      "desc": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d10+6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 16,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 17,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 9,
+  "hit_dice": "8d12",
+  "hit_points": 76,
+  "hit_points_roll": "8d12 + 24",
+  "image": "/api/images/monsters/elephant.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Elephant",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 22,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/elephant",
+  "wisdom": 11,
+  "xp": 1100,
+  "reactions": [],
+  "forms": []
+}

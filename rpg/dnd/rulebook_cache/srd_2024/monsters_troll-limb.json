@@ -1,0 +1,76 @@
+{
+  "index": "troll-limb",
+  "actions": [
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d4+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 1,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "4d6",
+  "hit_points": 14,
+  "hit_points_roll": "4d6",
+  "image": "/api/images/monsters/troll-limb-NYI.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Troll Limb",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Small",
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn\u2019t function on the limb\u2019s next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn\u2019t regenerate.",
+      "damage": []
+    },
+    {
+      "name": "Troll Spawn",
+      "desc": "The limb uncannily has the same senses as a whole troll. If the limb isn\u2019t destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 18,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/troll-limb",
+  "wisdom": 9,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

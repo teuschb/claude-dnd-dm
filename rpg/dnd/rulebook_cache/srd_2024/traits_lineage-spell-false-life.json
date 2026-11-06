@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-false-life",
+  "url": "/api/2024/traits/lineage-spell-false-life",
+  "name": "False Life",
+  "description": "You know the spell False Life.",
+  "spells": [
+    {
+      "spell": {
+        "index": "false-life",
+        "name": "False Life",
+        "url": "/api/2024/spells/false-life"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "fiendish-legacy-chthonic",
+      "url": "/api/2024/subspecies/fiendish-legacy-chthonic",
+      "name": "Fiendish Legacy: Chthonic"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

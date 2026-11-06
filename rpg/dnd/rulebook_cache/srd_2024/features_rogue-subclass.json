@@ -1,0 +1,17 @@
+{
+  "index": "rogue-subclass",
+  "class": {
+    "index": "rogue",
+    "url": "/api/2024/classes/rogue",
+    "name": "Rogue"
+  },
+  "description": "You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.",
+  "level": {
+    "index": "rogue-3",
+    "url": "/api/2024/classes/rogue/levels/3",
+    "name": "Rogue 3"
+  },
+  "name": "Rogue Subclass",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/rogue-subclass"
+}

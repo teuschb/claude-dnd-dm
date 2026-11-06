@@ -1,0 +1,326 @@
+{
+  "index": "planetar",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Radiant Sword",
+              "count": 3,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Holy Burst",
+              "count": 2,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Radiant Sword",
+      "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "2d6+7"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "4d8"
+        }
+      ],
+      "attack_bonus": 12,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Holy Burst",
+      "desc": "Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "7d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 20,
+        "success_type": "half"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 20,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-evil-and-good",
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "url": "/api/2024/spells/detect-evil-and-good",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "commune",
+            "name": "Commune",
+            "level": 5,
+            "url": "/api/2024/spells/commune",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "control-weather",
+            "name": "Control Weather",
+            "level": 8,
+            "url": "/api/2024/spells/control-weather",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "dispel-evil-and-good",
+            "name": "Dispel Evil and Good",
+            "level": 5,
+            "url": "/api/2024/spells/dispel-evil-and-good",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "raise-dead",
+            "name": "Raise Dead",
+            "level": 5,
+            "url": "/api/2024/spells/raise-dead",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 19,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Divine Aid",
+      "desc": "The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 2,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 20,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "cure-wounds",
+            "name": "Cure Wounds",
+            "level": 1,
+            "url": "/api/2024/spells/cure-wounds"
+          },
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility"
+          },
+          {
+            "index": "lesser-restoration",
+            "name": "Lesser Restoration",
+            "level": 2,
+            "url": "/api/2024/spells/lesser-restoration"
+          },
+          {
+            "index": "remove-curse",
+            "name": "Remove Curse",
+            "level": 3,
+            "url": "/api/2024/spells/remove-curse"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 16,
+  "charisma": 25,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 24,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 20,
+  "hit_dice": "21d10",
+  "hit_points": 262,
+  "hit_points_roll": "21d10 + 147",
+  "image": "/api/images/monsters/planetar.png",
+  "intelligence": 19,
+  "languages": "All; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Planetar",
+  "proficiencies": [
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 12,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 21
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Divine Awareness",
+      "desc": "The planetar knows if it hears a lie.",
+      "damage": []
+    },
+    {
+      "name": "Exalted Restoration",
+      "desc": "If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The planetar has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "120 ft.",
+    "hover": true
+  },
+  "strength": 24,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/planetar",
+  "wisdom": 22,
+  "xp": 15000,
+  "reactions": [],
+  "forms": []
+}

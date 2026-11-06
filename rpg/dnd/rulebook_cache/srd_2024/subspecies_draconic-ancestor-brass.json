@@ -1,0 +1,30 @@
+{
+  "index": "draconic-ancestor-brass",
+  "url": "/api/2024/subspecies/draconic-ancestor-brass",
+  "name": "Draconic Ancestor: Brass",
+  "damage_type": {
+    "index": "fire",
+    "name": "Fire",
+    "url": "/api/2024/damage-types/fire"
+  },
+  "species": {
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "url": "/api/2024/species/dragonborn"
+  },
+  "traits": [
+    {
+      "index": "draconic-breath-weapon-fire",
+      "url": "/api/2024/traits/draconic-breath-weapon-fire",
+      "name": "Breath Weapon: Fire",
+      "level": 1
+    },
+    {
+      "index": "draconic-damage-resistance-fire",
+      "url": "/api/2024/traits/draconic-damage-resistance-fire",
+      "name": "Damage Resistance: Fire",
+      "level": 1
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

@@ -1,0 +1,314 @@
+{
+  "index": "tarrasque",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Bite",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 3,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Claw",
+              "count": 3,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Tail",
+              "count": 3,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can\u2019t teleport.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "4d12+10"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      },
+      "attack_bonus": 19,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "4d8+10"
+        }
+      ],
+      "attack_bonus": 19,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d8+10"
+        }
+      ],
+      "attack_bonus": 19,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Thunderous Bellow",
+      "desc": "Constitution Saving Throw: DC 27, each creature and each object that isn\u2019t being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "thunder",
+            "name": "Thunder",
+            "url": "/api/2024/damage-types/thunder"
+          },
+          "damage_dice": "12d12"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 27,
+        "success_type": "half"
+      },
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 25,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "desc": "Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can\u2019t teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque\u2019s turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "16d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 27,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 30,
+  "charisma": 11,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 30,
+  "damage_immunities": [
+    "fire",
+    "poison"
+  ],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "34d20",
+  "hit_points": 697,
+  "hit_points_roll": "34d20 + 340",
+  "image": "/api/images/monsters/tarrasque.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [
+    {
+      "name": "Onslaught",
+      "desc": "The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack.",
+      "damage": []
+    },
+    {
+      "name": "World-Shaking Movement",
+      "desc": "The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the Prone condition. The tarrasque can\u2019t take this action again until the start of its next turn.",
+      "damage": []
+    }
+  ],
+  "name": "Tarrasque",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 9,
+  "senses": {
+    "blindsight": "120 ft.",
+    "passive_perception": 19
+  },
+  "size": "Gargantuan",
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance",
+      "desc": "If the tarrasque fails a saving throw, it can choose to succeed instead.",
+      "usage": {
+        "type": "per day",
+        "times": 6,
+        "rest_types": []
+      },
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The tarrasque has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    },
+    {
+      "name": "Reflective Carapace",
+      "desc": "If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1\u20135, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target.",
+      "damage": []
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The tarrasque deals double damage to objects and structures.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "60 ft.",
+    "burrow": "40 ft.",
+    "climb": "60 ft."
+  },
+  "strength": 30,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/tarrasque",
+  "wisdom": 11,
+  "xp": 155000,
+  "reactions": [],
+  "forms": []
+}

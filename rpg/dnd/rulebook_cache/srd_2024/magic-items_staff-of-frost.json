@@ -1,0 +1,20 @@
+{
+  "index": "staff-of-frost",
+  "url": "/api/2024/magic-items/staff-of-frost",
+  "image": "/api/images/magic-items/staff-of-frost.png",
+  "name": "Staff of Frost",
+  "equipment_category": {
+    "index": "staffs",
+    "name": "Staffs",
+    "url": "/api/2024/equipment-categories/staffs"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "limited-to": "Druid, Sorcerer, Warlock, or Wizard",
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Staff  \n You have Resistance to Cold damage while you hold this staff.  \n Spells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.Fireball (level 5 version)  5Hold Monster  5Lightning Bolt (level 5 version)  5Ray of Enfeeblement  1SpellChargeCost  SpellCharge Cost Regaining Charges. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend theFog Cloud  1  Wall of Ice  4  \n Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

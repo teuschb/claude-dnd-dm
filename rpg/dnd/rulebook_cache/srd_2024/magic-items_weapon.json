@@ -1,0 +1,35 @@
+{
+  "index": "weapon",
+  "url": "/api/2024/magic-items/weapon",
+  "image": "/api/images/magic-items/weapon.png",
+  "name": "Weapon",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "variants": [
+    {
+      "index": "weapon-1",
+      "url": "/api/2024/magic-items/weapon-1",
+      "name": "Weapon +1"
+    },
+    {
+      "index": "weapon-2",
+      "url": "/api/2024/magic-items/weapon-2",
+      "name": "Weapon +2"
+    },
+    {
+      "index": "weapon-3",
+      "url": "/api/2024/magic-items/weapon-3",
+      "name": "Weapon +3"
+    }
+  ],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon (+1), Rare (+2), or Very Rare (+3)"
+  },
+  "desc": "Weapon (Any Simple or Martial)  \n You have a bonus to attack rolls and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

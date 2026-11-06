@@ -1,0 +1,29 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "sprig-of-mistletoe",
+  "name": "Sprig of Mistletoe",
+  "equipment_categories": [
+    {
+      "index": "druidic-foci",
+      "name": "Druidic Foci",
+      "url": "/api/2024/equipment-categories/druidic-foci"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "weight": 0,
+  "url": "/api/2024/equipment/sprig-of-mistletoe",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

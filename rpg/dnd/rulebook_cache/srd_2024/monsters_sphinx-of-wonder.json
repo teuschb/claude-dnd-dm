@@ -1,0 +1,120 @@
+{
+  "index": "sphinx-of-wonder",
+  "actions": [
+    {
+      "name": "Rend",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d4+3"
+        },
+        {
+          "damage_type": {
+            "index": "radiant",
+            "name": "Radiant",
+            "url": "/api/2024/damage-types/radiant"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 13,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "necrotic",
+    "psychic",
+    "radiant"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "7d4",
+  "hit_points": 24,
+  "hit_points_roll": "7d4 + 7",
+  "image": "/api/images/monsters/sphinx-of-wonder-NYI.png",
+  "intelligence": 15,
+  "languages": "Celestial, Common",
+  "legendary_actions": [],
+  "name": "Sphinx of Wonder",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-religion",
+        "name": "Skill: Religion",
+        "url": "/api/2024/proficiencies/skill-religion"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "reactions": [
+    {
+      "name": "Burst of Ingenuity",
+      "desc": "Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll.",
+      "usage": {
+        "type": "per day",
+        "times": 2,
+        "rest_types": []
+      },
+      "damage": []
+    }
+  ],
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The sphinx has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft.",
+    "fly": "40 ft."
+  },
+  "strength": 6,
+  "type": "celestial",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/sphinx-of-wonder",
+  "wisdom": 12,
+  "xp": 200,
+  "bonus_actions": [],
+  "forms": []
+}

@@ -1,0 +1,12 @@
+{
+  "index": "acrobatics",
+  "name": "Acrobatics",
+  "description": "Stay on your feet in a tricky situation, or perform an acrobatic stunt.",
+  "ability_score": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "url": "/api/2024/skills/acrobatics",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

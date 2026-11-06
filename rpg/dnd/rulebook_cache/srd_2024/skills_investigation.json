@@ -1,0 +1,12 @@
+{
+  "index": "investigation",
+  "name": "Investigation",
+  "description": "Find obscure information in books, or deduce how something works.",
+  "ability_score": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "url": "/api/2024/skills/investigation",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

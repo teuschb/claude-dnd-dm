@@ -1,0 +1,21 @@
+{
+  "index": "giant-ancestry-stones-endurance",
+  "url": "/api/2024/traits/giant-ancestry-stones-endurance",
+  "name": "Giant Ancestry: Stone's Endurance",
+  "description": "When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
+  "species": [
+    {
+      "index": "goliath",
+      "name": "Goliath",
+      "url": "/api/2024/species/goliath"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "giant-ancestry-stones-endurance",
+      "url": "/api/2024/subspecies/giant-ancestry-stones-endurance",
+      "name": "Giant Ancestry: Stone's Endurance"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

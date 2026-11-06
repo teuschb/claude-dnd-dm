@@ -1,0 +1,58 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "potters-tools",
+  "name": "Potter's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "cost": {
+    "quantity": 10,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "jug",
+      "name": "Jug",
+      "url": "/api/2024/equipment/jug"
+    },
+    {
+      "index": "lamp",
+      "name": "Lamp",
+      "url": "/api/2024/equipment/lamp"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Discern what a ceramic object held in the past 24 hours",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 3,
+  "url": "/api/2024/equipment/potters-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

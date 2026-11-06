@@ -1,0 +1,9 @@
+{
+  "index": "essence-of-ether",
+  "cost": 300,
+  "description": "A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 8 hours. The creature also has the Unconscious condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
+  "name": "Essence of Ether",
+  "type": "inhaled",
+  "updated_at": "2026-06-03T21:13:53.683Z",
+  "url": "/api/2024/poisons/essence-of-ether"
+}

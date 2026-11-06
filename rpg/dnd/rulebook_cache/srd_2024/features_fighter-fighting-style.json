@@ -1,0 +1,17 @@
+{
+  "index": "fighter-fighting-style",
+  "class": {
+    "index": "fighter",
+    "url": "/api/2024/classes/fighter",
+    "name": "Fighter"
+  },
+  "description": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended.\n  Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.",
+  "level": {
+    "index": "fighter-1",
+    "url": "/api/2024/classes/fighter/levels/1",
+    "name": "Fighter 1"
+  },
+  "name": "Fighting Style",
+  "updated_at": "2026-07-05T20:53:29.089Z",
+  "url": "/api/2024/features/fighter-fighting-style"
+}

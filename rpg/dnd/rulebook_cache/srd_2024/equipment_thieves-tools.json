@@ -1,0 +1,59 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "thieves-tools",
+  "name": "Thieves' Tools",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 25,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Pick a lock",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Disarm a trap",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 1,
+  "url": "/api/2024/equipment/thieves-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "adamantine-armor",
+  "url": "/api/2024/magic-items/adamantine-armor",
+  "image": "/api/images/magic-items/adamantine-armor.png",
+  "name": "Adamantine Armor",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Armor (Any Medium or Heavy, Except Hide Armor)  \n This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any Critical Hit against you becomes a normal hit.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

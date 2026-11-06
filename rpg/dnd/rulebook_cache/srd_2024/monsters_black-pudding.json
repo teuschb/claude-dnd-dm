@@ -1,0 +1,138 @@
+{
+  "index": "black-pudding",
+  "actions": [
+    {
+      "name": "Dissolving Pseudopod",
+      "desc": "Melee Attack Roll: +5, reach 10 ft. Hit: 17 (4d6 + 3) Acid damage. Nonmagical armor worn by the target takes a \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the Mending spell on the armor.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "4d6+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 7,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "acid",
+    "cold",
+    "lightning",
+    "slashing"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 5,
+  "hit_dice": "8d10",
+  "hit_points": 68,
+  "hit_points_roll": "8d10 + 24",
+  "image": "/api/images/monsters/black-pudding.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Black Pudding",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "reactions": [
+    {
+      "name": "Split",
+      "desc": "Trigger: While the pudding is Large or Medium and has 10+ Hit Points, it becomes Bloodied or is subjected to Lightning or Slashing damage. Response: The pudding splits into two new Black Puddings. Each new pudding is one size smaller than the original pudding and acts on its Initiative. The original pudding\u2019s Hit Points are divided evenly between the new puddings (round down).",
+      "damage": []
+    }
+  ],
+  "senses": {
+    "blindsight": "60 ft.",
+    "passive_perception": 8
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "The pudding can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "damage": []
+    },
+    {
+      "name": "Corrosive Form",
+      "desc": "A creature that hits the pudding with a melee attack roll takes 4 (1d8) Acid damage. Nonmagical ammunition is destroyed immediately after hitting the pudding and dealing any damage. Any nonmagical weapon takes a cumulative \u22121 penalty to attack rolls immediately after dealing damage to the pudding and coming into contact with it. The weapon is destroyed if the penalty reaches \u22125. The penalty can be removed by casting the Mending spell on the weapon. In 1 minute, the pudding can eat through 2 feet of nonmagical wood or metal.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "acid",
+            "name": "Acid",
+            "url": "/api/2024/damage-types/acid"
+          },
+          "damage_dice": "1d8"
+        }
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The pudding can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft.",
+    "climb": "20 ft."
+  },
+  "strength": 16,
+  "type": "ooze",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/black-pudding",
+  "wisdom": 6,
+  "xp": 1100,
+  "bonus_actions": [],
+  "forms": []
+}

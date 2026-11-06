@@ -1,0 +1,19 @@
+{
+  "index": "headband-of-intellect",
+  "url": "/api/2024/magic-items/headband-of-intellect",
+  "image": "/api/images/magic-items/headband-of-intellect.png",
+  "name": "Headband of Intellect",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n Your Intelligence is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

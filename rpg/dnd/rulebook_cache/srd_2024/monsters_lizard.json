@@ -1,0 +1,63 @@
+{
+  "index": "lizard",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 10,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 3,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 11,
+  "hit_dice": "1d4",
+  "hit_points": 2,
+  "hit_points_roll": "1d4",
+  "image": "/api/images/monsters/lizard.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Lizard",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "30 ft.",
+    "passive_perception": 9
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "20 ft.",
+    "climb": "20 ft."
+  },
+  "strength": 2,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/lizard",
+  "wisdom": 8,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,53 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "disguise-kit",
+  "name": "Disguise Kit",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    },
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    }
+  ],
+  "ability": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  },
+  "cost": {
+    "quantity": 25,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "costume",
+      "name": "Costume",
+      "url": "/api/2024/equipment/costume"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Apply makeup",
+      "dc": {
+        "dc_type": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 3,
+  "url": "/api/2024/equipment/disguise-kit",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

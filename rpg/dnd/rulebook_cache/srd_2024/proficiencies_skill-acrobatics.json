@@ -1,0 +1,14 @@
+{
+  "index": "skill-acrobatics",
+  "type": "Skills",
+  "name": "Skill: Acrobatics",
+  "backgrounds": [],
+  "classes": [],
+  "reference": {
+    "index": "acrobatics",
+    "name": "Acrobatics",
+    "url": "/api/2024/skills/acrobatics"
+  },
+  "url": "/api/2024/proficiencies/skill-acrobatics",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

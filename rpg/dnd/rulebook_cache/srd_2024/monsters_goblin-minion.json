@@ -1,0 +1,83 @@
+{
+  "index": "goblin-minion",
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic neutral",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Nimble Escape",
+      "desc": "The goblin takes the Disengage or Hide action.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 0.125,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "gear": "Daggers (3)",
+  "hit_dice": "2d6",
+  "hit_points": 7,
+  "hit_points_roll": "2d6",
+  "image": "/api/images/monsters/goblin-minion-NYI.png",
+  "intelligence": 10,
+  "languages": "Common, Goblin",
+  "legendary_actions": [],
+  "name": "Goblin Minion",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 9
+  },
+  "size": "Small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 8,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/goblin-minion",
+  "wisdom": 8,
+  "xp": 25,
+  "reactions": [],
+  "forms": []
+}

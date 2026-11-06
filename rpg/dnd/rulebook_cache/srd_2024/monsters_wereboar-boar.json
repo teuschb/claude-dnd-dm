@@ -1,0 +1,157 @@
+{
+  "index": "wereboar-boar",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Tusk",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Gore",
+              "count": 1,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the GM\u2019s control and has 10 Hit Points. Success: The target is immune to this wereboar\u2019s curse for 24 hours.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d8+3"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 12,
+        "success_type": "none"
+      },
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Tusk",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d6+3"
+        },
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral evil",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Shape-Shift",
+      "desc": "The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn\u2019t transformed.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 8,
+  "condition_immunities": [],
+  "constitution": 15,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "forms": [
+    {
+      "index": "wereboar-human",
+      "name": "Wereboar, Human Form",
+      "url": "/api/2024/monsters/wereboar-human"
+    },
+    {
+      "index": "wereboar-hybrid",
+      "name": "Wereboar, Hybrid Form",
+      "url": "/api/2024/monsters/wereboar-hybrid"
+    }
+  ],
+  "gear": "Javelins (6)",
+  "hit_dice": "15d8",
+  "hit_points": 97,
+  "hit_points_roll": "15d8 + 30",
+  "image": "/api/images/monsters/wereboar-boar.png",
+  "intelligence": 10,
+  "languages": "Common (can\u2019t speak in boar form)",
+  "name": "Wereboar, Boar Form",
+  "proficiencies": [
+    {
+      "value": 2,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 12
+  },
+  "size": "Small",
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 17,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/wereboar-boar",
+  "wisdom": 11,
+  "xp": 1100,
+  "special_abilities": [],
+  "legendary_actions": [],
+  "reactions": []
+}

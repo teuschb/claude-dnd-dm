@@ -1,0 +1,30 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "bullets-firearm",
+  "name": "Bullets, Firearm",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": {
+    "quantity": 3,
+    "unit": "gp"
+  },
+  "quantity": 10,
+  "storage": {
+    "index": "pouch",
+    "name": "Pouch",
+    "url": "/api/2024/equipment/pouch"
+  },
+  "weight": 2,
+  "url": "/api/2024/equipment/bullets-firearm",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

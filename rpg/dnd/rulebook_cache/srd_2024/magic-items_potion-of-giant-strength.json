@@ -1,0 +1,19 @@
+{
+  "index": "potion-of-giant-strength",
+  "url": "/api/2024/magic-items/potion-of-giant-strength",
+  "image": "/api/images/magic-items/potion-of-giant-strength.png",
+  "name": "Potion of Giant Strength",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rarity Varies"
+  },
+  "desc": "Potion  \n When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.  \n This potion's transparent liquid has floating in it a sliver of light resembling a giant's fingernail.When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).  \n This potion's blue liquid bubbles and steams as if boiling.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

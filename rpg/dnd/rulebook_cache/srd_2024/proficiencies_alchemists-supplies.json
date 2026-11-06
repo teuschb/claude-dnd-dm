@@ -1,0 +1,14 @@
+{
+  "index": "alchemists-supplies",
+  "type": "Artisan's Tools",
+  "name": "Alchemist's Supplies",
+  "classes": [],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/alchemists-supplies",
+  "reference": {
+    "index": "alchemists-supplies",
+    "name": "Alchemist's Supplies",
+    "url": "/api/2024/equipment/alchemists-supplies"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

@@ -1,0 +1,55 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "glassblowers-tools",
+  "name": "Glassblower's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "cost": {
+    "quantity": 30,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "bottle-glass",
+      "name": "Bottle, Glass",
+      "url": "/api/2024/equipment/bottle-glass"
+    },
+    {
+      "index": "magnifying-glass",
+      "name": "Magnifying Glass",
+      "url": "/api/2024/equipment/magnifying-glass"
+    },
+    {
+      "index": "spyglass",
+      "name": "Spyglass",
+      "url": "/api/2024/equipment/spyglass"
+    },
+    {
+      "index": "vial",
+      "name": "Vial",
+      "url": "/api/2024/equipment/vial"
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/glassblowers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": [],
+  "utilize": []
+}

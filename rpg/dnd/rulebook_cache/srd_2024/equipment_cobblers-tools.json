@@ -1,0 +1,53 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "cobblers-tools",
+  "name": "Cobbler's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "climbers-kit",
+      "name": "Climber's Kit",
+      "url": "/api/2024/equipment/climbers-kit"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/cobblers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

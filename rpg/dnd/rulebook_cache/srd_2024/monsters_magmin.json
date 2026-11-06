@@ -1,0 +1,99 @@
+{
+  "index": "magmin",
+  "actions": [
+    {
+      "name": "Touch",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn\u2019t being worn or carried, it starts burning.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d4+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic neutral",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Ignited Illumination",
+      "desc": "The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [
+    "fire"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "3d6",
+  "hit_points": 13,
+  "hit_points_roll": "3d6 + 3",
+  "image": "/api/images/monsters/magmin.png",
+  "intelligence": 8,
+  "languages": "Primordial (Ignan)",
+  "legendary_actions": [],
+  "name": "Magmin",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 10
+  },
+  "size": "Small",
+  "special_abilities": [
+    {
+      "name": "Death Burst",
+      "desc": "The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 11,
+        "success_type": "half"
+      }
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 7,
+  "type": "elemental",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/magmin",
+  "wisdom": 11,
+  "xp": 100,
+  "reactions": [],
+  "forms": []
+}

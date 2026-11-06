@@ -1,0 +1,196 @@
+{
+  "index": "stone-golem",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The golem makes two attacks, using Slam or Force Bolt in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Slam",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Force Bolt",
+              "count": 2,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d8+6"
+        },
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "2d8"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Force Bolt",
+      "desc": "Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "4d10"
+        }
+      ],
+      "attack_bonus": 9,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 18,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Slow",
+      "desc": "The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc": 17,
+        "components_required": [],
+        "spells": [
+          {
+            "index": "slow",
+            "name": "Slow",
+            "level": 3,
+            "url": "/api/2024/spells/slow"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 10,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 20,
+  "damage_immunities": [
+    "poison",
+    "psychic"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 9,
+  "hit_dice": "21d10",
+  "hit_points": 220,
+  "hit_points_roll": "21d10 + 105",
+  "image": "/api/images/monsters/stone-golem.png",
+  "intelligence": 3,
+  "languages": "Understands Common plus two other languages but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Stone Golem",
+  "proficiencies": [],
+  "proficiency_bonus": 4,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 10
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The golem can\u2019t shape-shift.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The golem has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 22,
+  "type": "construct",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/stone-golem",
+  "wisdom": 11,
+  "xp": 5900,
+  "reactions": [],
+  "forms": []
+}

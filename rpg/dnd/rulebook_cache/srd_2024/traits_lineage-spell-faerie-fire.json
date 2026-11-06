@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-faerie-fire",
+  "url": "/api/2024/traits/lineage-spell-faerie-fire",
+  "name": "Faerie Fire",
+  "description": "You know the spell Faerie Fire.",
+  "spells": [
+    {
+      "spell": {
+        "index": "faerie-fire",
+        "name": "Faerie Fire",
+        "url": "/api/2024/spells/faerie-fire"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "elven-lineage-drow",
+      "url": "/api/2024/subspecies/elven-lineage-drow",
+      "name": "Elven Lineage: Drow"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

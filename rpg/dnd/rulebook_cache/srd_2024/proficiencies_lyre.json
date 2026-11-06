@@ -1,0 +1,14 @@
+{
+  "index": "lyre",
+  "type": "Musical Instruments",
+  "name": "Lyre",
+  "backgrounds": [],
+  "classes": [],
+  "url": "/api/2024/proficiencies/lyre",
+  "reference": {
+    "index": "lyre",
+    "name": "Lyre",
+    "url": "/api/2024/equipment/lyre"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

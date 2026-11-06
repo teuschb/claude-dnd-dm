@@ -1,0 +1,20 @@
+{
+  "index": "staff-of-fire",
+  "url": "/api/2024/magic-items/staff-of-fire",
+  "image": "/api/images/magic-items/staff-of-fire.png",
+  "name": "Staff of Fire",
+  "equipment_category": {
+    "index": "staffs",
+    "name": "Staffs",
+    "url": "/api/2024/equipment-categories/staffs"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "limited-to": "Druid, Sorcerer, Warlock, or Wizard",
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Staff  \n You have Resistance to Fire damage while you hold this staff.  \n Spells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.of your choice, up to a number of feet equal to5 times your Intelligence modifier (minimum 5SpellChargeCost  SpellChargeCostfeet). Any creature whose space the sphere enters must succeed on a DC 19 Dexterity saving throw or be touched by it, taking 8d10 Force damage. A creature reduced to 0 Hit Points by this damage is Burning Hands  1    Wall of Fire  4  Fireball  3  \n Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles intospell save DC. The table indicates how many charges you must expend to cast the spell.Chargecinders and is destroyed.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

@@ -1,0 +1,68 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "herbalism-kit",
+  "name": "Herbalism Kit",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "antitoxin",
+      "name": "Antitoxin",
+      "url": "/api/2024/equipment/antitoxin"
+    },
+    {
+      "index": "candle",
+      "name": "Candle",
+      "url": "/api/2024/equipment/candle"
+    },
+    {
+      "index": "healers-kit",
+      "name": "Healer's Kit",
+      "url": "/api/2024/equipment/healers-kit"
+    },
+    {
+      "index": "potion-of-healing",
+      "name": "Potion of Healing",
+      "url": "/api/2024/equipment/potion-of-healing"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Identify a plant",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 3,
+  "url": "/api/2024/equipment/herbalism-kit",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

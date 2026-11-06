@@ -1,0 +1,207 @@
+{
+  "index": "marilith",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The marilith makes six Pact Blade attacks and uses Constrict.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Pact Blade",
+          "count": "6",
+          "type": "melee"
+        },
+        {
+          "action_name": "Constrict",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Pact Blade",
+      "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 10 (1d10 + 5) Slashing damage plus 7 (2d6) Necrotic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d10+5"
+        },
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Constrict",
+      "desc": "Strength Saving Throw: DC 17, one Medium or smaller creature the marilith can see within 5 feet. Failure: 15 (2d10 + 4) Bludgeoning damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d10+4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 17,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Teleport",
+      "desc": "The marilith teleports up to 120 feet to an unoccupied space it can see.",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 16,
+  "charisma": 20,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 20,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [
+    "cold",
+    "fire",
+    "lightning"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 20,
+  "hit_dice": "21d10",
+  "hit_points": 220,
+  "hit_points_roll": "21d10 + 105",
+  "image": "/api/images/monsters/marilith.png",
+  "intelligence": 18,
+  "languages": "Abyssal; telepathy 120 ft.",
+  "legendary_actions": [],
+  "name": "Marilith",
+  "proficiencies": [
+    {
+      "value": 9,
+      "proficiency": {
+        "index": "saving-throw-str",
+        "name": "Saving Throw: STR",
+        "url": "/api/2024/proficiencies/saving-throw-str"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 5,
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "Trigger: The marilith is hit by a melee attack roll while holding a weapon. Response: The marilith adds 5 to its AC against that attack, possibly causing it to miss.",
+      "damage": []
+    }
+  ],
+  "senses": {
+    "truesight": "120 ft.",
+    "passive_perception": 18
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Demonic Restoration",
+      "desc": "If the marilith dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+      "damage": []
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The marilith has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    },
+    {
+      "name": "Reactive",
+      "desc": "The marilith can take one Reaction on every turn of combat.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft.",
+    "climb": "40 ft."
+  },
+  "strength": 18,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/marilith",
+  "wisdom": 16,
+  "xp": 15000,
+  "forms": []
+}

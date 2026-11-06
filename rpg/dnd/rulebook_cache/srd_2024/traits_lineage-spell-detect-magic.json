@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-detect-magic",
+  "url": "/api/2024/traits/lineage-spell-detect-magic",
+  "name": "Detect Magic",
+  "description": "You know the spell Detect Magic.",
+  "spells": [
+    {
+      "spell": {
+        "index": "detect-magic",
+        "name": "Detect Magic",
+        "url": "/api/2024/spells/detect-magic"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "elven-lineage-high-elf",
+      "url": "/api/2024/subspecies/elven-lineage-high-elf",
+      "name": "Elven Lineage: High Elf"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

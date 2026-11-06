@@ -1,0 +1,57 @@
+{
+  "index": "bat",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.",
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 4,
+  "condition_immunities": [],
+  "constitution": 8,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 15,
+  "hit_dice": "1d4",
+  "hit_points": 1,
+  "hit_points_roll": "1d4 - 1",
+  "image": "/api/images/monsters/bat.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Bat",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "60 ft.",
+    "passive_perception": 11
+  },
+  "size": "Tiny",
+  "special_abilities": [],
+  "speed": {
+    "walk": "5 ft.",
+    "fly": "30 ft."
+  },
+  "strength": 2,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/bat",
+  "wisdom": 12,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

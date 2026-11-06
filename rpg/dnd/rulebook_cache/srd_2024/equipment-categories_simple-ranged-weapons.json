@@ -1,0 +1,28 @@
+{
+  "index": "simple-ranged-weapons",
+  "name": "Simple Ranged Weapons",
+  "equipment": [
+    {
+      "index": "dart",
+      "name": "Dart",
+      "url": "/api/2024/equipment/dart"
+    },
+    {
+      "index": "light-crossbow",
+      "name": "Light Crossbow",
+      "url": "/api/2024/equipment/light-crossbow"
+    },
+    {
+      "index": "shortbow",
+      "name": "Shortbow",
+      "url": "/api/2024/equipment/shortbow"
+    },
+    {
+      "index": "sling",
+      "name": "Sling",
+      "url": "/api/2024/equipment/sling"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/simple-ranged-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

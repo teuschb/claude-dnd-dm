@@ -1,0 +1,15 @@
+{
+  "index": "draconic-damage-resistance-poison",
+  "url": "/api/2024/traits/draconic-damage-resistance-poison",
+  "name": "Damage Resistance: Poison",
+  "description": "You have Resistance to poison damage, as determined by your Draconic Ancestry trait.",
+  "species": [
+    {
+      "index": "dragonborn",
+      "url": "/api/2024/species/dragonborn",
+      "name": "Dragonborn"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

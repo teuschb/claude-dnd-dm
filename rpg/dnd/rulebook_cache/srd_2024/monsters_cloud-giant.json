@@ -1,0 +1,267 @@
+{
+  "index": "cloud-giant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 2,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Thunderous Mace",
+              "count": 2,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Thundercloud",
+              "count": 2,
+              "type": "ranged"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Fog Cloud",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Thunderous Mace",
+      "desc": "Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d8+8"
+        },
+        {
+          "damage_type": {
+            "index": "thunder",
+            "name": "Thunder",
+            "url": "/api/2024/damage-types/thunder"
+          },
+          "damage_dice": "2d6"
+        }
+      ],
+      "attack_bonus": 12,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Thundercloud",
+      "desc": "Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "thunder",
+            "name": "Thunder",
+            "url": "/api/2024/damage-types/thunder"
+          },
+          "damage_dice": "3d6+8"
+        }
+      ],
+      "attack_bonus": 12,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 15,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "fog-cloud",
+            "name": "Fog Cloud",
+            "level": 1,
+            "url": "/api/2024/spells/fog-cloud",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "light",
+            "name": "Light",
+            "level": 0,
+            "url": "/api/2024/spells/light",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "control-weather",
+            "name": "Control Weather",
+            "level": 8,
+            "url": "/api/2024/spells/control-weather",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "gaseous-form",
+            "name": "Gaseous Form",
+            "level": 3,
+            "url": "/api/2024/spells/gaseous-form",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "telekinesis",
+            "name": "Telekinesis",
+            "level": 5,
+            "url": "/api/2024/spells/telekinesis",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Misty Step",
+      "desc": "The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting.",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 15,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "misty-step",
+            "name": "Misty Step",
+            "level": 2,
+            "url": "/api/2024/spells/misty-step"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 16,
+  "condition_immunities": [],
+  "constitution": 22,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "16d12",
+  "hit_points": 200,
+  "hit_points_roll": "16d12 + 96",
+  "image": "/api/images/monsters/cloud-giant.png",
+  "intelligence": 12,
+  "languages": "Common, Giant",
+  "legendary_actions": [],
+  "name": "Cloud Giant",
+  "proficiencies": [
+    {
+      "value": 10,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 7,
+      "proficiency": {
+        "index": "skill-insight",
+        "name": "Skill: Insight",
+        "url": "/api/2024/proficiencies/skill-insight"
+      }
+    },
+    {
+      "value": 11,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "passive_perception": 21
+  },
+  "size": "Huge",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft.",
+    "fly": "20 ft.",
+    "hover": true
+  },
+  "strength": 27,
+  "type": "giant",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/cloud-giant",
+  "wisdom": 16,
+  "xp": 5000,
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,87 @@
+{
+  "index": "giant-seahorse",
+  "actions": [
+    {
+      "name": "Ram",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d6+2"
+        },
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "2d8+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 14,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Bubble Dash",
+      "desc": "While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 5,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "3d10",
+  "hit_points": 16,
+  "hit_points_roll": "3d10",
+  "image": "/api/images/monsters/giant-seahorse-NYI.png",
+  "intelligence": 2,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Giant Seahorse",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 11
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Water Breathing",
+      "desc": "The seahorse can breathe only underwater.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "swim": "40 ft."
+  },
+  "strength": 15,
+  "type": "beast",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/giant-seahorse",
+  "wisdom": 12,
+  "xp": 100,
+  "reactions": [],
+  "forms": []
+}

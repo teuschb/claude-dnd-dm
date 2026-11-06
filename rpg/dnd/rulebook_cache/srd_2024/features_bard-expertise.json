@@ -1,0 +1,17 @@
+{
+  "index": "bard-expertise",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "description": "You gain Expertise (see \"Rules Glossary\") in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have profi- ciency in them.\n  At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.",
+  "level": {
+    "index": "bard-2",
+    "name": "Bard 2",
+    "url": "/api/2024/classes/bard/levels/2"
+  },
+  "name": "Expertise",
+  "updated_at": "2026-07-05T20:53:29.088Z",
+  "url": "/api/2024/features/bard-expertise"
+}

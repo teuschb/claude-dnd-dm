@@ -1,0 +1,19 @@
+{
+  "index": "plate-armor-of-etherealness",
+  "url": "/api/2024/magic-items/plate-armor-of-etherealness",
+  "image": "/api/images/magic-items/plate-armor-of-etherealness.png",
+  "name": "Plate Armor of Etherealness",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Legendary"
+  },
+  "desc": "Armor (Half Plate Armor or Plate Armor)  \n While you're wearing this armor, you can take a Magic action and use a command word to gain the effect of the Etherealness spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can't be used again until the next dawn.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

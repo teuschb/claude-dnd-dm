@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "waterskin",
+  "name": "Waterskin",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "sp"
+  },
+  "description": [
+    "A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see \u201cRules Glossary\u201d)."
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/waterskin",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

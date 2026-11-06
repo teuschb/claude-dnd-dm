@@ -1,0 +1,15 @@
+{
+  "index": "resourceful",
+  "url": "/api/2024/traits/resourceful",
+  "name": "Resourceful",
+  "description": "You gain Heroic Inspiration whenever you finish a Long Rest.",
+  "species": [
+    {
+      "index": "human",
+      "url": "/api/2024/species/human",
+      "name": "Human"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

@@ -1,0 +1,21 @@
+{
+  "index": "lineage-resistance-necrotic",
+  "url": "/api/2024/traits/lineage-resistance-necrotic",
+  "name": "Damage Resistance: Necrotic",
+  "description": "You have Resistance to Necrotic damage.",
+  "species": [
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "fiendish-legacy-chthonic",
+      "url": "/api/2024/subspecies/fiendish-legacy-chthonic",
+      "name": "Fiendish Legacy: Chthonic"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z"
+}

@@ -1,0 +1,35 @@
+{
+  "index": "armor",
+  "url": "/api/2024/magic-items/armor",
+  "image": "/api/images/magic-items/armor.png",
+  "name": "Armor",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [
+    {
+      "index": "armor-1",
+      "url": "/api/2024/magic-items/armor-1",
+      "name": "Armor +1"
+    },
+    {
+      "index": "armor-2",
+      "url": "/api/2024/magic-items/armor-2",
+      "name": "Armor +2"
+    },
+    {
+      "index": "armor-3",
+      "url": "/api/2024/magic-items/armor-3",
+      "name": "Armor +3"
+    }
+  ],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare (+1), Very Rare (+2), or Legendary (+3)"
+  },
+  "desc": "Armor (Any Light, Medium, or Heavy)  \n You have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

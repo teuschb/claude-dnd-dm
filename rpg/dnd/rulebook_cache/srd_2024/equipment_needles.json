@@ -1,0 +1,30 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "needles",
+  "name": "Needles",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "gp"
+  },
+  "quantity": 50,
+  "storage": {
+    "index": "pouch",
+    "name": "Pouch",
+    "url": "/api/2024/equipment/pouch"
+  },
+  "weight": 1,
+  "url": "/api/2024/equipment/needles",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

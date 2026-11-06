@@ -1,0 +1,15 @@
+{
+  "index": "draconic-damage-resistance-lightning",
+  "url": "/api/2024/traits/draconic-damage-resistance-lightning",
+  "name": "Damage Resistance: Lightning",
+  "description": "You have Resistance to lightning damage, as determined by your Draconic Ancestry trait.",
+  "species": [
+    {
+      "index": "dragonborn",
+      "url": "/api/2024/species/dragonborn",
+      "name": "Dragonborn"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:29.006Z",
+  "subspecies": []
+}

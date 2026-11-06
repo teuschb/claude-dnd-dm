@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-pass-without-trace",
+  "url": "/api/2024/traits/lineage-spell-pass-without-trace",
+  "name": "Pass without Trace",
+  "description": "You learn the spell Pass without Trace.",
+  "spells": [
+    {
+      "spell": {
+        "index": "pass-without-trace",
+        "name": "Pass without Trace",
+        "url": "/api/2024/spells/pass-without-trace"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "elf",
+      "url": "/api/2024/species/elf",
+      "name": "Elf"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "elven-lineage-wood-elf",
+      "url": "/api/2024/subspecies/elven-lineage-wood-elf",
+      "name": "Elven Lineage: Wood Elf"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

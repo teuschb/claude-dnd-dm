@@ -1,0 +1,83 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "painters-supplies",
+  "name": "Painter's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "cost": {
+    "quantity": 10,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "sprig-of-mistletoe",
+      "name": "Sprig of Mistletoe",
+      "url": "/api/2024/equipment/sprig-of-mistletoe"
+    },
+    {
+      "index": "staff",
+      "name": "Staff",
+      "url": "/api/2024/equipment/staff"
+    },
+    {
+      "index": "yew-wand",
+      "name": "Yew Wand",
+      "url": "/api/2024/equipment/yew-wand"
+    },
+    {
+      "index": "amulet",
+      "name": "Amulet",
+      "url": "/api/2024/equipment/amulet"
+    },
+    {
+      "index": "emblem",
+      "name": "Emblem",
+      "url": "/api/2024/equipment/emblem"
+    },
+    {
+      "index": "reliquary",
+      "name": "Reliquary",
+      "url": "/api/2024/equipment/reliquary"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Paint a recognizable image of something you've seen",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/painters-supplies",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

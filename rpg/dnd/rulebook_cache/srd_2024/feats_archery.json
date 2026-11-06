@@ -1,0 +1,11 @@
+{
+  "index": "archery",
+  "name": "Archery",
+  "type": "fighting-style",
+  "prerequisites": {
+    "feature_named": "Fighting Style"
+  },
+  "description": "You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+  "url": "/api/2024/feats/archery",
+  "updated_at": "2026-04-23T07:06:27.241Z"
+}

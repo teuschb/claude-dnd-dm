@@ -1,0 +1,19 @@
+{
+  "index": "giant-ancestry-storms-thunder",
+  "url": "/api/2024/subspecies/giant-ancestry-storms-thunder",
+  "name": "Giant Ancestry: Storm's Thunder",
+  "traits": [
+    {
+      "index": "giant-ancestry-storms-thunder",
+      "url": "/api/2024/traits/giant-ancestry-storms-thunder",
+      "name": "Giant Ancestry: Storm's Thunder",
+      "level": 1
+    }
+  ],
+  "species": {
+    "index": "goliath",
+    "name": "Goliath",
+    "url": "/api/2024/species/goliath"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

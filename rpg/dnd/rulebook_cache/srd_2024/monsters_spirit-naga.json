@@ -1,0 +1,268 @@
+{
+  "index": "spirit-naga",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The naga makes three attacks, using Bite or Necrotic Ray in any combination.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "desc": "Any combination",
+        "choose": 3,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Bite",
+              "count": 3,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Necrotic Ray",
+              "count": 3,
+              "type": "ranged"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+4"
+        },
+        {
+          "damage_type": {
+            "index": "poison",
+            "name": "Poison",
+            "url": "/api/2024/damage-types/poison"
+          },
+          "damage_dice": "4d6"
+        }
+      ],
+      "attack_bonus": 7,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Necrotic Ray",
+      "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "6d6"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "mage-hand",
+            "name": "Mage Hand",
+            "level": 0,
+            "url": "/api/2024/spells/mage-hand",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "level": 0,
+            "url": "/api/2024/spells/minor-illusion",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "water-breathing",
+            "name": "Water Breathing",
+            "level": 3,
+            "url": "/api/2024/spells/water-breathing",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "detect-thoughts",
+            "name": "Detect Thoughts",
+            "level": 2,
+            "url": "/api/2024/spells/detect-thoughts",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "dimension-door",
+            "name": "Dimension Door",
+            "level": 4,
+            "url": "/api/2024/spells/dimension-door",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "hold-person",
+            "name": "Hold Person",
+            "level": 3,
+            "url": "/api/2024/spells/hold-person",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "lightning-bolt",
+            "name": "Lightning Bolt",
+            "level": 4,
+            "url": "/api/2024/spells/lightning-bolt",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 17,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 8,
+  "charisma": 16,
+  "condition_immunities": [
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 14,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "18d10",
+  "hit_points": 135,
+  "hit_points_roll": "18d10 + 36",
+  "image": "/api/images/monsters/spirit-naga.png",
+  "intelligence": 16,
+  "languages": "Abyssal, Common",
+  "legendary_actions": [],
+  "name": "Spirit Naga",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-con",
+        "name": "Saving Throw: CON",
+        "url": "/api/2024/proficiencies/saving-throw-con"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-cha",
+        "name": "Saving Throw: CHA",
+        "url": "/api/2024/proficiencies/saving-throw-cha"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 12
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Fiendish Restoration",
+      "desc": "If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 18,
+  "type": "fiend",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/spirit-naga",
+  "wisdom": 15,
+  "xp": 3900,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

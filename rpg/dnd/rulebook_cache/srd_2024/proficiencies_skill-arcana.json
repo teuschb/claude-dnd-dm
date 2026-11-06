@@ -1,0 +1,20 @@
+{
+  "index": "skill-arcana",
+  "type": "Skills",
+  "name": "Skill: Arcana",
+  "backgrounds": [
+    {
+      "index": "sage",
+      "name": "Sage",
+      "url": "/api/2024/backgrounds/sage"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "arcana",
+    "name": "Arcana",
+    "url": "/api/2024/skills/arcana"
+  },
+  "url": "/api/2024/proficiencies/skill-arcana",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

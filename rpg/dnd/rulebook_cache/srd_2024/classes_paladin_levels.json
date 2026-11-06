@@ -1,0 +1,735 @@
+[
+  {
+    "index": "paladin-1",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 0
+    },
+    "features": [
+      {
+        "index": "paladin-lay-on-hands",
+        "name": "Lay On Hands",
+        "url": "/api/2024/features/paladin-lay-on-hands"
+      },
+      {
+        "index": "paladin-spellcasting",
+        "name": "Spellcasting",
+        "url": "/api/2024/features/paladin-spellcasting"
+      },
+      {
+        "index": "paladin-weapon-mastery",
+        "name": "Weapon Mastery",
+        "url": "/api/2024/features/paladin-weapon-mastery"
+      }
+    ],
+    "level": 1,
+    "name": "Paladin 1",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 2,
+      "spell_slots_level_1": 2,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/1"
+  },
+  {
+    "index": "paladin-2",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 0
+    },
+    "features": [
+      {
+        "index": "paladin-fighting-style",
+        "name": "Fighting Style",
+        "url": "/api/2024/features/paladin-fighting-style"
+      },
+      {
+        "index": "paladin-paladins-smite",
+        "name": "Paladin's Smite",
+        "url": "/api/2024/features/paladin-paladins-smite"
+      }
+    ],
+    "level": 2,
+    "name": "Paladin 2",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 3,
+      "spell_slots_level_1": 2,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/2"
+  },
+  {
+    "index": "paladin-3",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-channel-divinity",
+        "name": "Channel Divinity",
+        "url": "/api/2024/features/paladin-channel-divinity"
+      },
+      {
+        "index": "paladin-subclass",
+        "name": "Paladin Subclass",
+        "url": "/api/2024/features/paladin-subclass"
+      }
+    ],
+    "level": 3,
+    "name": "Paladin 3",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 4,
+      "spell_slots_level_1": 3,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/3"
+  },
+  {
+    "index": "paladin-4",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/paladin-ability-score-improvement"
+      }
+    ],
+    "level": 4,
+    "name": "Paladin 4",
+    "prof_bonus": 2,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 5,
+      "spell_slots_level_1": 3,
+      "spell_slots_level_2": 0,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/4"
+  },
+  {
+    "index": "paladin-5",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-extra-attack",
+        "name": "Extra Attack",
+        "url": "/api/2024/features/paladin-extra-attack"
+      },
+      {
+        "index": "paladin-faithful-steed",
+        "name": "Faithful Steed",
+        "url": "/api/2024/features/paladin-faithful-steed"
+      }
+    ],
+    "level": 5,
+    "name": "Paladin 5",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 6,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 2,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/5"
+  },
+  {
+    "index": "paladin-6",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-aura-of-protection",
+        "name": "Aura of Protection",
+        "url": "/api/2024/features/paladin-aura-of-protection"
+      }
+    ],
+    "level": 6,
+    "name": "Paladin 6",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 6,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 2,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/6"
+  },
+  {
+    "index": "paladin-7",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-subclass",
+        "name": "Paladin Subclass",
+        "url": "/api/2024/features/paladin-subclass"
+      }
+    ],
+    "level": 7,
+    "name": "Paladin 7",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 7,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/7"
+  },
+  {
+    "index": "paladin-8",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/paladin-ability-score-improvement"
+      }
+    ],
+    "level": 8,
+    "name": "Paladin 8",
+    "prof_bonus": 3,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 7,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 0,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/8"
+  },
+  {
+    "index": "paladin-9",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-abjure-foes",
+        "name": "Abjure Foes",
+        "url": "/api/2024/features/paladin-abjure-foes"
+      }
+    ],
+    "level": 9,
+    "name": "Paladin 9",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 9,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 2,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/9"
+  },
+  {
+    "index": "paladin-10",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 2
+    },
+    "features": [
+      {
+        "index": "paladin-aura-of-courage",
+        "name": "Aura of Courage",
+        "url": "/api/2024/features/paladin-aura-of-courage"
+      }
+    ],
+    "level": 10,
+    "name": "Paladin 10",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 9,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 2,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/10"
+  },
+  {
+    "index": "paladin-11",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-radiant-strikes",
+        "name": "Radiant Strikes",
+        "url": "/api/2024/features/paladin-radiant-strikes"
+      }
+    ],
+    "level": 11,
+    "name": "Paladin 11",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 10,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/11"
+  },
+  {
+    "index": "paladin-12",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/paladin-ability-score-improvement"
+      }
+    ],
+    "level": 12,
+    "name": "Paladin 12",
+    "prof_bonus": 4,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 10,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 0,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/12"
+  },
+  {
+    "index": "paladin-13",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 13,
+    "name": "Paladin 13",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 11,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 1,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/13"
+  },
+  {
+    "index": "paladin-14",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-restoring-touch",
+        "name": "Restoring Touch",
+        "url": "/api/2024/features/paladin-restoring-touch"
+      }
+    ],
+    "level": 14,
+    "name": "Paladin 14",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 11,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 1,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/14"
+  },
+  {
+    "index": "paladin-15",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-subclass",
+        "name": "Paladin Subclass",
+        "url": "/api/2024/features/paladin-subclass"
+      }
+    ],
+    "level": 15,
+    "name": "Paladin 15",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 12,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 2,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/15"
+  },
+  {
+    "index": "paladin-16",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-ability-score-improvement",
+        "name": "Ability Score Improvement",
+        "url": "/api/2024/features/paladin-ability-score-improvement"
+      }
+    ],
+    "level": 16,
+    "name": "Paladin 16",
+    "prof_bonus": 5,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 12,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 2,
+      "spell_slots_level_5": 0,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/16"
+  },
+  {
+    "index": "paladin-17",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [],
+    "level": 17,
+    "name": "Paladin 17",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 14,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 1,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/17"
+  },
+  {
+    "index": "paladin-18",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-aura-expansion",
+        "name": "Aura Expansion",
+        "url": "/api/2024/features/paladin-aura-expansion"
+      }
+    ],
+    "level": 18,
+    "name": "Paladin 18",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 14,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 1,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/18"
+  },
+  {
+    "index": "paladin-19",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-epic-boon",
+        "name": "Epic Boon",
+        "url": "/api/2024/features/paladin-epic-boon"
+      }
+    ],
+    "level": 19,
+    "name": "Paladin 19",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 15,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/19"
+  },
+  {
+    "index": "paladin-20",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "class_specific": {
+      "channel_divinity_charges": 3
+    },
+    "features": [
+      {
+        "index": "paladin-subclass",
+        "name": "Paladin Subclass",
+        "url": "/api/2024/features/paladin-subclass"
+      }
+    ],
+    "level": 20,
+    "name": "Paladin 20",
+    "prof_bonus": 6,
+    "spellcasting": {
+      "cantrips_known": 0,
+      "prepared_spells": 15,
+      "spell_slots_level_1": 4,
+      "spell_slots_level_2": 3,
+      "spell_slots_level_3": 3,
+      "spell_slots_level_4": 3,
+      "spell_slots_level_5": 2,
+      "spell_slots_level_6": 0,
+      "spell_slots_level_7": 0,
+      "spell_slots_level_8": 0,
+      "spell_slots_level_9": 0
+    },
+    "updated_at": "2026-07-05T20:53:29.627Z",
+    "url": "/api/2024/classes/paladin/levels/20"
+  }
+]

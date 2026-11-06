@@ -1,0 +1,96 @@
+{
+  "index": "blink-dog",
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d4+3"
+        }
+      ],
+      "attack_bonus": 5,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "lawful good",
+  "armor_class": [
+    {
+      "value": 13,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Teleport",
+      "desc": "The dog teleports up to 40 feet to an unoccupied space it can see.",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 4,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 12,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 17,
+  "hit_dice": "4d8",
+  "hit_points": 22,
+  "hit_points_roll": "4d8 + 4",
+  "image": "/api/images/monsters/blink-dog.png",
+  "intelligence": 10,
+  "languages": "Blink Dog; understands Elvish and Sylvan but can\u2019t speak them",
+  "legendary_actions": [],
+  "name": "Blink Dog",
+  "proficiencies": [
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 15
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "40 ft."
+  },
+  "strength": 12,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/blink-dog",
+  "wisdom": 13,
+  "xp": 50,
+  "reactions": [],
+  "forms": []
+}

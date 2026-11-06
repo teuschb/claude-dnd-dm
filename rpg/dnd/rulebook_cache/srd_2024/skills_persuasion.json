@@ -1,0 +1,12 @@
+{
+  "index": "persuasion",
+  "name": "Persuasion",
+  "description": "Honestly and graciously convince someone of something.",
+  "ability_score": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  },
+  "url": "/api/2024/skills/persuasion",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

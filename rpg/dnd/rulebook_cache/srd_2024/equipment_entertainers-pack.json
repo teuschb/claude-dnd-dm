@@ -1,0 +1,80 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "entertainers-pack",
+  "name": "Entertainer's Pack",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 40,
+    "unit": "gp"
+  },
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "url": "/api/2024/equipment/bedroll"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "costume",
+        "name": "Costume",
+        "url": "/api/2024/equipment/costume"
+      },
+      "quantity": 2
+    },
+    {
+      "item": {
+        "index": "candle",
+        "name": "Candle",
+        "url": "/api/2024/equipment/candle"
+      },
+      "quantity": 5
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 5
+    },
+    {
+      "item": {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "url": "/api/2024/equipment/waterskin"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "disguise-kit",
+        "name": "Disguise Kit",
+        "url": "/api/2024/equipment/disguise-kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/entertainers-pack",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

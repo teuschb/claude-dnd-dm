@@ -1,0 +1,38 @@
+{
+  "index": "gnome",
+  "url": "/api/2024/species/gnome",
+  "name": "Gnome",
+  "type": "Humanoid",
+  "size": "Small",
+  "speed": 30,
+  "traits": [
+    {
+      "index": "darkvision-60",
+      "url": "/api/2024/traits/darkvision-60",
+      "name": "Darkvision (60 ft.)"
+    },
+    {
+      "index": "gnomish-cunning",
+      "url": "/api/2024/traits/gnomish-cunning",
+      "name": "Gnomish Cunning"
+    },
+    {
+      "index": "gnomish-lineage",
+      "url": "/api/2024/traits/gnomish-lineage",
+      "name": "Gnomish Lineage"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "gnomish-lineage-forest-gnome",
+      "url": "/api/2024/subspecies/gnomish-lineage-forest-gnome",
+      "name": "Gnomish Lineage: Forest Gnome"
+    },
+    {
+      "index": "gnomish-lineage-rock-gnome",
+      "url": "/api/2024/subspecies/gnomish-lineage-rock-gnome",
+      "name": "Gnomish Lineage: Rock Gnome"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.509Z"
+}

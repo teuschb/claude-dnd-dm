@@ -1,0 +1,20 @@
+{
+  "index": "tool-thieves-tools",
+  "type": "Tools",
+  "name": "Tool: Thieves' Tools",
+  "backgrounds": [
+    {
+      "index": "criminal",
+      "name": "Criminal",
+      "url": "/api/2024/backgrounds/criminal"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "thieves-tools",
+    "name": "Thieves' Tools",
+    "url": "/api/2024/equipment/thieves-tools"
+  },
+  "url": "/api/2024/proficiencies/tool-thieves-tools",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

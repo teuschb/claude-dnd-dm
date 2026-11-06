@@ -1,0 +1,42 @@
+{
+  "index": "raise-dead",
+  "casting_time": "1 hour",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "description": "With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.\n  The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.\n  This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survivalits head, for instance-the spell automatically fails.\n  Coming back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.",
+  "duration": "Instantaneous",
+  "level": 5,
+  "material": "a diamond worth 500+ GP, which, the spell consumes",
+  "name": "Raise Dead",
+  "range": "Touch",
+  "ritual": false,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/raise-dead",
+  "subclasses": []
+}

@@ -1,0 +1,168 @@
+{
+  "index": "will-o-wisp",
+  "actions": [
+    {
+      "name": "Shock",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Lightning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "lightning",
+            "name": "Lightning",
+            "url": "/api/2024/damage-types/lightning"
+          },
+          "damage_dice": "2d8+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 19,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Consume Life",
+      "desc": "Constitution Saving Throw: DC 10, one living creature the wisp can see within 5 feet that has 0 Hit Points. Failure: The target dies, and the wisp regains 10 (3d6) Hit Points.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Vanish",
+      "desc": "The wisp and its light have the Invisible condition until the wisp\u2019s Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses Consume Life.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 2,
+  "charisma": 11,
+  "condition_immunities": [
+    {
+      "index": "exhaustion",
+      "name": "Exhaustion",
+      "url": "/api/2024/conditions/exhaustion"
+    },
+    {
+      "index": "grappled",
+      "name": "Grappled",
+      "url": "/api/2024/conditions/grappled"
+    },
+    {
+      "index": "paralyzed",
+      "name": "Paralyzed",
+      "url": "/api/2024/conditions/paralyzed"
+    },
+    {
+      "index": "petrified",
+      "name": "Petrified",
+      "url": "/api/2024/conditions/petrified"
+    },
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    },
+    {
+      "index": "prone",
+      "name": "Prone",
+      "url": "/api/2024/conditions/prone"
+    },
+    {
+      "index": "restrained",
+      "name": "Restrained",
+      "url": "/api/2024/conditions/restrained"
+    },
+    {
+      "index": "unconscious",
+      "name": "Unconscious",
+      "url": "/api/2024/conditions/unconscious"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [
+    "lightning",
+    "poison"
+  ],
+  "damage_resistances": [
+    "acid",
+    "bludgeoning",
+    "cold",
+    "fire",
+    "necrotic",
+    "piercing",
+    "slashing"
+  ],
+  "damage_vulnerabilities": [],
+  "dexterity": 28,
+  "hit_dice": "11d4",
+  "hit_points": 27,
+  "hit_points_roll": "11d4",
+  "image": "/api/images/monsters/will-o-wisp.png",
+  "intelligence": 13,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Will-o\u2019-Wisp",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "120 ft.",
+    "passive_perception": 12
+  },
+  "size": "Tiny",
+  "special_abilities": [
+    {
+      "name": "Ephemeral",
+      "desc": "The wisp can\u2019t wear or carry anything.",
+      "damage": []
+    },
+    {
+      "name": "Illumination",
+      "desc": "The wisp sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.",
+      "damage": []
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The wisp can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "1d10"
+        }
+      ]
+    }
+  ],
+  "speed": {
+    "walk": "5 ft.",
+    "fly": "50 ft.",
+    "hover": true
+  },
+  "strength": 1,
+  "type": "undead",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/will-o-wisp",
+  "wisdom": 14,
+  "xp": 450,
+  "reactions": [],
+  "forms": []
+}

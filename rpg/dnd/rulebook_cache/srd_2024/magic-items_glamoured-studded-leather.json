@@ -1,0 +1,19 @@
+{
+  "index": "glamoured-studded-leather",
+  "url": "/api/2024/magic-items/glamoured-studded-leather",
+  "image": "/api/images/magic-items/glamoured-studded-leather.png",
+  "name": "Glamoured Studded Leather",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Armor (Studded Leather Armor)  \n While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action tocause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like-including color, style, and accessories-but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

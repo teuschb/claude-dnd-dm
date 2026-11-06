@@ -1,0 +1,48 @@
+{
+  "index": "confusion",
+  "casting_time": "Action",
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": true,
+  "description": "Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below. 1d10 Behavior for the Turn 2-6    The target doesn't move or take actions. 9-10  The target chooses its behavior.\n  At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.",
+  "duration": "up to 1 minute",
+  "higher_level": "The Sphere's radius increases by 5 feet for each spell slot level above 4.",
+  "level": 4,
+  "material": "three nut shells",
+  "name": "Confusion",
+  "range": "90 feet",
+  "ritual": false,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "updated_at": "2026-09-12T22:42:40.696Z",
+  "url": "/api/2024/spells/confusion",
+  "subclasses": []
+}

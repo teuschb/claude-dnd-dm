@@ -1,0 +1,11 @@
+# .gitignore for a separate campaign-data repo (see "Saving Campaigns" in
+# rpg/dnd/CLAUDE.md). The repo holds campaigns/ and events/, symlinked into
+# the framework's rpg/dnd/.
+
+# party/ holds the secret player-link tokens, QR codes and live feed
+# (committing them would publish working join credentials); voice_registry.yaml
+# is regenerated per session; the per-campaign rulebook cache is regenerable.
+campaigns/*/party/
+campaigns/*/voice_registry.yaml
+campaigns/*/rulebooks/cache/
+.DS_Store

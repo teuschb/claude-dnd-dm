@@ -1,0 +1,165 @@
+{
+  "index": "roc",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The roc makes two Beak attacks. It can replace one attack with a Talons attack.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Beak",
+          "count": "1",
+          "type": "melee"
+        }
+      ],
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Beak",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Talons",
+              "count": 1,
+              "type": "melee"
+            }
+          ]
+        }
+      },
+      "attacks": []
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "3d12+9"
+        }
+      ],
+      "attack_bonus": 13,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Talons",
+      "desc": "Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "4d6+9"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 19,
+        "success_type": "none"
+      },
+      "attack_bonus": 13,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Swoop",
+      "desc": "If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature.",
+      "usage": {
+        "type": "recharge on roll",
+        "dice": "1d6",
+        "min_value": 5,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 11,
+  "charisma": 9,
+  "condition_immunities": [],
+  "constitution": 20,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "16d20",
+  "hit_points": 248,
+  "hit_points_roll": "16d20 + 80",
+  "image": "/api/images/monsters/roc.png",
+  "intelligence": 3,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Roc",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-dex",
+        "name": "Saving Throw: DEX",
+        "url": "/api/2024/proficiencies/saving-throw-dex"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 8,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 4,
+  "senses": {
+    "passive_perception": 18
+  },
+  "size": "Gargantuan",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft.",
+    "fly": "120 ft."
+  },
+  "strength": 28,
+  "type": "monstrosity",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/roc",
+  "wisdom": 10,
+  "xp": 7200,
+  "reactions": [],
+  "forms": []
+}

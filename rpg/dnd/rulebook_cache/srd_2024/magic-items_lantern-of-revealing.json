@@ -1,0 +1,19 @@
+{
+  "index": "lantern-of-revealing",
+  "url": "/api/2024/magic-items/lantern-of-revealing",
+  "image": "/api/images/magic-items/lantern-of-revealing.png",
+  "name": "Lantern of Revealing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": false,
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "desc": "Wondrous Item  \n While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's Bright Light. You can take a Utilize action to lower the hood, reducing the lantern's light to Dim Light in a 5-foot radius.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

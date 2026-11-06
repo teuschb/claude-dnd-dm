@@ -1,0 +1,14 @@
+{
+  "index": "skill-nature",
+  "type": "Skills",
+  "name": "Skill: Nature",
+  "backgrounds": [],
+  "classes": [],
+  "reference": {
+    "index": "nature",
+    "name": "Nature",
+    "url": "/api/2024/skills/nature"
+  },
+  "url": "/api/2024/proficiencies/skill-nature",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

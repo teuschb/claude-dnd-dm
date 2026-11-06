@@ -1,0 +1,17 @@
+{
+  "index": "warlock-eldritch-invocations",
+  "class": {
+    "index": "warlock",
+    "url": "/api/2024/classes/warlock",
+    "name": "Warlock"
+  },
+  "description": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\nPrerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\nReplacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\nYou can't pick the same invocation more than once unless its description says otherwise.",
+  "level": {
+    "index": "warlock-1",
+    "url": "/api/2024/classes/warlock/levels/1",
+    "name": "Warlock 1"
+  },
+  "name": "Eldritch Invocations",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/warlock-eldritch-invocations"
+}

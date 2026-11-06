@@ -1,0 +1,71 @@
+{
+  "index": "commoner",
+  "actions": [
+    {
+      "name": "Club",
+      "desc": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d4"
+        }
+      ],
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 10,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 10,
+  "condition_immunities": [],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "gear": "Club",
+  "hit_dice": "1d8",
+  "hit_points": 4,
+  "hit_points_roll": "1d8",
+  "image": "/api/images/monsters/commoner.png",
+  "intelligence": 10,
+  "languages": "Common",
+  "legendary_actions": [],
+  "name": "Commoner",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Training",
+      "desc": "The commoner has proficiency in one skill of the GM\u2019s choice and has Advantage whenever it makes an ability check using that skill.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 10,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/commoner",
+  "wisdom": 10,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

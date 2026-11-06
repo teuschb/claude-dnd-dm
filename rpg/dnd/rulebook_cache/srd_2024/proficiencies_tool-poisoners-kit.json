@@ -1,0 +1,14 @@
+{
+  "index": "tool-poisoners-kit",
+  "type": "Tools",
+  "name": "Tool: Poisoner's Kit",
+  "classes": [],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/tool-poisoners-kit",
+  "reference": {
+    "index": "poisoners-kit",
+    "name": "Poisoner's Kit",
+    "url": "/api/2024/equipment/poisoners-kit"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

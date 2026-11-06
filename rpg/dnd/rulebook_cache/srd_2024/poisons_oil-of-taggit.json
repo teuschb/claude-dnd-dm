@@ -1,0 +1,9 @@
+{
+  "index": "oil-of-taggit",
+  "cost": 400,
+  "description": "A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 24 hours. The creature also has the Unconscious condition while Poisoned in this way. It wakes up if it takes damage.",
+  "name": "Oil of Taggit",
+  "type": "contact",
+  "updated_at": "2026-06-03T21:13:53.683Z",
+  "url": "/api/2024/poisons/oil-of-taggit"
+}

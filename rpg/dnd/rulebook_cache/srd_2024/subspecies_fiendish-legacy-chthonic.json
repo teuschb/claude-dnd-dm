@@ -1,0 +1,37 @@
+{
+  "index": "fiendish-legacy-chthonic",
+  "url": "/api/2024/subspecies/fiendish-legacy-chthonic",
+  "name": "Fiendish Legacy: Chthonic",
+  "traits": [
+    {
+      "index": "lineage-resistance-necrotic",
+      "url": "/api/2024/traits/lineage-resistance-necrotic",
+      "name": "Damage Resistance: Necrotic",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-chill-touch",
+      "url": "/api/2024/traits/lineage-spell-chill-touch",
+      "name": "Chill Touch",
+      "level": 1
+    },
+    {
+      "index": "lineage-spell-false-life",
+      "url": "/api/2024/traits/lineage-spell-false-life",
+      "name": "False Life",
+      "level": 3
+    },
+    {
+      "index": "lineage-spell-ray-of-enfeeblement",
+      "url": "/api/2024/traits/lineage-spell-ray-of-enfeeblement",
+      "name": "Ray of Enfeeblement",
+      "level": 5
+    }
+  ],
+  "species": {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/2024/species/tiefling"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

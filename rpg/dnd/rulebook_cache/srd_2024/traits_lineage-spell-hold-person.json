@@ -1,0 +1,30 @@
+{
+  "index": "lineage-spell-hold-person",
+  "url": "/api/2024/traits/lineage-spell-hold-person",
+  "name": "Hold Person",
+  "description": "You know the spell Hold Person.",
+  "spells": [
+    {
+      "spell": {
+        "index": "hold-person",
+        "name": "Hold Person",
+        "url": "/api/2024/spells/hold-person"
+      }
+    }
+  ],
+  "species": [
+    {
+      "index": "tiefling",
+      "url": "/api/2024/species/tiefling",
+      "name": "Tiefling"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "fiendish-legacy-abyssal",
+      "url": "/api/2024/subspecies/fiendish-legacy-abyssal",
+      "name": "Fiendish Legacy: Abyssal"
+    }
+  ],
+  "updated_at": "2026-09-12T22:42:42.796Z"
+}

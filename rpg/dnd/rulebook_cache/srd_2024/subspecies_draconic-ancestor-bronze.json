@@ -1,0 +1,30 @@
+{
+  "index": "draconic-ancestor-bronze",
+  "url": "/api/2024/subspecies/draconic-ancestor-bronze",
+  "name": "Draconic Ancestor: Bronze",
+  "damage_type": {
+    "index": "lightning",
+    "name": "Lightning",
+    "url": "/api/2024/damage-types/lightning"
+  },
+  "species": {
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "url": "/api/2024/species/dragonborn"
+  },
+  "traits": [
+    {
+      "index": "draconic-breath-weapon-lightning",
+      "url": "/api/2024/traits/draconic-breath-weapon-lightning",
+      "name": "Breath Weapon: Lightning",
+      "level": 1
+    },
+    {
+      "index": "draconic-damage-resistance-lightning",
+      "url": "/api/2024/traits/draconic-damage-resistance-lightning",
+      "name": "Damage Resistance: Lightning",
+      "level": 1
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "flask",
+  "name": "Flask",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "cp"
+  },
+  "description": [
+    "A Flask holds up to 1 pint."
+  ],
+  "weight": 1,
+  "url": "/api/2024/equipment/flask",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

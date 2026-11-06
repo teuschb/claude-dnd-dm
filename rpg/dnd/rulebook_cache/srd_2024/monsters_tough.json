@@ -1,0 +1,94 @@
+{
+  "index": "tough",
+  "actions": [
+    {
+      "name": "Mace",
+      "desc": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d6+2"
+        }
+      ],
+      "attack_bonus": 4,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Heavy Crossbow",
+      "desc": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d10+1"
+        }
+      ],
+      "attack_bonus": 3,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 12,
+      "armor": [
+        {
+          "index": "leather-armor",
+          "name": "Leather Armor",
+          "url": "/api/2024/equipment/leather-armor"
+        }
+      ]
+    }
+  ],
+  "challenge_rating": 0.5,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 14,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "gear": "Heavy Crossbow, Leather Armor, Mace",
+  "hit_dice": "5d8",
+  "hit_points": 32,
+  "hit_points_roll": "5d8 + 10",
+  "image": "/api/images/monsters/tough-NYI.png",
+  "intelligence": 10,
+  "languages": "Common",
+  "legendary_actions": [],
+  "name": "Tough",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Medium or small",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The tough has Advantage on an attack roll against a creature if at least one of the tough\u2019s allies is within 5 feet of the creature and the ally doesn\u2019t have the Incapacitated condition.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 15,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/tough",
+  "wisdom": 10,
+  "xp": 100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

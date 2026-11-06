@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "string",
+  "name": "String",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 1,
+    "unit": "sp"
+  },
+  "description": [
+    "String is 10 feet long. You can tie a knot in it as a Utilize action."
+  ],
+  "weight": 0,
+  "url": "/api/2024/equipment/string",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

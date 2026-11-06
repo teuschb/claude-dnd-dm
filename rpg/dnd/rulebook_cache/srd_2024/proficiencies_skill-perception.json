@@ -1,0 +1,14 @@
+{
+  "index": "skill-perception",
+  "type": "Skills",
+  "name": "Skill: Perception",
+  "backgrounds": [],
+  "classes": [],
+  "reference": {
+    "index": "perception",
+    "name": "Perception",
+    "url": "/api/2024/skills/perception"
+  },
+  "url": "/api/2024/proficiencies/skill-perception",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

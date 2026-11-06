@@ -1,0 +1,17 @@
+{
+  "index": "wizard-ritual-adept",
+  "class": {
+    "index": "wizard",
+    "url": "/api/2024/classes/wizard",
+    "name": "Wizard"
+  },
+  "description": "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn\u2019t have the spell prepared, but you must read from the book to cast a spell in this way.",
+  "level": {
+    "index": "wizard-1",
+    "url": "/api/2024/classes/wizard/levels/1",
+    "name": "Wizard 1"
+  },
+  "name": "Ritual Adept",
+  "updated_at": "2026-07-05T20:53:29.090Z",
+  "url": "/api/2024/features/wizard-ritual-adept"
+}

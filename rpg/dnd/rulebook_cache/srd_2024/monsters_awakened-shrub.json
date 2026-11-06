@@ -1,0 +1,59 @@
+{
+  "index": "awakened-shrub",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Rake",
+      "desc": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage.",
+      "attack_bonus": 1,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 9,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0,
+  "charisma": 6,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "piercing"
+  ],
+  "damage_vulnerabilities": [
+    "fire"
+  ],
+  "dexterity": 8,
+  "hit_dice": "3d6",
+  "hit_points": 10,
+  "hit_points_roll": "3d6",
+  "image": "/api/images/monsters/awakened-shrub.png",
+  "intelligence": 10,
+  "languages": "Common plus one other language",
+  "legendary_actions": [],
+  "name": "Awakened Shrub",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "passive_perception": 10
+  },
+  "size": "Small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "20 ft."
+  },
+  "strength": 3,
+  "type": "plant",
+  "updated_at": "2026-09-22T23:01:02.695Z",
+  "url": "/api/2024/monsters/awakened-shrub",
+  "wisdom": 10,
+  "xp": 10,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

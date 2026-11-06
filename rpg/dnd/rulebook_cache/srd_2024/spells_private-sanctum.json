@@ -1,0 +1,33 @@
+{
+  "index": "private-sanctum",
+  "casting_time": "10 minutes",
+  "classes": [
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "concentration": false,
+  "description": "You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration.\n  When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties: \u2022 Sound can't pass through the barrier at the edge of the warded area. \u2022 The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it. \u2022 Sensors created by Divination spells can't appear inside the protected area or pass through the barrier at its perimeter. \u2022 Creatures in the area can't be targeted by Divination spells. \u2022 Nothing can teleport into or out of the warded area. \u2022 Planar travel is blocked within the warded area.\n  Casting this spell on the same spot every day for 365 days makes the spell last until dispelled.",
+  "duration": "24 hours",
+  "higher_level": "You can increase the size of the Cube by 100 feet for each spell slot level above 4.",
+  "level": 4,
+  "material": "a thin sheet of lead",
+  "name": "Private Sanctum",
+  "range": "120 feet",
+  "ritual": false,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "updated_at": "2026-09-12T22:42:40.697Z",
+  "url": "/api/2024/spells/private-sanctum",
+  "subclasses": []
+}

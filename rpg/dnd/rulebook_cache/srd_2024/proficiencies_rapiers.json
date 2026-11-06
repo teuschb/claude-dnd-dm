@@ -1,0 +1,20 @@
+{
+  "index": "rapiers",
+  "type": "Weapons",
+  "name": "Rapiers",
+  "classes": [
+    {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    }
+  ],
+  "backgrounds": [],
+  "url": "/api/2024/proficiencies/rapiers",
+  "reference": {
+    "index": "rapier",
+    "name": "Rapier",
+    "url": "/api/2024/equipment/rapier"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

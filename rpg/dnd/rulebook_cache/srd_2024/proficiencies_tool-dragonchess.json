@@ -1,0 +1,20 @@
+{
+  "index": "tool-dragonchess",
+  "type": "Tools",
+  "name": "Tool: Dragonchess",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "dragonchess",
+    "name": "Dragonchess",
+    "url": "/api/2024/equipment/dragonchess"
+  },
+  "url": "/api/2024/proficiencies/tool-dragonchess",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

@@ -1,0 +1,26 @@
+{
+  "notes": [],
+  "index": "ink-pen",
+  "name": "Ink Pen",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": {
+    "quantity": 2,
+    "unit": "cp"
+  },
+  "description": [
+    "Using Ink, an Ink Pen is used to write or draw."
+  ],
+  "weight": 0,
+  "url": "/api/2024/equipment/ink-pen",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

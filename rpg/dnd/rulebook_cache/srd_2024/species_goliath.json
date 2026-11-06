@@ -1,0 +1,58 @@
+{
+  "index": "goliath",
+  "url": "/api/2024/species/goliath",
+  "name": "Goliath",
+  "type": "Humanoid",
+  "size": "Medium",
+  "speed": 35,
+  "traits": [
+    {
+      "index": "giant-ancestry",
+      "url": "/api/2024/traits/giant-ancestry",
+      "name": "Giant Ancestry"
+    },
+    {
+      "index": "large-form",
+      "url": "/api/2024/traits/large-form",
+      "name": "Large Form"
+    },
+    {
+      "index": "powerful-build",
+      "url": "/api/2024/traits/powerful-build",
+      "name": "Powerful Build"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "giant-ancestry-clouds-jaunt",
+      "url": "/api/2024/subspecies/giant-ancestry-clouds-jaunt",
+      "name": "Giant Ancestry: Cloud's Jaunt"
+    },
+    {
+      "index": "giant-ancestry-fires-burn",
+      "url": "/api/2024/subspecies/giant-ancestry-fires-burn",
+      "name": "Giant Ancestry: Fire's Burn"
+    },
+    {
+      "index": "giant-ancestry-frosts-chill",
+      "url": "/api/2024/subspecies/giant-ancestry-frosts-chill",
+      "name": "Giant Ancestry: Frost's Chill"
+    },
+    {
+      "index": "giant-ancestry-hills-tumble",
+      "url": "/api/2024/subspecies/giant-ancestry-hills-tumble",
+      "name": "Giant Ancestry: Hill's Tumble"
+    },
+    {
+      "index": "giant-ancestry-stones-endurance",
+      "url": "/api/2024/subspecies/giant-ancestry-stones-endurance",
+      "name": "Giant Ancestry: Stone's Endurance"
+    },
+    {
+      "index": "giant-ancestry-storms-thunder",
+      "url": "/api/2024/subspecies/giant-ancestry-storms-thunder",
+      "name": "Giant Ancestry: Storm's Thunder"
+    }
+  ],
+  "updated_at": "2026-04-23T07:06:28.509Z"
+}

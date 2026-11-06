@@ -1,0 +1,113 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "tinkers-tools",
+  "name": "Tinker's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "cost": {
+    "quantity": 50,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "musket",
+      "name": "Musket",
+      "url": "/api/2024/equipment/musket"
+    },
+    {
+      "index": "pistol",
+      "name": "Pistol",
+      "url": "/api/2024/equipment/pistol"
+    },
+    {
+      "index": "bell",
+      "name": "Bell",
+      "url": "/api/2024/equipment/bell"
+    },
+    {
+      "index": "lantern-bullseye",
+      "name": "Lantern, Bullseye",
+      "url": "/api/2024/equipment/lantern-bullseye"
+    },
+    {
+      "index": "flask",
+      "name": "Flask",
+      "url": "/api/2024/equipment/flask"
+    },
+    {
+      "index": "lantern-hooded",
+      "name": "Lantern, Hooded",
+      "url": "/api/2024/equipment/lantern-hooded"
+    },
+    {
+      "index": "hunting-trap",
+      "name": "Hunting Trap",
+      "url": "/api/2024/equipment/hunting-trap"
+    },
+    {
+      "index": "lock",
+      "name": "Lock",
+      "url": "/api/2024/equipment/lock"
+    },
+    {
+      "index": "manacles",
+      "name": "Manacles",
+      "url": "/api/2024/equipment/manacles"
+    },
+    {
+      "index": "mirror",
+      "name": "Mirror",
+      "url": "/api/2024/equipment/mirror"
+    },
+    {
+      "index": "shovel",
+      "name": "Shovel",
+      "url": "/api/2024/equipment/shovel"
+    },
+    {
+      "index": "signal-whistle",
+      "name": "Signal Whistle",
+      "url": "/api/2024/equipment/signal-whistle"
+    },
+    {
+      "index": "tinderbox",
+      "name": "Tinderbox",
+      "url": "/api/2024/equipment/tinderbox"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Assemble a Tiny item composed of scrap, which falls apart in 1 minute",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 10,
+  "url": "/api/2024/equipment/tinkers-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

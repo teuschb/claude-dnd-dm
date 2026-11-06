@@ -1,0 +1,14 @@
+{
+  "index": "bagpipes",
+  "type": "Musical Instruments",
+  "name": "Bagpipes",
+  "backgrounds": [],
+  "classes": [],
+  "url": "/api/2024/proficiencies/bagpipes",
+  "reference": {
+    "index": "bagpipes",
+    "name": "Bagpipes",
+    "url": "/api/2024/equipment/bagpipes"
+  },
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

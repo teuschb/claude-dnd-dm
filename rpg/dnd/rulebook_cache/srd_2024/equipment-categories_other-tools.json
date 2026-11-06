@@ -1,0 +1,38 @@
+{
+  "index": "other-tools",
+  "name": "Other Tools",
+  "equipment": [
+    {
+      "index": "disguise-kit",
+      "name": "Disguise Kit",
+      "url": "/api/2024/equipment/disguise-kit"
+    },
+    {
+      "index": "forgery-kit",
+      "name": "Forgery Kit",
+      "url": "/api/2024/equipment/forgery-kit"
+    },
+    {
+      "index": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "url": "/api/2024/equipment/herbalism-kit"
+    },
+    {
+      "index": "navigators-tools",
+      "name": "Navigator's Tools",
+      "url": "/api/2024/equipment/navigators-tools"
+    },
+    {
+      "index": "poisoners-kit",
+      "name": "Poisoner's Kit",
+      "url": "/api/2024/equipment/poisoners-kit"
+    },
+    {
+      "index": "thieves-tools",
+      "name": "Thieves' Tools",
+      "url": "/api/2024/equipment/thieves-tools"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/other-tools",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

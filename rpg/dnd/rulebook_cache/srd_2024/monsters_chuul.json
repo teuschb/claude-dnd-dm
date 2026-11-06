@@ -1,0 +1,138 @@
+{
+  "index": "chuul",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The chuul makes two Pincer attacks and uses Paralyzing Tentacles.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Pincer",
+          "count": "2",
+          "type": "melee"
+        },
+        {
+          "action_name": "Paralyzing Tentacles",
+          "count": "1",
+          "type": "special"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Pincer",
+      "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two pincers.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "1d10+4"
+        }
+      ],
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 14,
+        "success_type": "none"
+      },
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Paralyzing Tentacles",
+      "desc": "Constitution Saving Throw: DC 13, one creature Grappled by the chuul. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While Poisoned, the target has the Paralyzed condition.",
+      "dc": {
+        "dc_type": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        },
+        "dc_value": 13,
+        "success_type": "none"
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic evil",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 4,
+  "charisma": 5,
+  "condition_immunities": [
+    {
+      "index": "poisoned",
+      "name": "Poisoned",
+      "url": "/api/2024/conditions/poisoned"
+    }
+  ],
+  "constitution": 16,
+  "damage_immunities": [
+    "poison"
+  ],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 10,
+  "hit_dice": "9d10",
+  "hit_points": 76,
+  "hit_points_roll": "9d10 + 27",
+  "image": "/api/images/monsters/chuul.png",
+  "intelligence": 5,
+  "languages": "Understands Deep Speech but can\u2019t speak",
+  "legendary_actions": [],
+  "name": "Chuul",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Large",
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The chuul can breathe air and water.",
+      "damage": []
+    },
+    {
+      "name": "Sense Magic",
+      "desc": "The chuul senses magic within 120 feet of itself. This trait otherwise works like the Detect Magic spell but isn\u2019t itself magical.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft.",
+    "swim": "30 ft."
+  },
+  "strength": 19,
+  "type": "aberration",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/chuul",
+  "wisdom": 11,
+  "xp": 1100,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "spellguard-shield",
+  "url": "/api/2024/magic-items/spellguard-shield",
+  "image": "/api/images/magic-items/spellguard-shield.png",
+  "name": "Spellguard Shield",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Very Rare"
+  },
+  "desc": "Armor (Shield)  \n While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

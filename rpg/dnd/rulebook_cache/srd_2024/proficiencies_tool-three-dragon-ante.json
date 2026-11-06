@@ -1,0 +1,20 @@
+{
+  "index": "tool-three-dragon-ante",
+  "type": "Tools",
+  "name": "Tool: Three-Dragon Ante",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "three-dragon-ante",
+    "name": "Three-Dragon Ante",
+    "url": "/api/2024/equipment/three-dragon-ante"
+  },
+  "url": "/api/2024/proficiencies/tool-three-dragon-ante",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

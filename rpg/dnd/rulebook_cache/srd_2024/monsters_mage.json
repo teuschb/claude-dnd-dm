@@ -1,0 +1,300 @@
+{
+  "index": "mage",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The mage makes three Arcane Burst attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Arcane Burst",
+          "count": "3",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Arcane Burst",
+      "desc": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "force",
+            "name": "Force",
+            "url": "/api/2024/damage-types/force"
+          },
+          "damage_dice": "3d8+3"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):",
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "level": 1,
+            "url": "/api/2024/spells/detect-magic",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "light",
+            "name": "Light",
+            "level": 0,
+            "url": "/api/2024/spells/light",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "mage-armor",
+            "name": "Mage Armor",
+            "level": 1,
+            "url": "/api/2024/spells/mage-armor",
+            "notes": "Included in AC",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "mage-hand",
+            "name": "Mage Hand",
+            "level": 0,
+            "url": "/api/2024/spells/mage-hand",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "prestidigitation",
+            "name": "Prestidigitation",
+            "level": 0,
+            "url": "/api/2024/spells/prestidigitation",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "fireball",
+            "name": "Fireball",
+            "level": 4,
+            "url": "/api/2024/spells/fireball",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "invisibility",
+            "name": "Invisibility",
+            "level": 2,
+            "url": "/api/2024/spells/invisibility",
+            "usage": {
+              "type": "per day",
+              "times": 2
+            }
+          },
+          {
+            "index": "cone-of-cold",
+            "name": "Cone of Cold",
+            "level": 5,
+            "url": "/api/2024/spells/cone-of-cold",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "fly",
+            "name": "Fly",
+            "level": 3,
+            "url": "/api/2024/spells/fly",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 15,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Misty Step",
+      "desc": "The mage casts Misty Step, using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "misty-step",
+            "name": "Misty Step",
+            "level": 2,
+            "url": "/api/2024/spells/misty-step"
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 6,
+  "charisma": 11,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 14,
+  "gear": "Wand",
+  "hit_dice": "18d8",
+  "hit_points": 81,
+  "hit_points_roll": "18d8",
+  "image": "/api/images/monsters/mage.png",
+  "intelligence": 17,
+  "languages": "Common plus three other languages",
+  "legendary_actions": [],
+  "name": "Mage",
+  "proficiencies": [
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "saving-throw-int",
+        "name": "Saving Throw: INT",
+        "url": "/api/2024/proficiencies/saving-throw-int"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "saving-throw-wis",
+        "name": "Saving Throw: WIS",
+        "url": "/api/2024/proficiencies/saving-throw-wis"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-arcana",
+        "name": "Skill: Arcana",
+        "url": "/api/2024/proficiencies/skill-arcana"
+      }
+    },
+    {
+      "value": 6,
+      "proficiency": {
+        "index": "skill-history",
+        "name": "Skill: History",
+        "url": "/api/2024/proficiencies/skill-history"
+      }
+    },
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    }
+  ],
+  "proficiency_bonus": 3,
+  "reactions": [
+    {
+      "name": "Protective Magic",
+      "desc": "The mage casts Counterspell or Shield in response to the spell\u2019s trigger, using the same spellcasting ability as Spellcasting.",
+      "usage": {
+        "type": "per day",
+        "times": 3,
+        "rest_types": []
+      },
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S",
+          "M"
+        ],
+        "spells": [
+          {
+            "index": "counterspell",
+            "name": "Counterspell",
+            "level": 3,
+            "url": "/api/2024/spells/counterspell"
+          },
+          {
+            "index": "shield",
+            "name": "Shield",
+            "level": 1,
+            "url": "/api/2024/spells/shield"
+          }
+        ]
+      },
+      "damage": []
+    }
+  ],
+  "senses": {
+    "passive_perception": 14
+  },
+  "size": "Medium or small",
+  "special_abilities": [],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 9,
+  "type": "humanoid",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/mage",
+  "wisdom": 12,
+  "xp": 2300,
+  "forms": []
+}

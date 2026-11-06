@@ -1,0 +1,118 @@
+{
+  "index": "treant",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The treant makes two Slam attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Slam",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "bludgeoning",
+            "name": "Bludgeoning",
+            "url": "/api/2024/damage-types/bludgeoning"
+          },
+          "damage_dice": "3d6+6"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Hail of Bark",
+      "desc": "Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "4d10+6"
+        }
+      ],
+      "attack_bonus": 10,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Animate Trees",
+      "desc": "The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can\u2019t speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.",
+      "usage": {
+        "type": "per day",
+        "times": 1,
+        "rest_types": []
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "chaotic good",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 9,
+  "charisma": 12,
+  "condition_immunities": [],
+  "constitution": 21,
+  "damage_immunities": [],
+  "damage_resistances": [
+    "bludgeoning",
+    "piercing"
+  ],
+  "damage_vulnerabilities": [
+    "fire"
+  ],
+  "dexterity": 8,
+  "hit_dice": "12d12",
+  "hit_points": 138,
+  "hit_points_roll": "12d12 + 60",
+  "image": "/api/images/monsters/treant.png",
+  "intelligence": 12,
+  "languages": "Common, Druidic, Elvish, Sylvan",
+  "legendary_actions": [],
+  "name": "Treant",
+  "proficiencies": [],
+  "proficiency_bonus": 4,
+  "senses": {
+    "passive_perception": 13
+  },
+  "size": "Huge",
+  "special_abilities": [
+    {
+      "name": "Siege Monster",
+      "desc": "The treant deals double damage to objects and structures.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 23,
+  "type": "plant",
+  "updated_at": "2026-09-22T23:01:02.697Z",
+  "url": "/api/2024/monsters/treant",
+  "wisdom": 16,
+  "xp": 5000,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

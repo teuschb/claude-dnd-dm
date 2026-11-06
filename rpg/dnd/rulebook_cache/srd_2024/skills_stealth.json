@@ -1,0 +1,12 @@
+{
+  "index": "stealth",
+  "name": "Stealth",
+  "description": "Escape notice by moving quietly and hiding behind things.",
+  "ability_score": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "url": "/api/2024/skills/stealth",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

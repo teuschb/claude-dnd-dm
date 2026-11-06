@@ -1,0 +1,28 @@
+{
+  "index": "druidic-foci",
+  "name": "Druidic Foci",
+  "equipment": [
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "sprig-of-mistletoe",
+      "name": "Sprig of Mistletoe",
+      "url": "/api/2024/equipment/sprig-of-mistletoe"
+    },
+    {
+      "index": "staff",
+      "name": "Staff",
+      "url": "/api/2024/equipment/staff"
+    },
+    {
+      "index": "yew-wand",
+      "name": "Yew Wand",
+      "url": "/api/2024/equipment/yew-wand"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/druidic-foci",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

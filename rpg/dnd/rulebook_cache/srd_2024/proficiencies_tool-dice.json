@@ -1,0 +1,20 @@
+{
+  "index": "tool-dice",
+  "type": "Tools",
+  "name": "Tool: Dice",
+  "backgrounds": [
+    {
+      "index": "soldier",
+      "name": "Soldier",
+      "url": "/api/2024/backgrounds/soldier"
+    }
+  ],
+  "classes": [],
+  "reference": {
+    "index": "dice",
+    "name": "Dice",
+    "url": "/api/2024/equipment/dice"
+  },
+  "url": "/api/2024/proficiencies/tool-dice",
+  "updated_at": "2026-04-23T07:06:28.180Z"
+}

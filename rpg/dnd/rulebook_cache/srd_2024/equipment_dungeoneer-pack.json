@@ -1,0 +1,112 @@
+{
+  "notes": [],
+  "index": "dungeoneer-pack",
+  "name": "Dungeoneer's Pack",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    },
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    }
+  ],
+  "cost": {
+    "quantity": 12,
+    "unit": "gp"
+  },
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "caltrops",
+        "name": "Caltrops",
+        "url": "/api/2024/equipment/caltrops"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "crowbar",
+        "name": "Crowbar",
+        "url": "/api/2024/equipment/crowbar"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "flask",
+        "name": "Flask",
+        "url": "/api/2024/equipment/flask"
+      },
+      "quantity": 2
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 2
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "rope",
+        "name": "Rope",
+        "url": "/api/2024/equipment/rope"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "torch",
+        "name": "Torch",
+        "url": "/api/2024/equipment/torch"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "url": "/api/2024/equipment/waterskin"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": [
+    "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+  ],
+  "weight": 55,
+  "url": "/api/2024/equipment/dungeoneer-pack",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "craft": [],
+  "properties": [],
+  "utilize": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "shield-of-missile-attraction",
+  "url": "/api/2024/magic-items/shield-of-missile-attraction",
+  "image": "/api/images/magic-items/shield-of-missile-attraction.png",
+  "name": "Shield of Missile Attraction",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "variants": [],
+  "variant": false,
+  "attunement": true,
+  "rarity": {
+    "name": "Rare"
+  },
+  "desc": "Armor (Shield)  \n While holding this Shield, you have Resistance to damage from attacks made with Ranged weapons.  \n Curse. This Shield is cursed. Attuning to it curses you until you are targeted by a Remove Curse spell or similar magic. Removing the Shield fails toend the curse on you. Whenever an attack with a Ranged weapon targets a creature within 10 feet of you, the curse causes you to become the target instead.",
+  "updated_at": "2026-04-23T07:06:27.572Z"
+}

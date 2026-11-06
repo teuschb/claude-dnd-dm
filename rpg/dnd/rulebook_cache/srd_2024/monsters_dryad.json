@@ -1,0 +1,222 @@
+{
+  "index": "dryad",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast Charm Monster.",
+      "multiattack_type": "action_options",
+      "action_options": {
+        "choose": 1,
+        "type": "action",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "action",
+              "action_name": "Vine Lash",
+              "count": 1,
+              "type": "melee"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Thorn Burst",
+              "count": 1,
+              "type": "ranged"
+            },
+            {
+              "option_type": "action",
+              "action_name": "Charm Monster",
+              "count": 1,
+              "type": "special"
+            }
+          ]
+        }
+      },
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Vine Lash",
+      "desc": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "slashing",
+            "name": "Slashing",
+            "url": "/api/2024/damage-types/slashing"
+          },
+          "damage_dice": "1d8+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "name": "Thorn Burst",
+      "desc": "Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "piercing",
+            "name": "Piercing",
+            "url": "/api/2024/damage-types/piercing"
+          },
+          "damage_dice": "1d6+4"
+        }
+      ],
+      "attack_bonus": 6,
+      "actions": [],
+      "attacks": []
+    },
+    {
+      "damage": [],
+      "name": "Spellcasting",
+      "desc": "The dryad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14):",
+      "spellcasting": {
+        "ability": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "dc": 14,
+        "components_required": [
+          "V",
+          "S"
+        ],
+        "spells": [
+          {
+            "index": "animal-friendship",
+            "name": "Animal Friendship",
+            "level": 1,
+            "url": "/api/2024/spells/animal-friendship",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "charm-monster",
+            "name": "Charm Monster",
+            "level": 4,
+            "url": "/api/2024/spells/charm-monster",
+            "notes": "Lasts 24 hours; ends early if the dryad casts the spell again",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "druidcraft",
+            "name": "Druidcraft",
+            "level": 0,
+            "url": "/api/2024/spells/druidcraft",
+            "usage": {
+              "type": "at will"
+            }
+          },
+          {
+            "index": "entangle",
+            "name": "Entangle",
+            "level": 1,
+            "url": "/api/2024/spells/entangle",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          },
+          {
+            "index": "pass-without-trace",
+            "name": "Pass without Trace",
+            "level": 2,
+            "url": "/api/2024/spells/pass-without-trace",
+            "usage": {
+              "type": "per day",
+              "times": 1
+            }
+          }
+        ]
+      },
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "neutral",
+  "armor_class": [
+    {
+      "value": 16,
+      "armor": []
+    }
+  ],
+  "bonus_actions": [
+    {
+      "damage": [],
+      "name": "Tree Stride",
+      "desc": "If within 5 feet of a Large or bigger tree, the dryad teleports to an unoccupied space within 5 feet of a second Large or bigger tree that is within 60 feet of the previous tree.",
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "challenge_rating": 1,
+  "charisma": 18,
+  "condition_immunities": [],
+  "constitution": 11,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 12,
+  "hit_dice": "5d8",
+  "hit_points": 22,
+  "hit_points_roll": "5d8",
+  "image": "/api/images/monsters/dryad.png",
+  "intelligence": 14,
+  "languages": "Elvish, Sylvan",
+  "legendary_actions": [],
+  "name": "Dryad",
+  "proficiencies": [
+    {
+      "value": 4,
+      "proficiency": {
+        "index": "skill-perception",
+        "name": "Skill: Perception",
+        "url": "/api/2024/proficiencies/skill-perception"
+      }
+    },
+    {
+      "value": 5,
+      "proficiency": {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth",
+        "url": "/api/2024/proficiencies/skill-stealth"
+      }
+    }
+  ],
+  "proficiency_bonus": 2,
+  "senses": {
+    "darkvision": "60 ft.",
+    "passive_perception": 14
+  },
+  "size": "Medium",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The dryad has Advantage on saving throws against spells and other magical effects.",
+      "damage": []
+    },
+    {
+      "name": "Speak with Beasts and Plants",
+      "desc": "The dryad can communicate with Beasts and Plants as if they shared a language.",
+      "damage": []
+    }
+  ],
+  "speed": {
+    "walk": "30 ft."
+  },
+  "strength": 10,
+  "type": "fey",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/dryad",
+  "wisdom": 15,
+  "xp": 200,
+  "reactions": [],
+  "forms": []
+}

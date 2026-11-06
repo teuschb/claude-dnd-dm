@@ -1,0 +1,59 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "dice",
+  "name": "Dice",
+  "equipment_categories": [
+    {
+      "index": "gaming-sets",
+      "name": "Gaming Sets",
+      "url": "/api/2024/equipment-categories/gaming-sets"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "cost": {
+    "quantity": 1,
+    "unit": "sp"
+  },
+  "utilize": [
+    {
+      "name": "Discern whether someone is cheating",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Win the game",
+      "dc": {
+        "dc_type": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "dc_value": 20,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 0,
+  "url": "/api/2024/equipment/dice",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "craft": [],
+  "properties": []
+}

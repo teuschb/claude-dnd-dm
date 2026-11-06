@@ -1,0 +1,12 @@
+{
+  "index": "athletics",
+  "name": "Athletics",
+  "description": "Jump farther than normal, stay afloat in rough water, or break something.",
+  "ability_score": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  },
+  "url": "/api/2024/skills/athletics",
+  "updated_at": "2026-04-23T07:06:28.346Z"
+}

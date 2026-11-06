@@ -1,0 +1,53 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "masons-tools",
+  "name": "Mason's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  },
+  "cost": {
+    "quantity": 10,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "block-and-tackle",
+      "name": "Block and tackle",
+      "url": "/api/2024/equipment/block-and-tackle"
+    }
+  ],
+  "utilize": [
+    {
+      "name": ": Chisel a symbol or hole in stone",
+      "dc": {
+        "dc_type": {
+          "index": "str",
+          "name": "STR",
+          "url": "/api/2024/ability-scores/str"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 8,
+  "url": "/api/2024/equipment/masons-tools",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

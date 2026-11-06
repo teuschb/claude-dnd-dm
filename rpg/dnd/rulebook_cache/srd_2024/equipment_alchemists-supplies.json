@@ -1,0 +1,90 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "alchemists-supplies",
+  "name": "Alchemist's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "craft": [
+    {
+      "index": "acid",
+      "name": "Acid",
+      "url": "/api/2024/equipment/acid"
+    },
+    {
+      "index": "alchemists-fire",
+      "name": "Alchemist's Fire",
+      "url": "/api/2024/equipment/alchemists-fire"
+    },
+    {
+      "index": "component-pouch",
+      "name": "Component Pouch",
+      "url": "/api/2024/equipment/component-pouch"
+    },
+    {
+      "index": "oil",
+      "name": "Oil",
+      "url": "/api/2024/equipment/oil"
+    },
+    {
+      "index": "paper",
+      "name": "Paper",
+      "url": "/api/2024/equipment/paper"
+    },
+    {
+      "index": "perfume",
+      "name": "Perfume",
+      "url": "/api/2024/equipment/perfume"
+    }
+  ],
+  "cost": {
+    "quantity": 50,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Identify a substance",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    },
+    {
+      "name": "Start a fire",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 8,
+  "url": "/api/2024/equipment/alchemists-supplies",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

@@ -1,0 +1,19 @@
+{
+  "index": "giant-ancestry-fires-burn",
+  "url": "/api/2024/subspecies/giant-ancestry-fires-burn",
+  "name": "Giant Ancestry: Fire's Burn",
+  "traits": [
+    {
+      "index": "giant-ancestry-fires-burn",
+      "url": "/api/2024/traits/giant-ancestry-fires-burn",
+      "name": "Giant Ancestry: Fire's Burn",
+      "level": 1
+    }
+  ],
+  "species": {
+    "index": "goliath",
+    "name": "Goliath",
+    "url": "/api/2024/species/goliath"
+  },
+  "updated_at": "2026-04-23T07:06:28.842Z"
+}

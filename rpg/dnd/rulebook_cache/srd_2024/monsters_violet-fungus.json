@@ -1,0 +1,100 @@
+{
+  "index": "violet-fungus",
+  "actions": [
+    {
+      "damage": [],
+      "name": "Multiattack",
+      "desc": "The fungus makes two Rotting Touch attacks.",
+      "multiattack_type": "actions",
+      "actions": [
+        {
+          "action_name": "Rotting Touch",
+          "count": "2",
+          "type": "melee"
+        }
+      ],
+      "attacks": []
+    },
+    {
+      "name": "Rotting Touch",
+      "desc": "Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage.",
+      "damage": [
+        {
+          "damage_type": {
+            "index": "necrotic",
+            "name": "Necrotic",
+            "url": "/api/2024/damage-types/necrotic"
+          },
+          "damage_dice": "1d8"
+        }
+      ],
+      "attack_bonus": 2,
+      "actions": [],
+      "attacks": []
+    }
+  ],
+  "alignment": "unaligned",
+  "armor_class": [
+    {
+      "value": 5,
+      "armor": []
+    }
+  ],
+  "challenge_rating": 0.25,
+  "charisma": 1,
+  "condition_immunities": [
+    {
+      "index": "blinded",
+      "name": "Blinded",
+      "url": "/api/2024/conditions/blinded"
+    },
+    {
+      "index": "charmed",
+      "name": "Charmed",
+      "url": "/api/2024/conditions/charmed"
+    },
+    {
+      "index": "deafened",
+      "name": "Deafened",
+      "url": "/api/2024/conditions/deafened"
+    },
+    {
+      "index": "frightened",
+      "name": "Frightened",
+      "url": "/api/2024/conditions/frightened"
+    }
+  ],
+  "constitution": 10,
+  "damage_immunities": [],
+  "damage_resistances": [],
+  "damage_vulnerabilities": [],
+  "dexterity": 1,
+  "hit_dice": "4d8",
+  "hit_points": 18,
+  "hit_points_roll": "4d8",
+  "image": "/api/images/monsters/violet-fungus.png",
+  "intelligence": 1,
+  "languages": "None",
+  "legendary_actions": [],
+  "name": "Violet Fungus",
+  "proficiencies": [],
+  "proficiency_bonus": 2,
+  "senses": {
+    "blindsight": "30 ft.",
+    "passive_perception": 6
+  },
+  "size": "Medium",
+  "special_abilities": [],
+  "speed": {
+    "walk": "5 ft."
+  },
+  "strength": 3,
+  "type": "plant",
+  "updated_at": "2026-09-22T23:01:02.696Z",
+  "url": "/api/2024/monsters/violet-fungus",
+  "wisdom": 3,
+  "xp": 50,
+  "bonus_actions": [],
+  "reactions": [],
+  "forms": []
+}

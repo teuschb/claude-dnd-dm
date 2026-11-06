@@ -1,0 +1,148 @@
+{
+  "index": "melee-weapons",
+  "name": "Melee Weapons",
+  "equipment": [
+    {
+      "index": "battleaxe",
+      "name": "Battleaxe",
+      "url": "/api/2024/equipment/battleaxe"
+    },
+    {
+      "index": "club",
+      "name": "Club",
+      "url": "/api/2024/equipment/club"
+    },
+    {
+      "index": "dagger",
+      "name": "Dagger",
+      "url": "/api/2024/equipment/dagger"
+    },
+    {
+      "index": "flail",
+      "name": "Flail",
+      "url": "/api/2024/equipment/flail"
+    },
+    {
+      "index": "glaive",
+      "name": "Glaive",
+      "url": "/api/2024/equipment/glaive"
+    },
+    {
+      "index": "greataxe",
+      "name": "Greataxe",
+      "url": "/api/2024/equipment/greataxe"
+    },
+    {
+      "index": "greatclub",
+      "name": "Greatclub",
+      "url": "/api/2024/equipment/greatclub"
+    },
+    {
+      "index": "greatsword",
+      "name": "Greatsword",
+      "url": "/api/2024/equipment/greatsword"
+    },
+    {
+      "index": "halberd",
+      "name": "Halberd",
+      "url": "/api/2024/equipment/halberd"
+    },
+    {
+      "index": "handaxe",
+      "name": "Handaxe",
+      "url": "/api/2024/equipment/handaxe"
+    },
+    {
+      "index": "javelin",
+      "name": "Javelin",
+      "url": "/api/2024/equipment/javelin"
+    },
+    {
+      "index": "lance",
+      "name": "Lance",
+      "url": "/api/2024/equipment/lance"
+    },
+    {
+      "index": "light-hammer",
+      "name": "Light Hammer",
+      "url": "/api/2024/equipment/light-hammer"
+    },
+    {
+      "index": "longsword",
+      "name": "Longsword",
+      "url": "/api/2024/equipment/longsword"
+    },
+    {
+      "index": "mace",
+      "name": "Mace",
+      "url": "/api/2024/equipment/mace"
+    },
+    {
+      "index": "maul",
+      "name": "Maul",
+      "url": "/api/2024/equipment/maul"
+    },
+    {
+      "index": "morningstar",
+      "name": "Morningstar",
+      "url": "/api/2024/equipment/morningstar"
+    },
+    {
+      "index": "pike",
+      "name": "Pike",
+      "url": "/api/2024/equipment/pike"
+    },
+    {
+      "index": "quarterstaff",
+      "name": "Quarterstaff",
+      "url": "/api/2024/equipment/quarterstaff"
+    },
+    {
+      "index": "rapier",
+      "name": "Rapier",
+      "url": "/api/2024/equipment/rapier"
+    },
+    {
+      "index": "scimitar",
+      "name": "Scimitar",
+      "url": "/api/2024/equipment/scimitar"
+    },
+    {
+      "index": "shortsword",
+      "name": "Shortsword",
+      "url": "/api/2024/equipment/shortsword"
+    },
+    {
+      "index": "sickle",
+      "name": "Sickle",
+      "url": "/api/2024/equipment/sickle"
+    },
+    {
+      "index": "spear",
+      "name": "Spear",
+      "url": "/api/2024/equipment/spear"
+    },
+    {
+      "index": "trident",
+      "name": "Trident",
+      "url": "/api/2024/equipment/trident"
+    },
+    {
+      "index": "warhammer",
+      "name": "Warhammer",
+      "url": "/api/2024/equipment/warhammer"
+    },
+    {
+      "index": "war-pick",
+      "name": "War Pick",
+      "url": "/api/2024/equipment/war-pick"
+    },
+    {
+      "index": "whip",
+      "name": "Whip",
+      "url": "/api/2024/equipment/whip"
+    }
+  ],
+  "url": "/api/2024/equipment-categories/melee-weapons",
+  "updated_at": "2026-04-23T07:06:26.809Z"
+}

@@ -1,0 +1,63 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "calligraphers-supplies",
+  "name": "Calligrapher's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "craft": [
+    {
+      "index": "ink",
+      "name": "Ink",
+      "url": "/api/2024/equipment/ink"
+    },
+    {
+      "index": "spell-scroll-cantrip",
+      "name": "Spell Scroll, Cantrip",
+      "url": "/api/2024/equipment/spell-scroll-cantrip"
+    },
+    {
+      "index": "spell-scroll-level-1",
+      "name": "Spell Scroll, Level 1",
+      "url": "/api/2024/equipment/spell-scroll-level-1"
+    }
+  ],
+  "cost": {
+    "quantity": 10,
+    "unit": "gp"
+  },
+  "utilize": [
+    {
+      "name": "Write text with impressive flourishes that guard against forgery",
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "dc_value": 15,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 5,
+  "url": "/api/2024/equipment/calligraphers-supplies",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

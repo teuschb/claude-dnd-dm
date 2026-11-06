@@ -1,0 +1,53 @@
+{
+  "description": [],
+  "notes": [],
+  "index": "poisoners-kit",
+  "name": "Poisoner's Kit",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "cost": {
+    "quantity": 5,
+    "unit": "gp"
+  },
+  "craft": [
+    {
+      "index": "poison-basic",
+      "name": "Poison, Basic",
+      "url": "/api/2024/equipment/poison-basic"
+    }
+  ],
+  "utilize": [
+    {
+      "name": "Detect a poisoned object",
+      "dc": {
+        "dc_type": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "dc_value": 10,
+        "success_type": "none"
+      }
+    }
+  ],
+  "weight": 2,
+  "url": "/api/2024/equipment/poisoners-kit",
+  "updated_at": "2026-04-23T07:06:26.985Z",
+  "contents": [],
+  "properties": []
+}

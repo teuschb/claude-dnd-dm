@@ -1,0 +1,1710 @@
+{
+  "count": 341,
+  "results": [
+    {
+      "index": "aboleth",
+      "name": "Aboleth",
+      "url": "/api/2024/monsters/aboleth"
+    },
+    {
+      "index": "adult-black-dragon",
+      "name": "Adult Black Dragon",
+      "url": "/api/2024/monsters/adult-black-dragon"
+    },
+    {
+      "index": "adult-blue-dragon",
+      "name": "Adult Blue Dragon",
+      "url": "/api/2024/monsters/adult-blue-dragon"
+    },
+    {
+      "index": "adult-brass-dragon",
+      "name": "Adult Brass Dragon",
+      "url": "/api/2024/monsters/adult-brass-dragon"
+    },
+    {
+      "index": "adult-bronze-dragon",
+      "name": "Adult Bronze Dragon",
+      "url": "/api/2024/monsters/adult-bronze-dragon"
+    },
+    {
+      "index": "adult-copper-dragon",
+      "name": "Adult Copper Dragon",
+      "url": "/api/2024/monsters/adult-copper-dragon"
+    },
+    {
+      "index": "adult-gold-dragon",
+      "name": "Adult Gold Dragon",
+      "url": "/api/2024/monsters/adult-gold-dragon"
+    },
+    {
+      "index": "adult-green-dragon",
+      "name": "Adult Green Dragon",
+      "url": "/api/2024/monsters/adult-green-dragon"
+    },
+    {
+      "index": "adult-red-dragon",
+      "name": "Adult Red Dragon",
+      "url": "/api/2024/monsters/adult-red-dragon"
+    },
+    {
+      "index": "adult-silver-dragon",
+      "name": "Adult Silver Dragon",
+      "url": "/api/2024/monsters/adult-silver-dragon"
+    },
+    {
+      "index": "adult-white-dragon",
+      "name": "Adult White Dragon",
+      "url": "/api/2024/monsters/adult-white-dragon"
+    },
+    {
+      "index": "air-elemental",
+      "name": "Air Elemental",
+      "url": "/api/2024/monsters/air-elemental"
+    },
+    {
+      "index": "allosaurus",
+      "name": "Allosaurus",
+      "url": "/api/2024/monsters/allosaurus"
+    },
+    {
+      "index": "ancient-black-dragon",
+      "name": "Ancient Black Dragon",
+      "url": "/api/2024/monsters/ancient-black-dragon"
+    },
+    {
+      "index": "ancient-blue-dragon",
+      "name": "Ancient Blue Dragon",
+      "url": "/api/2024/monsters/ancient-blue-dragon"
+    },
+    {
+      "index": "ancient-brass-dragon",
+      "name": "Ancient Brass Dragon",
+      "url": "/api/2024/monsters/ancient-brass-dragon"
+    },
+    {
+      "index": "ancient-bronze-dragon",
+      "name": "Ancient Bronze Dragon",
+      "url": "/api/2024/monsters/ancient-bronze-dragon"
+    },
+    {
+      "index": "ancient-copper-dragon",
+      "name": "Ancient Copper Dragon",
+      "url": "/api/2024/monsters/ancient-copper-dragon"
+    },
+    {
+      "index": "ancient-gold-dragon",
+      "name": "Ancient Gold Dragon",
+      "url": "/api/2024/monsters/ancient-gold-dragon"
+    },
+    {
+      "index": "ancient-green-dragon",
+      "name": "Ancient Green Dragon",
+      "url": "/api/2024/monsters/ancient-green-dragon"
+    },
+    {
+      "index": "ancient-red-dragon",
+      "name": "Ancient Red Dragon",
+      "url": "/api/2024/monsters/ancient-red-dragon"
+    },
+    {
+      "index": "ancient-silver-dragon",
+      "name": "Ancient Silver Dragon",
+      "url": "/api/2024/monsters/ancient-silver-dragon"
+    },
+    {
+      "index": "ancient-white-dragon",
+      "name": "Ancient White Dragon",
+      "url": "/api/2024/monsters/ancient-white-dragon"
+    },
+    {
+      "index": "animated-armor",
+      "name": "Animated Armor",
+      "url": "/api/2024/monsters/animated-armor"
+    },
+    {
+      "index": "animated-flying-sword",
+      "name": "Animated Flying Sword",
+      "url": "/api/2024/monsters/animated-flying-sword"
+    },
+    {
+      "index": "animated-rug-of-smothering",
+      "name": "Animated Rug of Smothering",
+      "url": "/api/2024/monsters/animated-rug-of-smothering"
+    },
+    {
+      "index": "ankheg",
+      "name": "Ankheg",
+      "url": "/api/2024/monsters/ankheg"
+    },
+    {
+      "index": "ankylosaurus",
+      "name": "Ankylosaurus",
+      "url": "/api/2024/monsters/ankylosaurus"
+    },
+    {
+      "index": "ape",
+      "name": "Ape",
+      "url": "/api/2024/monsters/ape"
+    },
+    {
+      "index": "archelon",
+      "name": "Archelon",
+      "url": "/api/2024/monsters/archelon"
+    },
+    {
+      "index": "archmage",
+      "name": "Archmage",
+      "url": "/api/2024/monsters/archmage"
+    },
+    {
+      "index": "assassin",
+      "name": "Assassin",
+      "url": "/api/2024/monsters/assassin"
+    },
+    {
+      "index": "awakened-shrub",
+      "name": "Awakened Shrub",
+      "url": "/api/2024/monsters/awakened-shrub"
+    },
+    {
+      "index": "awakened-tree",
+      "name": "Awakened Tree",
+      "url": "/api/2024/monsters/awakened-tree"
+    },
+    {
+      "index": "axe-beak",
+      "name": "Axe Beak",
+      "url": "/api/2024/monsters/axe-beak"
+    },
+    {
+      "index": "azer-sentinel",
+      "name": "Azer Sentinel",
+      "url": "/api/2024/monsters/azer-sentinel"
+    },
+    {
+      "index": "baboon",
+      "name": "Baboon",
+      "url": "/api/2024/monsters/baboon"
+    },
+    {
+      "index": "badger",
+      "name": "Badger",
+      "url": "/api/2024/monsters/badger"
+    },
+    {
+      "index": "balor",
+      "name": "Balor",
+      "url": "/api/2024/monsters/balor"
+    },
+    {
+      "index": "bandit",
+      "name": "Bandit",
+      "url": "/api/2024/monsters/bandit"
+    },
+    {
+      "index": "bandit-captain",
+      "name": "Bandit Captain",
+      "url": "/api/2024/monsters/bandit-captain"
+    },
+    {
+      "index": "barbed-devil",
+      "name": "Barbed Devil",
+      "url": "/api/2024/monsters/barbed-devil"
+    },
+    {
+      "index": "basilisk",
+      "name": "Basilisk",
+      "url": "/api/2024/monsters/basilisk"
+    },
+    {
+      "index": "bat",
+      "name": "Bat",
+      "url": "/api/2024/monsters/bat"
+    },
+    {
+      "index": "bearded-devil",
+      "name": "Bearded Devil",
+      "url": "/api/2024/monsters/bearded-devil"
+    },
+    {
+      "index": "behir",
+      "name": "Behir",
+      "url": "/api/2024/monsters/behir"
+    },
+    {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/2024/monsters/berserker"
+    },
+    {
+      "index": "black-bear",
+      "name": "Black Bear",
+      "url": "/api/2024/monsters/black-bear"
+    },
+    {
+      "index": "black-dragon-wyrmling",
+      "name": "Black Dragon Wyrmling",
+      "url": "/api/2024/monsters/black-dragon-wyrmling"
+    },
+    {
+      "index": "black-pudding",
+      "name": "Black Pudding",
+      "url": "/api/2024/monsters/black-pudding"
+    },
+    {
+      "index": "blink-dog",
+      "name": "Blink Dog",
+      "url": "/api/2024/monsters/blink-dog"
+    },
+    {
+      "index": "blood-hawk",
+      "name": "Blood Hawk",
+      "url": "/api/2024/monsters/blood-hawk"
+    },
+    {
+      "index": "blue-dragon-wyrmling",
+      "name": "Blue Dragon Wyrmling",
+      "url": "/api/2024/monsters/blue-dragon-wyrmling"
+    },
+    {
+      "index": "boar",
+      "name": "Boar",
+      "url": "/api/2024/monsters/boar"
+    },
+    {
+      "index": "bone-devil",
+      "name": "Bone Devil",
+      "url": "/api/2024/monsters/bone-devil"
+    },
+    {
+      "index": "brass-dragon-wyrmling",
+      "name": "Brass Dragon Wyrmling",
+      "url": "/api/2024/monsters/brass-dragon-wyrmling"
+    },
+    {
+      "index": "bronze-dragon-wyrmling",
+      "name": "Bronze Dragon Wyrmling",
+      "url": "/api/2024/monsters/bronze-dragon-wyrmling"
+    },
+    {
+      "index": "brown-bear",
+      "name": "Brown Bear",
+      "url": "/api/2024/monsters/brown-bear"
+    },
+    {
+      "index": "bugbear-stalker",
+      "name": "Bugbear Stalker",
+      "url": "/api/2024/monsters/bugbear-stalker"
+    },
+    {
+      "index": "bugbear-warrior",
+      "name": "Bugbear Warrior",
+      "url": "/api/2024/monsters/bugbear-warrior"
+    },
+    {
+      "index": "bulette",
+      "name": "Bulette",
+      "url": "/api/2024/monsters/bulette"
+    },
+    {
+      "index": "camel",
+      "name": "Camel",
+      "url": "/api/2024/monsters/camel"
+    },
+    {
+      "index": "cat",
+      "name": "Cat",
+      "url": "/api/2024/monsters/cat"
+    },
+    {
+      "index": "centaur-trooper",
+      "name": "Centaur Trooper",
+      "url": "/api/2024/monsters/centaur-trooper"
+    },
+    {
+      "index": "chain-devil",
+      "name": "Chain Devil",
+      "url": "/api/2024/monsters/chain-devil"
+    },
+    {
+      "index": "chimera",
+      "name": "Chimera",
+      "url": "/api/2024/monsters/chimera"
+    },
+    {
+      "index": "chuul",
+      "name": "Chuul",
+      "url": "/api/2024/monsters/chuul"
+    },
+    {
+      "index": "clay-golem",
+      "name": "Clay Golem",
+      "url": "/api/2024/monsters/clay-golem"
+    },
+    {
+      "index": "cloaker",
+      "name": "Cloaker",
+      "url": "/api/2024/monsters/cloaker"
+    },
+    {
+      "index": "cloud-giant",
+      "name": "Cloud Giant",
+      "url": "/api/2024/monsters/cloud-giant"
+    },
+    {
+      "index": "cockatrice",
+      "name": "Cockatrice",
+      "url": "/api/2024/monsters/cockatrice"
+    },
+    {
+      "index": "commoner",
+      "name": "Commoner",
+      "url": "/api/2024/monsters/commoner"
+    },
+    {
+      "index": "constrictor-snake",
+      "name": "Constrictor Snake",
+      "url": "/api/2024/monsters/constrictor-snake"
+    },
+    {
+      "index": "copper-dragon-wyrmling",
+      "name": "Copper Dragon Wyrmling",
+      "url": "/api/2024/monsters/copper-dragon-wyrmling"
+    },
+    {
+      "index": "couatl",
+      "name": "Couatl",
+      "url": "/api/2024/monsters/couatl"
+    },
+    {
+      "index": "crab",
+      "name": "Crab",
+      "url": "/api/2024/monsters/crab"
+    },
+    {
+      "index": "crocodile",
+      "name": "Crocodile",
+      "url": "/api/2024/monsters/crocodile"
+    },
+    {
+      "index": "cultist",
+      "name": "Cultist",
+      "url": "/api/2024/monsters/cultist"
+    },
+    {
+      "index": "cultist-fanatic",
+      "name": "Cultist Fanatic",
+      "url": "/api/2024/monsters/cultist-fanatic"
+    },
+    {
+      "index": "darkmantle",
+      "name": "Darkmantle",
+      "url": "/api/2024/monsters/darkmantle"
+    },
+    {
+      "index": "death-dog",
+      "name": "Death Dog",
+      "url": "/api/2024/monsters/death-dog"
+    },
+    {
+      "index": "deer",
+      "name": "Deer",
+      "url": "/api/2024/monsters/deer"
+    },
+    {
+      "index": "deva",
+      "name": "Deva",
+      "url": "/api/2024/monsters/deva"
+    },
+    {
+      "index": "dire-wolf",
+      "name": "Dire Wolf",
+      "url": "/api/2024/monsters/dire-wolf"
+    },
+    {
+      "index": "djinni",
+      "name": "Djinni",
+      "url": "/api/2024/monsters/djinni"
+    },
+    {
+      "index": "doppelganger",
+      "name": "Doppelganger",
+      "url": "/api/2024/monsters/doppelganger"
+    },
+    {
+      "index": "draft-horse",
+      "name": "Draft Horse",
+      "url": "/api/2024/monsters/draft-horse"
+    },
+    {
+      "index": "dragon-turtle",
+      "name": "Dragon Turtle",
+      "url": "/api/2024/monsters/dragon-turtle"
+    },
+    {
+      "index": "dretch",
+      "name": "Dretch",
+      "url": "/api/2024/monsters/dretch"
+    },
+    {
+      "index": "drider",
+      "name": "Drider",
+      "url": "/api/2024/monsters/drider"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/monsters/druid"
+    },
+    {
+      "index": "dryad",
+      "name": "Dryad",
+      "url": "/api/2024/monsters/dryad"
+    },
+    {
+      "index": "dust-mephit",
+      "name": "Dust Mephit",
+      "url": "/api/2024/monsters/dust-mephit"
+    },
+    {
+      "index": "eagle",
+      "name": "Eagle",
+      "url": "/api/2024/monsters/eagle"
+    },
+    {
+      "index": "earth-elemental",
+      "name": "Earth Elemental",
+      "url": "/api/2024/monsters/earth-elemental"
+    },
+    {
+      "index": "efreeti",
+      "name": "Efreeti",
+      "url": "/api/2024/monsters/efreeti"
+    },
+    {
+      "index": "elephant",
+      "name": "Elephant",
+      "url": "/api/2024/monsters/elephant"
+    },
+    {
+      "index": "elk",
+      "name": "Elk",
+      "url": "/api/2024/monsters/elk"
+    },
+    {
+      "index": "erinyes",
+      "name": "Erinyes",
+      "url": "/api/2024/monsters/erinyes"
+    },
+    {
+      "index": "ettercap",
+      "name": "Ettercap",
+      "url": "/api/2024/monsters/ettercap"
+    },
+    {
+      "index": "ettin",
+      "name": "Ettin",
+      "url": "/api/2024/monsters/ettin"
+    },
+    {
+      "index": "fire-elemental",
+      "name": "Fire Elemental",
+      "url": "/api/2024/monsters/fire-elemental"
+    },
+    {
+      "index": "fire-giant",
+      "name": "Fire Giant",
+      "url": "/api/2024/monsters/fire-giant"
+    },
+    {
+      "index": "flesh-golem",
+      "name": "Flesh Golem",
+      "url": "/api/2024/monsters/flesh-golem"
+    },
+    {
+      "index": "flying-snake",
+      "name": "Flying Snake",
+      "url": "/api/2024/monsters/flying-snake"
+    },
+    {
+      "index": "frog",
+      "name": "Frog",
+      "url": "/api/2024/monsters/frog"
+    },
+    {
+      "index": "frost-giant",
+      "name": "Frost Giant",
+      "url": "/api/2024/monsters/frost-giant"
+    },
+    {
+      "index": "gargoyle",
+      "name": "Gargoyle",
+      "url": "/api/2024/monsters/gargoyle"
+    },
+    {
+      "index": "gelatinous-cube",
+      "name": "Gelatinous Cube",
+      "url": "/api/2024/monsters/gelatinous-cube"
+    },
+    {
+      "index": "ghast",
+      "name": "Ghast",
+      "url": "/api/2024/monsters/ghast"
+    },
+    {
+      "index": "ghost",
+      "name": "Ghost",
+      "url": "/api/2024/monsters/ghost"
+    },
+    {
+      "index": "ghoul",
+      "name": "Ghoul",
+      "url": "/api/2024/monsters/ghoul"
+    },
+    {
+      "index": "giant-ape",
+      "name": "Giant Ape",
+      "url": "/api/2024/monsters/giant-ape"
+    },
+    {
+      "index": "giant-badger",
+      "name": "Giant Badger",
+      "url": "/api/2024/monsters/giant-badger"
+    },
+    {
+      "index": "giant-bat",
+      "name": "Giant Bat",
+      "url": "/api/2024/monsters/giant-bat"
+    },
+    {
+      "index": "giant-boar",
+      "name": "Giant Boar",
+      "url": "/api/2024/monsters/giant-boar"
+    },
+    {
+      "index": "giant-centipede",
+      "name": "Giant Centipede",
+      "url": "/api/2024/monsters/giant-centipede"
+    },
+    {
+      "index": "giant-constrictor-snake",
+      "name": "Giant Constrictor Snake",
+      "url": "/api/2024/monsters/giant-constrictor-snake"
+    },
+    {
+      "index": "giant-crab",
+      "name": "Giant Crab",
+      "url": "/api/2024/monsters/giant-crab"
+    },
+    {
+      "index": "giant-crocodile",
+      "name": "Giant Crocodile",
+      "url": "/api/2024/monsters/giant-crocodile"
+    },
+    {
+      "index": "giant-eagle",
+      "name": "Giant Eagle",
+      "url": "/api/2024/monsters/giant-eagle"
+    },
+    {
+      "index": "giant-elk",
+      "name": "Giant Elk",
+      "url": "/api/2024/monsters/giant-elk"
+    },
+    {
+      "index": "giant-fire-beetle",
+      "name": "Giant Fire Beetle",
+      "url": "/api/2024/monsters/giant-fire-beetle"
+    },
+    {
+      "index": "giant-frog",
+      "name": "Giant Frog",
+      "url": "/api/2024/monsters/giant-frog"
+    },
+    {
+      "index": "giant-goat",
+      "name": "Giant Goat",
+      "url": "/api/2024/monsters/giant-goat"
+    },
+    {
+      "index": "giant-hyena",
+      "name": "Giant Hyena",
+      "url": "/api/2024/monsters/giant-hyena"
+    },
+    {
+      "index": "giant-lizard",
+      "name": "Giant Lizard",
+      "url": "/api/2024/monsters/giant-lizard"
+    },
+    {
+      "index": "giant-octopus",
+      "name": "Giant Octopus",
+      "url": "/api/2024/monsters/giant-octopus"
+    },
+    {
+      "index": "giant-owl",
+      "name": "Giant Owl",
+      "url": "/api/2024/monsters/giant-owl"
+    },
+    {
+      "index": "giant-rat",
+      "name": "Giant Rat",
+      "url": "/api/2024/monsters/giant-rat"
+    },
+    {
+      "index": "giant-scorpion",
+      "name": "Giant Scorpion",
+      "url": "/api/2024/monsters/giant-scorpion"
+    },
+    {
+      "index": "giant-seahorse",
+      "name": "Giant Seahorse",
+      "url": "/api/2024/monsters/giant-seahorse"
+    },
+    {
+      "index": "giant-shark",
+      "name": "Giant Shark",
+      "url": "/api/2024/monsters/giant-shark"
+    },
+    {
+      "index": "giant-spider",
+      "name": "Giant Spider",
+      "url": "/api/2024/monsters/giant-spider"
+    },
+    {
+      "index": "giant-toad",
+      "name": "Giant Toad",
+      "url": "/api/2024/monsters/giant-toad"
+    },
+    {
+      "index": "giant-venomous-snake",
+      "name": "Giant Venomous Snake",
+      "url": "/api/2024/monsters/giant-venomous-snake"
+    },
+    {
+      "index": "giant-vulture",
+      "name": "Giant Vulture",
+      "url": "/api/2024/monsters/giant-vulture"
+    },
+    {
+      "index": "giant-wasp",
+      "name": "Giant Wasp",
+      "url": "/api/2024/monsters/giant-wasp"
+    },
+    {
+      "index": "giant-weasel",
+      "name": "Giant Weasel",
+      "url": "/api/2024/monsters/giant-weasel"
+    },
+    {
+      "index": "giant-wolf-spider",
+      "name": "Giant Wolf Spider",
+      "url": "/api/2024/monsters/giant-wolf-spider"
+    },
+    {
+      "index": "gibbering-mouther",
+      "name": "Gibbering Mouther",
+      "url": "/api/2024/monsters/gibbering-mouther"
+    },
+    {
+      "index": "glabrezu",
+      "name": "Glabrezu",
+      "url": "/api/2024/monsters/glabrezu"
+    },
+    {
+      "index": "gladiator",
+      "name": "Gladiator",
+      "url": "/api/2024/monsters/gladiator"
+    },
+    {
+      "index": "gnoll-warrior",
+      "name": "Gnoll Warrior",
+      "url": "/api/2024/monsters/gnoll-warrior"
+    },
+    {
+      "index": "goat",
+      "name": "Goat",
+      "url": "/api/2024/monsters/goat"
+    },
+    {
+      "index": "goblin-boss",
+      "name": "Goblin Boss",
+      "url": "/api/2024/monsters/goblin-boss"
+    },
+    {
+      "index": "goblin-minion",
+      "name": "Goblin Minion",
+      "url": "/api/2024/monsters/goblin-minion"
+    },
+    {
+      "index": "goblin-warrior",
+      "name": "Goblin Warrior",
+      "url": "/api/2024/monsters/goblin-warrior"
+    },
+    {
+      "index": "gold-dragon-wyrmling",
+      "name": "Gold Dragon Wyrmling",
+      "url": "/api/2024/monsters/gold-dragon-wyrmling"
+    },
+    {
+      "index": "gorgon",
+      "name": "Gorgon",
+      "url": "/api/2024/monsters/gorgon"
+    },
+    {
+      "index": "gray-ooze",
+      "name": "Gray Ooze",
+      "url": "/api/2024/monsters/gray-ooze"
+    },
+    {
+      "index": "green-dragon-wyrmling",
+      "name": "Green Dragon Wyrmling",
+      "url": "/api/2024/monsters/green-dragon-wyrmling"
+    },
+    {
+      "index": "green-hag",
+      "name": "Green Hag",
+      "url": "/api/2024/monsters/green-hag"
+    },
+    {
+      "index": "grick",
+      "name": "Grick",
+      "url": "/api/2024/monsters/grick"
+    },
+    {
+      "index": "griffon",
+      "name": "Griffon",
+      "url": "/api/2024/monsters/griffon"
+    },
+    {
+      "index": "grimlock",
+      "name": "Grimlock",
+      "url": "/api/2024/monsters/grimlock"
+    },
+    {
+      "index": "guard",
+      "name": "Guard",
+      "url": "/api/2024/monsters/guard"
+    },
+    {
+      "index": "guard-captain",
+      "name": "Guard Captain",
+      "url": "/api/2024/monsters/guard-captain"
+    },
+    {
+      "index": "guardian-naga",
+      "name": "Guardian Naga",
+      "url": "/api/2024/monsters/guardian-naga"
+    },
+    {
+      "index": "half-dragon",
+      "name": "Half-Dragon",
+      "url": "/api/2024/monsters/half-dragon"
+    },
+    {
+      "index": "harpy",
+      "name": "Harpy",
+      "url": "/api/2024/monsters/harpy"
+    },
+    {
+      "index": "hawk",
+      "name": "Hawk",
+      "url": "/api/2024/monsters/hawk"
+    },
+    {
+      "index": "hell-hound",
+      "name": "Hell Hound",
+      "url": "/api/2024/monsters/hell-hound"
+    },
+    {
+      "index": "hezrou",
+      "name": "Hezrou",
+      "url": "/api/2024/monsters/hezrou"
+    },
+    {
+      "index": "hill-giant",
+      "name": "Hill Giant",
+      "url": "/api/2024/monsters/hill-giant"
+    },
+    {
+      "index": "hippogriff",
+      "name": "Hippogriff",
+      "url": "/api/2024/monsters/hippogriff"
+    },
+    {
+      "index": "hippopotamus",
+      "name": "Hippopotamus",
+      "url": "/api/2024/monsters/hippopotamus"
+    },
+    {
+      "index": "hobgoblin-captain",
+      "name": "Hobgoblin Captain",
+      "url": "/api/2024/monsters/hobgoblin-captain"
+    },
+    {
+      "index": "hobgoblin-warrior",
+      "name": "Hobgoblin Warrior",
+      "url": "/api/2024/monsters/hobgoblin-warrior"
+    },
+    {
+      "index": "homunculus",
+      "name": "Homunculus",
+      "url": "/api/2024/monsters/homunculus"
+    },
+    {
+      "index": "horned-devil",
+      "name": "Horned Devil",
+      "url": "/api/2024/monsters/horned-devil"
+    },
+    {
+      "index": "hunter-shark",
+      "name": "Hunter Shark",
+      "url": "/api/2024/monsters/hunter-shark"
+    },
+    {
+      "index": "hydra",
+      "name": "Hydra",
+      "url": "/api/2024/monsters/hydra"
+    },
+    {
+      "index": "hyena",
+      "name": "Hyena",
+      "url": "/api/2024/monsters/hyena"
+    },
+    {
+      "index": "ice-devil",
+      "name": "Ice Devil",
+      "url": "/api/2024/monsters/ice-devil"
+    },
+    {
+      "index": "ice-mephit",
+      "name": "Ice Mephit",
+      "url": "/api/2024/monsters/ice-mephit"
+    },
+    {
+      "index": "imp",
+      "name": "Imp",
+      "url": "/api/2024/monsters/imp"
+    },
+    {
+      "index": "incubus",
+      "name": "Incubus",
+      "url": "/api/2024/monsters/incubus"
+    },
+    {
+      "index": "invisible-stalker",
+      "name": "Invisible Stalker",
+      "url": "/api/2024/monsters/invisible-stalker"
+    },
+    {
+      "index": "iron-golem",
+      "name": "Iron Golem",
+      "url": "/api/2024/monsters/iron-golem"
+    },
+    {
+      "index": "jackal",
+      "name": "Jackal",
+      "url": "/api/2024/monsters/jackal"
+    },
+    {
+      "index": "killer-whale",
+      "name": "Killer Whale",
+      "url": "/api/2024/monsters/killer-whale"
+    },
+    {
+      "index": "knight",
+      "name": "Knight",
+      "url": "/api/2024/monsters/knight"
+    },
+    {
+      "index": "kobold-warrior",
+      "name": "Kobold Warrior",
+      "url": "/api/2024/monsters/kobold-warrior"
+    },
+    {
+      "index": "kraken",
+      "name": "Kraken",
+      "url": "/api/2024/monsters/kraken"
+    },
+    {
+      "index": "lamia",
+      "name": "Lamia",
+      "url": "/api/2024/monsters/lamia"
+    },
+    {
+      "index": "lemure",
+      "name": "Lemure",
+      "url": "/api/2024/monsters/lemure"
+    },
+    {
+      "index": "lich",
+      "name": "Lich",
+      "url": "/api/2024/monsters/lich"
+    },
+    {
+      "index": "lion",
+      "name": "Lion",
+      "url": "/api/2024/monsters/lion"
+    },
+    {
+      "index": "lizard",
+      "name": "Lizard",
+      "url": "/api/2024/monsters/lizard"
+    },
+    {
+      "index": "mage",
+      "name": "Mage",
+      "url": "/api/2024/monsters/mage"
+    },
+    {
+      "index": "magma-mephit",
+      "name": "Magma Mephit",
+      "url": "/api/2024/monsters/magma-mephit"
+    },
+    {
+      "index": "magmin",
+      "name": "Magmin",
+      "url": "/api/2024/monsters/magmin"
+    },
+    {
+      "index": "mammoth",
+      "name": "Mammoth",
+      "url": "/api/2024/monsters/mammoth"
+    },
+    {
+      "index": "manticore",
+      "name": "Manticore",
+      "url": "/api/2024/monsters/manticore"
+    },
+    {
+      "index": "marilith",
+      "name": "Marilith",
+      "url": "/api/2024/monsters/marilith"
+    },
+    {
+      "index": "mastiff",
+      "name": "Mastiff",
+      "url": "/api/2024/monsters/mastiff"
+    },
+    {
+      "index": "medusa",
+      "name": "Medusa",
+      "url": "/api/2024/monsters/medusa"
+    },
+    {
+      "index": "merfolk-skirmisher",
+      "name": "Merfolk Skirmisher",
+      "url": "/api/2024/monsters/merfolk-skirmisher"
+    },
+    {
+      "index": "merrow",
+      "name": "Merrow",
+      "url": "/api/2024/monsters/merrow"
+    },
+    {
+      "index": "mimic",
+      "name": "Mimic",
+      "url": "/api/2024/monsters/mimic"
+    },
+    {
+      "index": "minotaur-of-baphomet",
+      "name": "Minotaur of Baphomet",
+      "url": "/api/2024/monsters/minotaur-of-baphomet"
+    },
+    {
+      "index": "minotaur-skeleton",
+      "name": "Minotaur Skeleton",
+      "url": "/api/2024/monsters/minotaur-skeleton"
+    },
+    {
+      "index": "mule",
+      "name": "Mule",
+      "url": "/api/2024/monsters/mule"
+    },
+    {
+      "index": "mummy",
+      "name": "Mummy",
+      "url": "/api/2024/monsters/mummy"
+    },
+    {
+      "index": "mummy-lord",
+      "name": "Mummy Lord",
+      "url": "/api/2024/monsters/mummy-lord"
+    },
+    {
+      "index": "nalfeshnee",
+      "name": "Nalfeshnee",
+      "url": "/api/2024/monsters/nalfeshnee"
+    },
+    {
+      "index": "night-hag",
+      "name": "Night Hag",
+      "url": "/api/2024/monsters/night-hag"
+    },
+    {
+      "index": "nightmare",
+      "name": "Nightmare",
+      "url": "/api/2024/monsters/nightmare"
+    },
+    {
+      "index": "noble",
+      "name": "Noble",
+      "url": "/api/2024/monsters/noble"
+    },
+    {
+      "index": "ochre-jelly",
+      "name": "Ochre Jelly",
+      "url": "/api/2024/monsters/ochre-jelly"
+    },
+    {
+      "index": "ogre",
+      "name": "Ogre",
+      "url": "/api/2024/monsters/ogre"
+    },
+    {
+      "index": "ogre-zombie",
+      "name": "Ogre Zombie",
+      "url": "/api/2024/monsters/ogre-zombie"
+    },
+    {
+      "index": "oni",
+      "name": "Oni",
+      "url": "/api/2024/monsters/oni"
+    },
+    {
+      "index": "otyugh",
+      "name": "Otyugh",
+      "url": "/api/2024/monsters/otyugh"
+    },
+    {
+      "index": "owl",
+      "name": "Owl",
+      "url": "/api/2024/monsters/owl"
+    },
+    {
+      "index": "owlbear",
+      "name": "Owlbear",
+      "url": "/api/2024/monsters/owlbear"
+    },
+    {
+      "index": "panther",
+      "name": "Panther",
+      "url": "/api/2024/monsters/panther"
+    },
+    {
+      "index": "pegasus",
+      "name": "Pegasus",
+      "url": "/api/2024/monsters/pegasus"
+    },
+    {
+      "index": "phase-spider",
+      "name": "Phase Spider",
+      "url": "/api/2024/monsters/phase-spider"
+    },
+    {
+      "index": "piranha",
+      "name": "Piranha",
+      "url": "/api/2024/monsters/piranha"
+    },
+    {
+      "index": "pirate",
+      "name": "Pirate",
+      "url": "/api/2024/monsters/pirate"
+    },
+    {
+      "index": "pirate-captain",
+      "name": "Pirate Captain",
+      "url": "/api/2024/monsters/pirate-captain"
+    },
+    {
+      "index": "pit-fiend",
+      "name": "Pit Fiend",
+      "url": "/api/2024/monsters/pit-fiend"
+    },
+    {
+      "index": "planetar",
+      "name": "Planetar",
+      "url": "/api/2024/monsters/planetar"
+    },
+    {
+      "index": "plesiosaurus",
+      "name": "Plesiosaurus",
+      "url": "/api/2024/monsters/plesiosaurus"
+    },
+    {
+      "index": "polar-bear",
+      "name": "Polar Bear",
+      "url": "/api/2024/monsters/polar-bear"
+    },
+    {
+      "index": "pony",
+      "name": "Pony",
+      "url": "/api/2024/monsters/pony"
+    },
+    {
+      "index": "priest",
+      "name": "Priest",
+      "url": "/api/2024/monsters/priest"
+    },
+    {
+      "index": "priest-acolyte",
+      "name": "Priest Acolyte",
+      "url": "/api/2024/monsters/priest-acolyte"
+    },
+    {
+      "index": "pseudodragon",
+      "name": "Pseudodragon",
+      "url": "/api/2024/monsters/pseudodragon"
+    },
+    {
+      "index": "pteranodon",
+      "name": "Pteranodon",
+      "url": "/api/2024/monsters/pteranodon"
+    },
+    {
+      "index": "purple-worm",
+      "name": "Purple Worm",
+      "url": "/api/2024/monsters/purple-worm"
+    },
+    {
+      "index": "quasit",
+      "name": "Quasit",
+      "url": "/api/2024/monsters/quasit"
+    },
+    {
+      "index": "rakshasa",
+      "name": "Rakshasa",
+      "url": "/api/2024/monsters/rakshasa"
+    },
+    {
+      "index": "rat",
+      "name": "Rat",
+      "url": "/api/2024/monsters/rat"
+    },
+    {
+      "index": "raven",
+      "name": "Raven",
+      "url": "/api/2024/monsters/raven"
+    },
+    {
+      "index": "red-dragon-wyrmling",
+      "name": "Red Dragon Wyrmling",
+      "url": "/api/2024/monsters/red-dragon-wyrmling"
+    },
+    {
+      "index": "reef-shark",
+      "name": "Reef Shark",
+      "url": "/api/2024/monsters/reef-shark"
+    },
+    {
+      "index": "remorhaz",
+      "name": "Remorhaz",
+      "url": "/api/2024/monsters/remorhaz"
+    },
+    {
+      "index": "rhinoceros",
+      "name": "Rhinoceros",
+      "url": "/api/2024/monsters/rhinoceros"
+    },
+    {
+      "index": "riding-horse",
+      "name": "Riding Horse",
+      "url": "/api/2024/monsters/riding-horse"
+    },
+    {
+      "index": "roc",
+      "name": "Roc",
+      "url": "/api/2024/monsters/roc"
+    },
+    {
+      "index": "roper",
+      "name": "Roper",
+      "url": "/api/2024/monsters/roper"
+    },
+    {
+      "index": "rust-monster",
+      "name": "Rust Monster",
+      "url": "/api/2024/monsters/rust-monster"
+    },
+    {
+      "index": "saber-toothed-tiger",
+      "name": "Saber-Toothed Tiger",
+      "url": "/api/2024/monsters/saber-toothed-tiger"
+    },
+    {
+      "index": "sahuagin-warrior",
+      "name": "Sahuagin Warrior",
+      "url": "/api/2024/monsters/sahuagin-warrior"
+    },
+    {
+      "index": "salamander",
+      "name": "Salamander",
+      "url": "/api/2024/monsters/salamander"
+    },
+    {
+      "index": "satyr",
+      "name": "Satyr",
+      "url": "/api/2024/monsters/satyr"
+    },
+    {
+      "index": "scorpion",
+      "name": "Scorpion",
+      "url": "/api/2024/monsters/scorpion"
+    },
+    {
+      "index": "scout",
+      "name": "Scout",
+      "url": "/api/2024/monsters/scout"
+    },
+    {
+      "index": "sea-hag",
+      "name": "Sea Hag",
+      "url": "/api/2024/monsters/sea-hag"
+    },
+    {
+      "index": "seahorse",
+      "name": "Seahorse",
+      "url": "/api/2024/monsters/seahorse"
+    },
+    {
+      "index": "shadow",
+      "name": "Shadow",
+      "url": "/api/2024/monsters/shadow"
+    },
+    {
+      "index": "shambling-mound",
+      "name": "Shambling Mound",
+      "url": "/api/2024/monsters/shambling-mound"
+    },
+    {
+      "index": "shield-guardian",
+      "name": "Shield Guardian",
+      "url": "/api/2024/monsters/shield-guardian"
+    },
+    {
+      "index": "shrieker-fungus",
+      "name": "Shrieker Fungus",
+      "url": "/api/2024/monsters/shrieker-fungus"
+    },
+    {
+      "index": "silver-dragon-wyrmling",
+      "name": "Silver Dragon Wyrmling",
+      "url": "/api/2024/monsters/silver-dragon-wyrmling"
+    },
+    {
+      "index": "skeleton",
+      "name": "Skeleton",
+      "url": "/api/2024/monsters/skeleton"
+    },
+    {
+      "index": "solar",
+      "name": "Solar",
+      "url": "/api/2024/monsters/solar"
+    },
+    {
+      "index": "specter",
+      "name": "Specter",
+      "url": "/api/2024/monsters/specter"
+    },
+    {
+      "index": "sphinx-of-lore",
+      "name": "Sphinx of Lore",
+      "url": "/api/2024/monsters/sphinx-of-lore"
+    },
+    {
+      "index": "sphinx-of-valor",
+      "name": "Sphinx of Valor",
+      "url": "/api/2024/monsters/sphinx-of-valor"
+    },
+    {
+      "index": "sphinx-of-wonder",
+      "name": "Sphinx of Wonder",
+      "url": "/api/2024/monsters/sphinx-of-wonder"
+    },
+    {
+      "index": "spider",
+      "name": "Spider",
+      "url": "/api/2024/monsters/spider"
+    },
+    {
+      "index": "spirit-naga",
+      "name": "Spirit Naga",
+      "url": "/api/2024/monsters/spirit-naga"
+    },
+    {
+      "index": "sprite",
+      "name": "Sprite",
+      "url": "/api/2024/monsters/sprite"
+    },
+    {
+      "index": "spy",
+      "name": "Spy",
+      "url": "/api/2024/monsters/spy"
+    },
+    {
+      "index": "steam-mephit",
+      "name": "Steam Mephit",
+      "url": "/api/2024/monsters/steam-mephit"
+    },
+    {
+      "index": "stirge",
+      "name": "Stirge",
+      "url": "/api/2024/monsters/stirge"
+    },
+    {
+      "index": "stone-giant",
+      "name": "Stone Giant",
+      "url": "/api/2024/monsters/stone-giant"
+    },
+    {
+      "index": "stone-golem",
+      "name": "Stone Golem",
+      "url": "/api/2024/monsters/stone-golem"
+    },
+    {
+      "index": "storm-giant",
+      "name": "Storm Giant",
+      "url": "/api/2024/monsters/storm-giant"
+    },
+    {
+      "index": "succubus",
+      "name": "Succubus",
+      "url": "/api/2024/monsters/succubus"
+    },
+    {
+      "index": "swarm-of-bats",
+      "name": "Swarm of Bats",
+      "url": "/api/2024/monsters/swarm-of-bats"
+    },
+    {
+      "index": "swarm-of-crawling-claws",
+      "name": "Swarm of Crawling Claws",
+      "url": "/api/2024/monsters/swarm-of-crawling-claws"
+    },
+    {
+      "index": "swarm-of-insects",
+      "name": "Swarm of Insects",
+      "url": "/api/2024/monsters/swarm-of-insects"
+    },
+    {
+      "index": "swarm-of-piranhas",
+      "name": "Swarm of Piranhas",
+      "url": "/api/2024/monsters/swarm-of-piranhas"
+    },
+    {
+      "index": "swarm-of-rats",
+      "name": "Swarm of Rats",
+      "url": "/api/2024/monsters/swarm-of-rats"
+    },
+    {
+      "index": "swarm-of-ravens",
+      "name": "Swarm of Ravens",
+      "url": "/api/2024/monsters/swarm-of-ravens"
+    },
+    {
+      "index": "swarm-of-venomous-snakes",
+      "name": "Swarm of Venomous Snakes",
+      "url": "/api/2024/monsters/swarm-of-venomous-snakes"
+    },
+    {
+      "index": "tarrasque",
+      "name": "Tarrasque",
+      "url": "/api/2024/monsters/tarrasque"
+    },
+    {
+      "index": "tiger",
+      "name": "Tiger",
+      "url": "/api/2024/monsters/tiger"
+    },
+    {
+      "index": "tough",
+      "name": "Tough",
+      "url": "/api/2024/monsters/tough"
+    },
+    {
+      "index": "tough-boss",
+      "name": "Tough Boss",
+      "url": "/api/2024/monsters/tough-boss"
+    },
+    {
+      "index": "treant",
+      "name": "Treant",
+      "url": "/api/2024/monsters/treant"
+    },
+    {
+      "index": "triceratops",
+      "name": "Triceratops",
+      "url": "/api/2024/monsters/triceratops"
+    },
+    {
+      "index": "troll",
+      "name": "Troll",
+      "url": "/api/2024/monsters/troll"
+    },
+    {
+      "index": "troll-limb",
+      "name": "Troll Limb",
+      "url": "/api/2024/monsters/troll-limb"
+    },
+    {
+      "index": "tyrannosaurus-rex",
+      "name": "Tyrannosaurus Rex",
+      "url": "/api/2024/monsters/tyrannosaurus-rex"
+    },
+    {
+      "index": "unicorn",
+      "name": "Unicorn",
+      "url": "/api/2024/monsters/unicorn"
+    },
+    {
+      "index": "vampire-bat",
+      "name": "Vampire, Bat Form",
+      "url": "/api/2024/monsters/vampire-bat"
+    },
+    {
+      "index": "vampire-familiar",
+      "name": "Vampire Familiar",
+      "url": "/api/2024/monsters/vampire-familiar"
+    },
+    {
+      "index": "vampire-mist",
+      "name": "Vampire, Mist Form",
+      "url": "/api/2024/monsters/vampire-mist"
+    },
+    {
+      "index": "vampire-spawn",
+      "name": "Vampire Spawn",
+      "url": "/api/2024/monsters/vampire-spawn"
+    },
+    {
+      "index": "vampire-vampire",
+      "name": "Vampire, Vampire Form",
+      "url": "/api/2024/monsters/vampire-vampire"
+    },
+    {
+      "index": "venomous-snake",
+      "name": "Venomous Snake",
+      "url": "/api/2024/monsters/venomous-snake"
+    },
+    {
+      "index": "violet-fungus",
+      "name": "Violet Fungus",
+      "url": "/api/2024/monsters/violet-fungus"
+    },
+    {
+      "index": "vrock",
+      "name": "Vrock",
+      "url": "/api/2024/monsters/vrock"
+    },
+    {
+      "index": "vulture",
+      "name": "Vulture",
+      "url": "/api/2024/monsters/vulture"
+    },
+    {
+      "index": "warhorse",
+      "name": "Warhorse",
+      "url": "/api/2024/monsters/warhorse"
+    },
+    {
+      "index": "warhorse-skeleton",
+      "name": "Warhorse Skeleton",
+      "url": "/api/2024/monsters/warhorse-skeleton"
+    },
+    {
+      "index": "warrior-infantry",
+      "name": "Warrior Infantry",
+      "url": "/api/2024/monsters/warrior-infantry"
+    },
+    {
+      "index": "warrior-veteran",
+      "name": "Warrior Veteran",
+      "url": "/api/2024/monsters/warrior-veteran"
+    },
+    {
+      "index": "water-elemental",
+      "name": "Water Elemental",
+      "url": "/api/2024/monsters/water-elemental"
+    },
+    {
+      "index": "weasel",
+      "name": "Weasel",
+      "url": "/api/2024/monsters/weasel"
+    },
+    {
+      "index": "werebear-bear",
+      "name": "Werebear, Bear Form",
+      "url": "/api/2024/monsters/werebear-bear"
+    },
+    {
+      "index": "werebear-human",
+      "name": "Werebear, Human Form",
+      "url": "/api/2024/monsters/werebear-human"
+    },
+    {
+      "index": "werebear-hybrid",
+      "name": "Werebear, Hybrid Form",
+      "url": "/api/2024/monsters/werebear-hybrid"
+    },
+    {
+      "index": "wereboar-boar",
+      "name": "Wereboar, Boar Form",
+      "url": "/api/2024/monsters/wereboar-boar"
+    },
+    {
+      "index": "wereboar-human",
+      "name": "Wereboar, Human Form",
+      "url": "/api/2024/monsters/wereboar-human"
+    },
+    {
+      "index": "wereboar-hybrid",
+      "name": "Wereboar, Hybrid Form",
+      "url": "/api/2024/monsters/wereboar-hybrid"
+    },
+    {
+      "index": "wererat-human",
+      "name": "Wererat, Human Form",
+      "url": "/api/2024/monsters/wererat-human"
+    },
+    {
+      "index": "wererat-hybrid",
+      "name": "Wererat, Hybrid Form",
+      "url": "/api/2024/monsters/wererat-hybrid"
+    },
+    {
+      "index": "wererat-rat",
+      "name": "Wererat, Rat Form",
+      "url": "/api/2024/monsters/wererat-rat"
+    },
+    {
+      "index": "weretiger-human",
+      "name": "Weretiger, Human Form",
+      "url": "/api/2024/monsters/weretiger-human"
+    },
+    {
+      "index": "weretiger-hybrid",
+      "name": "Weretiger, Hybrid Form",
+      "url": "/api/2024/monsters/weretiger-hybrid"
+    },
+    {
+      "index": "weretiger-tiger",
+      "name": "Weretiger, Tiger Form",
+      "url": "/api/2024/monsters/weretiger-tiger"
+    },
+    {
+      "index": "werewolf-human",
+      "name": "Werewolf, Human Form",
+      "url": "/api/2024/monsters/werewolf-human"
+    },
+    {
+      "index": "werewolf-hybrid",
+      "name": "Werewolf, Hybrid Form",
+      "url": "/api/2024/monsters/werewolf-hybrid"
+    },
+    {
+      "index": "werewolf-wolf",
+      "name": "Werewolf, Wolf Form",
+      "url": "/api/2024/monsters/werewolf-wolf"
+    },
+    {
+      "index": "white-dragon-wyrmling",
+      "name": "White Dragon Wyrmling",
+      "url": "/api/2024/monsters/white-dragon-wyrmling"
+    },
+    {
+      "index": "wight",
+      "name": "Wight",
+      "url": "/api/2024/monsters/wight"
+    },
+    {
+      "index": "will-o-wisp",
+      "name": "Will-o\u2019-Wisp",
+      "url": "/api/2024/monsters/will-o-wisp"
+    },
+    {
+      "index": "winter-wolf",
+      "name": "Winter Wolf",
+      "url": "/api/2024/monsters/winter-wolf"
+    },
+    {
+      "index": "wolf",
+      "name": "Wolf",
+      "url": "/api/2024/monsters/wolf"
+    },
+    {
+      "index": "worg",
+      "name": "Worg",
+      "url": "/api/2024/monsters/worg"
+    },
+    {
+      "index": "wraith",
+      "name": "Wraith",
+      "url": "/api/2024/monsters/wraith"
+    },
+    {
+      "index": "wyvern",
+      "name": "Wyvern",
+      "url": "/api/2024/monsters/wyvern"
+    },
+    {
+      "index": "xorn",
+      "name": "Xorn",
+      "url": "/api/2024/monsters/xorn"
+    },
+    {
+      "index": "young-black-dragon",
+      "name": "Young Black Dragon",
+      "url": "/api/2024/monsters/young-black-dragon"
+    },
+    {
+      "index": "young-blue-dragon",
+      "name": "Young Blue Dragon",
+      "url": "/api/2024/monsters/young-blue-dragon"
+    },
+    {
+      "index": "young-brass-dragon",
+      "name": "Young Brass Dragon",
+      "url": "/api/2024/monsters/young-brass-dragon"
+    },
+    {
+      "index": "young-bronze-dragon",
+      "name": "Young Bronze Dragon",
+      "url": "/api/2024/monsters/young-bronze-dragon"
+    },
+    {
+      "index": "young-copper-dragon",
+      "name": "Young Copper Dragon",
+      "url": "/api/2024/monsters/young-copper-dragon"
+    },
+    {
+      "index": "young-gold-dragon",
+      "name": "Young Gold Dragon",
+      "url": "/api/2024/monsters/young-gold-dragon"
+    },
+    {
+      "index": "young-green-dragon",
+      "name": "Young Green Dragon",
+      "url": "/api/2024/monsters/young-green-dragon"
+    },
+    {
+      "index": "young-red-dragon",
+      "name": "Young Red Dragon",
+      "url": "/api/2024/monsters/young-red-dragon"
+    },
+    {
+      "index": "young-silver-dragon",
+      "name": "Young Silver Dragon",
+      "url": "/api/2024/monsters/young-silver-dragon"
+    },
+    {
+      "index": "young-white-dragon",
+      "name": "Young White Dragon",
+      "url": "/api/2024/monsters/young-white-dragon"
+    },
+    {
+      "index": "zombie",
+      "name": "Zombie",
+      "url": "/api/2024/monsters/zombie"
+    }
+  ]
+}
