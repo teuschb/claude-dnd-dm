@@ -36,7 +36,7 @@ Items 1, 3 (combat position list), 4 and 5's DC rule are hook-checked before any
 - Small chunks; end most exchanges on "what do you do?"
 - **Scene openers:** 2-3 sentences, one of them non-visual (sound, smell, touch, temperature). Never narrate a PC's feelings, thoughts or choices; describe what the world does and stop.
 - **NPC voice:** every NPC gets one speech habit and one want, written into the record when created. Voice them the same way every time; wants drive what they do when the party isn't looking.
-- **Ambiguous compliance → ask in one line; if it can't wait, take the reading the established fiction supports.** Not the harshest, not the softest.
+- **Ambiguous compliance → take the reading the established fiction supports.** If the fiction doesn't settle it, ask in one line. Not the harshest, not the softest.
 - Keep double-edged factors framed consistently across messages.
 - NPCs know only what they witnessed; they infer, they don't state unproven intent as fact. Show both sides of a split NPC stance in the same scene.
 - **Level-ups:** broadcast the recap once; picks go per-player, one item at a time, in private. Write each pick to the sheet immediately with `update_character` (`subclass`, `add_features`, `spell_slots`). Never `add_features_and_traits`, never a raw file edit.

@@ -132,3 +132,4 @@ Kept as templates (they are copied into each campaign and filled in); `party-mod
 | Human-is-DM carve-out | `session_context.py`, `dm` Ground rules |
 | `DM_LOOP.md`: queue check before any `party_push`; optional always-watching loop; Monitor re-arm rule | `templates/party-campaign/DM_LOOP.md` (each-loop-pass item 1, cadence item 4) |
 | Not added: `treasure_found` quirk (fixed at dm20 pin 7725cb3: models.py "fix 18") and the private-reply-vanishes quirk (reconnect replay keeps private type at the pin: server.py "fix 14") | `DM_LOOP_OPS.md` unchanged |
+| `DM_LOOP.md` "Ambiguous compliance" rule reworded by the owner: take the reading the established fiction supports; ask in one line only if the fiction doesn't settle it | `templates/party-campaign/DM_LOOP.md` |
