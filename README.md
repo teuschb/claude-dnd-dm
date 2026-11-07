@@ -11,7 +11,7 @@ This repository is a plugin *marketplace* with one plugin. Your campaigns live i
 
 ## Install
 
-Requires [Claude Code](https://claude.com/claude-code) and [uv](https://docs.astral.sh/uv/) (`brew install uv`); both MCP servers run through `uvx`.
+Requires [Claude Code](https://claude.com/claude-code), `python3` on your PATH (the hooks and the dm20 wrapper are Python scripts), and [uv](https://docs.astral.sh/uv/) (`brew install uv`; both MCP servers run through `uvx`). If `uvx` is missing the dm20 server prints how to install it instead of failing silently.
 
 ```
 /plugin marketplace add teuschb/claude-dnd-dm
@@ -19,6 +19,14 @@ Requires [Claude Code](https://claude.com/claude-code) and [uv](https://docs.ast
 ```
 
 Or from a shell: `claude plugin marketplace add teuschb/claude-dnd-dm` then `claude plugin install dnd-dm@claude-dnd-dm --scope project`. Project scope is recommended: the plugin is then enabled for everyone who opens that project.
+
+**First start is slow.** The first launch builds the pinned dm20 (and d20-mcp) environments and can take up to a minute on a slow connection, and Claude Code waits only 30 seconds for an MCP server to start. Warm the cache once after installing:
+
+```
+<plugin root>/bin/dm20 --prewarm
+```
+
+(`<plugin root>` is the plugin's install directory, shown by `claude plugin details dnd-dm`.) If a server still times out, retry with `/mcp` -> Reconnect in a session. A timed-out *plugin* server also goes into a retry lockout: for about 15 minutes a new session or `claude -p` run skips it, so use Reconnect (interactive) instead of waiting.
 
 Then open Claude Code in the project and say, e.g. *"Let's start a new solo D&D campaign."* The `dnd-dm:new-campaign` skill loads the SRD 2024 rules, creates the campaign, copies in the templates, builds your character with you, and asks how you want campaigns saved.
 
@@ -30,7 +38,7 @@ The **data dir**, default `<project>/dnd/`. To use another folder, create `.clau
 { "data_dir": "rpg/dnd" }
 ```
 
-(relative to the project root, or an absolute path). The data dir holds `campaigns/`, `events/` (dm20's own storage), a seeded copy of the SRD cache in `rulebook_cache/`, and an optional `reference/` folder for local overrides of the rules reference files. The plugin is silent in projects that have neither a data dir nor `.claude/dnd-dm.json`.
+(relative to the project root, or an absolute path). The data dir holds `campaigns/`, `events/` (dm20's own storage), a seeded copy of the SRD cache in `rulebook_cache/`, and an optional `reference/` folder for local overrides of the rules reference files. **Opt-in.** A project is a D&D project only if `.claude/dnd-dm.json` exists or `<data dir>/campaigns` already exists. In any other project the plugin creates nothing (no `dnd/` folder, no `.gitignore`, no cache) and prints nothing at session start; dm20 runs against throwaway storage in the plugin's data directory. The `dnd-dm:new-campaign` skill opts a project in (writes `.claude/dnd-dm.json`, creates and seeds the data dir) and then asks you to reconnect the dm20 server with `/mcp` -> Reconnect, because dm20 fixes its storage path at startup. A bare, unrelated `dnd/` folder is left alone.
 
 ## What's in the plugin
 
@@ -53,6 +61,7 @@ docs/MIGRATION_MAP.md             where every section of the old project-style l
 - **Skills** (namespaced `dnd-dm:`): `dm` (ground rules, dice rule, which file for what), `new-campaign`, `session-start`, `party-mode`, `session-end`, `level-up`, `rules`. Each rule in them came from something that actually went wrong at a real table.
 - **Always-on rules.** A SessionStart hook prints the compact ground rules (dice are never invented, let it fail, never reveal DCs, never auto-decline a held reaction, ...) in D&D projects only.
 - **Hooks.** The Party Mode hooks block a message before it is sent if it breaks the checklist: it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list. A guard hook asks for approval before campaign data is pushed to a public repo (below).
+- **No other agents.** The old `AGENTS.md` (a condensed copy for non-Claude agents) is dropped; this is a Claude Code plugin only.
 - **Tool names.** Plugin MCP tools appear as `mcp__plugin_dnd-dm_dm20-protocol__<tool>` and `mcp__plugin_dnd-dm_d20-mcp__<tool>`.
 
 ## Scope: SRD-only

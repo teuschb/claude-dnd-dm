@@ -18,7 +18,7 @@ Conventions applied everywhere: bare tool names stay bare in prose, and the `dm`
 | `rpg/dnd/templates/campaign-data.gitignore` | `plugin/templates/campaign-data-repo.gitignore` | Also ignores `rulebook_cache/` |
 | `rpg/CLAUDE.md` | `skills/dm/SKILL.md` (Ground rules, full text) + `scripts/session_context.py` (compact version, always on) | See section below |
 | `rpg/dnd/CLAUDE.md` | split across `dm`, `new-campaign`, `session-start`, `party-mode`, `rules` skills | See section below |
-| `rpg/dnd/AGENTS.md` | `skills/dm`, `rules`, `new-campaign` | Condensed duplicate of CLAUDE.md for non-Claude agents; unique statements listed below |
+| `rpg/dnd/AGENTS.md` | `skills/dm`, `rules`, `new-campaign` | Condensed duplicate of CLAUDE.md for non-Claude agents. **Support for non-Claude agents is explicitly dropped**: there is no AGENTS.md in the plugin. Unique statements listed below |
 | `rpg/dnd/DM_CORE.md` | `skills/dm/DM_CORE.md` (bundled); "Leveling" -> `skills/level-up`, "Session end" -> `skills/session-end` | See section below |
 | `rpg/dnd/IMPROV_TOOLKIT.md` | `skills/dm/IMPROV_TOOLKIT.md` | Verbatim |
 | `rpg/dnd/SRD_2024_*.md` (3) | `plugin/reference/` | Moved, not edited (git rename) |
@@ -73,6 +73,8 @@ Conventions applied everywhere: bare tool names stay bare in prose, and the `dm`
 
 ## `rpg/dnd/AGENTS.md`
 
+The file existed to give non-Claude-Code agents a condensed version of the instructions. That use case is dropped with the move to a Claude Code plugin.
+
 Almost all of it duplicates `rpg/dnd/CLAUDE.md` and is covered above. The statements unique to it:
 
 | Statement | New location |
@@ -120,3 +122,13 @@ Kept as templates (they are copied into each campaign and filled in); `party-mod
 |---|---|
 | `check_narration_rules.py`, `check_resolve_leads.py` | `CAMPAIGNS` now `<data dir>/campaigns` via `dnd_paths.py` (project root from `CLAUDE_PROJECT_DIR`, else the hook payload's `cwd`); the tool-name check is a suffix test, so old and plugin names both work |
 | `guard_campaign_privacy.py` | repos checked: the repo the data dir sits in (if it tracks `campaigns/`/`events/` files) and the repo a symlinked `campaigns`/`events` resolves into. Still ask-mode, never blocks, allows on internal errors; the `dnd.campaignsPublic` skip is unchanged |
+
+## Changes after the first QA pass
+
+| Change | Where |
+|---|---|
+| Project is D&D only when opted in (`.claude/dnd-dm.json` or `<data dir>/campaigns` exists); otherwise idle storage, nothing created | `dnd_paths.py`, `bin/dm20`, `session_context.py`; procedure in `new-campaign` "Step 0" |
+| Seeding keyed on a content hash, writes only missing/different files, marker outside `srd_2024/` | `scripts/dnd_setup.py` |
+| Human-is-DM carve-out | `session_context.py`, `dm` Ground rules |
+| `DM_LOOP.md`: queue check before any `party_push`; optional always-watching loop; Monitor re-arm rule | `templates/party-campaign/DM_LOOP.md` (each-loop-pass item 1, cadence item 4) |
+| Not added: `treasure_found` quirk (fixed at dm20 pin 7725cb3: models.py "fix 18") and the private-reply-vanishes quirk (reconnect replay keeps private type at the pin: server.py "fix 14") | `DM_LOOP_OPS.md` unchanged |
