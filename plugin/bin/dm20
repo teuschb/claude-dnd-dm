@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """MCP wrapper for dm20-protocol (dnd-dm plugin).
 
-Resolves the project's D&D data dir, creates it if missing, seeds the SRD
-rulebook cache into it, sets DM20_STORAGE_DIR, then execs dm20-protocol via uvx.
-Nothing is printed to stdout (it is the MCP stdio channel).
+Opted-in project (`.claude/dnd-dm.json`, or `<data dir>/campaigns` exists): creates
+the data dir if missing, seeds the SRD cache, points DM20_STORAGE_DIR at it.
+Any other project: creates and seeds nothing there; dm20 runs against idle
+storage under ${CLAUDE_PLUGIN_DATA}/idle (or a temp dir).
+Then execs dm20-protocol via uvx. Nothing is printed to stdout (the MCP channel).
+
+`bin/dm20 --prewarm` builds the pinned dm20 and d20-mcp environments into the uv
+cache and exits (run once after installing; the first cold start can take a minute).
 """
 from __future__ import annotations
 
@@ -15,10 +20,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import dnd_paths  # noqa: E402
+import dnd_setup  # noqa: E402
 
 DM20_PIN = "7725cb32297303e58d153bbce60bfaa37f4ab34a"
 DM20_SRC = f"git+https://github.com/teuschb/dm20-protocol@{DM20_PIN}"
-MARKER = ".dnd-dm-seed-version"
+D20_PIN = "846b2845303be82b5b1e57c8c7728ad1966ac63c"
+D20_SRC = f"git+https://github.com/saidsurucu/d20-mcp@{D20_PIN}"
 
 
 def log(msg: str) -> None:
@@ -29,47 +36,45 @@ def log(msg: str) -> None:
             fh.write(f"{time.strftime('%H:%M:%S')} pid={os.getpid()} {msg}\n")
 
 
-def seed_cache(data: Path) -> None:
-    """Copy the plugin's SRD cache into the data dir when missing or the plugin changed.
-
-    Copy, never symlink: dm20 may write there. Existing files dm20 added are kept.
-    """
-    src = dnd_paths.PLUGIN_ROOT / "rulebook_cache" / "srd_2024"
-    if not src.is_dir():
-        return
-    cache = data / "rulebook_cache"
-    dst = cache / "srd_2024"
-    marker = cache / MARKER
-    version = dnd_paths.plugin_version()
-    if dst.is_dir() and marker.is_file() and marker.read_text(encoding="utf-8").strip() == version:
-        return
-    cache.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(src, dst, dirs_exist_ok=True)
-    marker.write_text(version + "\n", encoding="utf-8")
-    log(f"seeded SRD cache into {dst} (plugin {version})")
-
-
-def ensure_gitignore(data: Path) -> None:
-    """New data dir: write the safe default .gitignore (campaigns/events private until the owner chooses)."""
-    target = data / ".gitignore"
-    template = dnd_paths.PLUGIN_ROOT / "templates" / "data-dir.gitignore"
-    if not target.exists() and template.is_file():
-        shutil.copyfile(template, target)
+def need_uvx() -> None:
+    if not shutil.which("uvx"):
+        print("dnd-dm: 'uvx' was not found on PATH. The D&D MCP servers run through uv.\n"
+              "Install it with `brew install uv` or see https://docs.astral.sh/uv/getting-started/installation/ "
+              "and restart Claude Code.", file=sys.stderr)
+        sys.exit(127)
 
 
 def main() -> None:
+    need_uvx()
+    if "--prewarm" in sys.argv:
+        import subprocess
+        for src, exe in ((DM20_SRC, "dm20-protocol"), (D20_SRC, "d20-mcp")):
+            print(f"building {exe} ...", file=sys.stderr)
+            # same spec as the real launch, so the same cached environment; runs no server
+            subprocess.run(["uvx", "--from", src, "python", "-c", "pass"], stdin=subprocess.DEVNULL,
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False)
+        return
     root = dnd_paths.project_root()
-    data = dnd_paths.data_dir(root)
-    existed = data.exists()
-    data.mkdir(parents=True, exist_ok=True)
-    if not existed:
-        ensure_gitignore(data)
-    try:
-        seed_cache(data)
-    except OSError as exc:  # a seeding problem must not stop the server
-        log(f"cache seeding failed: {exc}")
+    if dnd_paths.is_dnd_project(root):
+        data = dnd_paths.data_dir(root)
+        existed = data.exists()
+        data.mkdir(parents=True, exist_ok=True)
+        if not existed:
+            dnd_setup.ensure_gitignore(data)
+        try:
+            n = dnd_setup.seed_cache(data)
+            if n:
+                log(f"seeded SRD cache: {n} files written into {data / 'rulebook_cache'}")
+        except OSError as exc:  # a seeding problem must not stop the server
+            log(f"cache seeding failed: {exc}")
+        mode = "project"
+    else:
+        data = dnd_paths.idle_dir()
+        data.mkdir(parents=True, exist_ok=True)
+        mode = "idle"
     os.environ["DM20_STORAGE_DIR"] = str(data)
-    log(f"project={root} cwd={os.getcwd()} CLAUDE_PROJECT_DIR={os.environ.get('CLAUDE_PROJECT_DIR')} data={data}")
+    log(f"mode={mode} project={root} cwd={os.getcwd()} CLAUDE_PROJECT_DIR={os.environ.get('CLAUDE_PROJECT_DIR')} "
+        f"CLAUDE_PLUGIN_DATA={os.environ.get('CLAUDE_PLUGIN_DATA')} storage={data}")
     os.execvp("uvx", ["uvx", "--from", DM20_SRC, "dm20-protocol", *sys.argv[1:]])
 
 

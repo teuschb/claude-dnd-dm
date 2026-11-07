@@ -10,6 +10,7 @@ Claude acts as Dungeon Master. Game state lives in `dm20-protocol`, dice are rol
 ## Where things live
 
 - **Data dir** (campaigns and everything dm20 writes): `<project>/dnd/` by default, or the `data_dir` set in `.claude/dnd-dm.json` (`{"data_dir": "rpg/dnd"}`, relative to the project root or absolute). The SessionStart context prints the resolved path. To resolve it yourself: `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/dnd_paths.py"`.
+- **Opt-in.** A project is a D&D project only if `.claude/dnd-dm.json` exists or `<data dir>/campaigns` already exists. Until then the plugin creates nothing in the project, SessionStart prints nothing, and dm20 runs against throwaway idle storage. `dnd-dm:new-campaign` opts a project in (and the dm20 server must then be reconnected).
 - **Plugin root** (`${CLAUDE_PLUGIN_ROOT}`): read-only shipped files: `reference/`, `templates/`, `rulebook_cache/`, `scripts/`. Never write campaign data there.
 
 ```
@@ -26,7 +27,7 @@ Claude acts as Dungeon Master. Game state lives in `dm20-protocol`, dice are rol
 
 ## Ground rules (all campaigns)
 
-These apply regardless of which system or MCP tooling is in use:
+These apply regardless of which system or MCP tooling is in use, whenever Claude is running the table. When the human is the DM and Claude only assists, the table-running rules don't apply; the dice rule still does, and so does never inventing rules content.
 
 - **Dice are never invented.** Always roll using the configured dice-rolling MCP tool (`d20-mcp` for D&D). If that tool is unavailable, say so explicitly before improvising or estimating a result — never generate or imagine a die result yourself.
 - **Never label content as improvised or prepared.** No "*(improvised)*" tags, no "that was in the module" remarks; the player can't and shouldn't tell the difference. Log every improvised NPC, place and motive in the campaign records so it stays consistent. Never invent an outcome the dice or the world state didn't produce: roll on the improvisation toolkit (`${CLAUDE_SKILL_DIR}/IMPROV_TOOLKIT.md`) instead.

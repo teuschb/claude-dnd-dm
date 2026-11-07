@@ -5,7 +5,7 @@
     },
     "d20-mcp": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/saidsurucu/d20-mcp", "d20-mcp"]
+      "args": ["--from", "git+https://github.com/saidsurucu/d20-mcp@846b2845303be82b5b1e57c8c7728ad1966ac63c", "d20-mcp"]
     }
   }
 }

@@ -1,8 +1,10 @@
+(`<plugin root>` below is the plugin root path given in the `dnd-dm:new-campaign` SKILL.md; substitute it before running any command. `<data dir>` is the project's data dir.)
+
 # Saving Campaigns
 
-Campaigns are gitignored by default (the data dir's `.gitignore` is written from `${CLAUDE_PLUGIN_ROOT}/templates/data-dir.gitignore` when the plugin first creates the data dir), so a new campaign is **not backed up**. Backup matters for two things: losing the disk, and running the DM from more than one place (a phone or claude.ai/code web session works from a fresh clone and only sees campaigns that were pushed). Multiplayer doesn't need git: players connect to the DM's machine through their links.
+Campaigns are gitignored by default (the data dir's `.gitignore` is written from `<plugin root>/templates/data-dir.gitignore` when the plugin first creates the data dir), so a new campaign is **not backed up**. Backup matters for two things: losing the disk, and running the DM from more than one place (a phone or claude.ai/code web session works from a fresh clone and only sees campaigns that were pushed). Multiplayer doesn't need git: players connect to the DM's machine through their links.
 
-If the data dir has no `.gitignore` (for example a data dir that existed before the plugin), write it from `${CLAUDE_PLUGIN_ROOT}/templates/data-dir.gitignore` before anything else. It always ignores `campaigns/*/party/`, `campaigns/*/voice_registry.yaml`, `campaigns/*/rulebooks/cache/` and `rulebook_cache/`.
+If the data dir has no `.gitignore` (for example a data dir that existed before the plugin), write it from `<plugin root>/templates/data-dir.gitignore` before anything else. It always ignores `campaigns/*/party/`, `campaigns/*/voice_registry.yaml`, `campaigns/*/rulebooks/cache/` and `rulebook_cache/`.
 
 Ask once per clone of the project (the answer is recorded in `git config dnd.campaignStorage`, which is local and never committed). Explain the consequences in plain words, and confirm with the human before creating any GitHub repo. Ask in this order:
 
@@ -11,7 +13,7 @@ Ask once per clone of the project (the answer is recorded in `git config dnd.cam
 - Set it up outside this project (default `~/dnd-campaigns`) and symlink it in. dm20 creates `campaigns/` and `events/` on startup, so move anything already there. `<data dir>` is the project's D&D data dir:
   ```bash
   D=~/dnd-campaigns; mkdir -p "$D" && cd "$D" && git init -b main
-  cp "${CLAUDE_PLUGIN_ROOT}/templates/campaign-data-repo.gitignore" .gitignore
+  cp "<plugin root>/templates/campaign-data-repo.gitignore" .gitignore
   mkdir -p "<data dir>/campaigns" "<data dir>/events"
   mv "<data dir>/campaigns" "$D/campaigns" && mv "<data dir>/events" "$D/events"
   ln -s "$D/campaigns" "<data dir>/campaigns" && ln -s "$D/events" "<data dir>/events"

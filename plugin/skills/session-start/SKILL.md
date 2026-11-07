@@ -10,14 +10,14 @@ Core rules: load `dnd-dm:dm` first if it isn't loaded. Tool names are bare; call
 ## Common steps (solo and party)
 
 1. `load_campaign(name="<campaign>")`.
-2. **Reload rulebooks — they do NOT persist across sessions.** `load_campaign` does not reload a campaign's rulebooks from `rulebooks/manifest.json`. Every session re-runs `load_rulebook` for the SRD base and each overlay before relying on `get_class_info`, `get_race_info` or `search_rules`. In this order:
+2. **Reload rulebooks — they do NOT persist across sessions.** `load_campaign` does not reload a campaign's rulebooks from `rulebooks/manifest.json`. Every session re-runs `load_rulebook` for the SRD base and then the campaign's overlays before relying on `get_class_info`, `get_race_info` or `search_rules`. Load the SRD base first, then the overlays in the order the campaign's own `CLAUDE.md` / `DM_LOOP.md` lists them (check `campaigns/<campaign>/rulebooks/custom/` for what is there). If the campaign lists none, default to the 4 shipped overlays, in this order:
    1. `load_rulebook(source="srd", version="2024")`
    2. `load_rulebook(source="custom", path="custom/srd_2024_species_corrections.json")`
    3. `load_rulebook(source="custom", path="custom/srd_2024_class_progression.json")`
    4. `load_rulebook(source="custom", path="custom/srd_2024_feats.json")`
    5. `load_rulebook(source="custom", path="custom/srd_2024_spells.json")`
 
-   (The overlays live in `campaigns/<campaign>/rulebooks/custom/`; any campaign-specific overlays there load after these.) Later sources win, so the overlays override the SRD base. `load_rulebook(source="srd", version="2024")` reads `rulebook_cache/srd_2024/` in the data dir (species grant no ability bonuses). Loading a rulebook rewrites `rulebooks/manifest.json`; that file is only a record — if the campaign has its own private repo, don't commit the churn if it only lost/gained overlay entries.
+   (The shipped overlays are copied into `campaigns/<campaign>/rulebooks/custom/`; a campaign may add its own, which load after these unless its docs say otherwise.) Later sources win, so the overlays override the SRD base. `load_rulebook(source="srd", version="2024")` reads `rulebook_cache/srd_2024/` in the data dir (species grant no ability bonuses). Loading a rulebook rewrites `rulebooks/manifest.json`; that file is only a record — if the campaign has its own private repo, don't commit the churn if it only lost/gained overlay entries.
 3. `get_game_state` and read the campaign's `CAMPAIGN_ARC.md` before narrating anything. If it's missing, still has template placeholders (`<...>`, `_(...)_`), or has empty sections, write it first (the `dnd-dm:new-campaign` skill, Campaign Creation Workflow step 6). Then skim `PLAYER_FEEDBACK.md` open questions.
 4. If `git config dnd.campaignStorage` is unset, walk the player through "Saving Campaigns" (`dnd-dm:new-campaign`) before the first session.
 

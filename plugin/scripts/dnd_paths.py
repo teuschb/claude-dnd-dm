@@ -7,6 +7,9 @@ agree on the data dir.
 Project root: CLAUDE_PROJECT_DIR if set, else the hook payload's "cwd" (hooks
 only), else the process cwd.
 
+A project is a D&D project only if it opted in (see is_dnd_project). Otherwise the
+plugin creates nothing in it.
+
 Data dir: `.claude/dnd-dm.json` in the project, {"data_dir": "rpg/dnd"}
 (relative to the project root, or absolute). Default: <project>/dnd.
 
@@ -50,9 +53,21 @@ def data_dir(root: Path | None = None) -> Path:
 
 
 def is_dnd_project(root: Path | None = None) -> bool:
-    """True when the project has a configured or existing D&D data dir."""
+    """Opt-in test: `.claude/dnd-dm.json` exists, or `<data dir>/campaigns` already exists.
+
+    A bare unrelated `dnd/` folder does not count.
+    """
     root = root or project_root()
-    return config_path(root).is_file() or data_dir(root).is_dir()
+    return config_path(root).is_file() or (data_dir(root) / "campaigns").is_dir()
+
+
+def idle_dir() -> Path:
+    """Storage for dm20 in projects that haven't opted in (nothing is created in the project)."""
+    base = os.environ.get("CLAUDE_PLUGIN_DATA")
+    if base:
+        return Path(base) / "idle"
+    import tempfile
+    return Path(tempfile.gettempdir()) / "dnd-dm-idle"
 
 
 def plugin_version() -> str:

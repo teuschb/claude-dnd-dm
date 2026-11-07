@@ -5,10 +5,11 @@ Read before resolving any player action. Keep this file short: when a new lesson
 - `CAMPAIGN_ARC.md` — secret arc, written in full before session 1, with planned chapter closes. Read at session start only. If the table owner wants to be surprised too, never summarize it into `game_state.notes`, the feed, or notes to the human. It's a menu with a clock, not a rail: one clock step per session the party doesn't interfere; if they push hard, let them get ahead.
 
 ## Each loop pass
-1. `get_party_status` + `party_pop_action` are the queue's source of truth (don't grep `actions.jsonl`).
+1. `get_party_status` + `party_pop_action` are the queue's source of truth (don't grep `actions.jsonl`). Check the queue before any `party_push` too, including a scene opener requested by the owner.
 2. Liveness: `curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/`.
 3. Pop the WHOLE queue. Fold a player's fragmented posts into one response; brief "folded in" resolves for the extras.
 4. **Cadence:** a Monitor on `party/actions.jsonl` is the trigger; it expires after 30 min, so re-arm it. Run the loop **on demand** ("check now", "watch for N hours") from a fresh session: every wake-up resends the whole conversation, so idle polling in a long-lived session burns usage. Never auto-pause a loop the owner started; they say stop.
+   - **Optional always-watching loop** (only when the owner wants one; the on-demand default above stands). Every way of waiting (Monitor, background Bash) is capped at 30 min, so each re-arm costs a turn. While the table is active (a post in the last ~2 hours): keep a 30-min action watcher armed, re-arm it when it expires, and set ScheduleWakeup to 3600s. Once it goes quiet: drop the watcher and poll on a 3600s ScheduleWakeup, so a post is answered within the hour; re-arm the watcher as soon as a post comes in. Optional 12-hour floor: a recurring CronCreate guarantees a pass at least every 12 h; hourly wakeups run only until ~12 h after the last post or DM message, then the cron carries it, and a new post resets to hourly. Cron jobs expire after 7 days: re-create it if the loop's still on. Keep the loop prompt thin; never paste scene state into it. A Monitor re-arms only when it reports ended, never on a heartbeat wakeup.
 5. One-line note to the human per exchange. Don't ask permission for the next obvious DM move.
 6. `game_state.notes` ≤ ~600 chars: where we are + pointers. Scene detail and hidden truth go in location/NPC records.
 

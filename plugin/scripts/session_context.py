@@ -2,8 +2,8 @@
 """SessionStart hook: put the always-on D&D ground rules into context.
 
 Plain stdout from a SessionStart command hook is added to Claude's context.
-Prints nothing unless the project is a D&D project (it has a data dir, or
-.claude/dnd-dm.json), so the plugin is silent in every other project.
+Prints nothing unless the project opted in (.claude/dnd-dm.json exists, or
+<data dir>/campaigns exists), so the plugin is silent in every other project.
 Never fails the session: any internal error prints nothing.
 """
 from __future__ import annotations
@@ -19,7 +19,7 @@ RULES = """\
 D&D project detected (dnd-dm plugin). For any D&D work (running a session, creating a campaign, rules, levelling, Party Mode), load the `dnd-dm:dm` skill first; it points to the other dnd-dm skills.
 Data dir (campaigns live here): {data}
 Plugin root: {plugin}
-Ground rules, always in force (full text in the `dnd-dm:dm` skill):
+Ground rules (full text in the `dnd-dm:dm` skill). They apply whenever Claude is running the table. When the human is the DM and Claude only assists, the table-running rules don't apply; the dice rule still does, and so does never inventing rules content.
 - Dice are never invented. Roll only with the d20-mcp `roll` tools (mcp__plugin_dnd-dm_d20-mcp__roll), never dm20's `roll_dice`. If d20-mcp is unavailable, say so before improvising or estimating a result.
 - Never label content as improvised or prepared. Log every improvised NPC, place and motive in the campaign records. Never invent an outcome the dice or world state didn't produce; roll on IMPROV_TOOLKIT.md instead.
 - Let it fail. Failed rolls fail for real and stand. Routine actions by competent characters just succeed. Never curate encounters toward safe or winnable outcomes.
