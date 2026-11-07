@@ -18,7 +18,7 @@ Requires [Claude Code](https://claude.com/claude-code), `python3` on your PATH (
 /plugin install dnd-dm@claude-dnd-dm
 ```
 
-Or from a shell: `claude plugin marketplace add teuschb/claude-dnd-dm` then `claude plugin install dnd-dm@claude-dnd-dm --scope project`. Project scope is recommended: the plugin is then enabled for everyone who opens that project.
+Or from a shell: `claude plugin marketplace add teuschb/claude-dnd-dm` then `claude plugin install dnd-dm@claude-dnd-dm --scope project`. Project scope is recommended: the plugin is then enabled for everyone who opens that project, and its skills and MCP servers stay out of your other projects' context.
 
 **First start is slow.** The first launch builds the pinned dm20 (and d20-mcp) environments and can take up to a minute on a slow connection, and Claude Code waits only 30 seconds for an MCP server to start. Warm the cache once after installing:
 
@@ -93,7 +93,12 @@ The guard hook (`plugin/scripts/guard_campaign_privacy.py`) asks for your approv
 - **Solo:** just play in the chat. Each session, Claude reloads the campaign and rulebooks (`dnd-dm:session-start`).
 - **Multiplayer (Party Mode):** Claude runs `start_party_mode`, which prints a private link (and QR code) per player. Players on your Wi-Fi can use them directly; for phones elsewhere, expose port 8080 (e.g. `tailscale funnel --bg 8080`). Then tell Claude *"check now"* or *"watch for 2 hours"*, and it answers posts as they arrive. Players can turn on notifications with the bell button.
 
-Party Mode only runs while your Claude Code session is open, so it suits play-by-post in bursts: sessions over an evening or a few days, not an always-on server. Running the watch loop from a fresh session keeps usage down (every wake-up resends the whole conversation).
+Party Mode only runs while your Claude Code session is open, so it suits play-by-post in bursts: sessions over an evening or a few days, not an always-on server. Every wake-up resends the whole conversation, so usage is roughly wake-ups × context size. To keep it down:
+
+- Run the watch loop from a fresh session, and start over (`/clear`) once it gets long. The loop tells you when it's past ~120k tokens.
+- The loop waits on a background watcher instead of polling, so a quiet table costs nothing until someone posts.
+- Sonnet is plenty for routine loop turns (`/model sonnet`).
+- Optionally cap how large any session can grow by adding `"autoCompactWindow": 200000` to your project's `.claude/settings.json`. On 1M-context models, Claude Code otherwise compacts only near 1M tokens.
 
 ## Upgrading from the clone-the-repo version
 

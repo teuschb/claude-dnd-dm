@@ -25,8 +25,8 @@ Core rules: load `dnd-dm:dm` first if it isn't loaded. Tool names are bare; call
 
 ## Solo branch (about one minute)
 
-After the common steps: no `start_party_mode`, no Tailscale funnel, no Monitor or `/loop` — just play in chat. Read the solo rules: `${CLAUDE_PLUGIN_ROOT}/skills/dm/DM_CORE.md` and the campaign's own `CLAUDE.md` (copied from `${CLAUDE_PLUGIN_ROOT}/templates/solo-campaign/CLAUDE.md`). At the end follow the `dnd-dm:session-end` skill.
+After the common steps: no `start_party_mode`, no Tailscale funnel, no action watcher or `/loop` — just play in chat. Read the solo rules: `${CLAUDE_PLUGIN_ROOT}/skills/dm/DM_CORE.md` and the campaign's own `CLAUDE.md` (copied from `${CLAUDE_PLUGIN_ROOT}/templates/solo-campaign/CLAUDE.md`). At the end follow the `dnd-dm:session-end` skill.
 
 ## Party branch
 
-After the common steps (1, 2 and 3 above), continue with the `dnd-dm:party-mode` skill's Start section (`start_party_mode`, tunnel, Monitor), and read the campaign's `DM_LOOP.md` and `DM_LOOP_OPS.md` before resolving any action. The party start has the same steps as the old "Session Start / Stop Checklist": load campaign, reload rulebooks, start party mode, optional tunnel, arm the Monitor, read game state and the arc.
+After the common steps (1, 2 and 3 above), continue with the `dnd-dm:party-mode` skill's Start section (`start_party_mode`, tunnel, action watcher), and read the campaign's `DM_LOOP.md` and `DM_LOOP_OPS.md` before resolving any action. The party start has the same steps as the old "Session Start / Stop Checklist": load campaign, reload rulebooks, start party mode, optional tunnel, arm the Monitor, read game state and the arc.

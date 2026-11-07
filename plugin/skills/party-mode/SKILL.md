@@ -17,16 +17,22 @@ Steps 1, 2 and 6 of the old checklist (load campaign, reload rulebooks, `get_gam
 
 3. `start_party_mode` — prints player URLs + QR paths. **Player links are secret per-campaign tokens** (secret in `campaigns/<c>/party/.token_secret.json`, gitignored). They stay the same across restarts. A lost/leaked link: `party_refresh_token("<character name>")` rotates just that player's.
 4. Optional, for phones off your LAN: expose port 8080 publicly, e.g. `tailscale funnel --bg 8080`.
-5. Arm a `Monitor` on `party/actions.jsonl` for `'"status": "pending"'` (use `tail -n 0 -F`, capital F: the file may not exist yet on a clean feed). Monitors expire after 30 min, so re-arm on expiry.
+5. Arm the action watcher: one background Bash command (`run_in_background: true`) that exits when a new post arrives. Use the absolute path of the campaign's feed:
+   `f="<data dir>/campaigns/<campaign>/party/actions.jsonl"; n=$([ -f "$f" ] && wc -l < "$f" || echo 0); until tail -n +$((n+1)) "$f" 2>/dev/null | grep -q '"status": "pending"'; do sleep 5; done; echo NEW_POST`
+   The feed is append-only (popping adds a `processing` line and leaves the old `pending` one), so it watches only lines added after it starts. Its completion notice triggers the next loop pass. Background Bash isn't capped at 30 min the way a `Monitor` is, so a quiet table costs no turns. Keep exactly one armed; if it ends without `NEW_POST`, re-arm it.
 6. `get_game_state` and read the campaign's `CAMPAIGN_ARC.md` before narrating anything. If it's missing or unfilled, write it first (`dnd-dm:new-campaign`, Campaign Creation Workflow step 6).
 
-**Cost note:** every wake-up resends the whole conversation, so idle polling for days in one long session burns usage fast. Run the DM loop on demand ("check now", or "watch for N hours") from a fresh session rather than leaving it polling. Never auto-pause a loop the owner started; they say stop.
+**Cost note:** every wake-up resends the whole conversation, so cost is roughly wake-ups × context size. Idle polling for days in one long session burns usage fast.
+- Run the DM loop from a **fresh session**, on demand ("check now", or "watch for N hours"). Sonnet handles routine loop turns well (`/model sonnet`); use a stronger model for campaign-arc writing and heavy prep.
+- Let the watcher wake the loop. Don't poll on short ScheduleWakeups or re-arm 30-min Monitors.
+- On a pass that ends with an empty queue, run `python3 "${CLAUDE_PLUGIN_ROOT}/scripts/context_size.py"`. At ~120k or more, tell the owner once that a fresh session (`/clear`, then restart the loop) would make each wake-up cheaper.
+- Never auto-pause a loop the owner started; they say stop.
 
 ## Stop
 
 1. `stop_party_mode`
 2. If you opened a public tunnel, close it (e.g. `tailscale funnel --https=443 off`, verify with `tailscale funnel status`).
-3. `TaskStop` the Monitor; `ScheduleWakeup(stop: true)` if a `/loop` is running.
+3. `TaskStop` the action watcher; `CronDelete` any 12-hour floor; `ScheduleWakeup(stop: true)` if one is pending.
 4. At a **session** boundary (not every teardown): archive the feed — `mkdir -p party/sessions/session_NN && mv party/responses.jsonl party/actions.jsonl party/sessions/session_NN/` — then `add_session_note`, level every PC one step (milestone: every session at levels ~1–3, less often after that; see `dnd-dm:level-up`), and update `game_state.notes`. Full session-end bookkeeping: `dnd-dm:session-end`.
 
 ## Keeping the laptop awake mid-session

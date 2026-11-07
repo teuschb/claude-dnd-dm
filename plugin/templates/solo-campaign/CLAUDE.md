@@ -24,7 +24,7 @@ improvised or prepared (ground rules in the `dnd-dm:dm` skill).
 3. `get_game_state`, then read `CAMPAIGN_ARC.md` (if it's missing or still has
    template placeholders, write it first; see "Campaign Creation Workflow" step 6
    in the `dnd-dm:new-campaign` skill), then skim `PLAYER_FEEDBACK.md` open questions. No
-   `start_party_mode`, no Tailscale funnel, no Monitor/`/loop` — just play in chat.
+   `start_party_mode`, no Tailscale funnel, no action watcher/`/loop` — just play in chat.
 4. At the end follow the `dnd-dm:session-end` skill (session note, quests, encounter log,
    player feedback).
 
