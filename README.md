@@ -1,76 +1,101 @@
 # claude-dnd-dm
 
-A setup for running D&D 5e (SRD 2024) with **Claude Code as the Dungeon Master**: solo in chat, or multiplayer with players joining from their phones.
+A Claude Code plugin that runs D&D 5e (SRD 2024) with **Claude as the Dungeon Master**: solo in chat, or multiplayer with players joining from their phones.
 
-Nothing here is a program you run directly. It's a folder of instructions, rules references and hooks that Claude Code reads, plus two MCP servers that give it real game state and real dice:
+The plugin (`dnd-dm`) is a bundle of skills, hooks, rules references and two MCP servers that give Claude real game state and real dice:
 
 - **[dm20-protocol](https://github.com/teuschb/dm20-protocol)** (fork of [BNDYH/dm20-protocol](https://github.com/BNDYH/dm20-protocol)): campaigns, characters, combat, quests, rulebook lookup, and **Party Mode**, a small web server where each player gets a private link, posts what their character does, and reads the DM's narration.
 - **[d20-mcp](https://github.com/saidsurucu/d20-mcp)**: the only source of dice rolls, so every roll is real and auditable.
 
+This repository is a plugin *marketplace* with one plugin. Your campaigns live in **your project**, not here.
+
+## Install
+
+Requires [Claude Code](https://claude.com/claude-code) and [uv](https://docs.astral.sh/uv/) (`brew install uv`); both MCP servers run through `uvx`.
+
+```
+/plugin marketplace add teuschb/claude-dnd-dm
+/plugin install dnd-dm@claude-dnd-dm
+```
+
+Or from a shell: `claude plugin marketplace add teuschb/claude-dnd-dm` then `claude plugin install dnd-dm@claude-dnd-dm --scope project`. Project scope is recommended: the plugin is then enabled for everyone who opens that project.
+
+Then open Claude Code in the project and say, e.g. *"Let's start a new solo D&D campaign."* The `dnd-dm:new-campaign` skill loads the SRD 2024 rules, creates the campaign, copies in the templates, builds your character with you, and asks how you want campaigns saved.
+
+## Where your campaigns live
+
+The **data dir**, default `<project>/dnd/`. To use another folder, create `.claude/dnd-dm.json` in the project:
+
+```json
+{ "data_dir": "rpg/dnd" }
+```
+
+(relative to the project root, or an absolute path). The data dir holds `campaigns/`, `events/` (dm20's own storage), a seeded copy of the SRD cache in `rulebook_cache/`, and an optional `reference/` folder for local overrides of the rules reference files. The plugin is silent in projects that have neither a data dir nor `.claude/dnd-dm.json`.
+
+## What's in the plugin
+
+```
+.claude-plugin/marketplace.json   the marketplace (one plugin, source ./plugin)
+plugin/
+  .claude-plugin/plugin.json      name dnd-dm
+  .mcp.json                       dm20-protocol (via bin/dm20) + d20-mcp
+  bin/dm20                        wrapper: resolves the data dir, seeds the SRD cache, sets DM20_STORAGE_DIR, execs dm20 (pinned commit)
+  hooks/hooks.json                SessionStart ground rules + three PreToolUse hooks
+  scripts/                        dnd_paths.py (data-dir resolver) + the hook scripts
+  skills/                         dm, new-campaign, session-start, party-mode, session-end, level-up, rules
+  reference/                      SRD_2024_MONSTERS / MAGIC_ITEMS / PLAYER_OPTIONS (generated from the SRD cache)
+  templates/                      starter files for a new campaign, rulebook overlays, gitignores
+  rulebook_cache/srd_2024/        cached SRD 5.2 data, so lookups work offline
+AUDIT.md                          SRD scope check (counts, what was removed, verification)
+docs/MIGRATION_MAP.md             where every section of the old project-style layout went
+```
+
+- **Skills** (namespaced `dnd-dm:`): `dm` (ground rules, dice rule, which file for what), `new-campaign`, `session-start`, `party-mode`, `session-end`, `level-up`, `rules`. Each rule in them came from something that actually went wrong at a real table.
+- **Always-on rules.** A SessionStart hook prints the compact ground rules (dice are never invented, let it fail, never reveal DCs, never auto-decline a held reaction, ...) in D&D projects only.
+- **Hooks.** The Party Mode hooks block a message before it is sent if it breaks the checklist: it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list. A guard hook asks for approval before campaign data is pushed to a public repo (below).
+- **Tool names.** Plugin MCP tools appear as `mcp__plugin_dnd-dm_dm20-protocol__<tool>` and `mcp__plugin_dnd-dm_d20-mcp__<tool>`.
+
 ## Scope: SRD-only
 
-This is the public, SRD-only version of the skill. Everything in it is either original work or material from the System Reference Document 5.2 (SRD 5.2), used under Creative Commons Attribution 4.0. The verified scope is in `AUDIT.md`: 9 species, 12 classes with 1 subclass each, 4 backgrounds, 17 feats, 339 spells, 341 monsters, 262 magic items.
+Everything in this repo is either original work or material from the System Reference Document 5.2 (SRD 5.2), used under Creative Commons Attribution 4.0. The verified scope is in `AUDIT.md`: 9 species, 12 classes with 1 subclass each, 4 backgrounds, 17 feats, 339 spells, 341 monsters, 262 magic items.
 
 **Not included:** Player's Handbook or Monster Manual content beyond SRD 5.2. That means no additional subclasses, backgrounds, feats, or spells from the full PHB, and no Product Identity monsters or items beyond the SRD (for example, no Beholder or Mind Flayer stat blocks, no Wand of Orcus, and the SRD's renamed items are used where the SRD renames them). If it is not in SRD 5.2, it is not in this repo.
 
+Players who own other books can add content to **their own** campaign through custom overlays; the `dnd-dm:rules` skill explains the format. That content is for private use and must not go in a public repo. The plugin ships none of it.
+
 This work is not affiliated with, endorsed by, or sponsored by Wizards of the Coast LLC.
-
-## How it works
-
-- `rpg/CLAUDE.md`: ground rules for any RPG (dice are never invented, the player drives, pause often).
-- `rpg/dnd/CLAUDE.md`: the D&D setup: MCP servers, session start/stop, Party Mode technique, rulebook loading.
-- `rpg/dnd/DM_CORE.md`: DM rules for a solo campaign.
-- `rpg/dnd/templates/party-campaign/DM_LOOP.md`: DM rules for a multiplayer campaign: lead with what the player did, state positions in combat, pause for reactions, public vs private messages, pacing, difficulty. Each rule in it came from something that actually went wrong at a real table.
-- `rpg/dnd/scripts/hooks/`: Claude Code hooks (wired in `.claude/settings.json`). One asks before campaign data goes to a public repo (below). The others block a Party Mode message before it's sent if it breaks the checklist, e.g. it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list.
-- `rpg/dnd/SRD_2024_*.md` + `rpg/dnd/rulebook_cache/srd_2024/`: SRD-only rules references and a cached copy of the SRD 5.2 data, so lookups work offline. The `.md` reference files were generated from the cache JSON, not transcribed from any book.
-- `rpg/dnd/templates/`: starter files for a new campaign (SRD-only rulebook overlays that fix gaps in the SRD API data, encounter log, feedback ledger, secret arc, setting).
-
-## Setup
-
-1. Install [Claude Code](https://claude.com/claude-code) and [uv](https://docs.astral.sh/uv/) (`brew install uv`); both MCP servers run through `uvx`.
-2. Clone this repo and open Claude Code in it. Approve the two project MCP servers when prompted (`claude mcp list` should show both connected).
-3. Ask Claude to start a campaign, e.g. *"Let's start a new solo D&D campaign."* It will follow "Campaign Creation Workflow" in `rpg/dnd/CLAUDE.md`: load the SRD 2024 rules, create the campaign, copy in the templates, build your character with you, and ask how you want campaigns saved (below).
 
 ## Saving your campaigns (and keeping spoilers private)
 
-Everything Claude creates for a campaign (characters, the DM's secret arc and other spoilers, session notes) lands in `rpg/dnd/campaigns/`. This repo is public, so that folder is **gitignored by default**: pushing this repo can't publish your game, but it also means **your campaign isn't backed up** until you choose how.
+Everything Claude creates for a campaign (characters, the DM's secret arc and other spoilers, session notes) lands in the data dir. When the plugin first creates the data dir it writes a `.gitignore` that **ignores `campaigns/` and `events/` by default**: pushing your project can't publish your game, but your campaign isn't backed up until you choose how.
 
 Before your first session, Claude asks how you want to save campaigns:
 
-1. **A separate private repo for campaign data** (recommended). It lives outside this folder and is linked in, so game data and framework stay apart.
-2. **This whole repo as a private repo of your own**, with or without the campaign data in it. Note that a GitHub *fork* of a public repo is always public, so Claude creates a new private repo instead of forking.
+1. **A separate private repo for campaign data** (recommended). It lives outside the project and is linked in, so game data and project stay apart.
+2. **Your project's own repo, private**, with or without the campaign data in it. A GitHub *fork* of a public repo is always public, so Claude creates a new private repo instead of forking.
 3. **Public**, if you really want it. Claude spells out what anyone could read (including your players), and asks once more before anything goes up.
 
-Backup matters if your disk dies, or if you want to run the DM from more than one machine (a phone or web session only sees campaigns that were pushed). Multiplayer doesn't need git: players connect to your machine through their links. The player-link secrets in each campaign's `party/` folder are never committed, whichever option you pick.
+Backup matters if your disk dies, or if you want to run the DM from more than one machine. Multiplayer doesn't need git: players connect to your machine through their links. The player-link secrets in each campaign's `party/` folder are never committed, whichever option you pick.
 
-A Claude Code hook (`rpg/dnd/scripts/hooks/guard_campaign_privacy.py`) asks for your approval before Claude pushes campaign data to a public repo or makes such a repo public, unless you already chose public in step 3.
+The guard hook (`plugin/scripts/guard_campaign_privacy.py`) asks for your approval before Claude pushes campaign data to a public repo or makes such a repo public, unless you already chose public in step 3. It checks the repo the data dir sits in and, if `campaigns` or `events` is a symlink to a separate repo, that repo.
 
 ## Playing
 
-- **Solo:** just play in the chat. Each session, Claude reloads the campaign and rulebooks (`templates/solo-campaign/CLAUDE.md` has the one-minute start).
+- **Solo:** just play in the chat. Each session, Claude reloads the campaign and rulebooks (`dnd-dm:session-start`).
 - **Multiplayer (Party Mode):** Claude runs `start_party_mode`, which prints a private link (and QR code) per player. Players on your Wi-Fi can use them directly; for phones elsewhere, expose port 8080 (e.g. `tailscale funnel --bg 8080`). Then tell Claude *"check now"* or *"watch for 2 hours"*, and it answers posts as they arrive. Players can turn on notifications with the bell button.
 
 Party Mode only runs while your Claude Code session is open, so it suits play-by-post in bursts: sessions over an evening or a few days, not an always-on server. Running the watch loop from a fresh session keeps usage down (every wake-up resends the whole conversation).
 
-## Layout
+## Upgrading from the clone-the-repo version
 
-```
-SKILL.md                  skill definition (name, description, how to use)
-.mcp.json                 MCP servers (dm20-protocol pinned to a commit, d20-mcp)
-.claude/settings.json     the narration hooks
-rpg/
-  CLAUDE.md               ground rules for every RPG
-  dnd/
-    CLAUDE.md             D&D setup and Party Mode
-    AGENTS.md             condensed version for other agents
-    DM_CORE.md            solo DM rules
-    SRD_2024_*.md         SRD-only rules references (generated from the cache)
-    scripts/hooks/        narration checks
-    templates/            new-campaign starter files
-    campaigns/            your campaigns land here (gitignored by default; see above)
-    rulebook_cache/       cached SRD 5.2 data
-AUDIT.md                  SRD scope check (counts, what was removed, verification)
-```
+Earlier versions were a project folder you cloned and worked inside (`rpg/dnd/...`, a root `CLAUDE.md`, `.mcp.json` and `.claude/settings.json`). To move over:
+
+1. Install the plugin in the project you play from (above).
+2. Move your existing `rpg/dnd/campaigns` and `rpg/dnd/events` into the project's data dir (`dnd/` by default), or keep them where they are and add `.claude/dnd-dm.json` with `{"data_dir": "rpg/dnd"}`.
+3. Remove the old project-style entry points (the old `.mcp.json` dm20/d20 entries and the D&D hooks in `.claude/settings.json`); otherwise two dm20 servers write to the same storage.
+4. Campaign files that point to `../../DM_CORE.md` or `rpg/dnd/...` paths should now name the `dnd-dm:dm` skill (DM_CORE.md is bundled in it). Tool names change to the plugin-namespaced form above.
+
+`docs/MIGRATION_MAP.md` lists where each section of the old instruction files went.
 
 ## Credits and licenses
 

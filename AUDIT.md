@@ -1,10 +1,12 @@
-# SRD scope check — Nov 5, 2026
+# SRD scope check — Nov 5, 2026 (paths updated for the plugin layout)
+
+**Plugin layout note.** Since the repo was restructured as a Claude Code plugin marketplace, the files audited below moved without content changes: `rpg/dnd/SRD_2024_*.md` → `plugin/reference/`, `rpg/dnd/rulebook_cache/` → `plugin/rulebook_cache/`, `rpg/dnd/templates/` → `plugin/templates/`. The counts below were re-derived from the moved files (see the verification block at the end of this file); no rules content was added in the restructure.
 
 **This is a scope check, not legal advice.** It records what was verified, by script, when the public SRD-only version of claude-dnd-dm was built from the original repo (https://github.com/teuschb/claude-dnd-dm, commit cc18b53). It is not a legal opinion and does not guarantee that no issue remains; see "What was NOT verified" below.
 
 ## Source of truth for SRD scope
 
-The repo's own SRD source, `rpg/dnd/rulebook_cache/srd_2024/` (data from dnd5eapi.co `/api/2024`, the System Reference Document 5.2), was treated as the SRD 5.2 allowlist. Anything not in that cache was treated as non-SRD and removed, unless it was original work (DM instructions, templates, hooks).
+The repo's own SRD source, `plugin/rulebook_cache/srd_2024/` (data from dnd5eapi.co `/api/2024`, the System Reference Document 5.2), was treated as the SRD 5.2 allowlist. Anything not in that cache was treated as non-SRD and removed, unless it was original work (DM instructions, templates, hooks).
 
 ## Verified counts in this public version
 
@@ -23,10 +25,10 @@ The repo's own SRD source, `rpg/dnd/rulebook_cache/srd_2024/` (data from dnd5eap
 
 ## What was removed or replaced
 
-- `rpg/dnd/SRD_2024_MONSTERS.md` (old: 489 monsters, 176 not in the SRD cache, including full Mind Flayer / Mind Flayer Arcanist / Death Tyrant stat blocks; footer admitted transcribing "All 202 pages of the SRD 2024 Monster Manual" from aidedd.org) — **deleted and regenerated from the SRD cache: 341 monsters.**
-- `rpg/dnd/SRD_2024_MAGIC_ITEMS.md` (old: 311 items including Wand of Orcus, Deck of Many Things, Orb of Dragonkind, Blackrazor, Book of Exalted Deeds / Vile Darkness, Hand of Vecna) — **deleted and regenerated from the SRD cache: 262 items, using SRD names Mysterious Deck and Dragon Orb.**
-- `rpg/dnd/SRD_2024_PLAYER_OPTIONS.md` (old: 48 subclasses, full PHB class text) — **deleted and regenerated from the SRD cache plus the trimmed overlays: 9 species, 12 classes, 12 subclasses, 4 backgrounds, 17 feats.** No text was copied from the old file for non-SRD subclasses.
-- `templates/rulebooks/custom/srd_2024_background_additions.json` (12 PHB backgrounds; the file itself said "not in the free SRD") — **deleted entirely.** The overlay load order in `rpg/dnd/CLAUDE.md` and `templates/solo-campaign/CLAUDE.md` was updated to species_corrections → class_progression → feats → spells.
+- `plugin/reference/SRD_2024_MONSTERS.md` (old: 489 monsters, 176 not in the SRD cache, including full Mind Flayer / Mind Flayer Arcanist / Death Tyrant stat blocks; footer admitted transcribing "All 202 pages of the SRD 2024 Monster Manual" from aidedd.org) — **deleted and regenerated from the SRD cache: 341 monsters.**
+- `plugin/reference/SRD_2024_MAGIC_ITEMS.md` (old: 311 items including Wand of Orcus, Deck of Many Things, Orb of Dragonkind, Blackrazor, Book of Exalted Deeds / Vile Darkness, Hand of Vecna) — **deleted and regenerated from the SRD cache: 262 items, using SRD names Mysterious Deck and Dragon Orb.**
+- `plugin/reference/SRD_2024_PLAYER_OPTIONS.md` (old: 48 subclasses, full PHB class text) — **deleted and regenerated from the SRD cache plus the trimmed overlays: 9 species, 12 classes, 12 subclasses, 4 backgrounds, 17 feats.** No text was copied from the old file for non-SRD subclasses.
+- `plugin/templates/rulebooks/custom/srd_2024_background_additions.json` (12 PHB backgrounds; the file itself said "not in the free SRD") — **deleted entirely.** The overlay load order in the session-start procedure (now the `dnd-dm:session-start` skill) and in `plugin/templates/solo-campaign/CLAUDE.md` was updated to species_corrections → class_progression → feats → spells.
 - `srd_2024_feats.json` — trimmed 75 → 17 (the SRD feats only).
 - `srd_2024_class_progression.json` — trimmed 48 → 12 subclasses. The generic subclass-choice feature text in the original overlay listed all four PHB subclasses per class; that text was replaced with the single SRD subclass per class, so no non-SRD subclass names remain in the overlay or in the generated player file.
 - `srd_2024_spells.json` — trimmed to 339 SRD spells. See "Spells" below.
@@ -63,4 +65,16 @@ Related false positives checked and cleared:
 - **No legal review.** This check is mechanical (counts, allowlist matching, grep). It does not establish that every word of SRD-derived text is correctly attributed, or that paraphrased class-feature text in the trimmed overlays is free of PHB wording. A lawyer, or a careful line-by-line read of the trimmed overlays against the SRD PDF, would be the next step before a paid listing.
 - **No live play test.** The MCP servers, Party Mode web server, and hooks were not run end to end in this build; the build only verified files, JSON validity, and counts. The DM workflow files were copied verbatim from the original, so a live test on the original author's machine is still the right final check.
 - **Source-data quirks carried over as-is.** The SRD API's magic-item descriptions flatten tables into running text (the Mysterious Deck entry is the worst case: its card table arrives as a single run-on block). That is a limitation of the source data, not added content, and was left as-is rather than rewritten by hand.
-- **Attribution.** SRD 5.2 CC-BY attribution is included in `README.md`, `SKILL.md`, `LICENSE` (attribution section), and in the header of each generated `SRD_2024_*.md` file.
+- **Attribution.** SRD 5.2 CC-BY attribution is included in `README.md`, `LICENSE` (attribution section), and in the header of each generated `SRD_2024_*.md` file.
+
+## Re-verification after the plugin restructure
+
+Counts re-derived from the files at their new paths (`plugin/reference/`, `plugin/templates/rulebooks/custom/`, `plugin/rulebook_cache/srd_2024/`):
+
+- Monsters (`###` headings in `SRD_2024_MONSTERS.md`): 341
+- Magic items (`###` headings in `SRD_2024_MAGIC_ITEMS.md`): 262
+- Spells in `srd_2024_spells.json`: 339
+- Feats in `srd_2024_feats.json`: 17
+- Subclasses / species / backgrounds in the cache: 12 / 9 / 4
+
+The per-file diff of every moved file against the pre-restructure commit is empty (git detected them as pure renames).
