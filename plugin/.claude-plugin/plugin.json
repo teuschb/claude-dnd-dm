@@ -1,0 +1,10 @@
+{
+  "name": "dnd-dm",
+  "version": "0.1.0",
+  "description": "Run D&D 5e (SRD 5.2) campaigns with Claude Code as the Dungeon Master, solo or in multiplayer Party Mode. SRD-only rules, real dice, narration hooks.",
+  "author": { "name": "teuschb", "url": "https://github.com/teuschb" },
+  "homepage": "https://github.com/teuschb/claude-dnd-dm",
+  "repository": "https://github.com/teuschb/claude-dnd-dm",
+  "license": "MIT",
+  "keywords": ["dnd", "rpg", "dungeon-master", "srd", "party-mode"]
+}

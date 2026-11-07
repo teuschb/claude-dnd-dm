@@ -1,0 +1,12 @@
+{
+  "name": "claude-dnd-dm",
+  "description": "Claude Code as the Dungeon Master for D&D 5e (SRD 5.2).",
+  "owner": { "name": "teuschb", "url": "https://github.com/teuschb" },
+  "plugins": [
+    {
+      "name": "dnd-dm",
+      "source": "./plugin",
+      "description": "Run D&D 5e (SRD 5.2) campaigns with Claude Code as the Dungeon Master, solo or in multiplayer Party Mode."
+    }
+  ]
+}

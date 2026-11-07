@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dm20-protocol": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/dm20"
+    },
+    "d20-mcp": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/saidsurucu/d20-mcp", "d20-mcp"]
+    }
+  }
+}

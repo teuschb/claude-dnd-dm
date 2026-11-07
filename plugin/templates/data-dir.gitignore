@@ -1,0 +1,24 @@
+# .gitignore for a D&D data dir (written by the dnd-dm plugin when it creates the
+# dir; see "Saving Campaigns" in the dnd-dm:new-campaign skill).
+
+# Imported PDF/homebrew rulebooks (can be large) and the regenerable SRD cache
+# (bin/dm20 seeds it from the plugin).
+library/
+rulebook_cache/
+
+# --- Campaign data: kept out of git by default -------------------------------
+# Campaign data (characters, the DM's secret arc and other spoilers, session
+# notes) stays out of git unless you choose otherwise, so a push of this project
+# can't publish your game. Remove these two lines to back campaigns up in this
+# repo, ideally after making the repo private. Either way, campaigns ignored
+# here are NOT backed up.
+campaigns
+events
+
+# --- Always ignored, even if you remove the block above ----------------------
+# party/ holds the secret player-link tokens, QR codes and live feed
+# (committing them would publish working join credentials); voice_registry.yaml
+# is regenerated per session; the per-campaign rulebook cache is regenerable.
+campaigns/*/party/
+campaigns/*/voice_registry.yaml
+campaigns/*/rulebooks/cache/

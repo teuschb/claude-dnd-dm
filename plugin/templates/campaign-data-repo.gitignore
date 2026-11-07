@@ -1,0 +1,12 @@
+# .gitignore for a separate campaign-data repo (see "Saving Campaigns" in the
+# dnd-dm:new-campaign skill). The repo holds campaigns/ and events/, symlinked
+# into the project's D&D data dir.
+
+# party/ holds the secret player-link tokens, QR codes and live feed
+# (committing them would publish working join credentials); voice_registry.yaml
+# is regenerated per session; the per-campaign rulebook cache is regenerable.
+campaigns/*/party/
+campaigns/*/voice_registry.yaml
+campaigns/*/rulebooks/cache/
+rulebook_cache/
+.DS_Store

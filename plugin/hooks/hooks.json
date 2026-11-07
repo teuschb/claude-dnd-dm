@@ -1,0 +1,56 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/session_context.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "mcp__plugin_dnd-dm_dm20-protocol__party_resolve_action|mcp__dm20-protocol__party_resolve_action",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/check_resolve_leads.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking the narrative leads with the player's action"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/check_narration_rules.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking narration against the DM pre-send checklist"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__plugin_dnd-dm_dm20-protocol__party_push|mcp__dm20-protocol__party_push",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/check_narration_rules.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking narration against the DM pre-send checklist"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/guard_campaign_privacy.py\"",
+            "timeout": 60,
+            "statusMessage": "Checking campaign data stays private"
+          }
+        ]
+      }
+    ]
+  }
+}
