@@ -48,7 +48,7 @@ plugin/
   .claude-plugin/plugin.json      name dnd-dm
   .mcp.json                       dm20-protocol (via bin/dm20) + d20-mcp
   bin/dm20                        wrapper: resolves the data dir, seeds the SRD cache, sets DM20_STORAGE_DIR, execs dm20 (pinned commit)
-  hooks/hooks.json                SessionStart ground rules + three PreToolUse hooks
+  hooks/hooks.json                SessionStart ground rules, the PreToolUse guards, a PostToolUse campaign tracker
   scripts/                        dnd_paths.py (data-dir resolver) + the hook scripts
   skills/                         dm, new-campaign, session-start, party-mode, session-end, level-up, rules
   reference/                      SRD_2024_MONSTERS / MAGIC_ITEMS / PLAYER_OPTIONS (generated from the SRD cache)
@@ -60,7 +60,7 @@ docs/MIGRATION_MAP.md             where every section of the old project-style l
 
 - **Skills** (namespaced `dnd-dm:`): `dm` (ground rules, dice rule, which file for what), `new-campaign`, `session-start`, `party-mode`, `session-end`, `level-up`, `rules`. Each rule in them came from something that actually went wrong at a real table.
 - **Always-on rules.** A SessionStart hook prints the compact ground rules (dice are never invented, let it fail, never reveal DCs, never auto-decline a held reaction, ...) in D&D projects only.
-- **Hooks.** The Party Mode hooks block a message before it is sent if it breaks the checklist: it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list. A guard hook asks for approval before campaign data is pushed to a public repo (below).
+- **Hooks.** The Party Mode hooks block a message before it is sent if it breaks the checklist: it doesn't open with the acting player's action, uses banned jargon, shows a DC, or leaves out the combat position list. A guard hook asks for approval before campaign data is pushed to a public repo (below). Another blocks dm20 tools that change campaign state until the session has called `load_campaign` (or `create_campaign`): dm20 starts on the most recently modified campaign, so with several sessions open an early write could land in the wrong one. SessionStart names that default campaign.
 - **No other agents.** The old `AGENTS.md` (a condensed copy for non-Claude agents) is dropped; this is a Claude Code plugin only.
 - **Tool names.** Plugin MCP tools appear as `mcp__plugin_dnd-dm_dm20-protocol__<tool>` and `mcp__plugin_dnd-dm_d20-mcp__<tool>`.
 
