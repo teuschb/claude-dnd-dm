@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import dnd_paths  # noqa: E402
+import guard_active_campaign  # noqa: E402
 
 RULES = """\
 D&D project detected (dnd-dm plugin). For any D&D work (running a session, creating a campaign, rules, levelling, Party Mode), load the `dnd-dm:dm` skill first; it points to the other dnd-dm skills.
@@ -32,6 +33,12 @@ Ground rules (full text in the `dnd-dm:dm` skill). They apply whenever Claude is
 - Rules content comes only from the SRD 5.2 sources (dm20 lookup, then the data dir's reference/ overrides, then the plugin's reference/). Never invent rules content.
 """
 
+ACTIVE = """\
+Active campaign: dm20 starts on the most recently modified campaign, which is {active} right now, \
+possibly because another session touched it. Call load_campaign for the campaign you are running before \
+any dm20 tool that changes campaign state; a hook blocks those tools until this session has loaded one.
+"""
+
 
 def main() -> None:
     payload = {}
@@ -39,10 +46,16 @@ def main() -> None:
         payload = json.load(sys.stdin)
     except Exception:
         pass
+    if payload.get("source") != "compact":  # startup/resume = fresh dm20; /clear = new session_id
+        guard_active_campaign.forget(payload.get("session_id"))
     root = dnd_paths.project_root(payload.get("cwd"))
     if not dnd_paths.is_dnd_project(root):
         return
-    sys.stdout.write(RULES.format(data=dnd_paths.data_dir(root), plugin=dnd_paths.PLUGIN_ROOT))
+    data = dnd_paths.data_dir(root)
+    sys.stdout.write(RULES.format(data=data, plugin=dnd_paths.PLUGIN_ROOT))
+    if payload.get("source") != "compact":
+        active = guard_active_campaign.default_campaign(data)
+        sys.stdout.write(ACTIVE.format(active=f"'{active}'" if active else "no campaign"))
 
 
 if __name__ == "__main__":

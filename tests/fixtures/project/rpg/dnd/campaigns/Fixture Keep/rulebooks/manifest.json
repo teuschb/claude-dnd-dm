@@ -1,0 +1,14 @@
+{
+  "active_sources": [
+    {
+      "id": "srd-2024",
+      "type": "srd",
+      "loaded_at": "2026-11-08T08:50:47.149687",
+      "version": "2024"
+    }
+  ],
+  "priority": [
+    "srd-2024"
+  ],
+  "conflict_resolution": "last_wins"
+}
