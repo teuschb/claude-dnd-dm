@@ -1,0 +1,14 @@
+{
+  "campaign_name": "Fixture Keep",
+  "current_session": 1,
+  "current_date_in_game": null,
+  "current_location": "The keep's lamp room",
+  "active_quests": [],
+  "party_level": 1,
+  "party_funds": "0 gp",
+  "initiative_order": [],
+  "in_combat": false,
+  "current_turn": null,
+  "notes": "",
+  "updated_at": "2026-11-08T08:50:47.160115"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "dm20-protocol/rulebook-v1",
+  "name": "Fixture Keep test overlay",
+  "version": "1.0",
+  "content": {
+    "feats": [
+      {
+        "index": "lantern-warden",
+        "name": "Lantern Warden",
+        "source": "fixture-keep",
+        "desc": [
+          "Origin Feat",
+          "Fixture-only feat used by the dnd-dm plugin tests."
+        ]
+      }
+    ]
+  }
+}

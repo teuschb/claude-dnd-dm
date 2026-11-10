@@ -56,6 +56,7 @@ plugin/
   rulebook_cache/srd_2024/        cached SRD 5.2 data, so lookups work offline
 AUDIT.md                          SRD scope check (counts, what was removed, verification)
 docs/MIGRATION_MAP.md             where every section of the old project-style layout went
+tests/                            fixture-based tests for the hooks and the dm20 load (run in CI)
 ```
 
 - **Skills** (namespaced `dnd-dm:`): `dm` (ground rules, dice rule, which file for what), `new-campaign`, `session-start`, `party-mode`, `session-end`, `level-up`, `rules`. Each rule in them came from something that actually went wrong at a real table.
@@ -110,6 +111,17 @@ Earlier versions were a project folder you cloned and worked inside (`rpg/dnd/..
 4. Campaign files that point to `../../DM_CORE.md` or `rpg/dnd/...` paths should now name the `dnd-dm:dm` skill (DM_CORE.md is bundled in it). Tool names change to the plugin-namespaced form above.
 
 `docs/MIGRATION_MAP.md` lists where each section of the old instruction files went.
+
+## Tests
+
+```bash
+python3 -m unittest discover -s tests -v                       # everything (the dm20 load needs uvx)
+DND_DM_SKIP_DM20=1 python3 -m unittest discover -s tests -v    # hooks only, no network, about 5 seconds
+```
+
+Every test copies `tests/fixtures/project` (one campaign, "Fixture Keep", with two PCs) into a temp dir, so no real campaign is ever read or written. They cover the narration hook (banned words, internal ids, DCs, combat positions and reactions), the lead hook (naming the acting PC, aliases, dialogue), the privacy guard (real git repos plus a fake `gh`), the `hooks.json` matchers for both tool-name prefixes, and a real dm20 run through `bin/dm20` that loads the campaign, the SRD base and the custom overlays. GitHub Actions runs the hook tests on Python 3.9 and 3.13, and the dm20 load in a separate job.
+
+The fixture campaign is written by the pinned dm20 itself. After bumping the pin in `plugin/bin/dm20`, regenerate it with `python3 tests/fixtures/make_fixture.py` and commit the result.
 
 ## Credits and licenses
 

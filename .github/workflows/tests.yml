@@ -1,0 +1,37 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  hooks:
+    # Hook scripts run under whatever python3 the user has; 3.9 is macOS's system Python.
+    # Pythons come from uv (setup-python has no 3.9 build for current Ubuntu runners).
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+      - name: Install Python ${{ matrix.python }}
+        run: uv python install ${{ matrix.python }}
+      - name: Hook and wiring tests
+        env:
+          DND_DM_SKIP_DM20: "1"
+        run: uv run --no-project --python ${{ matrix.python }} python -m unittest discover -s tests -v
+
+  dm20-load:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+      - name: Install Python
+        run: uv python install 3.13
+      - name: Build the pinned dm20
+        run: plugin/bin/dm20 --prewarm
+      - name: dm20 load with custom overlays
+        run: uv run --no-project --python 3.13 python -m unittest discover -s tests -p test_dm20_load.py -v
