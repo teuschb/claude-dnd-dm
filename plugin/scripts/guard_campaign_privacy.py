@@ -40,7 +40,10 @@ ARG = r"""(?:"[^"]*"|'[^']*'|\S+)"""
 GIT_OPTS = rf"(?:\s+(?:-[Cc]\s+{ARG}|--(?:git-dir|work-tree|namespace|exec-path)\s+{ARG}|-{{1,2}}[\w-]+(?:=\S*)?))*"
 PUSH_RE = re.compile(rf"(?:^|[;&|\n(]|\bthen\b|\bdo\b)\s*(?:\w+={ARG}\s+)*git{GIT_OPTS}\s+push\b")
 URL_RE = re.compile(r"^(?:[\w+.-]+://|[\w.-]+@[\w.-]+:)")
-PUBLIC_RE = re.compile(rf"\bgh\s+repo\s+(create|edit|fork)\b{SEG}(--public\b|--visibility[= ]public\b)")
+# `gh repo create|edit|fork ... --public`, also only at the start of a command, and
+# [ \t] rather than \s so a wrapped line in a commit message ("gh repo\ncreate") can't match.
+PUBLIC_RE = re.compile(rf"(?:^|[;&|\n(]|\bthen\b|\bdo\b)[ \t]*(?:\w+={ARG}[ \t]+)*gh[ \t]+repo[ \t]+"
+                       rf"(create|edit|fork)\b{SEG}(--public\b|--visibility[= ]public\b)")
 GITHUB_RE = re.compile(r"github\.com[:/]([^/\s]+)/([^/\s]+?)(\.git)?/?$")
 CONTENTS = "characters, the DM's secret arc and other spoilers, session notes"
 
