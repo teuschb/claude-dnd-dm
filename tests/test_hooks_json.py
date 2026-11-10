@@ -45,6 +45,20 @@ class HooksJson(unittest.TestCase):
             got = scripts_for("PreToolUse", pre + "get_game_state")
             self.assertFalse(got & {"check_resolve_leads.py", "check_narration_rules.py"}, got)
 
+    def test_campaign_guard_runs_on_every_dm20_tool(self) -> None:
+        for pre in PREFIXES.values():
+            for tool in ("update_game_state", "get_game_state", "party_push"):
+                with self.subTest(prefix=pre, tool=tool):
+                    self.assertIn("guard_active_campaign.py", scripts_for("PreToolUse", pre + tool))
+        self.assertNotIn("guard_active_campaign.py", scripts_for("PreToolUse", "Bash"))
+
+    def test_campaign_tracker_runs_after_loaders_only(self) -> None:
+        for pre in PREFIXES.values():
+            for tool in ("load_campaign", "create_campaign"):
+                with self.subTest(prefix=pre, tool=tool):
+                    self.assertIn("guard_active_campaign.py", scripts_for("PostToolUse", pre + tool))
+            self.assertNotIn("guard_active_campaign.py", scripts_for("PostToolUse", pre + "update_game_state"))
+
     def test_privacy_guard_runs_on_bash(self) -> None:
         self.assertIn("guard_campaign_privacy.py", scripts_for("PreToolUse", "Bash"))
 
