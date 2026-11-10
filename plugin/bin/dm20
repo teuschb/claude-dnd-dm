@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import dnd_paths  # noqa: E402
 import dnd_setup  # noqa: E402
 
-DM20_PIN = "7cfb67db0778be6682cd5d6df8641c6f7ae97409"
+DM20_PIN = "ee618b61881e4ee7db19cf77bda3236ca7a02e25"
 DM20_SRC = f"git+https://github.com/teuschb/dm20-protocol@{DM20_PIN}"
 D20_PIN = "846b2845303be82b5b1e57c8c7728ad1966ac63c"
 D20_SRC = f"git+https://github.com/saidsurucu/d20-mcp@{D20_PIN}"

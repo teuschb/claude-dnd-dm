@@ -93,6 +93,23 @@ class Dm20Load(unittest.TestCase):
         self.assertIn("Ranger", mira)
         self.assertIn("lamp room", self.call("get_game_state"))
 
+    def test_4_overlays_survive_a_restart(self) -> None:
+        manifest_path = self.fx.campaign / "rulebooks" / "manifest.json"
+        before = manifest_path.read_text(encoding="utf-8")
+        custom = [s for s in json.loads(before)["active_sources"] if s["type"] == "custom"]
+        self.assertTrue(custom and all(s.get("path", "").startswith("custom/") for s in custom), before)
+
+        self.client.close()
+        type(self).client = start_dm20(self.fx.root, self.fx.tmp)
+        # the fresh server restores the manifest at startup; that must not rewrite it
+        self.assertEqual(manifest_path.read_text(encoding="utf-8"), before)
+        self.assertIn(f"Loaded campaign: '{CAMPAIGN}'", self.call("load_campaign", name=CAMPAIGN))
+        # no load_rulebook calls: the overlays come back from the manifest
+        self.assertIn("**Lantern Warden** (feat) — _custom-fixture-keep-feats_",
+                      self.call("search_rules", query="Lantern Warden"))
+        self.assertIn("**Speed:** 35 ft.", self.call("get_race_info", name="Goliath"))
+        self.assertEqual(manifest_path.read_text(encoding="utf-8"), before)
+
 
 @unittest.skipIf(SKIP, "uvx not available (or DND_DM_SKIP_DM20=1)")
 class Dm20IdleProject(unittest.TestCase):
